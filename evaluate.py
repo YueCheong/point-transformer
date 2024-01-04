@@ -15,7 +15,8 @@ from datasets.objaverse import ObjDataset
 from models.pointtransformer.point_transformer import PointTransformer
 
 import numpy as np
-
+import pandas as pd
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 from utils.utils import *
 import argparse
 
@@ -50,53 +51,47 @@ def parse_args():
     parser.add_argument('--lr-warmup-epochs', default=5, type=int, help='number of warmup epochs')        
     # output
     parser.add_argument('--print-freq', default=20, type=int, help='print frequency')
-    parser.add_argument('--output-dir', default='/mnt/data_sdb/pc_output', type=str, help='path where to save')
+    parser.add_argument('--output-dir', default='/home/hhfan/code/pc/results/', type=str, help='path where to save')
     parser.add_argument('--save-interval', default=40, type=int, help='save the checkpoint at (epoch+1) % n')
     # resume
-    parser.add_argument('--resume', default='', help='resume from checkpoint')
+    parser.add_argument('--resume', default='/mnt/data_sdb/pc_output/PointTransformer_119.pth', help='resume from checkpoint')
     parser.add_argument('--start-epoch', default=0, type=int, metavar='N', help='start epoch')
 
     args = parser.parse_args()
     return args
 
 
-def train_one_epoch(model, criterion, optimizer, scheduler, accelerator, train_dataloader, epoch, print_freq):
-    model.train()
+def evaluate(model, criterion, accelerator, eval_dataloader, print_freq, eval_len):
+    model.eval()
     
     metric_logger = MetricLogger(delimiter=" ")
-    metric_logger.add_meter('lr', SmoothedValue(window_size=1, fmt='{value}'))
-    metric_logger.add_meter('pcs/s', SmoothedValue(window_size=10, fmt='{value:.3f}'))
-    header = f'Epoch: [{epoch}]'
-    
-    top1_acc_list = []
-    for uids, pcs, labels in metric_logger.log_every(train_dataloader, print_freq, header):
-        start_time = time.time()
-        optimizer.zero_grad()
-        outputs = model(pcs)
-        loss = criterion(outputs, labels)
-        accelerator.backward(loss)
-        optimizer.step()
-    
-        top1_acc = accuracy(outputs, labels, topk=(1,))
-        top1_acc_list.append(top1_acc[0].item())
-        
-        batch_size = pcs.shape[0]
-        metric_logger.update(loss=loss.item(), lr=optimizer.param_groups[0]['lr'])
-        metric_logger.meters['acc'].update(top1_acc[0].item(), n=batch_size)
-        metric_logger.meters['pcs/s'].update(batch_size / (time.time() - start_time))
-        
-        scheduler.step()       
-        sys.stdout.flush()
-    return top1_acc_list     
+    header = f'Eval:'
+    outputs_list = []
+    labels_list = []
+  
+    with torch.no_grad():    
+        for uids, pcs, labels in metric_logger.log_every(eval_dataloader, print_freq, header):
+            start_time = time.time()
+            outputs = model(pcs)
+            loss = criterion(outputs, labels)
+            accelerator.backward(loss)
+            
+            outputs, labels = outputs.cpu().numpy().astype(np.int32), labels.cpu().numpy().astype(np.int32)
+            outputs_list.append(outputs)
+            labels_list.append(labels)
+            
+    accuracy = accuracy(labels_list, outputs_list)
+    precision, recall, f1_score, _ = precision_recall_fscore_support(labels_list, outputs_list, average='weighted')
+    return accuracy, precision, recall, f1_score    
     
             
 
-def train_model():
+def eval_model():
     args = parse_args()
     
-    print('Creating data loaders ...')
-    train_dataset = ObjDataset(pc_root=args.pc_root, ann_path=args.ann_path)
-    train_dataloader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.workers)  # pin_memory=True
+    print('Creating data loader ...')
+    eval_dataset = ObjDataset(pc_root=args.pc_root, ann_path=args.ann_path)
+    eval_dataloader = DataLoader(eval_dataset, batch_size=args.batch_size, shuffle=False, num_workers=args.workers)  # pin_memory=True
     print('Creating PointTransformer model ...')
     model = PointTransformer(
         num_points = args.num_points,
@@ -112,56 +107,35 @@ def train_model():
     )
     
     if args.resume:
-        checkpoint = torch.load(args.resume, map_location='cpu')
-        pre_state = checkpoint['model']
-        update_dict = {k: v for k, v in pre_state.items() if k.startswith('module.tube_embedding.') or k.startswith('module.transformer1.') or k.startswith('module.pos')}
-        for name in update_dict.keys():
-            print(name)
-        net_stat_dict = model.state_dict()
-        net_stat_dict.update(update_dict)
-        model.load_state_dict(net_stat_dict)
-        
-         
+        print(f'from {args.resume} load the {args.model} ...')
+        checkpoint = torch.load(args.resume, map_location='cpu')['model']
+        model.load_state_dict(checkpoint)
+    model.eval()
+    print(f'finish construct {args.model}:\n{model}')        
+               
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.SGD(model.parameters(), lr=args.lr, momentum=args.momentum, weight_decay=args.weight_decay)
-    # optimizer = optim.Adam(model.parameters(), lr = args.lr)
-    warmup_iters = args.lr_warmup_epochs * len(train_dataloader)
-    lr_milestones = [len(train_dataloader) * m for m in args.lr_milestones]
-    scheduler = WarmupMultiStepLR(optimizer, milestones=lr_milestones, gamma=args.lr_gamma, warmup_iters=warmup_iters, warmup_factor=1e-5)
-    
+  
     # accelerateor for multiple GPUs training
     accelerator = Accelerator()
-    model, optimizer, train_dataloader, scheduler = accelerator.prepare(
-        model, optimizer, train_dataloader, scheduler
+    model, eval_dataloader,  = accelerator.prepare(
+        model, eval_dataloader
     )
-
-      
-    print('Start training ...')
-    start_time = time.time()
-    for epoch in range(args.start_epoch, args.epochs):
-        top1_acc_list = train_one_epoch(model, criterion, optimizer, scheduler, accelerator, train_dataloader, epoch, args.print_freq)
-        if (epoch + 1) % args.save_interval == 0:
-            if args.output_dir:
-                mkdir(args.output_dir)
-                checkpoint = {
-                    'model': model.state_dict(),
-                    'optimizer': optimizer.state_dict(),
-                    'scheduler': scheduler.state_dict(),
-                    'epoch': epoch,
-                    'args': args
-                }
-                save_on_master(
-                    checkpoint,
-                    os.path.join(args.output_dir, f'{args.model}_{epoch}.pth')
-                )  
-        epoch_top1_acc = np.mean((np.array(top1_acc_list)))   
-        print(f'mean accuray of epoch {epoch} is {epoch_top1_acc}')   
         
+    print('Start evaluation ...')
+    start_time = time.time()
+    accuracy, precision, recall, f1_score  = evaluate(model, criterion, accelerator, eval_dataloader, args.print_freq, len(eval_dataset))
     end_time = time.time()
-    training_time = end_time - start_time
-    training_time_str = str(datetime.timedelta(seconds=int(training_time)))
-    print(f'Total training time: {training_time_str}')
+    
+    metrics_list = [accuracy, precision, recall, f1_score]
+    results = pd.DataFrame([metrics_list])
+    mkdir(args.output_dir)
+    results_path = args.output_dir + f'{args.model}_199_eval_1.csv'
+    results.to_csv(results_path, mode='a', header=False, index=False)
+    
+    eval_time = end_time - start_time
+    eval_time_str = str(datetime.timedelta(seconds=int(eval_time)))
+    print(f'Total training time: {eval_time_str}')
 
 if __name__ == '__main__':
-    train_model()
+    eval_model()
     
