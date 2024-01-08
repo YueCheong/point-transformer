@@ -69,7 +69,7 @@ def train_one_epoch(model, criterion, optimizer, scheduler, accelerator, train_d
     header = f'Epoch: [{epoch}]'
     
     top1_acc_list = []
-    for uids, pcs, labels in metric_logger.log_every(train_dataloader, print_freq, header):
+    for pcs, labels in metric_logger.log_every(train_dataloader, print_freq, header):
         start_time = time.time()
         optimizer.zero_grad()
         outputs = model(pcs)

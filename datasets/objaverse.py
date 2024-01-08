@@ -21,7 +21,7 @@ class ObjDataset(Dataset):
             path = info['path']
             label = info['label']   
             pc_path = os.path.join(self.pc_root, path)     
-            print(f'pc_path:{pc_path}') 
+            # print(f'pc_path:{pc_path}') 
             pc = np.load(pc_path)['points']
             data.append({
                 'uid': uid,
@@ -34,10 +34,10 @@ class ObjDataset(Dataset):
         return len(self.data)
     
     def __getitem__(self, index):
-        uid = self.data[index]['uid']
+        # uid = self.data[index]['uid']
         pc = self.data[index]['pc']
         label = self.data[index]['label'] 
-        return uid, pc.astype(np.float32), label   
+        return pc.astype(np.float32), label   
         
       
 
@@ -47,8 +47,8 @@ if __name__ == '__main__':
     dataset = ObjDataset(pc_root=pc_root, ann_path=ann_path)
     data_loader = DataLoader(dataset, batch_size=2, shuffle=True, num_workers=10)  # pin_memory=True
     
-    for uid, pc, label in data_loader:
-        print(f'uid:{uid}')
+    for pc, label in data_loader:
+        # print(f'uid:{uid}')
         print(f'pc.shape:{pc.shape}')
         # print(f'label:{label}')
 

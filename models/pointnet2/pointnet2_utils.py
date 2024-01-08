@@ -20,7 +20,7 @@ def square_distance(src, dst):
     """
     Calculate Euclid distance between each two points.
 
-    src^T * dst = xn * xm + yn * ym + zn * zm；
+    src^T * dst = xn * xm + yn * ym + zn * zm;
     sum(src^2, dim=-1) = xn*xn + yn*yn + zn*zn;
     sum(dst^2, dim=-1) = xm*xm + ym*ym + zm*zm;
     dist = (xn - xm)^2 + (yn - ym)^2 + (zn - zm)^2
@@ -159,7 +159,7 @@ def sample_and_group_all(xyz, points):
 
 
 class PointNetSetAbstraction(nn.Module):
-    def __init__(self, npoint, radius, nsample, in_channel, mlp, group_all, remove_last=False):
+    def __init__(self, npoint, radius, nsample, in_channel, mlp, group_all):
         super(PointNetSetAbstraction, self).__init__()
         self.npoint = npoint
         self.radius = radius
@@ -172,7 +172,6 @@ class PointNetSetAbstraction(nn.Module):
             self.mlp_bns.append(nn.BatchNorm2d(out_channel))
             last_channel = out_channel
         self.group_all = group_all
-        self.remove_last = remove_last
 
     def forward(self, xyz, points):
         """
@@ -183,6 +182,7 @@ class PointNetSetAbstraction(nn.Module):
             new_xyz: sampled points position data, [B, C, S]
             new_points_concat: sample points feature data, [B, D', S]
         """
+        print(f'!! PointNetSetAbstraction:\nxyz.shape:{xyz.shape}\npoints.shape:{points.shape}')
         xyz = xyz.permute(0, 2, 1)
         if points is not None:
             points = points.permute(0, 2, 1)
@@ -200,10 +200,7 @@ class PointNetSetAbstraction(nn.Module):
 
         new_points = torch.max(new_points, 2)[0]
         new_xyz = new_xyz.permute(0, 2, 1)
-        if self.remove_last:
-            return new_points
-        else:
-            return new_xyz, new_points
+        return new_xyz, new_points
 
 
 class PointNetSetAbstractionMsg(nn.Module):
@@ -287,6 +284,7 @@ class PointNetFeaturePropagation(nn.Module):
         Return:
             new_points: upsampled points data, [B, D', N]
         """
+        print(f'!! PointNetFeaturePropagation:\nxyz1.shape:{xyz1.shape}\nxyz2.shape:{xyz2.shape}\npoints1.shape:{points1.shape}\npoints2.shape:{points2.shape}')
         xyz1 = xyz1.permute(0, 2, 1)
         xyz2 = xyz2.permute(0, 2, 1)
 
@@ -317,3 +315,4 @@ class PointNetFeaturePropagation(nn.Module):
             bn = self.mlp_bns[i]
             new_points = F.relu(bn(conv(new_points)))
         return new_points
+
