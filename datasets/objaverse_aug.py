@@ -128,7 +128,7 @@ class ObjAugDataSet(Dataset):
 
 if __name__ == '__main__':
     pc_root = '/mnt/data_sdb/obj'
-    ann_path = '/home/hhfan/code/pc/process/label/test_selected_4_uid_path_idx_dict.json'
+    ann_path = '/home/hhfan/code/point-transformer/process/label/test_selected_4_uid_path_idx_dict.json'
     parser = argparse.ArgumentParser(description='PointTransformer Model training ...') 
     args = parser.parse_args()
     args.split = 'train'
@@ -138,7 +138,8 @@ if __name__ == '__main__':
     args.use_normals = True # True dim = 7, False dim = 3
     args.use_uniform_sample = True
     data = ObjAugDataSet(pc_root=pc_root, ann_path=ann_path, args=args)
-    DataLoader = DataLoader(data, batch_size=4, shuffle=True, num_workers=10)
-    for point, label in DataLoader:
-        print(point.shape)
-        print(label.shape)
+    dataloader = DataLoader(data, batch_size=4, shuffle=True, num_workers=10)
+    print(f'len(dataloader):{len(dataloader)}')
+    # for point, label in dataloader:
+    #     print(point.shape)
+    #     print(label.shape)

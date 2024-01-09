@@ -16,7 +16,7 @@ from datasets.objaverse_aug import ObjAugDataSet
 from models.pointtransformer.point_transformer import PointTransformer
 from models.pointnet.pointnet_cls import PointNet, PointNetLoss
 from models.pointnet2.pointnet2_cls_ssg import PointNet2, PointNet2Loss
-
+from models.pointmlp.pointmlp import pointMLP, pointMLPElite, cal_PointMLP_loss
 
 import numpy as np
 
@@ -30,7 +30,7 @@ def parse_args():
     parser.add_argument('--model', default='PointTransformer', type=str, help='model type') # PointTransformer, PointNet, PointNet2
     # dataset
     parser.add_argument('--pc-root', default='/mnt/data_sdb/obj', type=str, help='root path of point cloud files')  
-    parser.add_argument('--ann-path', default='/home/hhfan/code/pc/process/label/test_selected_4_uid_path_idx_dict.json', type=str, help='annotation path') 
+    parser.add_argument('--ann-path', default='/home/hhfan/code/point-transformer/process/label/test_selected_4_uid_path_idx_dict.json', type=str, help='annotation path') 
     # /home/hhfan/code/pc/process/label/uid_path_label_dict.json 
     parser.add_argument('--process-data', default=False, type=bool, help='process and save data offline, or load the processed data')  
     parser.add_argument('--use-normals', default=True, type=bool, help='default True, dim > 3')
@@ -47,6 +47,9 @@ def parse_args():
     parser.add_argument('--dropout', default=0., type=float, help='dropout')
     parser.add_argument('--emb-dropout', default=0., type=float, help='dropout for embedding layer')                
     # pointnet, pointnet2 model
+    
+    # pointmlp args.use_xyz
+    parser.add_argument('--use-xyz', default=False, type=bool, help='defaut not add xyz_dim (3)')
     
     # training
     parser.add_argument('--split', default='train', type=str, help='training / eval(test)')
@@ -100,11 +103,12 @@ def train_one_epoch(model, criterion, optimizer, scheduler, accelerator, train_d
             loss = criterion(outputs, labels, trans_feat)
         elif args.model == 'PointNet2':
             pcs = torch.transpose(pcs, 1, 2) # [b, d, n]
-            print(f'pcs after transpose:{pcs.shape}')
             outputs, l3_points = model(pcs)
-            print(f'outputs pc2:{outputs.shape}')
-            print(f'labels pc2:{labels}')
             loss = criterion(outputs, labels, l3_points) 
+        elif args.model == 'PointMLP':
+            pcs = torch.transpose(pcs, 1, 2) # [b, d, n]
+            outputs = model(pcs)
+            loss = criterion(outputs, labels)
         else:
             print(f'! Choose model type: PointTransformer, PointNet, PointNet2')
             
@@ -125,12 +129,11 @@ def train_one_epoch(model, criterion, optimizer, scheduler, accelerator, train_d
     return top1_acc_list     
     
             
-
 def train_model():
     args = parse_args()
     print(f'args:{args}')
     print('Creating data loaders ...')
-    train_dataset = ObjDataset(pc_root=args.pc_root, ann_path=args.ann_path)
+    train_dataset = ObjAugDataSet(pc_root=args.pc_root, ann_path=args.ann_path, args=args) # zy
     train_dataloader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.workers)  # pin_memory=True
     print('Creating PointTransformer model ...')
     
@@ -160,6 +163,13 @@ def train_model():
             normal_channel = args.use_normals            
         )
         criterion = PointNet2Loss()
+    elif args.model == 'PointMLP': # PointMLPElite
+        model = pointMLP(   
+            num_points = args.num_points,
+            num_classes = args.num_classes,
+            use_xyz = args.use_xyz 
+        )
+        criterion = cal_PointMLP_loss
     else:
         print(f'! Choose model type: PointTransformer, PointNet, PointNet2')
     

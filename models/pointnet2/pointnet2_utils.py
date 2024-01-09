@@ -182,7 +182,6 @@ class PointNetSetAbstraction(nn.Module):
             new_xyz: sampled points position data, [B, C, S]
             new_points_concat: sample points feature data, [B, D', S]
         """
-        print(f'!! PointNetSetAbstraction:\nxyz.shape:{xyz.shape}\npoints.shape:{points.shape}')
         xyz = xyz.permute(0, 2, 1)
         if points is not None:
             points = points.permute(0, 2, 1)
@@ -284,7 +283,7 @@ class PointNetFeaturePropagation(nn.Module):
         Return:
             new_points: upsampled points data, [B, D', N]
         """
-        print(f'!! PointNetFeaturePropagation:\nxyz1.shape:{xyz1.shape}\nxyz2.shape:{xyz2.shape}\npoints1.shape:{points1.shape}\npoints2.shape:{points2.shape}')
+        
         xyz1 = xyz1.permute(0, 2, 1)
         xyz2 = xyz2.permute(0, 2, 1)
 
