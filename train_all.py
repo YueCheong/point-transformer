@@ -17,7 +17,7 @@ from models.pointtransformer.point_transformer import PointTransformer
 from models.pointnet.pointnet_cls import PointNet, PointNetLoss
 from models.pointnet2.pointnet2_cls_ssg import PointNet2, PointNet2Loss
 from models.pointmlp.pointmlp import pointMLP, pointMLPElite, cal_PointMLP_loss
-
+from models.pointconv.pointconv_cls_ssg import PointConv, PointConvLoss
 import numpy as np
 
 from utils.utils import *
@@ -33,7 +33,7 @@ def parse_args():
     parser.add_argument('--ann-path', default='/home/hhfan/code/point-transformer/process/label/test_selected_4_uid_path_idx_dict.json', type=str, help='annotation path') 
     # /home/hhfan/code/pc/process/label/uid_path_label_dict.json 
     parser.add_argument('--process-data', default=False, type=bool, help='process and save data offline, or load the processed data')  
-    parser.add_argument('--use-normals', default=True, type=bool, help='default True, dim > 3')
+    parser.add_argument('--use-feature', default=True, type=bool, help='default True, dim > 3')
     parser.add_argument('--use-uniform-sample', default=False, type=bool, help='use uniform sampiling (FPS)')    
     parser.add_argument('--num-points', default=4096, type=int, help='number of points in each point cloud') 
     parser.add_argument('--num-classes', default=908, type=int, help='object categories of point clouds')  
@@ -92,10 +92,10 @@ def train_one_epoch(model, criterion, optimizer, scheduler, accelerator, train_d
         pcs = random_point_dropout(pcs)
         pcs[:, :, 0:3] = random_scale_point_cloud(pcs[:, :, 0:3])
         pcs[:, :, 0:3] = shift_point_cloud(pcs[:, :, 0:3])
-        pcs = torch.Tensor(pcs)
+        pcs = torch.Tensor(pcs) # [b, n, d]
         
         if args.model == 'PointTransformer':           
-            outputs = model(pcs)
+            outputs = model(pcs)   
             loss = criterion(outputs, labels)
         elif args.model == 'PointNet':
             pcs = torch.transpose(pcs, 1, 2)
@@ -109,8 +109,12 @@ def train_one_epoch(model, criterion, optimizer, scheduler, accelerator, train_d
             pcs = torch.transpose(pcs, 1, 2) # [b, d, n]
             outputs = model(pcs)
             loss = criterion(outputs, labels)
+        elif args.model == 'PointConv':
+            pcs = torch.transpose(pcs, 1, 2)
+            outputs = model(pcs[:, :3, :], pcs[:, 3:, :])  # xyz [b, 3, n], feat [b, 4, n]
+            loss = criterion(outputs, labels)
         else:
-            print(f'! Choose model type: PointTransformer, PointNet, PointNet2')
+            print(f'! Choose model type: PointTransformer, PointNet, PointNet2, PointMLP, PointConv')
             
             
         accelerator.backward(loss)
@@ -154,13 +158,13 @@ def train_model():
     elif args.model == 'PointNet':
         model = PointNet(
             num_classes = args.num_classes,
-            normal_channel = args.use_normals
+            normal_channel = args.use_feature
         )
         criterion = PointNetLoss()
     elif args.model == 'PointNet2':
         model = PointNet2(
             num_classes = args.num_classes,
-            normal_channel = args.use_normals            
+            normal_channel = args.use_feature            
         )
         criterion = PointNet2Loss()
     elif args.model == 'PointMLP': # PointMLPElite
@@ -170,8 +174,14 @@ def train_model():
             use_xyz = args.use_xyz 
         )
         criterion = cal_PointMLP_loss
+    elif args.model == 'PointConv':
+        model = PointConv(
+            num_classes = args.num_classes,
+            normal_channel = args.use_feature
+        )
+        criterion = PointConvLoss()
     else:
-        print(f'! Choose model type: PointTransformer, PointNet, PointNet2')
+        print(f'! Choose model type: PointTransformer, PointNet, PointNet2, PointMLP, PointConv')
     
     if args.resume:
         print(f'Use pretrain model: {args.resume}')

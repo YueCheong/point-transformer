@@ -50,18 +50,17 @@ class PointNet2(nn.Module):
 
 if __name__ == '__main__':
 
+    batch_size = 2
+    num_points = 4096
+    point_dim = 7
+    input = torch.randn(batch_size, point_dim, num_points) # [b, d, n]
+    
     model = PointNet2(
         num_classes = 908,
         normal_channel = True
     )
-
-    batch_size = 2
-    num_points = 4096
-    point_dim = 7
-
-    input = torch.randn(batch_size, point_dim, num_points) # [b, d, n]
-
     x, l3_points = model(input)  
+    
     print(f'x.shape:{x.shape}\nl3_points:{l3_points.shape}')
 
 

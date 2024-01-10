@@ -53,7 +53,7 @@ class ObjAugDataSet(Dataset):
         self.npoints = args.num_points
         self.num_classes = args.num_classes
         self.uniform = args.use_uniform_sample # wether use FPS
-        self.use_normals = args.use_normals # wether contain other dimensions
+        self.use_feature = args.use_feature # wether contain other dimensions
 
         self.data = self.load_data()
         print(f'The size of {self.split} data is {len(self.data)}')
@@ -121,7 +121,7 @@ class ObjAugDataSet(Dataset):
                 pc = pc[0:self.npoints, :]
                 
         pc[:, 0:3] = pc_normalize(pc[:, 0:3])
-        if not self.use_normals: # use_normals = True, pc:[b, n, 7]; use_normals = False, pc:[b, n, 3]
+        if not self.use_feature: # use_feature = True, pc:[b, n, 7]; use_feature = False, pc:[b, n, 3]
             pc = pc[:, 0:3]
 
         return pc, label
@@ -135,7 +135,7 @@ if __name__ == '__main__':
     args.process_data = False 
     args.num_points = 1024   
     args.num_classes = 908
-    args.use_normals = True # True dim = 7, False dim = 3
+    args.use_feature = True # True dim = 7, False dim = 3
     args.use_uniform_sample = True
     data = ObjAugDataSet(pc_root=pc_root, ann_path=ann_path, args=args)
     dataloader = DataLoader(data, batch_size=4, shuffle=True, num_workers=10)

@@ -1,0 +1,60 @@
+args:Namespace(ann_path='/home/hhfan/code/point-transformer/process/label/test_selected_4_uid_path_idx_dict.json', batch_size=128, depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet2', momentum=0.9, num_classes=908, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pv_output/log1', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=40, process_data=False, resume='', save_interval=40, seed=0, split='train', start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)args:Namespace(ann_path='/home/hhfan/code/point-transformer/process/label/test_selected_4_uid_path_idx_dict.json', batch_size=128, depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet2', momentum=0.9, num_classes=908, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pv_output/log1', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=40, process_data=False, resume='', save_interval=40, seed=0, split='train', start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)
+
+Creating data loaders ...Creating data loaders ...
+
+args:Namespace(ann_path='/home/hhfan/code/point-transformer/process/label/test_selected_4_uid_path_idx_dict.json', batch_size=128, depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet2', momentum=0.9, num_classes=908, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pv_output/log1', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=40, process_data=False, resume='', save_interval=40, seed=0, split='train', start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)
+Creating data loaders ...
+The size of train data is 2057The size of train data is 2057The size of train data is 2057
+
+
+Creating PointTransformer model ...Creating PointTransformer model ...Creating PointTransformer model ...
+
+
+Start training ...
+Start training ...
+Start training ...
+Epoch: [0] [0/6] eta: 0:07:32 lr: 1.0000000000000001e-07 pcs/s: 93.680 loss: 6.9982 (6.9982) acc: 0.0000 (0.0000) time: 75.4419 data: 74.0752 max mem: 11020
+Epoch: [0] [0/6] eta: 0:07:32 lr: 1.0000000000000001e-07 pcs/s: 46.290 loss: 7.0657 (7.0657) acc: 0.0000 (0.0000) time: 75.4405 data: 72.6750 max mem: 11020
+Epoch: [0] [0/6] eta: 0:07:32 lr: 1.0000000000000001e-07 pcs/s: 12.431 loss: 6.9832 (6.9832) acc: 0.0000 (0.0000) time: 75.4453 data: 65.1479 max mem: 11020
+Epoch: [0] Total time: 0:01:18
+Epoch: [0] Total time: 0:01:18
+Epoch: [0] Total time: 0:01:18
+mean accuray of epoch 0 is 0.0
+mean accuray of epoch 0 is 0.0
+mean accuray of epoch 0 is 0.0
+Epoch: [1] [0/6] eta: 0:08:03 lr: 0.002117725882352941 pcs/s: 246.896 loss: 6.9572 (6.9572) acc: 0.0000 (0.0000) time: 80.5759 data: 80.0572 max mem: 11028
+Epoch: [1] [0/6] eta: 0:08:03 lr: 0.002117725882352941 pcs/s: 21.985 loss: 7.0006 (7.0006) acc: 0.0000 (0.0000) time: 80.5760 data: 74.7536 max mem: 11028
+Epoch: [1] [0/6] eta: 0:08:03 lr: 0.002117725882352941 pcs/s: 23.921 loss: 6.9434 (6.9434) acc: 0.0000 (0.0000) time: 80.5761 data: 75.2248 max mem: 11027
+Epoch: [1] Total time: 0:01:30
+Epoch: [1] Total time: 0:01:30
+mean accuray of epoch 1 is 0.390625
+Epoch: [1] Total time: 0:01:30
+mean accuray of epoch 1 is 0.13020833333333334
+mean accuray of epoch 1 is 0.5208333333333334
+Epoch: [2] [0/6] eta: 0:07:23 lr: 0.004235351764705883 pcs/s: 98.242 loss: 6.7364 (6.7364) acc: 0.0000 (0.0000) time: 73.9694 data: 72.6662 max mem: 11028Epoch: [2] [0/6] eta: 0:07:23 lr: 0.004235351764705883 pcs/s: 269.793 loss: 6.7132 (6.7132) acc: 2.3438 (2.3438) time: 73.9692 data: 73.4945 max mem: 11027
+Epoch: [2] [0/6] eta: 0:07:23 lr: 0.004235351764705883 pcs/s: 19.328 loss: 6.7977 (6.7977) acc: 0.7812 (0.7812) time: 73.9690 data: 67.3461 max mem: 11028
+
+Epoch: [2] Total time: 0:01:16
+Epoch: [2] Total time: 0:01:16
+Epoch: [2] Total time: 0:01:16
+mean accuray of epoch 2 is 4.557291666666667
+mean accuray of epoch 2 is 5.46875
+mean accuray of epoch 2 is 5.989583333333333
+Epoch: [3] [0/6] eta: 0:08:39 lr: 0.006352977647058823 pcs/s: 263.974 loss: 6.4070 (6.4070) acc: 10.1562 (10.1562) time: 86.5790 data: 86.0938 max mem: 11028
+Epoch: [3] [0/6] eta: 0:08:39 lr: 0.006352977647058823 pcs/s: 13.319 loss: 6.1949 (6.1949) acc: 15.6250 (15.6250) time: 86.5791 data: 76.9683 max mem: 11028
+Epoch: [3] [0/6] eta: 0:08:39 lr: 0.006352977647058823 pcs/s: 132.194 loss: 6.4928 (6.4928) acc: 10.1562 (10.1562) time: 86.5792 data: 85.6107 max mem: 11027
+Epoch: [3] Total time: 0:01:34
+Epoch: [3] Total time: 0:01:34
+Epoch: [3] Total time: 0:01:34
+mean accuray of epoch 3 is 11.848958333333334
+mean accuray of epoch 3 is 13.932291666666666
+mean accuray of epoch 3 is 12.760416666666666
+Epoch: [4] [0/6] eta: 0:09:11 lr: 0.008470603529411765 pcs/s: 252.138 loss: 6.2483 (6.2483) acc: 14.0625 (14.0625) time: 91.9009 data: 91.3930 max mem: 11028
+Epoch: [4] [0/6] eta: 0:09:11 lr: 0.008470603529411765 pcs/s: 9.467 loss: 6.0775 (6.0775) acc: 14.0625 (14.0625) time: 91.9009 data: 78.3798 max mem: 11028
+Epoch: [4] [0/6] eta: 0:09:11 lr: 0.008470603529411765 pcs/s: 46.203 loss: 6.0741 (6.0741) acc: 13.2812 (13.2812) time: 91.9011 data: 89.1304 max mem: 11027
+Epoch: [4] Total time: 0:01:34
+Epoch: [4] Total time: 0:01:34Epoch: [4] Total time: 0:01:34
+
+mean accuray of epoch 4 is 16.796875
+mean accuray of epoch 4 is 14.0625
+mean accuray of epoch 4 is 13.541666666666666

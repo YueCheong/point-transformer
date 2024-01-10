@@ -7,10 +7,19 @@ import trimesh
 import open3d as o3d
 import matplotlib.pyplot as plt
 
+import argparse
 
-num_points = 4096
-glbs_folder = f'/mnt/data_sdb/obj/glbs'  
-save_folder = f'/mnt/data_sdb/obj/pcs_{num_points}'
+def parse_args():
+    parser = argparse.ArgumentParser(description='PointTransformer Model training ...') 
+    parser.add_argument('--num-points', default=4096, type=int, help='number of points in each point cloud') 
+    parser.add_argument('--root', default='/mnt/data_sdb/obj/', type=str, help='data root') 
+    args = parser.parse_args()
+    return args
+
+args = parse_args()
+num_points = args.num_points
+glbs_folder = args.root + 'glbs'
+save_folder = args.root + f'pcs_{num_points}'
 
 start_time = datetime.now()
 for folder_id in os.listdir(glbs_folder):
@@ -52,7 +61,7 @@ for folder_id in os.listdir(glbs_folder):
                                 point_colors = np.full((num_points, 4), 255)
                         else:
                             print(f'the {glb_file} mesh has no face_color and to_color ...')
-                            with open('/home/hhfan/code/pc/process/sample/no_color_glb_2.txt', 'a') as f:
+                            with open('/home/hhfan/code/point-transformer/process/sample/no_color_glb_2.txt', 'a') as f:
                                 f.write(f'{glb_file_path}\n')
                             point_colors = np.full((num_points, 4), 255)                            
 
@@ -68,14 +77,14 @@ for folder_id in os.listdir(glbs_folder):
                         ax.set_ylabel('Y')
                         ax.set_zlabel('Z')
                         plt.show()
-                        plt.savefig(f'/home/hhfan/code/pc/process/sample/figs/{num_points}/{glb_file}_sampleface.png', dpi=300)
+                        plt.savefig(f'/home/hhfan/code/point-transformer/process/sample/figs/{num_points}/{glb_file}_sampleface.png', dpi=300)
                         '''                        
                         np.savez(npz_path, points=combined_points_colors)
                         print(f"!!saved npz_path: {npz_path}")
                        
                     except Exception as e:
                         print(f"**An error occurred while processing the file: {e}")
-                        with open('/home/hhfan/code/pc/process/sample/failed_glb_2.txt', 'a') as f:
+                        with open('/home/hhfan/code/point-transformer/process/sample/failed_glb_2.txt', 'a') as f:
                             f.write(f'{glb_file_path}\n')
             else:
                 print(f"there exists {npz_path}, skip the point cloud sampling process!") 
