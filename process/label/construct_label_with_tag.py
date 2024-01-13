@@ -47,7 +47,7 @@ def load_annotations():
             print(f'{uid} do not have tags')
         
         
-    with gzip.open('./uid_path_label_dict.json.gz', "wt") as write_f:
+    with open('./jsons/ann_0-9_all.json', "wt") as write_f:
         json.dump(uid_path_label_dict, write_f)
  
     

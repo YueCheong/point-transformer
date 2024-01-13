@@ -12,14 +12,15 @@ import argparse
 def parse_args():
     parser = argparse.ArgumentParser(description='PointTransformer Model training ...') 
     parser.add_argument('--num-points', default=4096, type=int, help='number of points in each point cloud') 
-    parser.add_argument('--root', default='/mnt/data_sdb/obj/', type=str, help='data root') 
+    parser.add_argument('--root', default='/mnt/data_sdd/obj/', type=str, help='data root') 
+    parser.add_argument('--save-path', default='/mnt/data_sde/obj/', type=str, help='data root')
     args = parser.parse_args()
     return args
 
 args = parse_args()
 num_points = args.num_points
 glbs_folder = args.root + 'glbs'
-save_folder = args.root + f'pcs_{num_points}'
+save_folder = args.save_path + f'pcs_{num_points}'
 
 start_time = datetime.now()
 for folder_id in os.listdir(glbs_folder):
@@ -61,7 +62,7 @@ for folder_id in os.listdir(glbs_folder):
                                 point_colors = np.full((num_points, 4), 255)
                         else:
                             print(f'the {glb_file} mesh has no face_color and to_color ...')
-                            with open('/home/hhfan/code/point-transformer/process/sample/no_color_glb_2.txt', 'a') as f:
+                            with open('/home/hhfan/code/point-transformer/process/sample/no_color_glb_3.txt', 'a') as f:
                                 f.write(f'{glb_file_path}\n')
                             point_colors = np.full((num_points, 4), 255)                            
 
@@ -84,7 +85,7 @@ for folder_id in os.listdir(glbs_folder):
                        
                     except Exception as e:
                         print(f"**An error occurred while processing the file: {e}")
-                        with open('/home/hhfan/code/point-transformer/process/sample/failed_glb_2.txt', 'a') as f:
+                        with open('/home/hhfan/code/point-transformer/process/sample/failed_glb_3.txt', 'a') as f:
                             f.write(f'{glb_file_path}\n')
             else:
                 print(f"there exists {npz_path}, skip the point cloud sampling process!") 

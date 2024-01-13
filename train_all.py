@@ -30,13 +30,13 @@ def parse_args():
     parser.add_argument('--model', default='PointTransformer', type=str, help='model type') # PointTransformer, PointNet, PointNet2
     # dataset
     parser.add_argument('--pc-root', default='/mnt/data_sdb/obj', type=str, help='root path of point cloud files')  
-    parser.add_argument('--ann-path', default='/home/hhfan/code/point-transformer/process/label/test_selected_4_uid_path_idx_dict.json', type=str, help='annotation path') 
+    parser.add_argument('--ann-path', default='/home/hhfan/code/point-transformer/process/label/jsons/0-9_selected_4_idx_ann_all.json', type=str, help='annotation path') 
     # /home/hhfan/code/pc/process/label/uid_path_label_dict.json 
     parser.add_argument('--process-data', default=False, type=bool, help='process and save data offline, or load the processed data')  
     parser.add_argument('--use-feature', default=True, type=bool, help='default True, dim > 3')
     parser.add_argument('--use-uniform-sample', default=False, type=bool, help='use uniform sampiling (FPS)')    
     parser.add_argument('--num-points', default=4096, type=int, help='number of points in each point cloud') 
-    parser.add_argument('--num-classes', default=908, type=int, help='object categories of point clouds')  
+    parser.add_argument('--num-classes', default=909, type=int, help='object categories of point clouds')  
     # pointtransformer model
     parser.add_argument('--dim', default=7, type=int, help='dimension of point cloud (transformer dim)')         
     parser.add_argument('--depth', default=12, type=int, help='depth of transformer layers')    
@@ -52,7 +52,7 @@ def parse_args():
     parser.add_argument('--use-xyz', default=False, type=bool, help='defaut not add xyz_dim (3)')
     
     # training
-    parser.add_argument('--split', default='train', type=str, help='training / eval(test)')
+    parser.add_argument('--data-type', default='train', type=str, help='training / eval(test)')
     parser.add_argument('-b', '--batch-size', default=4, type=int, help='training batch size')
     parser.add_argument('--epochs', default=200, type=int, help='number of epochs to run')
     parser.add_argument('-j', '--workers', default=16, type=int, help='number of data loading workers (default: 16)')    

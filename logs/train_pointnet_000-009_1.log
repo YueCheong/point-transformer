@@ -1,0 +1,2658 @@
+args:Namespace(ann_root='/home/hhfan/code/point-transformer/process/label/jsons', batch_size=128, data_type='train', depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet', momentum=0.9, num_classes=909, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pn_output/000-009_log1', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=10, process_data=False, resume='', save_interval=40, seed=0, start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)
+Creating model ...
+args:Namespace(ann_root='/home/hhfan/code/point-transformer/process/label/jsons', batch_size=128, data_type='train', depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet', momentum=0.9, num_classes=909, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pn_output/000-009_log1', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=10, process_data=False, resume='', save_interval=40, seed=0, start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)
+Creating model ...
+args:Namespace(ann_root='/home/hhfan/code/point-transformer/process/label/jsons', batch_size=128, data_type='train', depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet', momentum=0.9, num_classes=909, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pn_output/000-009_log1', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=10, process_data=False, resume='', save_interval=40, seed=0, start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)
+Creating model ...
+Start training ...
+Start training ...
+Creating data loaders: selected_4_idx_ann_000-000.json
+Start training ...
+Creating data loaders: selected_4_idx_ann_000-000.json
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [0] [0/7] eta: 0:18:41 lr: 1.0000000000000001e-07 pcs/s: 57.915 loss: 7.0302 (7.0302) acc: 0.0000 (0.0000) time: 160.1868 data: 157.9762 max mem: 16881
+Epoch: [0] [0/7] eta: 0:18:41 lr: 1.0000000000000001e-07 pcs/s: 21.861 loss: 7.0269 (7.0269) acc: 0.0000 (0.0000) time: 160.1482 data: 154.2927 max mem: 16881
+Epoch: [0] [0/7] eta: 0:18:41 lr: 1.0000000000000001e-07 pcs/s: 19.356 loss: 7.0021 (7.0021) acc: 0.7812 (0.7812) time: 160.1780 data: 153.5647 max mem: 16881
+Epoch: [0] Total time: 0:02:43
+Epoch: [0] Total time: 0:02:43
+Epoch: [0] Total time: 0:02:43
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [0] [0/6] eta: 0:15:47 lr: 4.209958e-05 pcs/s: 271.356 loss: 7.0331 (7.0313) acc: 0.0000 (0.1953) time: 157.8736 data: 157.4014 max mem: 16906Epoch: [0] [0/6] eta: 0:15:46 lr: 4.209958e-05 pcs/s: 78.773 loss: 7.0192 (7.0391) acc: 0.0000 (0.0977) time: 157.7423 data: 156.1169 max mem: 16906
+
+Epoch: [0] [0/6] eta: 0:15:47 lr: 4.209958e-05 pcs/s: 89.799 loss: 7.0302 (7.0361) acc: 0.0000 (0.0977) time: 157.9998 data: 156.5739 max mem: 16906
+Epoch: [0] Total time: 0:02:41Epoch: [0] Total time: 0:02:41Epoch: [0] Total time: 0:02:41
+
+
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432The size of train data is 2318
+
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [0] [0/7] eta: 0:19:22 lr: 7.809922e-05 pcs/s: 280.101 loss: 7.0593 (7.0502) acc: 0.0000 (0.0558) time: 166.0521 data: 165.5947 max mem: 16906
+Epoch: [0] [0/7] eta: 0:19:23 lr: 7.809922e-05 pcs/s: 16.820 loss: 7.0302 (7.0356) acc: 0.0000 (0.0558) time: 166.1513 data: 158.5408 max mem: 16906
+Epoch: [0] [0/7] eta: 0:19:23 lr: 7.809922e-05 pcs/s: 38.574 loss: 7.0440 (7.0410) acc: 0.0000 (0.2232) time: 166.1512 data: 162.8322 max mem: 16906
+Epoch: [0] Total time: 0:02:49Epoch: [0] Total time: 0:02:49
+
+Epoch: [0] Total time: 0:02:49
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [0] [0/7] eta: 0:19:07 lr: 0.0001200988 pcs/s: 283.713 loss: 7.0678 (7.0581) acc: 0.0000 (0.0372) time: 163.9754 data: 163.5238 max mem: 16906
+Epoch: [0] [0/7] eta: 0:19:07 lr: 0.0001200988 pcs/s: 21.642 loss: 7.0332 (7.0357) acc: 0.0000 (0.0372) time: 163.8765 data: 157.9617 max mem: 16906
+Epoch: [0] [0/7] eta: 0:19:07 lr: 0.0001200988 pcs/s: 58.742 loss: 7.0440 (7.0369) acc: 0.0000 (0.1488) time: 163.9965 data: 161.8169 max mem: 16906
+Epoch: [0] Total time: 0:02:46Epoch: [0] Total time: 0:02:47Epoch: [0] Total time: 0:02:47
+
+
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [0] [0/7] eta: 0:19:41 lr: 0.00016209838 pcs/s: 250.212 loss: 7.0253 (7.0337) acc: 0.0000 (0.0279) time: 168.7402 data: 168.2282 max mem: 16906Epoch: [0] [0/7] eta: 0:19:41 lr: 0.00016209838 pcs/s: 21.740 loss: 7.0341 (7.0369) acc: 0.0000 (0.1116) time: 168.7219 data: 162.8336 max mem: 16906
+
+Epoch: [0] [0/7] eta: 0:19:41 lr: 0.00016209838 pcs/s: 18.466 loss: 7.0593 (7.0494) acc: 0.0000 (0.1116) time: 168.7313 data: 161.7990 max mem: 16906
+Epoch: [0] Total time: 0:02:52
+Epoch: [0] Total time: 0:02:52
+Epoch: [0] Total time: 0:02:52
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [0] [0/7] eta: 0:18:37 lr: 0.00020409796000000002 pcs/s: 286.055 loss: 7.0306 (7.0457) acc: 0.0000 (0.0893) time: 159.6560 data: 159.2081 max mem: 16906
+Epoch: [0] [0/7] eta: 0:18:35 lr: 0.00020409796000000002 pcs/s: 101.167 loss: 7.0354 (7.0379) acc: 0.0000 (0.0893) time: 159.3889 data: 158.1232 max mem: 16906
+Epoch: [0] [0/7] eta: 0:18:37 lr: 0.00020409796000000002 pcs/s: 39.807 loss: 7.0253 (7.0353) acc: 0.0000 (0.0446) time: 159.6075 data: 156.3911 max mem: 16906
+Epoch: [0] Total time: 0:02:43
+Epoch: [0] Total time: 0:02:43Epoch: [0] Total time: 0:02:43
+
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [0] [0/6] eta: 0:15:59 lr: 0.00024609754000000004 pcs/s: 288.520 loss: 7.0155 (7.0372) acc: 0.0000 (0.0744) time: 159.9160 data: 159.4719 max mem: 16906
+Epoch: [0] [0/6] eta: 0:15:59 lr: 0.00024609754000000004 pcs/s: 49.836 loss: 7.0341 (7.0342) acc: 0.0000 (0.0744) time: 159.9162 data: 157.3472 max mem: 16906
+Epoch: [0] [0/6] eta: 0:15:59 lr: 0.00024609754000000004 pcs/s: 64.025 loss: 7.0242 (7.0336) acc: 0.0000 (0.0558) time: 159.9087 data: 157.9089 max mem: 16906
+Epoch: [0] Total time: 0:02:42
+Epoch: [0] Total time: 0:02:42
+Epoch: [0] Total time: 0:02:42
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [0] [0/7] eta: 0:19:07 lr: 0.00028209717999999996 pcs/s: 80.059 loss: 7.0274 (7.0316) acc: 0.0000 (0.0651) time: 163.9923 data: 162.3930 max mem: 16906Epoch: [0] [0/7] eta: 0:19:08 lr: 0.00028209717999999996 pcs/s: 278.862 loss: 6.9976 (7.0308) acc: 0.0000 (0.0651) time: 164.0547 data: 163.5952 max mem: 16906
+
+Epoch: [0] [0/7] eta: 0:19:08 lr: 0.00028209717999999996 pcs/s: 76.401 loss: 7.0231 (7.0312) acc: 0.0000 (0.0488) time: 164.0045 data: 162.3284 max mem: 16906
+Epoch: [0] Total time: 0:02:47
+Epoch: [0] Total time: 0:02:47
+Epoch: [0] Total time: 0:02:47
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [0] [0/7] eta: 0:19:06 lr: 0.00032409676 pcs/s: 235.997 loss: 6.9785 (7.0217) acc: 0.0000 (0.1136) time: 163.7551 data: 163.2122 max mem: 16906
+Epoch: [0] [0/7] eta: 0:19:10 lr: 0.00032409676 pcs/s: 37.794 loss: 6.9866 (7.0260) acc: 0.0000 (0.1136) time: 164.3258 data: 160.9385 max mem: 16906
+Epoch: [0] [0/7] eta: 0:19:10 lr: 0.00032409676 pcs/s: 19.668 loss: 7.0004 (7.0239) acc: 0.0000 (0.1136) time: 164.3074 data: 157.7986 max mem: 16906
+Epoch: [0] Total time: 0:02:47Epoch: [0] Total time: 0:02:47
+
+Epoch: [0] Total time: 0:02:47
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499The size of train data is 499
+
+sample = len * batch_size =  4 * 128 = 512sample = len * batch_size =  4 * 128 = 512
+
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [0] [0/2] eta: 0:05:25 lr: 0.00036609634000000005 pcs/s: 46.695 loss: 6.9678 (7.0188) acc: 0.0000 (0.1260) time: 162.7088 data: 159.9670 max mem: 16906
+Epoch: [0] [0/2] eta: 0:05:25 lr: 0.00036609634000000005 pcs/s: 121.544 loss: 6.9723 (7.0152) acc: 0.0000 (0.1512) time: 162.7088 data: 161.6552 max mem: 16906
+Epoch: [0] [0/2] eta: 0:05:25 lr: 0.00036609634000000005 pcs/s: 238.052 loss: 6.9648 (7.0141) acc: 0.0000 (0.1260) time: 162.6463 data: 162.1080 max mem: 16906
+Epoch: [0] Total time: 0:02:43
+Epoch: [0] Total time: 0:02:44
+Epoch: [0] Total time: 0:02:44
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 0 is 0.12400793650793651
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 0 is 0.16121031746031747
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 0 is 0.12400793650793651
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [1] [0/7] eta: 0:18:33 lr: 0.00037809622 pcs/s: 74.313 loss: 6.9419 (6.9419) acc: 0.7812 (0.7812) time: 159.1393 data: 157.4164 max mem: 16906
+Epoch: [1] [0/7] eta: 0:18:34 lr: 0.00037809622 pcs/s: 48.277 loss: 6.9394 (6.9394) acc: 0.0000 (0.0000) time: 159.2498 data: 156.5979 max mem: 16906
+Epoch: [1] [0/7] eta: 0:18:33 lr: 0.00037809622 pcs/s: 258.226 loss: 6.9242 (6.9242) acc: 0.0000 (0.0000) time: 159.0685 data: 158.5723 max mem: 16906
+Epoch: [1] Total time: 0:02:43
+Epoch: [1] Total time: 0:02:43Epoch: [1] Total time: 0:02:42
+
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [1] [0/6] eta: 0:17:31 lr: 0.00042009580000000005 pcs/s: 78.156 loss: 6.9242 (6.9243) acc: 0.0000 (0.7812) time: 175.2287 data: 173.5905 max mem: 16906Epoch: [1] [0/6] eta: 0:17:31 lr: 0.00042009580000000005 pcs/s: 67.913 loss: 6.9394 (6.9236) acc: 0.0000 (0.6836) time: 175.2403 data: 173.3551 max mem: 16906
+Epoch: [1] [0/6] eta: 0:17:31 lr: 0.00042009580000000005 pcs/s: 280.248 loss: 6.9263 (6.9219) acc: 0.7812 (1.1719) time: 175.2132 data: 174.7559 max mem: 16906
+
+Epoch: [1] Total time: 0:02:58
+Epoch: [1] Total time: 0:02:58
+Epoch: [1] Total time: 0:02:58
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [1] [0/7] eta: 0:24:37 lr: 0.00045609544000000003 pcs/s: 38.028 loss: 6.8964 (6.9127) acc: 0.7812 (0.8371) time: 211.0911 data: 207.7245 max mem: 16906
+Epoch: [1] [0/7] eta: 0:24:37 lr: 0.00045609544000000003 pcs/s: 267.799 loss: 6.8957 (6.9038) acc: 0.7812 (1.2277) time: 211.0092 data: 210.5307 max mem: 16906
+Epoch: [1] [0/7] eta: 0:24:37 lr: 0.00045609544000000003 pcs/s: 13.505 loss: 6.9158 (6.8977) acc: 1.5625 (1.6183) time: 211.0466 data: 201.5681 max mem: 16906
+Epoch: [1] Total time: 0:03:35
+Epoch: [1] Total time: 0:03:35Epoch: [1] Total time: 0:03:35
+
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [1] [0/7] eta: 0:23:37 lr: 0.00049809502 pcs/s: 164.136 loss: 6.8775 (6.8827) acc: 1.5625 (1.8973) time: 202.5568 data: 201.7763 max mem: 16906
+Epoch: [1] [0/7] eta: 0:23:38 lr: 0.00049809502 pcs/s: 17.458 loss: 6.8809 (6.8950) acc: 1.5625 (1.5253) time: 202.6874 data: 195.3550 max mem: 16906
+Epoch: [1] [0/7] eta: 0:23:39 lr: 0.00049809502 pcs/s: 38.295 loss: 6.8808 (6.8748) acc: 2.3438 (2.1205) time: 202.7453 data: 199.4024 max mem: 16906
+Epoch: [1] Total time: 0:03:28
+Epoch: [1] Total time: 0:03:28
+Epoch: [1] Total time: 0:03:28
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [1] [0/7] eta: 0:22:44 lr: 0.0005400946000000001 pcs/s: 257.843 loss: 6.8529 (6.8693) acc: 2.3438 (2.3158) time: 194.9433 data: 194.4463 max mem: 16906
+Epoch: [1] [0/7] eta: 0:22:45 lr: 0.0005400946000000001 pcs/s: 46.104 loss: 6.8309 (6.8603) acc: 3.1250 (2.5670) time: 195.1217 data: 192.3448 max mem: 16906
+Epoch: [1] [0/7] eta: 0:22:44 lr: 0.0005400946000000001 pcs/s: 11.625 loss: 6.8366 (6.8515) acc: 3.1250 (2.7623) time: 194.9322 data: 183.9206 max mem: 16906
+Epoch: [1] Total time: 0:03:19
+Epoch: [1] Total time: 0:03:19
+Epoch: [1] Total time: 0:03:19
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [1] [0/7] eta: 0:24:04 lr: 0.00058209418 pcs/s: 274.281 loss: 6.7931 (6.8332) acc: 4.6875 (3.2589) time: 206.3109 data: 205.8438 max mem: 16906Epoch: [1] [0/7] eta: 0:24:04 lr: 0.00058209418 pcs/s: 25.486 loss: 6.7530 (6.8326) acc: 4.6875 (3.3929) time: 206.2976 data: 201.2747 max mem: 16906Epoch: [1] [0/7] eta: 0:24:04 lr: 0.00058209418 pcs/s: 147.081 loss: 6.8017 (6.8534) acc: 3.9062 (2.8125) time: 206.3465 data: 205.4757 max mem: 16906
+
+
+Epoch: [1] Total time: 0:03:36
+Epoch: [1] Total time: 0:03:36
+Epoch: [1] Total time: 0:03:36
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [1] [0/6] eta: 0:18:14 lr: 0.0006240937599999999 pcs/s: 23.122 loss: 6.7450 (6.8208) acc: 6.2500 (3.4970) time: 182.4742 data: 176.9379 max mem: 16906
+Epoch: [1] [0/6] eta: 0:18:14 lr: 0.0006240937599999999 pcs/s: 265.397 loss: 6.7372 (6.8088) acc: 5.4688 (3.8132) time: 182.4353 data: 181.9526 max mem: 16906
+Epoch: [1] [0/6] eta: 0:18:14 lr: 0.0006240937599999999 pcs/s: 6.987 loss: 6.7323 (6.8079) acc: 5.4688 (3.7388) time: 182.4164 data: 164.0966 max mem: 16906
+Epoch: [1] Total time: 0:03:11Epoch: [1] Total time: 0:03:12
+
+Epoch: [1] Total time: 0:03:12
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [1] [0/7] eta: 0:24:36 lr: 0.0006600934 pcs/s: 247.301 loss: 6.6864 (6.7909) acc: 5.4688 (3.9876) time: 210.9839 data: 210.4658 max mem: 16906
+Epoch: [1] [0/7] eta: 0:24:37 lr: 0.0006600934 pcs/s: 13.962 loss: 6.6774 (6.7976) acc: 6.2500 (3.8411) time: 211.0098 data: 201.8418 max mem: 16906
+Epoch: [1] [0/7] eta: 0:24:35 lr: 0.0006600934 pcs/s: 19.144 loss: 6.6928 (6.7889) acc: 5.4688 (4.1178) time: 210.7746 data: 204.0880 max mem: 16906
+Epoch: [1] Total time: 0:03:36
+Epoch: [1] Total time: 0:03:36Epoch: [1] Total time: 0:03:36
+
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [1] [0/7] eta: 0:23:46 lr: 0.0007020929800000001 pcs/s: 242.620 loss: 6.6105 (6.7569) acc: 7.0312 (4.6307) time: 203.8392 data: 203.3111 max mem: 16906Epoch: [1] [0/7] eta: 0:23:46 lr: 0.0007020929800000001 pcs/s: 11.239 loss: 6.6322 (6.7584) acc: 6.2500 (4.5028) time: 203.8372 data: 192.4474 max mem: 16906
+
+Epoch: [1] [0/7] eta: 0:23:47 lr: 0.0007020929800000001 pcs/s: 6.495 loss: 6.6294 (6.7649) acc: 7.0312 (4.4176) time: 203.8820 data: 184.1735 max mem: 16906
+Epoch: [1] Total time: 0:03:28
+Epoch: [1] Total time: 0:03:28
+Epoch: [1] Total time: 0:03:28
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [1] [0/2] eta: 0:05:30 lr: 0.00074409256 pcs/s: 270.620 loss: 6.5672 (6.7380) acc: 7.0312 (4.7883) time: 165.3727 data: 164.8992 max mem: 16906Epoch: [1] [0/2] eta: 0:05:30 lr: 0.00074409256 pcs/s: 26.729 loss: 6.5401 (6.7337) acc: 7.8125 (4.9269) time: 165.3923 data: 160.6029 max mem: 16906
+
+Epoch: [1] [0/2] eta: 0:05:30 lr: 0.00074409256 pcs/s: 32.782 loss: 6.5728 (6.7306) acc: 8.5938 (4.9773) time: 165.3637 data: 161.4585 max mem: 16906
+Epoch: [1] Total time: 0:02:47Epoch: [1] Total time: 0:02:47Epoch: [1] Total time: 0:02:47
+
+
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 1 is 4.848710317460317
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 1 is 5.034722222222222
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 1 is 4.9851190476190474
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [2] [0/7] eta: 0:23:05 lr: 0.0007560924400000001 pcs/s: 248.966 loss: 6.7790 (6.7790) acc: 3.9062 (3.9062) time: 197.9469 data: 197.4323 max mem: 16906
+Epoch: [2] [0/7] eta: 0:23:05 lr: 0.0007560924400000001 pcs/s: 5.681 loss: 6.5133 (6.5133) acc: 10.1562 (10.1562) time: 197.8939 data: 175.3609 max mem: 16906
+Epoch: [2] [0/7] eta: 0:23:05 lr: 0.0007560924400000001 pcs/s: 8.281 loss: 6.5559 (6.5559) acc: 8.5938 (8.5938) time: 197.9230 data: 182.4648 max mem: 16906
+Epoch: [2] Total time: 0:03:23
+Epoch: [2] Total time: 0:03:23
+Epoch: [2] Total time: 0:03:23
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [2] [0/6] eta: 0:16:58 lr: 0.00079809202 pcs/s: 26.980 loss: 6.4605 (6.5236) acc: 7.8125 (8.0078) time: 169.6996 data: 164.9548 max mem: 16906
+Epoch: [2] [0/6] eta: 0:16:58 lr: 0.00079809202 pcs/s: 242.532 loss: 6.5133 (6.5787) acc: 7.8125 (7.3242) time: 169.6881 data: 169.1599 max mem: 16906
+Epoch: [2] [0/6] eta: 0:16:57 lr: 0.00079809202 pcs/s: 225.131 loss: 6.5182 (6.5294) acc: 8.5938 (8.3984) time: 169.6278 data: 169.0588 max mem: 16906
+Epoch: [2] Total time: 0:03:00
+Epoch: [2] Total time: 0:03:00
+Epoch: [2] Total time: 0:03:00
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [2] [0/7] eta: 0:23:08 lr: 0.0008340916600000001 pcs/s: 233.307 loss: 6.5061 (6.5173) acc: 8.5938 (8.8170) time: 198.4004 data: 197.8514 max mem: 16906
+Epoch: [2] [0/7] eta: 0:23:06 lr: 0.0008340916600000001 pcs/s: 10.205 loss: 6.4624 (6.5104) acc: 8.5938 (8.4263) time: 198.1055 data: 185.5618 max mem: 16906
+Epoch: [2] [0/7] eta: 0:23:08 lr: 0.0008340916600000001 pcs/s: 8.566 loss: 6.4852 (6.4796) acc: 9.3750 (9.4308) time: 198.3251 data: 183.3825 max mem: 16906
+Epoch: [2] Total time: 0:03:25
+Epoch: [2] Total time: 0:03:24
+Epoch: [2] Total time: 0:03:25
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [2] [0/7] eta: 0:22:46 lr: 0.00087609124 pcs/s: 154.087 loss: 6.4693 (6.4543) acc: 9.3750 (9.6726) time: 195.2708 data: 194.4395 max mem: 16906Epoch: [2] [0/7] eta: 0:22:47 lr: 0.00087609124 pcs/s: 44.916 loss: 6.4294 (6.4597) acc: 9.3750 (9.7842) time: 195.3554 data: 192.5050 max mem: 16906Epoch: [2] [0/7] eta: 0:22:46 lr: 0.00087609124 pcs/s: 17.380 loss: 6.4085 (6.4261) acc: 10.1562 (10.5283) time: 195.2510 data: 187.8856 max mem: 16906
+
+
+Epoch: [2] Total time: 0:03:24
+Epoch: [2] Total time: 0:03:24Epoch: [2] Total time: 0:03:24
+
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [2] [0/7] eta: 0:23:28 lr: 0.0009180908200000001 pcs/s: 4.074 loss: 6.3094 (6.3959) acc: 11.7188 (11.1049) time: 201.2049 data: 169.7824 max mem: 16906
+Epoch: [2] [0/7] eta: 0:23:27 lr: 0.0009180908200000001 pcs/s: 267.763 loss: 6.3765 (6.4194) acc: 11.7188 (10.6306) time: 201.1297 data: 200.6510 max mem: 16906Epoch: [2] [0/7] eta: 0:23:27 lr: 0.0009180908200000001 pcs/s: 25.860 loss: 6.3147 (6.4088) acc: 11.7188 (10.5190) time: 201.1365 data: 196.1862 max mem: 16906
+
+Epoch: [2] Total time: 0:03:33Epoch: [2] Total time: 0:03:33
+
+Epoch: [2] Total time: 0:03:33
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [2] [0/7] eta: 0:24:41 lr: 0.0009600904000000001 pcs/s: 152.291 loss: 6.2669 (6.3693) acc: 12.5000 (11.8750) time: 211.6120 data: 210.7709 max mem: 16906
+Epoch: [2] [0/7] eta: 0:24:41 lr: 0.0009600904000000001 pcs/s: 3.495 loss: 6.3204 (6.3969) acc: 12.5000 (11.1830) time: 211.6689 data: 175.0486 max mem: 16906
+Epoch: [2] [0/7] eta: 0:24:41 lr: 0.0009600904000000001 pcs/s: 81.037 loss: 6.2487 (6.3863) acc: 12.5000 (10.9598) time: 211.6143 data: 210.0342 max mem: 16906
+Epoch: [2] Total time: 0:03:39
+Epoch: [2] Total time: 0:03:39
+Epoch: [2] Total time: 0:03:39
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [2] [0/6] eta: 0:18:27 lr: 0.00100208998 pcs/s: 268.435 loss: 6.2638 (6.3448) acc: 14.8438 (12.3884) time: 184.5103 data: 184.0329 max mem: 16906Epoch: [2] [0/6] eta: 0:18:28 lr: 0.00100208998 pcs/s: 20.123 loss: 6.2191 (6.3640) acc: 14.0625 (11.7932) time: 184.8196 data: 178.4583 max mem: 16906
+
+Epoch: [2] [0/6] eta: 0:18:29 lr: 0.00100208998 pcs/s: 13.545 loss: 6.2601 (6.3650) acc: 12.5000 (11.3095) time: 184.8887 data: 175.4382 max mem: 16906
+Epoch: [2] Total time: 0:03:09
+Epoch: [2] Total time: 0:03:10
+Epoch: [2] Total time: 0:03:10
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [2] [0/7] eta: 0:24:27 lr: 0.00103808962 pcs/s: 237.466 loss: 6.2244 (6.3305) acc: 14.8438 (12.6790) time: 209.6257 data: 209.0862 max mem: 16906
+Epoch: [2] [0/7] eta: 0:24:28 lr: 0.00103808962 pcs/s: 31.327 loss: 6.2012 (6.3438) acc: 14.0625 (12.3535) time: 209.7945 data: 205.7079 max mem: 16906
+Epoch: [2] [0/7] eta: 0:24:32 lr: 0.00103808962 pcs/s: 2.555 loss: 6.2601 (6.3488) acc: 13.2812 (11.6699) time: 210.2890 data: 160.1976 max mem: 16906
+Epoch: [2] Total time: 0:03:35
+Epoch: [2] Total time: 0:03:35
+Epoch: [2] Total time: 0:03:35
+del dataset selected_4_idx_ann_000-007.json and collect()del dataset selected_4_idx_ann_000-007.json and collect()
+
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [2] [0/7] eta: 0:24:53 lr: 0.0010800892 pcs/s: 25.986 loss: 6.1800 (6.3053) acc: 15.6250 (13.1960) time: 213.4180 data: 208.4918 max mem: 16906Epoch: [2] [0/7] eta: 0:24:53 lr: 0.0010800892 pcs/s: 206.269 loss: 6.1467 (6.3135) acc: 14.8438 (12.8409) time: 213.4153 data: 212.7942 max mem: 16906
+
+Epoch: [2] [0/7] eta: 0:24:55 lr: 0.0010800892 pcs/s: 8.973 loss: 6.1804 (6.3233) acc: 13.2812 (12.1023) time: 213.6712 data: 199.4056 max mem: 16906
+Epoch: [2] Total time: 0:03:41
+Epoch: [2] Total time: 0:03:41
+Epoch: [2] Total time: 0:03:41
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [2] [0/2] eta: 0:05:33 lr: 0.00112208878 pcs/s: 247.909 loss: 6.0869 (6.2850) acc: 16.4062 (13.3443) time: 166.9971 data: 166.4802 max mem: 16906Epoch: [2] [0/2] eta: 0:05:34 lr: 0.00112208878 pcs/s: 108.278 loss: 6.1588 (6.3063) acc: 14.8438 (12.4748) time: 167.0032 data: 165.8206 max mem: 16906
+
+Epoch: [2] [0/2] eta: 0:05:33 lr: 0.00112208878 pcs/s: 27.954 loss: 6.1444 (6.2731) acc: 16.4062 (13.6215) time: 166.7730 data: 162.1936 max mem: 16906
+Epoch: [2] Total time: 0:02:50Epoch: [2] Total time: 0:02:50Epoch: [2] Total time: 0:02:50
+
+
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+total len of whole dataloader: 173
+mean accuray of epoch 2 is 13.355654761904763
+Creating data loaders: selected_4_idx_ann_000-000.json
+mean accuray of epoch 2 is 12.549603174603174
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 2 is 13.678075396825397
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [3] [0/7] eta: 0:24:39 lr: 0.00113408866 pcs/s: 287.216 loss: 6.4728 (6.4728) acc: 9.3750 (9.3750) time: 211.3617 data: 210.9156 max mem: 16906
+Epoch: [3] [0/7] eta: 0:24:39 lr: 0.00113408866 pcs/s: 28.179 loss: 6.1729 (6.1729) acc: 13.2812 (13.2812) time: 211.3270 data: 206.7842 max mem: 16906
+Epoch: [3] [0/7] eta: 0:24:39 lr: 0.00113408866 pcs/s: 13.855 loss: 6.1853 (6.1853) acc: 14.0625 (14.0625) time: 211.3559 data: 202.1171 max mem: 16906
+Epoch: [3] Total time: 0:03:38
+Epoch: [3] Total time: 0:03:38
+Epoch: [3] Total time: 0:03:38
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [3] [0/6] eta: 0:17:51 lr: 0.00117608824 pcs/s: 226.116 loss: 6.0185 (6.0955) acc: 13.2812 (14.6484) time: 178.6104 data: 178.0438 max mem: 16906
+Epoch: [3] [0/6] eta: 0:17:53 lr: 0.00117608824 pcs/s: 12.128 loss: 6.0361 (6.1382) acc: 14.8438 (14.3555) time: 178.8769 data: 168.3221 max mem: 16906
+Epoch: [3] [0/6] eta: 0:17:51 lr: 0.00117608824 pcs/s: 44.058 loss: 6.2141 (6.2321) acc: 14.0625 (12.4023) time: 178.6205 data: 175.7148 max mem: 16906
+Epoch: [3] Total time: 0:03:05
+Epoch: [3] Total time: 0:03:05
+Epoch: [3] Total time: 0:03:05
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [3] [0/7] eta: 0:23:48 lr: 0.00121208788 pcs/s: 267.474 loss: 6.0185 (6.0752) acc: 14.8438 (15.4576) time: 204.1335 data: 203.6545 max mem: 16906Epoch: [3] [0/7] eta: 0:23:50 lr: 0.00121208788 pcs/s: 11.885 loss: 6.1290 (6.1322) acc: 14.0625 (14.3415) time: 204.3914 data: 193.6212 max mem: 16906Epoch: [3] [0/7] eta: 0:23:50 lr: 0.00121208788 pcs/s: 202.627 loss: 6.0361 (6.0943) acc: 15.6250 (15.1228) time: 204.3596 data: 203.7274 max mem: 16906
+
+
+Epoch: [3] Total time: 0:03:32
+Epoch: [3] Total time: 0:03:32
+Epoch: [3] Total time: 0:03:32
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [3] [0/7] eta: 0:22:57 lr: 0.0012540874600000002 pcs/s: 150.793 loss: 5.9964 (6.0239) acc: 16.4062 (16.2946) time: 196.7527 data: 195.9034 max mem: 16906
+Epoch: [3] [0/7] eta: 0:22:56 lr: 0.0012540874600000002 pcs/s: 275.805 loss: 5.9578 (6.0091) acc: 17.1875 (16.4435) time: 196.5989 data: 196.1343 max mem: 16906
+Epoch: [3] [0/7] eta: 0:22:56 lr: 0.0012540874600000002 pcs/s: 5.419 loss: 6.0665 (6.0536) acc: 14.8438 (15.8110) time: 196.5984 data: 172.9780 max mem: 16906
+Epoch: [3] Total time: 0:03:22
+Epoch: [3] Total time: 0:03:22
+Epoch: [3] Total time: 0:03:22
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [3] [0/7] eta: 0:25:37 lr: 0.0012960870399999999 pcs/s: 165.349 loss: 5.8625 (6.0054) acc: 16.4062 (16.2109) time: 219.6278 data: 218.8530 max mem: 16906
+Epoch: [3] [0/7] eta: 0:25:36 lr: 0.0012960870399999999 pcs/s: 27.764 loss: 5.9557 (5.9851) acc: 17.1875 (16.5737) time: 219.4792 data: 214.8683 max mem: 16906
+Epoch: [3] [0/7] eta: 0:25:37 lr: 0.0012960870399999999 pcs/s: 16.781 loss: 5.8832 (5.9659) acc: 17.1875 (16.7969) time: 219.5791 data: 211.9505 max mem: 16906
+Epoch: [3] Total time: 0:03:47
+Epoch: [3] Total time: 0:03:47
+Epoch: [3] Total time: 0:03:47
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [3] [0/7] eta: 0:25:09 lr: 0.00133808662 pcs/s: 275.360 loss: 5.8295 (5.9548) acc: 18.7500 (16.8973) time: 215.6233 data: 215.1580 max mem: 16906
+Epoch: [3] [0/7] eta: 0:25:08 lr: 0.00133808662 pcs/s: 11.034 loss: 5.8238 (5.9830) acc: 17.1875 (16.4062) time: 215.5589 data: 203.9582 max mem: 16906
+Epoch: [3] [0/7] eta: 0:25:07 lr: 0.00133808662 pcs/s: 42.921 loss: 5.8392 (5.9489) acc: 17.9688 (16.8973) time: 215.4192 data: 212.4360 max mem: 16906
+Epoch: [3] Total time: 0:03:41
+Epoch: [3] Total time: 0:03:41
+Epoch: [3] Total time: 0:03:41
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [3] [0/6] eta: 0:16:31 lr: 0.0013800862 pcs/s: 288.294 loss: 5.7781 (5.9249) acc: 17.9688 (17.1503) time: 165.1945 data: 164.7501 max mem: 16906
+Epoch: [3] [0/6] eta: 0:16:31 lr: 0.0013800862 pcs/s: 18.837 loss: 5.8144 (5.9395) acc: 17.1875 (16.8341) time: 165.2608 data: 158.4652 max mem: 16906Epoch: [3] [0/6] eta: 0:16:31 lr: 0.0013800862 pcs/s: 26.977 loss: 5.8520 (5.9621) acc: 16.4062 (16.5551) time: 165.3026 data: 160.5573 max mem: 16906
+
+Epoch: [3] Total time: 0:02:49
+Epoch: [3] Total time: 0:02:49
+Epoch: [3] Total time: 0:02:49
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [3] [0/7] eta: 0:18:15 lr: 0.0014160858400000002 pcs/s: 318.479 loss: 5.7960 (5.9156) acc: 17.9688 (17.2526) time: 156.4900 data: 156.0877 max mem: 16906
+Epoch: [3] [0/7] eta: 0:18:24 lr: 0.0014160858400000002 pcs/s: 20.743 loss: 5.8144 (5.9249) acc: 17.1875 (17.1712) time: 157.8231 data: 151.6519 max mem: 16906
+Epoch: [3] [0/7] eta: 0:18:25 lr: 0.0014160858400000002 pcs/s: 25.033 loss: 5.8578 (5.9498) acc: 16.4062 (16.6016) time: 157.8984 data: 152.7843 max mem: 16906
+Epoch: [3] Total time: 0:02:41
+Epoch: [3] Total time: 0:02:41
+Epoch: [3] Total time: 0:02:40
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [3] [0/7] eta: 0:14:27 lr: 0.00145808542 pcs/s: 140.347 loss: 5.7850 (5.9062) acc: 16.4062 (17.3722) time: 123.8583 data: 122.9459 max mem: 16906
+Epoch: [3] [0/7] eta: 0:14:27 lr: 0.00145808542 pcs/s: 253.394 loss: 5.8775 (5.9369) acc: 16.4062 (16.6477) time: 123.9116 data: 123.4060 max mem: 16906
+Epoch: [3] [0/7] eta: 0:14:27 lr: 0.00145808542 pcs/s: 37.103 loss: 5.8124 (5.8949) acc: 17.9688 (17.5568) time: 123.9221 data: 120.4715 max mem: 16906
+Epoch: [3] Total time: 0:02:11
+Epoch: [3] Total time: 0:02:12
+Epoch: [3] Total time: 0:02:12
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [3] [0/2] eta: 0:05:04 lr: 0.001500085 pcs/s: 314.219 loss: 5.7307 (5.8867) acc: 19.5312 (17.6411) time: 152.0444 data: 151.6367 max mem: 16906
+Epoch: [3] [0/2] eta: 0:05:04 lr: 0.001500085 pcs/s: 18.620 loss: 5.8775 (5.9345) acc: 17.1875 (16.7087) time: 152.0430 data: 145.1680 max mem: 16906
+Epoch: [3] [0/2] eta: 0:05:03 lr: 0.001500085 pcs/s: 42.225 loss: 5.7842 (5.8730) acc: 18.7500 (17.8679) time: 151.5817 data: 148.5498 max mem: 16906
+Epoch: [3] Total time: 0:02:34
+Epoch: [3] Total time: 0:02:34
+Epoch: [3] Total time: 0:02:34
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 3 is 16.728670634920636
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 3 is 17.869543650793652
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 3 is 17.633928571428573
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [4] [0/7] eta: 0:19:52 lr: 0.00151208488 pcs/s: 27.882 loss: 6.3186 (6.3186) acc: 7.8125 (7.8125) time: 170.3600 data: 165.7690 max mem: 16906
+Epoch: [4] [0/7] eta: 0:19:55 lr: 0.00151208488 pcs/s: 25.291 loss: 5.9768 (5.9768) acc: 15.6250 (15.6250) time: 170.8463 data: 165.7849 max mem: 16906
+Epoch: [4] [0/7] eta: 0:19:47 lr: 0.00151208488 pcs/s: 246.730 loss: 5.9449 (5.9449) acc: 15.6250 (15.6250) time: 169.6022 data: 169.0830 max mem: 16906
+Epoch: [4] Total time: 0:02:56
+Epoch: [4] Total time: 0:02:55
+Epoch: [4] Total time: 0:02:56
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [4] [0/6] eta: 0:14:46 lr: 0.0015540844600000002 pcs/s: 185.578 loss: 5.8740 (5.8863) acc: 16.4062 (16.6992) time: 147.7353 data: 147.0452 max mem: 16906
+Epoch: [4] [0/6] eta: 0:14:52 lr: 0.0015540844600000002 pcs/s: 11.701 loss: 5.8603 (5.9187) acc: 15.6250 (15.3320) time: 148.7970 data: 137.8575 max mem: 16906
+Epoch: [4] [0/6] eta: 0:14:53 lr: 0.0015540844600000002 pcs/s: 18.253 loss: 5.9629 (6.0245) acc: 14.0625 (14.1602) time: 148.8574 data: 141.8440 max mem: 16906
+Epoch: [4] Total time: 0:02:33
+Epoch: [4] Total time: 0:02:33
+Epoch: [4] Total time: 0:02:32
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318The size of train data is 2318
+
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [4] [0/7] eta: 0:18:03 lr: 0.0015900840999999999 pcs/s: 5.839 loss: 5.8687 (5.8969) acc: 15.6250 (16.1830) time: 154.7458 data: 132.8236 max mem: 16906
+Epoch: [4] [0/7] eta: 0:18:03 lr: 0.0015900840999999999 pcs/s: 275.354 loss: 5.8488 (5.8436) acc: 17.1875 (17.7455) time: 154.7349 data: 154.2696 max mem: 16906
+Epoch: [4] [0/7] eta: 0:18:03 lr: 0.0015900840999999999 pcs/s: 4.550 loss: 5.8181 (5.8506) acc: 16.4062 (16.8527) time: 154.7458 data: 126.6108 max mem: 16906
+Epoch: [4] Total time: 0:02:39
+Epoch: [4] Total time: 0:02:39Epoch: [4] Total time: 0:02:39
+
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [4] [0/7] eta: 0:19:21 lr: 0.0016320836800000002 pcs/s: 362.756 loss: 5.6949 (5.7468) acc: 17.9688 (18.5640) time: 165.8724 data: 165.5192 max mem: 16906
+Epoch: [4] [0/7] eta: 0:19:22 lr: 0.0016320836800000002 pcs/s: 77.501 loss: 5.7785 (5.7714) acc: 17.9688 (18.5640) time: 166.0227 data: 164.3707 max mem: 16906
+Epoch: [4] [0/7] eta: 0:19:28 lr: 0.0016320836800000002 pcs/s: 7.212 loss: 5.8382 (5.7907) acc: 17.1875 (18.1920) time: 166.9260 data: 149.1777 max mem: 16906
+Epoch: [4] Total time: 0:02:53
+Epoch: [4] Total time: 0:02:52
+Epoch: [4] Total time: 0:02:53
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [4] [0/7] eta: 0:19:37 lr: 0.00167408326 pcs/s: 22.259 loss: 5.5696 (5.7463) acc: 20.3125 (18.7500) time: 168.2575 data: 162.5067 max mem: 16906
+Epoch: [4] [0/7] eta: 0:19:36 lr: 0.00167408326 pcs/s: 294.317 loss: 5.6137 (5.7048) acc: 19.5312 (18.8337) time: 168.0806 data: 167.6451 max mem: 16906
+Epoch: [4] [0/7] eta: 0:19:33 lr: 0.00167408326 pcs/s: 75.114 loss: 5.6122 (5.7329) acc: 19.5312 (18.8616) time: 167.6288 data: 165.9241 max mem: 16906
+Epoch: [4] Total time: 0:02:56
+Epoch: [4] Total time: 0:02:55
+Epoch: [4] Total time: 0:02:56
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [4] [0/7] eta: 0:18:44 lr: 0.00171608284 pcs/s: 189.340 loss: 5.5953 (5.7010) acc: 19.5312 (19.1295) time: 160.5923 data: 159.9159 max mem: 16906
+Epoch: [4] [0/7] eta: 0:18:45 lr: 0.00171608284 pcs/s: 18.772 loss: 5.5978 (5.7001) acc: 20.3125 (18.8616) time: 160.7313 data: 153.9124 max mem: 16906
+Epoch: [4] [0/7] eta: 0:18:48 lr: 0.00171608284 pcs/s: 8.851 loss: 5.5696 (5.7257) acc: 20.3125 (18.7723) time: 161.2052 data: 146.7427 max mem: 16906
+Epoch: [4] Total time: 0:02:46
+Epoch: [4] Total time: 0:02:47
+Epoch: [4] Total time: 0:02:46
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [4] [0/6] eta: 0:15:08 lr: 0.00175808242 pcs/s: 8.514 loss: 5.6391 (5.7114) acc: 19.5312 (18.8616) time: 151.4023 data: 136.3671 max mem: 16906
+Epoch: [4] [0/6] eta: 0:15:07 lr: 0.00175808242 pcs/s: 303.455 loss: 5.5463 (5.6839) acc: 21.0938 (19.3266) time: 151.2433 data: 150.8210 max mem: 16906
+Epoch: [4] [0/6] eta: 0:15:08 lr: 0.00175808242 pcs/s: 17.580 loss: 5.5667 (5.6886) acc: 19.5312 (18.8430) time: 151.4364 data: 144.1549 max mem: 16906
+Epoch: [4] Total time: 0:02:35
+Epoch: [4] Total time: 0:02:36
+Epoch: [4] Total time: 0:02:36
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [4] [0/7] eta: 0:19:24 lr: 0.0017940820600000002 pcs/s: 65.705 loss: 5.5667 (5.6779) acc: 19.5312 (19.0918) time: 166.3368 data: 164.3882 max mem: 16906Epoch: [4] [0/7] eta: 0:19:29 lr: 0.0017940820600000002 pcs/s: 239.696 loss: 5.5463 (5.6742) acc: 21.0938 (19.4010) time: 167.0819 data: 166.5474 max mem: 16906
+
+Epoch: [4] [0/7] eta: 0:19:29 lr: 0.0017940820600000002 pcs/s: 2.386 loss: 5.6501 (5.6991) acc: 19.5312 (18.8802) time: 167.0162 data: 113.3581 max mem: 16906
+Epoch: [4] Total time: 0:02:54
+Epoch: [4] Total time: 0:02:54
+Epoch: [4] Total time: 0:02:54
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [4] [0/7] eta: 0:19:37 lr: 0.0018360816400000003 pcs/s: 296.819 loss: 5.5667 (5.6583) acc: 18.7500 (19.1903) time: 168.2208 data: 167.7890 max mem: 16906
+Epoch: [4] [0/7] eta: 0:19:38 lr: 0.0018360816400000003 pcs/s: 33.639 loss: 5.5848 (5.6562) acc: 19.5312 (19.6165) time: 168.3637 data: 164.5579 max mem: 16906
+Epoch: [4] [0/7] eta: 0:19:44 lr: 0.0018360816400000003 pcs/s: 9.021 loss: 5.6140 (5.6846) acc: 19.5312 (18.9773) time: 169.2076 data: 155.0175 max mem: 16906
+Epoch: [4] Total time: 0:02:55
+Epoch: [4] Total time: 0:02:54
+Epoch: [4] Total time: 0:02:54
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [4] [0/2] eta: 0:04:18 lr: 0.00187808122 pcs/s: 322.133 loss: 5.5290 (5.6355) acc: 20.3125 (19.8463) time: 129.2661 data: 128.8684 max mem: 16906Epoch: [4] [0/2] eta: 0:04:18 lr: 0.00187808122 pcs/s: 22.669 loss: 5.4656 (5.6440) acc: 21.0938 (19.4304) time: 129.2685 data: 123.6218 max mem: 16906
+Epoch: [4] [0/2] eta: 0:04:19 lr: 0.00187808122 pcs/s: 10.969 loss: 5.6140 (5.6857) acc: 20.3125 (18.8886) time: 129.6427 data: 117.9732 max mem: 16906
+
+Epoch: [4] Total time: 0:02:12Epoch: [4] Total time: 0:02:11
+Epoch: [4] Total time: 0:02:11
+
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 4 is 18.88640873015873
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+total len of whole dataloader: 173
+mean accuray of epoch 4 is 19.828869047619047
+mean accuray of epoch 4 is 19.419642857142858
+Creating data loaders: selected_4_idx_ann_000-000.json
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [5] [0/7] eta: 0:15:46 lr: 0.0018900811 pcs/s: 5.081 loss: 5.8830 (5.8830) acc: 16.4062 (16.4062) time: 135.2294 data: 110.0359 max mem: 16906
+Epoch: [5] [0/7] eta: 0:15:45 lr: 0.0018900811 pcs/s: 298.551 loss: 6.1414 (6.1414) acc: 9.3750 (9.3750) time: 135.1086 data: 134.6794 max mem: 16906
+Epoch: [5] [0/7] eta: 0:15:46 lr: 0.0018900811 pcs/s: 10.909 loss: 5.7649 (5.7649) acc: 17.9688 (17.9688) time: 135.2002 data: 123.4659 max mem: 16906
+Epoch: [5] Total time: 0:02:22
+Epoch: [5] Total time: 0:02:22
+Epoch: [5] Total time: 0:02:22
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [5] [0/6] eta: 0:16:41 lr: 0.0019320806800000002 pcs/s: 299.834 loss: 5.6099 (5.7216) acc: 14.8438 (17.1875) time: 166.8450 data: 166.4176 max mem: 16906Epoch: [5] [0/6] eta: 0:16:47 lr: 0.0019320806800000002 pcs/s: 46.291 loss: 5.6493 (5.6498) acc: 17.9688 (18.2617) time: 167.8725 data: 165.1069 max mem: 16906
+
+Epoch: [5] [0/6] eta: 0:16:47 lr: 0.0019320806800000002 pcs/s: 9.377 loss: 5.7679 (5.8496) acc: 15.6250 (15.2344) time: 167.9840 data: 154.3333 max mem: 16906
+Epoch: [5] Total time: 0:02:52
+Epoch: [5] Total time: 0:02:52
+Epoch: [5] Total time: 0:02:51
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [5] [0/7] eta: 0:20:23 lr: 0.00196808032 pcs/s: 291.172 loss: 5.6299 (5.6249) acc: 19.5312 (19.4754) time: 174.7941 data: 174.3542 max mem: 16906
+Epoch: [5] [0/7] eta: 0:20:30 lr: 0.00196808032 pcs/s: 13.727 loss: 5.6936 (5.7135) acc: 16.4062 (17.5781) time: 175.8389 data: 166.5139 max mem: 16906
+Epoch: [5] [0/7] eta: 0:20:21 lr: 0.00196808032 pcs/s: 24.938 loss: 5.6099 (5.6609) acc: 17.1875 (18.1920) time: 174.5139 data: 169.3807 max mem: 16906
+Epoch: [5] Total time: 0:03:00
+Epoch: [5] Total time: 0:02:59
+Epoch: [5] Total time: 0:02:59
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [5] [0/7] eta: 0:18:50 lr: 0.0020100799000000004 pcs/s: 190.789 loss: 5.5213 (5.5577) acc: 20.3125 (19.5685) time: 161.4739 data: 160.8027 max mem: 16906
+Epoch: [5] [0/7] eta: 0:18:51 lr: 0.0020100799000000004 pcs/s: 5.925 loss: 5.6280 (5.5966) acc: 17.9688 (19.1220) time: 161.6130 data: 140.0089 max mem: 16906
+Epoch: [5] [0/7] eta: 0:18:42 lr: 0.0020100799000000004 pcs/s: 33.045 loss: 5.5446 (5.5481) acc: 20.3125 (20.2753) time: 160.2980 data: 156.4241 max mem: 16906
+Epoch: [5] Total time: 0:02:47
+Epoch: [5] Total time: 0:02:47
+Epoch: [5] Total time: 0:02:46
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [5] [0/7] eta: 0:17:32 lr: 0.00205207948 pcs/s: 149.520 loss: 5.4573 (5.5118) acc: 20.3125 (19.8940) time: 150.3890 data: 149.5325 max mem: 16906Epoch: [5] [0/7] eta: 0:17:32 lr: 0.00205207948 pcs/s: 265.490 loss: 5.4517 (5.5159) acc: 21.0938 (20.2009) time: 150.3797 data: 149.8970 max mem: 16906
+
+Epoch: [5] [0/7] eta: 0:17:32 lr: 0.00205207948 pcs/s: 7.693 loss: 5.4053 (5.5566) acc: 20.3125 (19.5871) time: 150.4019 data: 133.7620 max mem: 16906
+Epoch: [5] Total time: 0:02:45
+Epoch: [5] Total time: 0:02:45
+Epoch: [5] Total time: 0:02:45
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [5] [0/7] eta: 0:20:17 lr: 0.00209407906 pcs/s: 295.425 loss: 5.3970 (5.5090) acc: 21.0938 (19.9330) time: 173.8900 data: 173.4562 max mem: 16906
+Epoch: [5] [0/7] eta: 0:20:18 lr: 0.00209407906 pcs/s: 21.732 loss: 5.3956 (5.4904) acc: 21.0938 (20.5580) time: 174.0923 data: 168.2019 max mem: 16906
+Epoch: [5] [0/7] eta: 0:20:20 lr: 0.00209407906 pcs/s: 2.134 loss: 5.3881 (5.5362) acc: 20.3125 (19.7098) time: 174.4122 data: 114.4258 max mem: 16906
+Epoch: [5] Total time: 0:03:00
+Epoch: [5] Total time: 0:03:00
+Epoch: [5] Total time: 0:03:01
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [5] [0/6] eta: 0:16:46 lr: 0.00213607864 pcs/s: 21.819 loss: 5.4312 (5.5186) acc: 20.3125 (19.8475) time: 167.7441 data: 161.8772 max mem: 16906
+Epoch: [5] [0/6] eta: 0:16:40 lr: 0.00213607864 pcs/s: 112.854 loss: 5.3868 (5.4970) acc: 21.0938 (20.0149) time: 166.7718 data: 165.6371 max mem: 16906
+Epoch: [5] [0/6] eta: 0:16:43 lr: 0.00213607864 pcs/s: 176.517 loss: 5.3656 (5.4745) acc: 21.0938 (20.6101) time: 167.2910 data: 166.5650 max mem: 16906
+Epoch: [5] Total time: 0:02:54Epoch: [5] Total time: 0:02:53
+
+Epoch: [5] Total time: 0:02:54
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [5] [0/7] eta: 0:17:15 lr: 0.0021720782799999998 pcs/s: 29.355 loss: 5.3789 (5.4699) acc: 21.0938 (20.5892) time: 147.9445 data: 143.5837 max mem: 16906
+Epoch: [5] [0/7] eta: 0:17:17 lr: 0.0021720782799999998 pcs/s: 146.990 loss: 5.4312 (5.5054) acc: 20.3125 (19.8893) time: 148.2230 data: 147.3519 max mem: 16906
+Epoch: [5] [0/7] eta: 0:17:13 lr: 0.0021720782799999998 pcs/s: 175.844 loss: 5.3868 (5.4850) acc: 21.0938 (20.2311) time: 147.6111 data: 146.8828 max mem: 16906
+Epoch: [5] Total time: 0:02:37
+Epoch: [5] Total time: 0:02:37
+Epoch: [5] Total time: 0:02:37
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [5] [0/7] eta: 0:17:31 lr: 0.00221407786 pcs/s: 10.805 loss: 5.3751 (5.4677) acc: 21.0938 (20.4261) time: 150.1988 data: 138.3514 max mem: 16906Epoch: [5] [0/7] eta: 0:17:31 lr: 0.00221407786 pcs/s: 208.394 loss: 5.4151 (5.4957) acc: 20.3125 (20.0142) time: 150.2245 data: 149.6098 max mem: 16906
+
+Epoch: [5] [0/7] eta: 0:17:31 lr: 0.00221407786 pcs/s: 48.222 loss: 5.3964 (5.4521) acc: 21.0938 (20.8097) time: 150.1987 data: 147.5439 max mem: 16906
+Epoch: [5] Total time: 0:02:35
+Epoch: [5] Total time: 0:02:35Epoch: [5] Total time: 0:02:35
+
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [5] [0/2] eta: 0:05:04 lr: 0.00225607744 pcs/s: 314.029 loss: 5.3964 (5.4369) acc: 21.0938 (21.0685) time: 152.0328 data: 151.6249 max mem: 16906
+Epoch: [5] [0/2] eta: 0:05:03 lr: 0.00225607744 pcs/s: 19.029 loss: 5.3278 (5.4522) acc: 21.8750 (20.6149) time: 151.8567 data: 145.1297 max mem: 16906
+Epoch: [5] [0/2] eta: 0:05:04 lr: 0.00225607744 pcs/s: 12.158 loss: 5.4151 (5.5015) acc: 21.0938 (19.9471) time: 152.1914 data: 141.6629 max mem: 16906
+Epoch: [5] Total time: 0:02:35
+Epoch: [5] Total time: 0:02:35
+Epoch: [5] Total time: 0:02:35
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 5 is 19.94047619047619
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 5 is 21.044146825396826
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 5 is 20.597718253968253
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [6] [0/7] eta: 0:19:49 lr: 0.0022680773200000003 pcs/s: 183.680 loss: 6.0063 (6.0063) acc: 10.9375 (10.9375) time: 169.9172 data: 169.2200 max mem: 16906
+Epoch: [6] [0/7] eta: 0:19:54 lr: 0.0022680773200000003 pcs/s: 7.153 loss: 5.8987 (5.8987) acc: 15.6250 (15.6250) time: 170.6486 data: 152.7535 max mem: 16906
+Epoch: [6] [0/7] eta: 0:19:46 lr: 0.0022680773200000003 pcs/s: 138.832 loss: 5.7562 (5.7562) acc: 16.4062 (16.4062) time: 169.4401 data: 168.5178 max mem: 16906
+Epoch: [6] Total time: 0:02:57
+Epoch: [6] Total time: 0:02:56
+Epoch: [6] Total time: 0:02:56
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299The size of train data is 2299
+
+sample = len * batch_size =  18 * 128 = 2304sample = len * batch_size =  18 * 128 = 2304
+
+Epoch: [6] [0/6] eta: 0:13:25 lr: 0.0023100769 pcs/s: 181.407 loss: 5.5043 (5.5329) acc: 18.7500 (18.6523) time: 134.2066 data: 133.5006 max mem: 16906
+Epoch: [6] [0/6] eta: 0:13:25 lr: 0.0023100769 pcs/s: 14.348 loss: 5.6206 (5.7067) acc: 16.4062 (15.9180) time: 134.2978 data: 125.3765 max mem: 16906
+Epoch: [6] [0/6] eta: 0:13:25 lr: 0.0023100769 pcs/s: 7.853 loss: 5.4888 (5.5879) acc: 17.1875 (17.8711) time: 134.2068 data: 117.9071 max mem: 16906
+Epoch: [6] Total time: 0:02:24
+Epoch: [6] Total time: 0:02:24
+Epoch: [6] Total time: 0:02:24
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [6] [0/7] eta: 0:17:56 lr: 0.00234607654 pcs/s: 34.813 loss: 5.5249 (5.5766) acc: 18.7500 (18.4710) time: 153.7967 data: 150.1194 max mem: 16906
+Epoch: [6] [0/7] eta: 0:17:56 lr: 0.00234607654 pcs/s: 275.674 loss: 5.4617 (5.4995) acc: 19.5312 (19.6429) time: 153.7236 data: 153.2588 max mem: 16906
+Epoch: [6] [0/7] eta: 0:17:55 lr: 0.00234607654 pcs/s: 51.131 loss: 5.4888 (5.5149) acc: 19.5312 (19.2522) time: 153.6477 data: 151.1439 max mem: 16906
+Epoch: [6] Total time: 0:02:39
+Epoch: [6] Total time: 0:02:39
+Epoch: [6] Total time: 0:02:39
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [6] [0/7] eta: 0:20:49 lr: 0.00238807612 pcs/s: 179.525 loss: 5.3855 (5.4104) acc: 21.0938 (20.5357) time: 178.5512 data: 177.8379 max mem: 16906
+Epoch: [6] [0/7] eta: 0:20:49 lr: 0.00238807612 pcs/s: 5.404 loss: 5.4943 (5.4558) acc: 19.5312 (19.9033) time: 178.5500 data: 154.8641 max mem: 16906
+Epoch: [6] [0/7] eta: 0:20:48 lr: 0.00238807612 pcs/s: 25.418 loss: 5.4080 (5.4245) acc: 20.3125 (20.5357) time: 178.3057 data: 173.2696 max mem: 16906
+Epoch: [6] Total time: 0:03:06
+Epoch: [6] Total time: 0:03:06
+Epoch: [6] Total time: 0:03:06
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [6] [0/7] eta: 0:20:12 lr: 0.0024300757 pcs/s: 7.145 loss: 5.2294 (5.4155) acc: 21.8750 (20.4799) time: 173.1872 data: 155.2713 max mem: 16906
+Epoch: [6] [0/7] eta: 0:20:11 lr: 0.0024300757 pcs/s: 179.053 loss: 5.3134 (5.3812) acc: 21.0938 (20.5915) time: 173.0563 data: 172.3409 max mem: 16906
+Epoch: [6] [0/7] eta: 0:20:11 lr: 0.0024300757 pcs/s: 21.558 loss: 5.3229 (5.3635) acc: 21.8750 (21.0658) time: 173.0164 data: 167.0784 max mem: 16906
+Epoch: [6] Total time: 0:03:00
+Epoch: [6] Total time: 0:03:00
+Epoch: [6] Total time: 0:03:00
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [6] [0/7] eta: 0:16:54 lr: 0.00247207528 pcs/s: 199.949 loss: 5.2950 (5.3613) acc: 21.8750 (20.9152) time: 144.9246 data: 144.2840 max mem: 16906
+Epoch: [6] [0/7] eta: 0:16:46 lr: 0.00247207528 pcs/s: 37.698 loss: 5.2512 (5.3610) acc: 21.0938 (20.9375) time: 143.8424 data: 140.4466 max mem: 16906Epoch: [6] [0/7] eta: 0:16:54 lr: 0.00247207528 pcs/s: 2.686 loss: 5.2411 (5.3998) acc: 23.4375 (20.7366) time: 144.9251 data: 97.2703 max mem: 16906
+
+Epoch: [6] Total time: 0:02:30
+Epoch: [6] Total time: 0:02:30
+Epoch: [6] Total time: 0:02:29
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [6] [0/6] eta: 0:16:28 lr: 0.0025140748600000003 pcs/s: 231.297 loss: 5.2147 (5.3493) acc: 21.0938 (20.8705) time: 164.7621 data: 164.2084 max mem: 16906
+Epoch: [6] [0/6] eta: 0:16:27 lr: 0.0025140748600000003 pcs/s: 31.240 loss: 5.3032 (5.3908) acc: 21.8750 (20.7403) time: 164.6383 data: 160.5406 max mem: 16906
+Epoch: [6] [0/6] eta: 0:16:28 lr: 0.0025140748600000003 pcs/s: 102.505 loss: 5.2950 (5.3518) acc: 21.0938 (20.9077) time: 164.7623 data: 163.5131 max mem: 16906
+Epoch: [6] Total time: 0:02:50
+Epoch: [6] Total time: 0:02:50
+Epoch: [6] Total time: 0:02:49
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [6] [0/7] eta: 0:20:06 lr: 0.0025500745000000004 pcs/s: 294.398 loss: 5.2950 (5.3399) acc: 20.3125 (21.1100) time: 172.3448 data: 171.9096 max mem: 16906
+Epoch: [6] [0/7] eta: 0:20:15 lr: 0.0025500745000000004 pcs/s: 5.577 loss: 5.3032 (5.3776) acc: 21.0938 (20.7194) time: 173.6707 data: 150.7193 max mem: 16906
+Epoch: [6] [0/7] eta: 0:20:15 lr: 0.0025500745000000004 pcs/s: 5.298 loss: 5.2815 (5.3487) acc: 21.0938 (20.8984) time: 173.6926 data: 149.5325 max mem: 16906
+Epoch: [6] Total time: 0:03:01
+Epoch: [6] Total time: 0:03:01
+Epoch: [6] Total time: 0:02:59
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [6] [0/7] eta: 0:19:42 lr: 0.00259207408 pcs/s: 18.410 loss: 5.3052 (5.3353) acc: 20.3125 (21.0795) time: 168.9880 data: 162.0347 max mem: 16906
+Epoch: [6] [0/7] eta: 0:19:33 lr: 0.00259207408 pcs/s: 294.226 loss: 5.2827 (5.3266) acc: 21.0938 (21.2216) time: 167.5726 data: 167.1371 max mem: 16906
+Epoch: [6] [0/7] eta: 0:19:42 lr: 0.00259207408 pcs/s: 6.212 loss: 5.3032 (5.3688) acc: 21.0938 (20.8239) time: 168.9217 data: 148.3164 max mem: 16906
+Epoch: [6] Total time: 0:02:56
+Epoch: [6] Total time: 0:02:56Epoch: [6] Total time: 0:02:55
+
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [6] [0/2] eta: 0:04:50 lr: 0.00263407366 pcs/s: 158.394 loss: 5.1794 (5.3145) acc: 21.8750 (21.3962) time: 145.3788 data: 144.5701 max mem: 16906
+Epoch: [6] [0/2] eta: 0:04:50 lr: 0.00263407366 pcs/s: 3.465 loss: 5.2752 (5.3729) acc: 21.0938 (20.7409) time: 145.3690 data: 108.4303 max mem: 16906
+Epoch: [6] [0/2] eta: 0:04:51 lr: 0.00263407366 pcs/s: 10.469 loss: 5.3052 (5.3215) acc: 21.8750 (21.3332) time: 145.8085 data: 133.5817 max mem: 16906
+Epoch: [6] Total time: 0:02:32
+Epoch: [6] Total time: 0:02:31
+Epoch: [6] Total time: 0:02:31
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 6 is 20.72172619047619
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 6 is 21.30456349206349
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 6 is 21.36656746031746
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [7] [0/7] eta: 0:26:26 lr: 0.00264607354 pcs/s: 8.087 loss: 5.8073 (5.8073) acc: 16.4062 (16.4062) time: 226.6693 data: 210.8416 max mem: 16906
+Epoch: [7] [0/7] eta: 0:26:30 lr: 0.00264607354 pcs/s: 282.945 loss: 5.9566 (5.9566) acc: 10.9375 (10.9375) time: 227.1566 data: 226.7037 max mem: 16906
+Epoch: [7] [0/7] eta: 0:26:30 lr: 0.00264607354 pcs/s: 8.052 loss: 5.5875 (5.5875) acc: 17.1875 (17.1875) time: 227.2603 data: 211.3638 max mem: 16906
+Epoch: [7] Total time: 0:03:56
+Epoch: [7] Total time: 0:03:55
+Epoch: [7] Total time: 0:03:55
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [7] [0/6] eta: 0:19:41 lr: 0.0026880731199999995 pcs/s: 58.580 loss: 5.5256 (5.6325) acc: 17.1875 (16.7969) time: 196.9695 data: 194.7840 max mem: 16906Epoch: [7] [0/6] eta: 0:19:41 lr: 0.0026880731199999995 pcs/s: 57.483 loss: 5.3615 (5.4743) acc: 17.1875 (18.5547) time: 196.9683 data: 194.7411 max mem: 16906
+
+Epoch: [7] [0/6] eta: 0:19:40 lr: 0.0026880731199999995 pcs/s: 152.564 loss: 5.4148 (5.4111) acc: 18.7500 (19.8242) time: 196.7888 data: 195.9491 max mem: 16906
+Epoch: [7] Total time: 0:03:27
+Epoch: [7] Total time: 0:03:27
+Epoch: [7] Total time: 0:03:27
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [7] [0/7] eta: 0:26:23 lr: 0.0027240727599999997 pcs/s: 278.009 loss: 5.3615 (5.4195) acc: 20.3125 (19.8661) time: 226.1697 data: 225.7088 max mem: 16906
+Epoch: [7] [0/7] eta: 0:26:24 lr: 0.0027240727599999997 pcs/s: 147.257 loss: 5.3714 (5.3892) acc: 19.5312 (20.5357) time: 226.3792 data: 225.5094 max mem: 16906
+Epoch: [7] [0/7] eta: 0:26:25 lr: 0.0027240727599999997 pcs/s: 3.827 loss: 5.4274 (5.4954) acc: 17.9688 (19.0290) time: 226.4348 data: 192.9856 max mem: 16906
+Epoch: [7] Total time: 0:03:57Epoch: [7] Total time: 0:03:57
+
+Epoch: [7] Total time: 0:03:57
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [7] [0/7] eta: 0:27:05 lr: 0.0027660723400000004 pcs/s: 9.119 loss: 5.2784 (5.3172) acc: 21.8750 (21.5402) time: 232.2304 data: 218.1934 max mem: 16906Epoch: [7] [0/7] eta: 0:27:05 lr: 0.0027660723400000004 pcs/s: 247.122 loss: 5.2207 (5.3064) acc: 21.8750 (21.2798) time: 232.1926 data: 231.6741 max mem: 16906
+
+Epoch: [7] [0/7] eta: 0:27:06 lr: 0.0027660723400000004 pcs/s: 6.804 loss: 5.3829 (5.3704) acc: 19.5312 (20.3497) time: 232.3866 data: 213.5738 max mem: 16906
+Epoch: [7] Total time: 0:04:02
+Epoch: [7] Total time: 0:04:02
+Epoch: [7] Total time: 0:04:02
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [7] [0/7] eta: 0:25:07 lr: 0.00280807192 pcs/s: 216.525 loss: 5.1645 (5.2546) acc: 23.4375 (21.9866) time: 215.3583 data: 214.7666 max mem: 16906
+Epoch: [7] [0/7] eta: 0:25:08 lr: 0.00280807192 pcs/s: 9.314 loss: 5.1987 (5.2767) acc: 23.4375 (22.0145) time: 215.4854 data: 201.7418 max mem: 16906
+Epoch: [7] [0/7] eta: 0:25:09 lr: 0.00280807192 pcs/s: 16.328 loss: 5.1218 (5.3228) acc: 23.4375 (21.0938) time: 215.6661 data: 207.8263 max mem: 16906
+Epoch: [7] Total time: 0:03:54
+Epoch: [7] Total time: 0:03:54
+Epoch: [7] Total time: 0:03:54
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [7] [0/7] eta: 0:25:08 lr: 0.0028500714999999998 pcs/s: 281.705 loss: 5.1493 (5.2537) acc: 22.6562 (21.7411) time: 215.4935 data: 215.0386 max mem: 16906
+Epoch: [7] [0/7] eta: 0:25:08 lr: 0.0028500714999999998 pcs/s: 6.080 loss: 5.1218 (5.3042) acc: 24.2188 (21.2500) time: 215.4939 data: 194.4393 max mem: 16906
+Epoch: [7] [0/7] eta: 0:25:07 lr: 0.0028500714999999998 pcs/s: 8.089 loss: 5.1394 (5.2525) acc: 23.4375 (22.2768) time: 215.4230 data: 199.5986 max mem: 16906
+Epoch: [7] Total time: 0:03:45
+Epoch: [7] Total time: 0:03:44
+Epoch: [7] Total time: 0:03:45
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [7] [0/6] eta: 0:20:19 lr: 0.00289207108 pcs/s: 283.530 loss: 5.1612 (5.2440) acc: 21.8750 (21.6518) time: 203.2247 data: 202.7728 max mem: 16906
+Epoch: [7] [0/6] eta: 0:20:18 lr: 0.00289207108 pcs/s: 25.614 loss: 5.2055 (5.2873) acc: 21.8750 (21.3542) time: 203.0578 data: 198.0601 max mem: 16906
+Epoch: [7] [0/6] eta: 0:20:19 lr: 0.00289207108 pcs/s: 12.336 loss: 5.1322 (5.2420) acc: 22.6562 (22.0052) time: 203.1908 data: 192.8137 max mem: 16906
+Epoch: [7] Total time: 0:03:31
+Epoch: [7] Total time: 0:03:31
+Epoch: [7] Total time: 0:03:31
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [7] [0/7] eta: 0:25:17 lr: 0.0029280707200000002 pcs/s: 60.358 loss: 5.1656 (5.2424) acc: 21.8750 (22.0540) time: 216.7503 data: 214.6292 max mem: 16906Epoch: [7] [0/7] eta: 0:25:18 lr: 0.0029280707200000002 pcs/s: 282.724 loss: 5.1612 (5.2346) acc: 21.0938 (21.7611) time: 216.9562 data: 216.5030 max mem: 16906
+
+Epoch: [7] [0/7] eta: 0:25:17 lr: 0.0029280707200000002 pcs/s: 7.007 loss: 5.2064 (5.2700) acc: 21.0938 (21.4681) time: 216.7878 data: 198.5183 max mem: 16906
+Epoch: [7] Total time: 0:03:50
+Epoch: [7] Total time: 0:03:50
+Epoch: [7] Total time: 0:03:50
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [7] [0/7] eta: 0:24:41 lr: 0.0029700703 pcs/s: 279.900 loss: 5.1516 (5.2181) acc: 21.0938 (21.9318) time: 211.5822 data: 211.1244 max mem: 16906
+Epoch: [7] [0/7] eta: 0:24:41 lr: 0.0029700703 pcs/s: 26.322 loss: 5.1686 (5.2282) acc: 21.0938 (22.2869) time: 211.5919 data: 206.7281 max mem: 16906
+Epoch: [7] [0/7] eta: 0:24:41 lr: 0.0029700703 pcs/s: 5.019 loss: 5.2233 (5.2629) acc: 21.0938 (21.5057) time: 211.6025 data: 186.0985 max mem: 16906
+Epoch: [7] Total time: 0:03:40
+Epoch: [7] Total time: 0:03:40
+Epoch: [7] Total time: 0:03:40
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [7] [0/2] eta: 0:06:07 lr: 0.00301206988 pcs/s: 130.290 loss: 5.1656 (5.2138) acc: 21.8750 (22.3412) time: 183.8615 data: 182.8786 max mem: 16906
+Epoch: [7] [0/2] eta: 0:06:07 lr: 0.00301206988 pcs/s: 281.678 loss: 5.0906 (5.2080) acc: 23.4375 (22.1648) time: 183.8627 data: 183.4079 max mem: 16906
+Epoch: [7] [0/2] eta: 0:06:07 lr: 0.00301206988 pcs/s: 24.899 loss: 5.2414 (5.2696) acc: 21.0938 (21.3206) time: 183.8689 data: 178.7277 max mem: 16906
+Epoch: [7] Total time: 0:03:11
+Epoch: [7] Total time: 0:03:11
+Epoch: [7] Total time: 0:03:11
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()del dataset selected_4_idx_ann_000-009.json and collect()
+
+total len of whole dataloader: 173
+mean accuray of epoch 7 is 21.30456349206349
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 7 is 22.333829365079364
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 7 is 22.11061507936508
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [8] [0/7] eta: 0:24:37 lr: 0.00302406976 pcs/s: 27.600 loss: 5.8085 (5.8085) acc: 13.2812 (13.2812) time: 211.0742 data: 206.4360 max mem: 16906
+Epoch: [8] [0/7] eta: 0:24:38 lr: 0.00302406976 pcs/s: 59.750 loss: 5.7402 (5.7402) acc: 17.1875 (17.1875) time: 211.1954 data: 209.0527 max mem: 16906Epoch: [8] [0/7] eta: 0:24:38 lr: 0.00302406976 pcs/s: 161.168 loss: 5.5026 (5.5026) acc: 17.1875 (17.1875) time: 211.1603 data: 210.3657 max mem: 16906
+
+Epoch: [8] Total time: 0:03:42Epoch: [8] Total time: 0:03:42
+
+Epoch: [8] Total time: 0:03:42
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.jsonCreating data loaders: selected_4_idx_ann_000-001.json
+
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [8] [0/6] eta: 0:19:18 lr: 0.00306606934 pcs/s: 13.633 loss: 5.3984 (5.5096) acc: 17.9688 (17.7734) time: 193.0698 data: 183.6806 max mem: 16906Epoch: [8] [0/6] eta: 0:19:18 lr: 0.00306606934 pcs/s: 263.294 loss: 5.3358 (5.3307) acc: 19.5312 (20.3125) time: 193.0436 data: 192.5569 max mem: 16906Epoch: [8] [0/6] eta: 0:19:18 lr: 0.00306606934 pcs/s: 57.189 loss: 5.2624 (5.3762) acc: 19.5312 (19.5312) time: 193.0941 data: 190.8554 max mem: 16906
+
+
+Epoch: [8] Total time: 0:03:22
+Epoch: [8] Total time: 0:03:22
+Epoch: [8] Total time: 0:03:22
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [8] [0/7] eta: 0:25:39 lr: 0.0031020689799999995 pcs/s: 26.047 loss: 5.3561 (5.3869) acc: 20.3125 (19.6987) time: 219.9990 data: 215.0843 max mem: 16906Epoch: [8] [0/7] eta: 0:25:43 lr: 0.0031020689799999995 pcs/s: 18.399 loss: 5.2624 (5.3119) acc: 19.5312 (20.4799) time: 220.4743 data: 213.5169 max mem: 16906Epoch: [8] [0/7] eta: 0:25:41 lr: 0.0031020689799999995 pcs/s: 269.088 loss: 5.2994 (5.2951) acc: 21.0938 (21.3170) time: 220.2809 data: 219.8047 max mem: 16906
+
+
+Epoch: [8] Total time: 0:03:58Epoch: [8] Total time: 0:03:58
+
+Epoch: [8] Total time: 0:03:58
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [8] [0/7] eta: 0:27:06 lr: 0.0031440685600000002 pcs/s: 8.238 loss: 5.2374 (5.2631) acc: 20.3125 (21.3170) time: 232.3427 data: 216.8040 max mem: 16906Epoch: [8] [0/7] eta: 0:27:06 lr: 0.0031440685600000002 pcs/s: 270.918 loss: 5.2065 (5.2236) acc: 22.6562 (22.2098) time: 232.3235 data: 231.8506 max mem: 16906
+
+Epoch: [8] [0/7] eta: 0:27:04 lr: 0.0031440685600000002 pcs/s: 51.478 loss: 5.1155 (5.2123) acc: 21.8750 (21.4286) time: 232.0676 data: 229.5807 max mem: 16906
+Epoch: [8] Total time: 0:04:02Epoch: [8] Total time: 0:04:03
+
+Epoch: [8] Total time: 0:04:03
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [8] [0/7] eta: 0:27:02 lr: 0.00318606814 pcs/s: 177.415 loss: 5.0532 (5.1559) acc: 22.6562 (22.0982) time: 231.8351 data: 231.1132 max mem: 16906
+Epoch: [8] [0/7] eta: 0:27:04 lr: 0.00318606814 pcs/s: 10.584 loss: 5.1002 (5.1851) acc: 23.4375 (22.6283) time: 232.0118 data: 219.9181 max mem: 16906
+Epoch: [8] [0/7] eta: 0:27:04 lr: 0.00318606814 pcs/s: 9.558 loss: 5.0623 (5.2190) acc: 24.2188 (21.8750) time: 232.0255 data: 218.6331 max mem: 16906
+Epoch: [8] Total time: 0:04:06
+Epoch: [8] Total time: 0:04:06
+Epoch: [8] Total time: 0:04:05
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [8] [0/7] eta: 0:28:06 lr: 0.0032280677199999996 pcs/s: 177.604 loss: 5.0472 (5.1605) acc: 22.6562 (22.0982) time: 240.9575 data: 240.2363 max mem: 16906
+Epoch: [8] [0/7] eta: 0:28:06 lr: 0.0032280677199999996 pcs/s: 12.213 loss: 5.0567 (5.1605) acc: 23.4375 (22.7679) time: 240.9619 data: 230.4811 max mem: 16906
+Epoch: [8] [0/7] eta: 0:28:06 lr: 0.0032280677199999996 pcs/s: 9.233 loss: 5.0623 (5.2039) acc: 24.2188 (22.0089) time: 240.9909 data: 227.1268 max mem: 16906
+Epoch: [8] Total time: 0:04:18
+Epoch: [8] Total time: 0:04:18
+Epoch: [8] Total time: 0:04:18
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [8] [0/6] eta: 0:19:42 lr: 0.0032700673000000003 pcs/s: 171.390 loss: 5.0567 (5.1559) acc: 22.6562 (22.5260) time: 197.0742 data: 196.3270 max mem: 16906
+Epoch: [8] [0/6] eta: 0:19:42 lr: 0.0032700673000000003 pcs/s: 10.764 loss: 5.0868 (5.1929) acc: 22.6562 (22.0052) time: 197.0952 data: 185.2034 max mem: 16906
+Epoch: [8] [0/6] eta: 0:19:40 lr: 0.0032700673000000003 pcs/s: 17.477 loss: 5.0359 (5.1521) acc: 21.8750 (21.9308) time: 196.6917 data: 189.3672 max mem: 16906
+Epoch: [8] Total time: 0:03:26
+Epoch: [8] Total time: 0:03:26
+Epoch: [8] Total time: 0:03:25
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [8] [0/7] eta: 0:26:17 lr: 0.00330606694 pcs/s: 258.999 loss: 5.0629 (5.1548) acc: 22.6562 (22.5098) time: 225.3691 data: 224.8745 max mem: 16906Epoch: [8] [0/7] eta: 0:26:14 lr: 0.00330606694 pcs/s: 3.918 loss: 5.1218 (5.1481) acc: 21.0938 (22.0703) time: 224.8625 data: 192.1912 max mem: 16906
+
+Epoch: [8] [0/7] eta: 0:26:17 lr: 0.00330606694 pcs/s: 21.627 loss: 5.0903 (5.1769) acc: 21.8750 (22.0866) time: 225.4231 data: 219.5040 max mem: 16906
+Epoch: [8] Total time: 0:03:55Epoch: [8] Total time: 0:03:55Epoch: [8] Total time: 0:03:55
+
+
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [8] [0/7] eta: 0:27:16 lr: 0.00334806652 pcs/s: 245.041 loss: 5.1328 (5.1689) acc: 21.0938 (22.1023) time: 233.7751 data: 233.2523 max mem: 16906
+Epoch: [8] [0/7] eta: 0:27:15 lr: 0.00334806652 pcs/s: 6.663 loss: 5.0737 (5.1323) acc: 21.0938 (22.2585) time: 233.6874 data: 214.4776 max mem: 16906
+Epoch: [8] [0/7] eta: 0:27:16 lr: 0.00334806652 pcs/s: 9.358 loss: 5.0837 (5.1427) acc: 21.8750 (22.5426) time: 233.7307 data: 220.0522 max mem: 16906
+Epoch: [8] Total time: 0:04:04
+Epoch: [8] Total time: 0:04:04
+Epoch: [8] Total time: 0:04:04
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [8] [0/2] eta: 0:06:22 lr: 0.0033900661000000006 pcs/s: 11.296 loss: 5.1380 (5.1746) acc: 21.0938 (21.9632) time: 191.1745 data: 179.8423 max mem: 16906Epoch: [8] [0/2] eta: 0:06:22 lr: 0.0033900661000000006 pcs/s: 29.585 loss: 4.9804 (5.1175) acc: 23.4375 (22.4420) time: 191.1190 data: 186.7921 max mem: 16906
+
+Epoch: [8] [0/2] eta: 0:06:22 lr: 0.0033900661000000006 pcs/s: 168.140 loss: 5.0476 (5.1299) acc: 21.8750 (22.6058) time: 191.1223 data: 190.3605 max mem: 16906
+Epoch: [8] Total time: 0:03:20
+Epoch: [8] Total time: 0:03:20
+Epoch: [8] Total time: 0:03:20
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 8 is 22.433035714285715
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 8 is 22.59424603174603
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 8 is 21.949404761904763
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [9] [0/7] eta: 0:26:16 lr: 0.0034020659800000005 pcs/s: 159.613 loss: 5.4616 (5.4616) acc: 17.1875 (17.1875) time: 225.1698 data: 224.3674 max mem: 16906
+Epoch: [9] [0/7] eta: 0:26:18 lr: 0.0034020659800000005 pcs/s: 33.121 loss: 5.6567 (5.6567) acc: 14.0625 (14.0625) time: 225.4300 data: 221.5650 max mem: 16906
+Epoch: [9] [0/7] eta: 0:26:16 lr: 0.0034020659800000005 pcs/s: 19.174 loss: 5.6150 (5.6150) acc: 17.1875 (17.1875) time: 225.1712 data: 218.4948 max mem: 16906
+Epoch: [9] Total time: 0:03:57
+Epoch: [9] Total time: 0:03:57
+Epoch: [9] Total time: 0:03:57
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [9] [0/6] eta: 0:19:16 lr: 0.00344406556 pcs/s: 36.252 loss: 5.2283 (5.2623) acc: 18.7500 (19.6289) time: 192.6992 data: 189.1677 max mem: 16906
+Epoch: [9] [0/6] eta: 0:19:17 lr: 0.00344406556 pcs/s: 33.972 loss: 5.3473 (5.4126) acc: 17.9688 (17.9688) time: 192.8645 data: 189.0958 max mem: 16906
+Epoch: [9] [0/6] eta: 0:19:18 lr: 0.00344406556 pcs/s: 158.042 loss: 5.1379 (5.2846) acc: 17.1875 (19.1406) time: 193.0120 data: 192.2016 max mem: 16906
+Epoch: [9] Total time: 0:03:30
+Epoch: [9] Total time: 0:03:30
+Epoch: [9] Total time: 0:03:30
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [9] [0/7] eta: 0:26:22 lr: 0.0034800652 pcs/s: 249.509 loss: 5.2286 (5.2929) acc: 19.5312 (19.9219) time: 226.1111 data: 225.5976 max mem: 16906
+Epoch: [9] [0/7] eta: 0:26:22 lr: 0.0034800652 pcs/s: 20.237 loss: 5.1972 (5.2274) acc: 21.0938 (20.6473) time: 226.0743 data: 219.7486 max mem: 16906
+Epoch: [9] [0/7] eta: 0:26:21 lr: 0.0034800652 pcs/s: 19.837 loss: 5.2166 (5.2270) acc: 19.5312 (20.4799) time: 225.8864 data: 219.4331 max mem: 16906
+Epoch: [9] Total time: 0:03:56
+Epoch: [9] Total time: 0:03:56
+Epoch: [9] Total time: 0:03:56
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [9] [0/7] eta: 0:25:54 lr: 0.00352206478 pcs/s: 9.671 loss: 5.0834 (5.1262) acc: 21.8750 (22.1726) time: 222.0531 data: 208.8167 max mem: 16906
+Epoch: [9] [0/7] eta: 0:25:55 lr: 0.00352206478 pcs/s: 169.161 loss: 5.1679 (5.1718) acc: 21.0938 (21.6518) time: 222.2045 data: 221.4473 max mem: 16906
+Epoch: [9] [0/7] eta: 0:25:49 lr: 0.00352206478 pcs/s: 8.248 loss: 5.1521 (5.1519) acc: 21.0938 (21.7634) time: 221.3192 data: 205.7994 max mem: 16906
+Epoch: [9] Total time: 0:03:56
+Epoch: [9] Total time: 0:03:55
+Epoch: [9] Total time: 0:03:56
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [9] [0/7] eta: 0:24:51 lr: 0.00356406436 pcs/s: 260.990 loss: 5.0164 (5.1091) acc: 24.2188 (22.3772) time: 213.0387 data: 212.5478 max mem: 16906
+Epoch: [9] [0/7] eta: 0:24:51 lr: 0.00356406436 pcs/s: 12.969 loss: 4.9442 (5.1235) acc: 24.2188 (22.4051) time: 213.0072 data: 203.1369 max mem: 16906
+Epoch: [9] [0/7] eta: 0:24:51 lr: 0.00356406436 pcs/s: 79.458 loss: 4.9724 (5.0749) acc: 22.6562 (22.7121) time: 213.0839 data: 211.4725 max mem: 16906
+Epoch: [9] Total time: 0:03:46
+Epoch: [9] Total time: 0:03:46
+Epoch: [9] Total time: 0:03:46
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [9] [0/7] eta: 0:26:26 lr: 0.00360606394 pcs/s: 16.208 loss: 4.9962 (5.1154) acc: 25.0000 (22.5670) time: 226.5883 data: 218.6904 max mem: 16906
+Epoch: [9] [0/7] eta: 0:26:26 lr: 0.00360606394 pcs/s: 11.599 loss: 4.9578 (5.0724) acc: 23.4375 (22.6339) time: 226.5870 data: 215.5507 max mem: 16906
+Epoch: [9] [0/7] eta: 0:26:26 lr: 0.00360606394 pcs/s: 261.020 loss: 4.9907 (5.0863) acc: 24.2188 (22.6562) time: 226.6440 data: 226.1531 max mem: 16906
+Epoch: [9] Total time: 0:04:02
+Epoch: [9] Total time: 0:04:02
+Epoch: [9] Total time: 0:04:02
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303The size of train data is 2303
+
+sample = len * batch_size =  18 * 128 = 2304sample = len * batch_size =  18 * 128 = 2304
+
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [9] [0/6] eta: 0:19:38 lr: 0.00364806352 pcs/s: 165.685 loss: 5.0181 (5.1008) acc: 23.4375 (22.5818) time: 196.3691 data: 195.5960 max mem: 16906Epoch: [9] [0/6] eta: 0:19:38 lr: 0.00364806352 pcs/s: 96.486 loss: 5.0074 (5.0787) acc: 22.6562 (22.5818) time: 196.3691 data: 195.0419 max mem: 16906Epoch: [9] [0/6] eta: 0:19:38 lr: 0.00364806352 pcs/s: 27.826 loss: 4.9578 (5.0626) acc: 22.6562 (22.5260) time: 196.3466 data: 191.7462 max mem: 16906
+
+
+Epoch: [9] Total time: 0:03:28
+Epoch: [9] Total time: 0:03:28
+Epoch: [9] Total time: 0:03:28
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [9] [0/7] eta: 0:23:31 lr: 0.0036840631600000002 pcs/s: 9.753 loss: 5.0181 (5.0832) acc: 23.4375 (22.7865) time: 201.6570 data: 188.5330 max mem: 16906
+Epoch: [9] [0/7] eta: 0:23:30 lr: 0.0036840631600000002 pcs/s: 218.128 loss: 5.0074 (5.0760) acc: 22.6562 (22.6400) time: 201.5452 data: 200.9578 max mem: 16906
+Epoch: [9] [0/7] eta: 0:23:31 lr: 0.0036840631600000002 pcs/s: 74.448 loss: 5.0042 (5.0581) acc: 21.8750 (22.7539) time: 201.6619 data: 199.9421 max mem: 16906
+Epoch: [9] Total time: 0:03:33Epoch: [9] Total time: 0:03:33
+Epoch: [9] Total time: 0:03:33
+
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [9] [0/7] eta: 0:26:40 lr: 0.0037260627399999997 pcs/s: 51.457 loss: 4.9912 (5.0771) acc: 23.4375 (22.7841) time: 228.6427 data: 226.1546 max mem: 16906Epoch: [9] [0/7] eta: 0:26:41 lr: 0.0037260627399999997 pcs/s: 14.001 loss: 5.0022 (5.0601) acc: 22.6562 (22.8409) time: 228.7164 data: 219.5739 max mem: 16906
+
+Epoch: [9] [0/7] eta: 0:26:40 lr: 0.0037260627399999997 pcs/s: 276.513 loss: 4.9475 (5.0408) acc: 21.8750 (22.8125) time: 228.6616 data: 228.1978 max mem: 16906
+Epoch: [9] Total time: 0:04:06
+Epoch: [9] Total time: 0:04:06
+Epoch: [9] Total time: 0:04:06
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499The size of train data is 499
+
+sample = len * batch_size =  4 * 128 = 512sample = len * batch_size =  4 * 128 = 512
+
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [9] [0/2] eta: 0:06:21 lr: 0.0037680623200000004 pcs/s: 242.240 loss: 4.9723 (5.0466) acc: 23.4375 (22.9965) time: 190.6505 data: 190.1216 max mem: 16906
+Epoch: [9] [0/2] eta: 0:06:21 lr: 0.0037680623200000004 pcs/s: 31.993 loss: 4.9912 (5.0836) acc: 22.6562 (22.5806) time: 190.6311 data: 186.6297 max mem: 16906
+Epoch: [9] [0/2] eta: 0:06:21 lr: 0.0037680623200000004 pcs/s: 37.724 loss: 4.9184 (5.0294) acc: 24.2188 (22.9335) time: 190.6507 data: 187.2571 max mem: 16906
+Epoch: [9] Total time: 0:03:19
+Epoch: [9] Total time: 0:03:19
+Epoch: [9] Total time: 0:03:19
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 9 is 22.569444444444443
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 9 is 22.904265873015873
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 9 is 23.015873015873016
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [10] [0/7] eta: 0:26:13 lr: 0.0037800622000000003 pcs/s: 99.908 loss: 5.6833 (5.6833) acc: 12.5000 (12.5000) time: 224.7741 data: 223.4925 max mem: 16906
+Epoch: [10] [0/7] eta: 0:26:13 lr: 0.0037800622000000003 pcs/s: 36.162 loss: 5.4959 (5.4959) acc: 17.1875 (17.1875) time: 224.7291 data: 221.1891 max mem: 16906
+Epoch: [10] [0/7] eta: 0:26:12 lr: 0.0037800622000000003 pcs/s: 169.964 loss: 5.3167 (5.3167) acc: 17.1875 (17.1875) time: 224.6658 data: 223.9122 max mem: 16906
+Epoch: [10] Total time: 0:03:59
+Epoch: [10] Total time: 0:03:59Epoch: [10] Total time: 0:03:59
+
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [10] [0/6] eta: 0:20:59 lr: 0.00382206178 pcs/s: 29.008 loss: 5.1887 (5.1842) acc: 18.7500 (20.1172) time: 209.8437 data: 205.4305 max mem: 16906
+Epoch: [10] [0/6] eta: 0:20:58 lr: 0.00382206178 pcs/s: 19.542 loss: 5.0642 (5.2245) acc: 19.5312 (19.8242) time: 209.8245 data: 203.2738 max mem: 16906Epoch: [10] [0/6] eta: 0:20:59 lr: 0.00382206178 pcs/s: 230.530 loss: 5.2665 (5.3445) acc: 19.5312 (19.2383) time: 209.8772 data: 209.3214 max mem: 16906
+
+Epoch: [10] Total time: 0:03:41
+Epoch: [10] Total time: 0:03:41
+Epoch: [10] Total time: 0:03:41
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [10] [0/7] eta: 0:23:50 lr: 0.00385806142 pcs/s: 227.188 loss: 5.2126 (5.2281) acc: 21.0938 (20.9821) time: 204.3489 data: 203.7850 max mem: 16906
+Epoch: [10] [0/7] eta: 0:23:50 lr: 0.00385806142 pcs/s: 18.571 loss: 5.1200 (5.1461) acc: 21.0938 (21.6518) time: 204.3174 data: 197.4246 max mem: 16906
+Epoch: [10] [0/7] eta: 0:23:50 lr: 0.00385806142 pcs/s: 45.403 loss: 5.1558 (5.1551) acc: 21.0938 (21.3170) time: 204.3510 data: 201.5312 max mem: 16906
+Epoch: [10] Total time: 0:03:44Epoch: [10] Total time: 0:03:44
+
+Epoch: [10] Total time: 0:03:44
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [10] [0/7] eta: 0:24:04 lr: 0.0039000610000000002 pcs/s: 19.296 loss: 5.0806 (5.0782) acc: 23.4375 (22.6190) time: 206.3000 data: 199.6660 max mem: 16906Epoch: [10] [0/7] eta: 0:24:04 lr: 0.0039000610000000002 pcs/s: 243.340 loss: 4.9618 (5.0489) acc: 23.4375 (22.9167) time: 206.4017 data: 205.8751 max mem: 16906
+
+Epoch: [10] [0/7] eta: 0:24:04 lr: 0.0039000610000000002 pcs/s: 12.534 loss: 5.1201 (5.0994) acc: 21.8750 (22.5074) time: 206.4095 data: 196.1964 max mem: 16906
+Epoch: [10] Total time: 0:03:41
+Epoch: [10] Total time: 0:03:41
+Epoch: [10] Total time: 0:03:41
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [10] [0/7] eta: 0:26:58 lr: 0.00394206058 pcs/s: 40.775 loss: 4.9042 (4.9990) acc: 25.0000 (23.4375) time: 231.2709 data: 228.1312 max mem: 16906
+Epoch: [10] [0/7] eta: 0:26:58 lr: 0.00394206058 pcs/s: 232.277 loss: 4.9238 (5.0304) acc: 24.2188 (23.1585) time: 231.2711 data: 230.7195 max mem: 16906
+Epoch: [10] [0/7] eta: 0:27:00 lr: 0.00394206058 pcs/s: 12.390 loss: 4.9050 (5.0638) acc: 23.4375 (22.8237) time: 231.4382 data: 221.1064 max mem: 16906
+Epoch: [10] Total time: 0:04:10
+Epoch: [10] Total time: 0:04:09
+Epoch: [10] Total time: 0:04:09
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [10] [0/7] eta: 0:28:10 lr: 0.0039840601599999996 pcs/s: 255.646 loss: 4.8902 (4.9991) acc: 25.0000 (23.3482) time: 241.5624 data: 241.0612 max mem: 16906
+Epoch: [10] [0/7] eta: 0:28:10 lr: 0.0039840601599999996 pcs/s: 12.853 loss: 4.8717 (5.0045) acc: 24.2188 (23.2589) time: 241.5336 data: 231.5744 max mem: 16906
+Epoch: [10] [0/7] eta: 0:28:11 lr: 0.0039840601599999996 pcs/s: 4.065 loss: 4.9050 (5.0507) acc: 24.2188 (22.9018) time: 241.6050 data: 210.1180 max mem: 16906
+Epoch: [10] Total time: 0:04:12
+Epoch: [10] Total time: 0:04:12Epoch: [10] Total time: 0:04:12
+
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [10] [0/6] eta: 0:20:28 lr: 0.004026059740000001 pcs/s: 164.905 loss: 4.9162 (4.9996) acc: 23.4375 (23.0283) time: 204.8096 data: 204.0329 max mem: 16906Epoch: [10] [0/6] eta: 0:20:28 lr: 0.004026059740000001 pcs/s: 282.122 loss: 4.9042 (4.9904) acc: 23.4375 (23.0283) time: 204.7655 data: 204.3113 max mem: 16906
+
+Epoch: [10] [0/6] eta: 0:20:27 lr: 0.004026059740000001 pcs/s: 49.700 loss: 4.9209 (5.0364) acc: 22.6562 (22.8051) time: 204.6420 data: 202.0660 max mem: 16906
+Epoch: [10] Total time: 0:03:35
+Epoch: [10] Total time: 0:03:36Epoch: [10] Total time: 0:03:36
+
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [10] [0/7] eta: 0:25:47 lr: 0.00406205938 pcs/s: 247.643 loss: 4.9243 (5.0210) acc: 23.4375 (23.1120) time: 221.0494 data: 220.5321 max mem: 16906Epoch: [10] [0/7] eta: 0:25:47 lr: 0.00406205938 pcs/s: 6.288 loss: 4.9373 (4.9961) acc: 22.6562 (23.0306) time: 221.0242 data: 200.6689 max mem: 16906Epoch: [10] [0/7] eta: 0:25:46 lr: 0.00406205938 pcs/s: 25.506 loss: 4.9228 (4.9840) acc: 23.4375 (23.2747) time: 220.9834 data: 215.9643 max mem: 16906
+
+
+Epoch: [10] Total time: 0:03:54
+Epoch: [10] Total time: 0:03:54Epoch: [10] Total time: 0:03:54
+
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [10] [0/7] eta: 0:26:18 lr: 0.00410405896 pcs/s: 8.119 loss: 4.8752 (4.9686) acc: 23.4375 (23.4233) time: 225.4716 data: 209.7052 max mem: 16906Epoch: [10] [0/7] eta: 0:26:16 lr: 0.00410405896 pcs/s: 270.923 loss: 4.9373 (4.9870) acc: 22.6562 (23.2244) time: 225.2444 data: 224.7713 max mem: 16906
+
+Epoch: [10] [0/7] eta: 0:26:18 lr: 0.00410405896 pcs/s: 4.943 loss: 4.9209 (5.0137) acc: 22.6562 (23.1250) time: 225.4798 data: 199.5633 max mem: 16906
+Epoch: [10] Total time: 0:03:57
+Epoch: [10] Total time: 0:03:57
+Epoch: [10] Total time: 0:03:57
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [10] [0/2] eta: 0:06:25 lr: 0.004146058540000001 pcs/s: 126.205 loss: 4.8649 (4.9550) acc: 24.2188 (23.5257) time: 192.8310 data: 191.8163 max mem: 16906
+Epoch: [10] [0/2] eta: 0:06:25 lr: 0.004146058540000001 pcs/s: 65.294 loss: 4.8970 (4.9753) acc: 23.4375 (23.4375) time: 192.8432 data: 190.8823 max mem: 16906
+Epoch: [10] [0/2] eta: 0:06:25 lr: 0.004146058540000001 pcs/s: 193.392 loss: 4.9822 (5.0198) acc: 22.6562 (22.9839) time: 192.6951 data: 192.0326 max mem: 16906
+Epoch: [10] Total time: 0:03:22
+Epoch: [10] Total time: 0:03:22
+Epoch: [10] Total time: 0:03:22
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 10 is 23.40029761904762
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 10 is 23.536706349206348
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 10 is 22.953869047619047
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [11] [0/7] eta: 0:27:17 lr: 0.00415805842 pcs/s: 240.724 loss: 5.2812 (5.2812) acc: 18.7500 (18.7500) time: 233.9804 data: 233.4481 max mem: 16906
+Epoch: [11] [0/7] eta: 0:27:17 lr: 0.00415805842 pcs/s: 3.090 loss: 5.5906 (5.5906) acc: 11.7188 (11.7188) time: 233.9748 data: 192.5524 max mem: 16906
+Epoch: [11] [0/7] eta: 0:27:17 lr: 0.00415805842 pcs/s: 20.696 loss: 5.4489 (5.4489) acc: 17.9688 (17.9688) time: 233.9914 data: 227.8062 max mem: 16906
+Epoch: [11] Total time: 0:04:07Epoch: [11] Total time: 0:04:07
+
+Epoch: [11] Total time: 0:04:07
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [11] [0/6] eta: 0:21:15 lr: 0.004200058 pcs/s: 29.336 loss: 5.1016 (5.1120) acc: 20.3125 (21.6797) time: 212.5708 data: 208.2070 max mem: 16906Epoch: [11] [0/6] eta: 0:21:15 lr: 0.004200058 pcs/s: 165.923 loss: 5.1995 (5.2870) acc: 18.7500 (18.7500) time: 212.5952 data: 211.8232 max mem: 16906
+
+Epoch: [11] [0/6] eta: 0:21:15 lr: 0.004200058 pcs/s: 26.008 loss: 5.0297 (5.1602) acc: 18.7500 (20.1172) time: 212.6137 data: 207.6914 max mem: 16906
+Epoch: [11] Total time: 0:03:45
+Epoch: [11] Total time: 0:03:46
+Epoch: [11] Total time: 0:03:46
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [11] [0/7] eta: 0:27:18 lr: 0.00423605764 pcs/s: 264.230 loss: 5.0782 (5.0946) acc: 21.8750 (22.3772) time: 234.0442 data: 233.5594 max mem: 16906
+Epoch: [11] [0/7] eta: 0:27:17 lr: 0.00423605764 pcs/s: 7.800 loss: 5.1131 (5.1069) acc: 22.6562 (21.3728) time: 233.9375 data: 217.5278 max mem: 16906Epoch: [11] [0/7] eta: 0:27:18 lr: 0.00423605764 pcs/s: 19.959 loss: 5.1477 (5.1583) acc: 21.0938 (21.1496) time: 234.0634 data: 227.6499 max mem: 16906
+
+Epoch: [11] Total time: 0:04:10
+Epoch: [11] Total time: 0:04:10
+Epoch: [11] Total time: 0:04:10
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327The size of train data is 2327
+
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [11] [0/7] eta: 0:26:53 lr: 0.00427805722 pcs/s: 266.782 loss: 5.0325 (5.0180) acc: 23.4375 (23.2887) time: 230.5606 data: 230.0803 max mem: 16906Epoch: [11] [0/7] eta: 0:26:53 lr: 0.00427805722 pcs/s: 7.324 loss: 4.9004 (4.9904) acc: 23.4375 (22.9539) time: 230.5606 data: 213.0822 max mem: 16906
+
+Epoch: [11] [0/7] eta: 0:26:53 lr: 0.00427805722 pcs/s: 5.791 loss: 5.0154 (5.0415) acc: 21.8750 (22.5446) time: 230.5626 data: 208.4580 max mem: 16906
+Epoch: [11] Total time: 0:04:03
+Epoch: [11] Total time: 0:04:03
+Epoch: [11] Total time: 0:04:03
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [11] [0/7] eta: 0:26:22 lr: 0.0043200568 pcs/s: 226.573 loss: 4.9075 (4.9641) acc: 23.4375 (23.7723) time: 226.1335 data: 225.5681 max mem: 16906
+Epoch: [11] [0/7] eta: 0:26:23 lr: 0.0043200568 pcs/s: 21.433 loss: 4.7864 (4.9310) acc: 24.2188 (23.6328) time: 226.1438 data: 220.1712 max mem: 16906
+Epoch: [11] [0/7] eta: 0:26:23 lr: 0.0043200568 pcs/s: 20.653 loss: 4.8166 (4.9966) acc: 24.2188 (23.1027) time: 226.1652 data: 219.9665 max mem: 16906
+Epoch: [11] Total time: 0:04:01
+Epoch: [11] Total time: 0:04:01
+Epoch: [11] Total time: 0:04:01
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [11] [0/7] eta: 0:27:13 lr: 0.00436205638 pcs/s: 38.591 loss: 4.7838 (4.9270) acc: 24.2188 (23.5714) time: 233.3769 data: 230.0595 max mem: 16906Epoch: [11] [0/7] eta: 0:27:13 lr: 0.00436205638 pcs/s: 267.239 loss: 4.8384 (4.9396) acc: 25.0000 (23.8393) time: 233.3657 data: 232.8861 max mem: 16906
+
+Epoch: [11] [0/7] eta: 0:27:13 lr: 0.00436205638 pcs/s: 4.111 loss: 4.8155 (4.9740) acc: 25.0000 (23.4152) time: 233.3879 data: 202.2493 max mem: 16906
+Epoch: [11] Total time: 0:04:17
+Epoch: [11] Total time: 0:04:17Epoch: [11] Total time: 0:04:17
+
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [11] [0/6] eta: 0:21:36 lr: 0.00440405596 pcs/s: 261.935 loss: 4.7864 (4.9177) acc: 23.4375 (23.5119) time: 216.0457 data: 215.5566 max mem: 16906
+Epoch: [11] [0/6] eta: 0:21:36 lr: 0.00440405596 pcs/s: 18.888 loss: 4.8384 (4.9330) acc: 23.4375 (23.6235) time: 216.0411 data: 209.2639 max mem: 16906
+Epoch: [11] [0/6] eta: 0:21:36 lr: 0.00440405596 pcs/s: 51.873 loss: 4.8155 (4.9537) acc: 24.2188 (23.4933) time: 216.0458 data: 213.5776 max mem: 16906
+Epoch: [11] Total time: 0:03:50
+Epoch: [11] Total time: 0:03:50
+Epoch: [11] Total time: 0:03:50
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [11] [0/7] eta: 0:26:54 lr: 0.0044400556 pcs/s: 24.685 loss: 4.8302 (4.9082) acc: 22.6562 (23.8281) time: 230.6740 data: 225.4881 max mem: 16906
+Epoch: [11] [0/7] eta: 0:26:54 lr: 0.0044400556 pcs/s: 19.561 loss: 4.8524 (4.9262) acc: 24.2188 (23.6491) time: 230.6439 data: 224.0995 max mem: 16906
+Epoch: [11] [0/7] eta: 0:26:54 lr: 0.0044400556 pcs/s: 231.184 loss: 4.8278 (4.9371) acc: 25.0000 (23.7467) time: 230.6754 data: 230.1210 max mem: 16906
+Epoch: [11] Total time: 0:04:03
+Epoch: [11] Total time: 0:04:03
+Epoch: [11] Total time: 0:04:03
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [11] [0/7] eta: 0:28:37 lr: 0.00448205518 pcs/s: 275.015 loss: 4.8063 (4.8901) acc: 22.6562 (24.0199) time: 245.3917 data: 244.9257 max mem: 16906Epoch: [11] [0/7] eta: 0:28:37 lr: 0.00448205518 pcs/s: 8.979 loss: 4.8524 (4.9142) acc: 23.4375 (23.6932) time: 245.3862 data: 231.1302 max mem: 16906
+
+Epoch: [11] [0/7] eta: 0:28:37 lr: 0.00448205518 pcs/s: 13.059 loss: 4.8278 (4.9280) acc: 24.2188 (23.7784) time: 245.3691 data: 235.5654 max mem: 16906
+Epoch: [11] Total time: 0:04:19
+Epoch: [11] Total time: 0:04:19
+Epoch: [11] Total time: 0:04:19
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499The size of train data is 499
+
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512sample = len * batch_size =  4 * 128 = 512
+
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [11] [0/2] eta: 0:06:36 lr: 0.00452405476 pcs/s: 31.124 loss: 4.8738 (4.9347) acc: 24.2188 (23.6139) time: 198.2054 data: 194.0924 max mem: 16906
+Epoch: [11] [0/2] eta: 0:06:36 lr: 0.00452405476 pcs/s: 79.627 loss: 4.7969 (4.9024) acc: 24.2188 (23.8155) time: 198.2056 data: 196.5975 max mem: 16906
+Epoch: [11] [0/2] eta: 0:06:36 lr: 0.00452405476 pcs/s: 278.745 loss: 4.8085 (4.8811) acc: 24.2188 (24.0423) time: 198.2055 data: 197.7457 max mem: 16906
+Epoch: [11] Total time: 0:03:28Epoch: [11] Total time: 0:03:28
+
+Epoch: [11] Total time: 0:03:28
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 11 is 23.84672619047619
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 11 is 24.0203373015873
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 11 is 23.598710317460316
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [12] [0/7] eta: 0:28:11 lr: 0.00453605464 pcs/s: 235.225 loss: 5.4201 (5.4201) acc: 14.0625 (14.0625) time: 241.6173 data: 241.0726 max mem: 16906
+Epoch: [12] [0/7] eta: 0:28:11 lr: 0.00453605464 pcs/s: 5.236 loss: 5.2022 (5.2022) acc: 16.4062 (16.4062) time: 241.6584 data: 217.2096 max mem: 16906
+Epoch: [12] [0/7] eta: 0:28:09 lr: 0.00453605464 pcs/s: 22.855 loss: 5.4538 (5.4538) acc: 17.1875 (17.1875) time: 241.3789 data: 235.7780 max mem: 16906
+Epoch: [12] Total time: 0:04:17
+Epoch: [12] Total time: 0:04:17
+Epoch: [12] Total time: 0:04:17
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [12] [0/6] eta: 0:21:10 lr: 0.00457805422 pcs/s: 22.604 loss: 5.0455 (5.0431) acc: 20.3125 (21.9727) time: 211.7001 data: 206.0370 max mem: 16906
+Epoch: [12] [0/6] eta: 0:21:08 lr: 0.00457805422 pcs/s: 20.102 loss: 5.1100 (5.2275) acc: 18.7500 (18.5547) time: 211.3802 data: 205.0118 max mem: 16906
+Epoch: [12] [0/6] eta: 0:21:10 lr: 0.00457805422 pcs/s: 248.076 loss: 4.9043 (5.0846) acc: 19.5312 (20.5078) time: 211.6730 data: 211.1547 max mem: 16906
+Epoch: [12] Total time: 0:03:48
+Epoch: [12] Total time: 0:03:48
+Epoch: [12] Total time: 0:03:48
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [12] [0/7] eta: 0:27:48 lr: 0.00461405386 pcs/s: 3.229 loss: 5.0099 (5.0153) acc: 22.6562 (22.1540) time: 238.3143 data: 198.6687 max mem: 16906Epoch: [12] [0/7] eta: 0:27:48 lr: 0.00461405386 pcs/s: 4.305 loss: 4.9640 (5.0051) acc: 22.6562 (23.2701) time: 238.3703 data: 208.6395 max mem: 16906
+
+Epoch: [12] [0/7] eta: 0:27:47 lr: 0.00461405386 pcs/s: 164.805 loss: 5.0781 (5.1131) acc: 21.0938 (20.9263) time: 238.1992 data: 237.4220 max mem: 16906
+Epoch: [12] Total time: 0:04:12
+Epoch: [12] Total time: 0:04:12
+Epoch: [12] Total time: 0:04:12
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327The size of train data is 2327
+
+sample = len * batch_size =  19 * 128 = 2432sample = len * batch_size =  19 * 128 = 2432
+
+The size of train data is 2327
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [12] [0/7] eta: 0:27:44 lr: 0.00465605344 pcs/s: 13.960 loss: 4.8396 (4.9148) acc: 24.2188 (23.8839) time: 237.7874 data: 228.6177 max mem: 16906Epoch: [12] [0/7] eta: 0:27:44 lr: 0.00465605344 pcs/s: 252.668 loss: 4.9898 (4.9901) acc: 21.8750 (22.3586) time: 237.7826 data: 237.2755 max mem: 16906
+
+Epoch: [12] [0/7] eta: 0:27:44 lr: 0.00465605344 pcs/s: 6.566 loss: 4.9129 (4.9383) acc: 23.4375 (23.8095) time: 237.7874 data: 218.2933 max mem: 16906
+Epoch: [12] Total time: 0:04:10
+Epoch: [12] Total time: 0:04:10
+Epoch: [12] Total time: 0:04:10
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [12] [0/7] eta: 0:24:28 lr: 0.00469805302 pcs/s: 253.681 loss: 4.7305 (4.9438) acc: 24.2188 (23.0190) time: 209.8372 data: 209.3321 max mem: 16906
+Epoch: [12] [0/7] eta: 0:24:28 lr: 0.00469805302 pcs/s: 32.614 loss: 4.8236 (4.8871) acc: 25.7812 (24.4141) time: 209.8450 data: 205.9197 max mem: 16906
+Epoch: [12] [0/7] eta: 0:24:28 lr: 0.00469805302 pcs/s: 8.590 loss: 4.7505 (4.8670) acc: 26.5625 (24.6094) time: 209.7749 data: 194.8736 max mem: 16906
+Epoch: [12] Total time: 0:03:42
+Epoch: [12] Total time: 0:03:42
+Epoch: [12] Total time: 0:03:42
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [12] [0/7] eta: 0:26:39 lr: 0.0047400526 pcs/s: 252.770 loss: 4.8006 (4.8643) acc: 25.7812 (24.6652) time: 228.4919 data: 227.9850 max mem: 16906
+Epoch: [12] [0/7] eta: 0:26:39 lr: 0.0047400526 pcs/s: 10.987 loss: 4.7263 (4.9263) acc: 24.2188 (23.2589) time: 228.4695 data: 216.8185 max mem: 16906
+Epoch: [12] [0/7] eta: 0:26:39 lr: 0.0047400526 pcs/s: 4.742 loss: 4.7283 (4.8703) acc: 26.5625 (24.3973) time: 228.5012 data: 201.5103 max mem: 16906
+Epoch: [12] Total time: 0:04:01Epoch: [12] Total time: 0:04:01
+
+Epoch: [12] Total time: 0:04:01
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2303
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [12] [0/6] eta: 0:21:29 lr: 0.00478205218 pcs/s: 168.999 loss: 4.7357 (4.9035) acc: 25.0000 (23.4933) time: 214.9666 data: 214.2086 max mem: 16906
+Epoch: [12] [0/6] eta: 0:21:29 lr: 0.00478205218 pcs/s: 17.844 loss: 4.7505 (4.8624) acc: 25.0000 (24.4420) time: 214.9689 data: 207.7951 max mem: 16906
+Epoch: [12] [0/6] eta: 0:21:29 lr: 0.00478205218 pcs/s: 7.525 loss: 4.8006 (4.8661) acc: 24.2188 (24.4234) time: 214.9712 data: 197.9598 max mem: 16906
+Epoch: [12] Total time: 0:03:49Epoch: [12] Total time: 0:03:49
+
+Epoch: [12] Total time: 0:03:49
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [12] [0/7] eta: 0:28:00 lr: 0.0048180518200000005 pcs/s: 242.319 loss: 4.7604 (4.8846) acc: 25.0000 (23.8281) time: 240.1216 data: 239.5928 max mem: 16906Epoch: [12] [0/7] eta: 0:28:01 lr: 0.0048180518200000005 pcs/s: 5.272 loss: 4.8273 (4.8550) acc: 25.0000 (24.6257) time: 240.1456 data: 215.8667 max mem: 16906
+
+Epoch: [12] [0/7] eta: 0:28:01 lr: 0.0048180518200000005 pcs/s: 11.173 loss: 4.8018 (4.8623) acc: 23.4375 (24.3815) time: 240.1688 data: 228.7121 max mem: 16906
+Epoch: [12] Total time: 0:04:23
+Epoch: [12] Total time: 0:04:22
+Epoch: [12] Total time: 0:04:22
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [12] [0/7] eta: 0:27:10 lr: 0.0048600514 pcs/s: 5.750 loss: 4.7634 (4.8354) acc: 25.0000 (24.6449) time: 232.9810 data: 210.7213 max mem: 16906
+Epoch: [12] [0/7] eta: 0:27:10 lr: 0.0048600514 pcs/s: 10.596 loss: 4.7933 (4.8495) acc: 23.4375 (24.5739) time: 232.9923 data: 220.9114 max mem: 16906
+Epoch: [12] [0/7] eta: 0:27:11 lr: 0.0048600514 pcs/s: 247.402 loss: 4.7604 (4.8766) acc: 25.0000 (23.8778) time: 233.0645 data: 232.5464 max mem: 16906
+Epoch: [12] Total time: 0:04:07
+Epoch: [12] Total time: 0:04:07
+Epoch: [12] Total time: 0:04:07
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+The size of train data is 499The size of train data is 499
+
+sample = len * batch_size =  4 * 128 = 512
+sample = len * batch_size =  4 * 128 = 512
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [12] [0/2] eta: 0:06:39 lr: 0.00490205098 pcs/s: 52.023 loss: 4.7056 (4.8216) acc: 24.2188 (24.7228) time: 199.7247 data: 197.2637 max mem: 16906
+Epoch: [12] [0/2] eta: 0:06:39 lr: 0.00490205098 pcs/s: 46.087 loss: 4.8672 (4.8795) acc: 23.4375 (23.7525) time: 199.7255 data: 196.9475 max mem: 16906
+Epoch: [12] [0/2] eta: 0:06:39 lr: 0.00490205098 pcs/s: 152.150 loss: 4.7512 (4.8332) acc: 25.0000 (24.6472) time: 199.7256 data: 198.8837 max mem: 16906
+Epoch: [12] Total time: 0:03:30Epoch: [12] Total time: 0:03:30
+Epoch: [12] Total time: 0:03:30
+
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 12 is 24.72718253968254
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 12 is 24.62797619047619
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 12 is 23.759920634920636
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408The size of train data is 2408
+
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [13] [0/7] eta: 0:26:17 lr: 0.00491405086 pcs/s: 287.359 loss: 5.3205 (5.3205) acc: 14.0625 (14.0625) time: 225.3778 data: 224.9319 max mem: 16906
+Epoch: [13] [0/7] eta: 0:26:17 lr: 0.00491405086 pcs/s: 18.174 loss: 5.3396 (5.3396) acc: 17.1875 (17.1875) time: 225.3779 data: 218.3341 max mem: 16906
+Epoch: [13] [0/7] eta: 0:26:17 lr: 0.00491405086 pcs/s: 12.231 loss: 5.1201 (5.1201) acc: 17.1875 (17.1875) time: 225.3782 data: 214.9125 max mem: 16906
+Epoch: [13] Total time: 0:03:58
+Epoch: [13] Total time: 0:03:58
+Epoch: [13] Total time: 0:03:58
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+The size of train data is 2299
+sample = len * batch_size =  18 * 128 = 2304
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [13] [0/6] eta: 0:21:08 lr: 0.00495605044 pcs/s: 236.624 loss: 5.0043 (4.9991) acc: 21.8750 (21.4844) time: 211.4935 data: 210.9520 max mem: 16906
+Epoch: [13] [0/6] eta: 0:21:08 lr: 0.00495605044 pcs/s: 25.372 loss: 5.0439 (5.1373) acc: 20.3125 (19.6289) time: 211.4933 data: 206.4479 max mem: 16906
+Epoch: [13] [0/6] eta: 0:21:08 lr: 0.00495605044 pcs/s: 47.753 loss: 4.8066 (5.0118) acc: 17.9688 (20.8008) time: 211.4990 data: 208.8180 max mem: 16906
+Epoch: [13] Total time: 0:03:44
+Epoch: [13] Total time: 0:03:44
+Epoch: [13] Total time: 0:03:44
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318The size of train data is 2318
+
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432sample = len * batch_size =  19 * 128 = 2432
+
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [13] [0/7] eta: 0:28:36 lr: 0.004992050079999999 pcs/s: 3.401 loss: 4.9705 (4.9501) acc: 23.4375 (22.7679) time: 245.2303 data: 207.5893 max mem: 16906Epoch: [13] [0/7] eta: 0:28:36 lr: 0.004992050079999999 pcs/s: 2.958 loss: 4.9425 (4.9615) acc: 21.8750 (22.6562) time: 245.2303 data: 201.9512 max mem: 16906
+
+Epoch: [13] [0/7] eta: 0:28:36 lr: 0.004992050079999999 pcs/s: 244.803 loss: 4.9699 (5.0290) acc: 21.0938 (21.7076) time: 245.2346 data: 244.7066 max mem: 16906
+Epoch: [13] Total time: 0:04:18
+Epoch: [13] Total time: 0:04:18
+Epoch: [13] Total time: 0:04:18
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+del dataset selected_4_idx_ann_000-002.json and collect()
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+Creating data loaders: selected_4_idx_ann_000-003.json
+The size of train data is 2327
+The size of train data is 2327The size of train data is 2327
+
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [13] [0/7] eta: 0:27:45 lr: 0.00503404966 pcs/s: 204.300 loss: 4.9344 (4.9055) acc: 23.4375 (23.3259) time: 237.8969 data: 237.2698 max mem: 16906
+Epoch: [13] [0/7] eta: 0:27:45 lr: 0.00503404966 pcs/s: 7.045 loss: 4.7653 (4.8476) acc: 25.0000 (24.3304) time: 237.8970 data: 219.7267 max mem: 16906
+Epoch: [13] [0/7] eta: 0:27:45 lr: 0.00503404966 pcs/s: 139.240 loss: 4.8393 (4.8922) acc: 24.2188 (23.6979) time: 237.8970 data: 236.9771 max mem: 16906
+Epoch: [13] Total time: 0:04:12Epoch: [13] Total time: 0:04:12
+
+Epoch: [13] Total time: 0:04:12
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+del dataset selected_4_idx_ann_000-003.json and collect()
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+Creating data loaders: selected_4_idx_ann_000-004.json
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2331
+The size of train data is 2331
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [13] [0/7] eta: 0:27:15 lr: 0.00507604924 pcs/s: 232.540 loss: 4.7601 (4.8351) acc: 25.0000 (24.4699) time: 233.6418 data: 233.0908 max mem: 16906Epoch: [13] [0/7] eta: 0:27:15 lr: 0.00507604924 pcs/s: 35.413 loss: 4.6545 (4.8620) acc: 25.0000 (23.8281) time: 233.6304 data: 230.0153 max mem: 16906
+
+Epoch: [13] [0/7] eta: 0:27:15 lr: 0.00507604924 pcs/s: 17.952 loss: 4.6632 (4.7923) acc: 26.5625 (24.9721) time: 233.6305 data: 226.4997 max mem: 16906
+Epoch: [13] Total time: 0:04:21Epoch: [13] Total time: 0:04:21
+Epoch: [13] Total time: 0:04:21
+
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+del dataset selected_4_idx_ann_000-004.json and collect()
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+Creating data loaders: selected_4_idx_ann_000-005.json
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2413
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [13] [0/7] eta: 0:24:58 lr: 0.005118048820000001 pcs/s: 30.213 loss: 4.6327 (4.7926) acc: 25.7812 (24.7545) time: 214.0594 data: 209.8222 max mem: 16906
+Epoch: [13] [0/7] eta: 0:24:58 lr: 0.005118048820000001 pcs/s: 233.265 loss: 4.6839 (4.8112) acc: 25.7812 (24.6652) time: 214.0598 data: 213.5104 max mem: 16906
+Epoch: [13] [0/7] eta: 0:24:58 lr: 0.005118048820000001 pcs/s: 16.613 loss: 4.6486 (4.8472) acc: 25.0000 (23.9732) time: 214.0531 data: 206.3478 max mem: 16906
+Epoch: [13] Total time: 0:03:47
+Epoch: [13] Total time: 0:03:47Epoch: [13] Total time: 0:03:47
+
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+del dataset selected_4_idx_ann_000-005.json and collect()
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+Creating data loaders: selected_4_idx_ann_000-006.json
+The size of train data is 2303
+The size of train data is 2303The size of train data is 2303
+
+sample = len * batch_size =  18 * 128 = 2304
+sample = len * batch_size =  18 * 128 = 2304
+sample = len * batch_size =  18 * 128 = 2304
+Epoch: [13] [0/6] eta: 0:20:38 lr: 0.0051600484000000005 pcs/s: 100.542 loss: 4.6489 (4.8305) acc: 25.0000 (24.1815) time: 206.4846 data: 205.2110 max mem: 16906Epoch: [13] [0/6] eta: 0:20:38 lr: 0.0051600484000000005 pcs/s: 275.188 loss: 4.6632 (4.7856) acc: 25.0000 (24.7582) time: 206.4844 data: 206.0188 max mem: 16906
+
+Epoch: [13] [0/6] eta: 0:20:38 lr: 0.0051600484000000005 pcs/s: 21.752 loss: 4.7078 (4.8126) acc: 25.0000 (24.4420) time: 206.4844 data: 200.5993 max mem: 16906
+Epoch: [13] Total time: 0:03:40
+Epoch: [13] Total time: 0:03:40
+Epoch: [13] Total time: 0:03:40
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+del dataset selected_4_idx_ann_000-006.json and collect()
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+Creating data loaders: selected_4_idx_ann_000-007.json
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2329
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [13] [0/7] eta: 0:27:57 lr: 0.00519604804 pcs/s: 183.445 loss: 4.7599 (4.7825) acc: 24.2188 (24.9349) time: 239.6259 data: 238.9276 max mem: 16906
+Epoch: [13] [0/7] eta: 0:27:57 lr: 0.00519604804 pcs/s: 35.852 loss: 4.6831 (4.8155) acc: 25.0000 (24.5117) time: 239.6287 data: 236.0579 max mem: 16906
+Epoch: [13] [0/7] eta: 0:27:57 lr: 0.00519604804 pcs/s: 6.011 loss: 4.7923 (4.8057) acc: 25.0000 (24.6419) time: 239.6272 data: 218.3320 max mem: 16906
+Epoch: [13] Total time: 0:04:23
+Epoch: [13] Total time: 0:04:23
+Epoch: [13] Total time: 0:04:23
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+del dataset selected_4_idx_ann_000-007.json and collect()
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+Creating data loaders: selected_4_idx_ann_000-008.json
+The size of train data is 2348
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2348
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [13] [0/7] eta: 0:27:47 lr: 0.00523804762 pcs/s: 249.770 loss: 4.6971 (4.8064) acc: 24.2188 (24.5739) time: 238.2647 data: 237.7517 max mem: 16906Epoch: [13] [0/7] eta: 0:27:47 lr: 0.00523804762 pcs/s: 15.115 loss: 4.6859 (4.7633) acc: 25.7812 (25.0284) time: 238.2637 data: 229.7945 max mem: 16906
+Epoch: [13] [0/7] eta: 0:27:47 lr: 0.00523804762 pcs/s: 7.776 loss: 4.7923 (4.7929) acc: 25.0000 (24.9148) time: 238.2650 data: 221.8044 max mem: 16906
+
+Epoch: [13] Total time: 0:04:17
+Epoch: [13] Total time: 0:04:17
+Epoch: [13] Total time: 0:04:17
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+del dataset selected_4_idx_ann_000-008.json and collect()
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+Creating data loaders: selected_4_idx_ann_000-009.json
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+The size of train data is 499
+sample = len * batch_size =  4 * 128 = 512
+Epoch: [13] [0/2] eta: 0:06:45 lr: 0.0052800472 pcs/s: 178.533 loss: 4.7238 (4.8079) acc: 24.2188 (24.5590) time: 202.8827 data: 202.1652 max mem: 16906Epoch: [13] [0/2] eta: 0:06:45 lr: 0.0052800472 pcs/s: 260.852 loss: 4.6228 (4.7755) acc: 25.7812 (25.1512) time: 202.8815 data: 202.3902 max mem: 16906
+
+Epoch: [13] [0/2] eta: 0:06:45 lr: 0.0052800472 pcs/s: 38.696 loss: 4.6322 (4.7473) acc: 25.7812 (25.1386) time: 202.8723 data: 199.5638 max mem: 16906
+Epoch: [13] Total time: 0:03:34
+Epoch: [13] Total time: 0:03:34
+Epoch: [13] Total time: 0:03:34
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+del dataset selected_4_idx_ann_000-009.json and collect()
+total len of whole dataloader: 173
+mean accuray of epoch 13 is 25.17361111111111
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 13 is 25.186011904761905
+Creating data loaders: selected_4_idx_ann_000-000.json
+total len of whole dataloader: 173
+mean accuray of epoch 13 is 24.578373015873016
+Creating data loaders: selected_4_idx_ann_000-000.json
+The size of train data is 2408
+The size of train data is 2408
+The size of train data is 2408
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+Epoch: [14] [0/7] eta: 0:27:52 lr: 0.00529204708 pcs/s: 244.206 loss: 5.2427 (5.2427) acc: 17.1875 (17.1875) time: 238.9526 data: 238.4280 max mem: 16906
+Epoch: [14] [0/7] eta: 0:27:52 lr: 0.00529204708 pcs/s: 12.329 loss: 5.0790 (5.0790) acc: 19.5312 (19.5312) time: 238.9527 data: 228.5706 max mem: 16906
+Epoch: [14] [0/7] eta: 0:27:52 lr: 0.00529204708 pcs/s: 15.603 loss: 5.2872 (5.2872) acc: 17.9688 (17.9688) time: 238.9695 data: 230.7644 max mem: 16906
+Epoch: [14] Total time: 0:04:13Epoch: [14] Total time: 0:04:13
+
+Epoch: [14] Total time: 0:04:13
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+del dataset selected_4_idx_ann_000-000.json and collect()
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+Creating data loaders: selected_4_idx_ann_000-001.json
+The size of train data is 2299
+The size of train data is 2299The size of train data is 2299
+
+sample = len * batch_size =  18 * 128 = 2304
+sample = len * batch_size =  18 * 128 = 2304sample = len * batch_size =  18 * 128 = 2304
+
+Epoch: [14] [0/6] eta: 0:21:57 lr: 0.00533404666 pcs/s: 246.554 loss: 4.7680 (4.9503) acc: 19.5312 (21.5820) time: 219.5586 data: 219.0389 max mem: 16906
+Epoch: [14] [0/6] eta: 0:21:57 lr: 0.00533404666 pcs/s: 16.416 loss: 4.9907 (5.0775) acc: 20.3125 (19.8242) time: 219.5587 data: 211.7606 max mem: 16906
+Epoch: [14] [0/6] eta: 0:21:57 lr: 0.00533404666 pcs/s: 28.939 loss: 4.9297 (4.9271) acc: 20.3125 (22.0703) time: 219.5587 data: 215.1351 max mem: 16906
+Epoch: [14] Total time: 0:03:54
+Epoch: [14] Total time: 0:03:54
+Epoch: [14] Total time: 0:03:54
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+del dataset selected_4_idx_ann_000-001.json and collect()
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+Creating data loaders: selected_4_idx_ann_000-002.json
+The size of train data is 2318
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432
+sample = len * batch_size =  19 * 128 = 2432
+The size of train data is 2318
+sample = len * batch_size =  19 * 128 = 2432

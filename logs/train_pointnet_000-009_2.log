@@ -1,0 +1,1155 @@
+args:Namespace(ann_path='/home/hhfan/code/point-transformer/process/label/jsons/0-9_selected_4_idx_ann_all.json', batch_size=128, data_type='train', depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet', momentum=0.9, num_classes=909, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pn_output/000-009_log2', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=40, process_data=False, resume='', save_interval=40, seed=0, start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)
+Creating data loaders ...
+args:Namespace(ann_path='/home/hhfan/code/point-transformer/process/label/jsons/0-9_selected_4_idx_ann_all.json', batch_size=128, data_type='train', depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet', momentum=0.9, num_classes=909, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pn_output/000-009_log2', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=40, process_data=False, resume='', save_interval=40, seed=0, start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)
+Creating data loaders ...
+args:Namespace(ann_path='/home/hhfan/code/point-transformer/process/label/jsons/0-9_selected_4_idx_ann_all.json', batch_size=128, data_type='train', depth=12, dim=7, dim_head=64, dropout=0.0, emb_dropout=0.0, epochs=200, heads=8, lr=0.01, lr_gamma=0.5, lr_milestones=[20, 35], lr_warmup_epochs=5, mlp_dim=512, model='PointNet', momentum=0.9, num_classes=909, num_points=4096, optimizer='SGD', output_dir='/mnt/data_sdb/pn_output/000-009_log2', pc_root='/mnt/data_sdb/obj', pool='cls', print_freq=40, process_data=False, resume='', save_interval=40, seed=0, start_epoch=0, use_feature=True, use_uniform_sample=True, use_xyz=False, weight_decay=0.0001, workers=16)
+Creating data loaders ...
+The size of train data is 21575
+Creating PointTransformer model ...
+The size of train data is 21575
+Creating PointTransformer model ...
+The size of train data is 21575
+Creating PointTransformer model ...
+Start training ...
+Start training ...
+Start training ...
+Epoch: [0] [ 0/57] eta: 6:17:54 lr: 1.0000000000000001e-07 pcs/s: 4.225 loss: 7.0637 (7.0637) acc: 0.7812 (0.7812) time: 397.7975 data: 367.4985 max mem: 16881
+Epoch: [0] [ 0/57] eta: 6:17:59 lr: 1.0000000000000001e-07 pcs/s: 15.103 loss: 7.0059 (7.0059) acc: 0.0000 (0.0000) time: 397.8868 data: 389.4112 max mem: 16881
+Epoch: [0] [ 0/57] eta: 6:18:00 lr: 1.0000000000000001e-07 pcs/s: 26.922 loss: 7.0020 (7.0020) acc: 0.0000 (0.0000) time: 397.9075 data: 393.1527 max mem: 16881
+Epoch: [0] [40/57] eta: 0:07:36 lr: 0.0014202041420118344 pcs/s: 38.443 loss: 6.9211 (6.9640) acc: 0.7812 (0.6669) time: 14.5500 data: 11.5279 max mem: 16906
+Epoch: [0] [40/57] eta: 0:07:36 lr: 0.0014202041420118344 pcs/s: 293.274 loss: 6.9238 (6.9668) acc: 0.0000 (0.6669) time: 14.5502 data: 12.3922 max mem: 16906
+Epoch: [0] [40/57] eta: 0:07:36 lr: 0.0014202041420118344 pcs/s: 38.398 loss: 6.8871 (6.9499) acc: 0.7812 (0.7812) time: 14.5504 data: 11.6004 max mem: 16906
+Epoch: [0] Total time: 0:21:00
+Epoch: [0] Total time: 0:21:00
+mean accuray of epoch 0 is 2.7960526315789473
+mean accuray of epoch 0 is 2.933114035087719
+Epoch: [0] Total time: 0:21:00
+mean accuray of epoch 0 is 2.4671052631578947
+Epoch: [1] [ 0/57] eta: 6:00:37 lr: 0.002023748402366864 pcs/s: 261.923 loss: 6.3928 (6.3928) acc: 10.9375 (10.9375) time: 379.6035 data: 379.1145 max mem: 16906
+Epoch: [1] [ 0/57] eta: 6:00:37 lr: 0.002023748402366864 pcs/s: 1.959 loss: 6.5418 (6.5418) acc: 7.8125 (7.8125) time: 379.6046 data: 314.2796 max mem: 16906
+Epoch: [1] [ 0/57] eta: 6:00:38 lr: 0.002023748402366864 pcs/s: 19.578 loss: 6.2168 (6.2168) acc: 13.2812 (13.2812) time: 379.6216 data: 373.0831 max mem: 16906
+Epoch: [1] [40/57] eta: 0:07:41 lr: 0.0034438525443786982 pcs/s: 278.821 loss: 5.9508 (6.1211) acc: 16.4062 (14.4436) time: 18.6527 data: 15.8888 max mem: 16906Epoch: [1] [40/57] eta: 0:07:41 lr: 0.0034438525443786982 pcs/s: 280.079 loss: 6.0137 (6.1184) acc: 14.8438 (14.1959) time: 18.6526 data: 17.4038 max mem: 16906
+Epoch: [1] [40/57] eta: 0:07:41 lr: 0.0034438525443786982 pcs/s: 284.279 loss: 6.0135 (6.1180) acc: 14.8438 (14.2149) time: 18.6527 data: 17.8143 max mem: 16906
+
+Epoch: [1] Total time: 0:21:37Epoch: [1] Total time: 0:21:37
+
+mean accuray of epoch 1 is 15.03563596491228
+mean accuray of epoch 1 is 14.734100877192983
+Epoch: [1] Total time: 0:21:37
+mean accuray of epoch 1 is 14.74780701754386
+Epoch: [2] [ 0/57] eta: 6:33:31 lr: 0.0040473968047337276 pcs/s: 166.016 loss: 6.1602 (6.1602) acc: 13.2812 (13.2812) time: 414.2376 data: 413.4663 max mem: 16906
+Epoch: [2] [ 0/57] eta: 6:33:31 lr: 0.0040473968047337276 pcs/s: 1.886 loss: 6.0382 (6.0382) acc: 13.2812 (13.2812) time: 414.2397 data: 346.3849 max mem: 16906
+Epoch: [2] [ 0/57] eta: 6:33:31 lr: 0.0040473968047337276 pcs/s: 4.691 loss: 5.7929 (5.7929) acc: 17.9688 (17.9688) time: 414.2410 data: 386.9554 max mem: 16906
+Epoch: [2] [40/57] eta: 0:08:04 lr: 0.005467500946745563 pcs/s: 195.315 loss: 5.5126 (5.6835) acc: 17.9688 (17.8544) time: 17.5036 data: 14.6790 max mem: 16906
+Epoch: [2] [40/57] eta: 0:08:04 lr: 0.005467500946745563 pcs/s: 202.038 loss: 5.5847 (5.6806) acc: 18.7500 (18.1402) time: 17.5034 data: 0.0419 max mem: 16906
+Epoch: [2] [40/57] eta: 0:08:04 lr: 0.005467500946745563 pcs/s: 198.560 loss: 5.6372 (5.6571) acc: 17.1875 (18.8262) time: 17.5046 data: 16.1307 max mem: 16906
+Epoch: [2] Total time: 0:22:33
+mean accuray of epoch 2 is 19.28453947368421
+Epoch: [2] Total time: 0:22:33
+Epoch: [2] Total time: 0:22:33
+mean accuray of epoch 2 is 18.544407894736842
+mean accuray of epoch 2 is 18.90076754385965
+Epoch: [3] [ 0/57] eta: 6:42:08 lr: 0.006071045207100592 pcs/s: 0.603 loss: 5.4077 (5.4077) acc: 22.6562 (22.6562) time: 423.3146 data: 211.0724 max mem: 16906
+Epoch: [3] [ 0/57] eta: 6:42:09 lr: 0.006071045207100592 pcs/s: 142.839 loss: 5.2376 (5.2376) acc: 26.5625 (26.5625) time: 423.3294 data: 422.4328 max mem: 16906
+Epoch: [3] [ 0/57] eta: 6:42:10 lr: 0.006071045207100592 pcs/s: 6.757 loss: 5.9252 (5.9252) acc: 14.0625 (14.0625) time: 423.3448 data: 404.3995 max mem: 16906
+Epoch: [3] [40/57] eta: 0:05:54 lr: 0.007491149349112426 pcs/s: 329.470 loss: 5.3523 (5.4074) acc: 19.5312 (20.2934) time: 7.8144 data: 2.4824 max mem: 16906
+Epoch: [3] [40/57] eta: 0:05:54 lr: 0.007491149349112426 pcs/s: 336.331 loss: 5.4012 (5.3528) acc: 19.5312 (20.8841) time: 7.8144 data: 5.5591 max mem: 16906
+Epoch: [3] [40/57] eta: 0:05:54 lr: 0.007491149349112426 pcs/s: 339.303 loss: 5.2818 (5.3851) acc: 21.8750 (21.2271) time: 7.8144 data: 7.1762 max mem: 16906
+Epoch: [3] Total time: 0:15:45
+Epoch: [3] Total time: 0:15:45
+Epoch: [3] Total time: 0:15:45
+mean accuray of epoch 3 is 21.203399122807017
+mean accuray of epoch 3 is 20.326206140350877
+mean accuray of epoch 3 is 21.24451754385965
+Epoch: [4] [ 0/57] eta: 2:45:30 lr: 0.008094693609467456 pcs/s: 275.082 loss: 5.5223 (5.5223) acc: 17.9688 (17.9688) time: 174.2243 data: 173.7586 max mem: 16906
+Epoch: [4] [ 0/57] eta: 2:45:30 lr: 0.008094693609467456 pcs/s: 10.988 loss: 5.3194 (5.3194) acc: 20.3125 (20.3125) time: 174.2248 data: 162.5753 max mem: 16906
+Epoch: [4] [ 0/57] eta: 2:45:30 lr: 0.008094693609467456 pcs/s: 18.693 loss: 5.2198 (5.2198) acc: 23.4375 (23.4375) time: 174.2247 data: 167.3766 max mem: 16906
+Epoch: [4] [40/57] eta: 0:03:37 lr: 0.00951479775147929 pcs/s: 328.394 loss: 5.1005 (5.2077) acc: 20.3125 (21.0556) time: 8.2216 data: 2.0060 max mem: 16906
+Epoch: [4] [40/57] eta: 0:03:37 lr: 0.00951479775147929 pcs/s: 331.441 loss: 5.1264 (5.2154) acc: 22.6562 (21.1890) time: 8.2216 data: 2.3291 max mem: 16906
+Epoch: [4] [40/57] eta: 0:03:37 lr: 0.00951479775147929 pcs/s: 337.532 loss: 5.2774 (5.2693) acc: 18.7500 (20.3316) time: 8.2216 data: 7.8040 max mem: 16906
+Epoch: [4] Total time: 0:10:53
+Epoch: [4] Total time: 0:10:53
+Epoch: [4] Total time: 0:10:53
+mean accuray of epoch 4 is 20.682565789473685
+mean accuray of epoch 4 is 21.011513157894736
+mean accuray of epoch 4 is 21.51864035087719
+Epoch: [5] [ 0/57] eta: 2:59:22 lr: 0.01 pcs/s: 2.502 loss: 5.5059 (5.5059) acc: 16.4062 (16.4062) time: 188.8076 data: 137.6390 max mem: 16906
+Epoch: [5] [ 0/57] eta: 2:59:22 lr: 0.01 pcs/s: 192.870 loss: 4.8542 (4.8542) acc: 28.1250 (28.1250) time: 188.8106 data: 188.1466 max mem: 16906Epoch: [5] [ 0/57] eta: 2:59:21 lr: 0.01 pcs/s: 29.094 loss: 5.1524 (5.1524) acc: 18.7500 (18.7500) time: 188.8063 data: 184.4065 max mem: 16906
+
+Epoch: [5] [40/57] eta: 0:03:49 lr: 0.01 pcs/s: 69.317 loss: 4.9371 (5.0523) acc: 24.2188 (22.3704) time: 7.7406 data: 4.1398 max mem: 16906Epoch: [5] [40/57] eta: 0:03:49 lr: 0.01 pcs/s: 69.323 loss: 4.9870 (5.1125) acc: 21.8750 (21.3034) time: 7.7394 data: 6.5485 max mem: 16906
+
+Epoch: [5] [40/57] eta: 0:03:49 lr: 0.01 pcs/s: 337.119 loss: 4.9512 (5.0525) acc: 23.4375 (22.6944) time: 7.7406 data: 1.7440 max mem: 16906
+Epoch: [5] Total time: 0:11:07
+mean accuray of epoch 5 is 22.354714912280702
+Epoch: [5] Total time: 0:11:07Epoch: [5] Total time: 0:11:07
+
+mean accuray of epoch 5 is 22.478070175438596
+mean accuray of epoch 5 is 21.614583333333332
+Epoch: [6] [ 0/57] eta: 3:09:32 lr: 0.01 pcs/s: 5.298 loss: 5.4240 (5.4240) acc: 17.1875 (17.1875) time: 199.5205 data: 175.3617 max mem: 16906
+Epoch: [6] [ 0/57] eta: 3:09:32 lr: 0.01 pcs/s: 15.500 loss: 5.2098 (5.2098) acc: 21.8750 (21.8750) time: 199.5214 data: 191.2629 max mem: 16906
+Epoch: [6] [ 0/57] eta: 3:09:32 lr: 0.01 pcs/s: 292.196 loss: 4.8790 (4.8790) acc: 23.4375 (23.4375) time: 199.5206 data: 199.0822 max mem: 16906
+Epoch: [6] [40/57] eta: 0:03:48 lr: 0.01 pcs/s: 388.883 loss: 4.9626 (4.9842) acc: 23.4375 (22.2561) time: 8.0100 data: 7.0922 max mem: 16906Epoch: [6] [40/57] eta: 0:03:48 lr: 0.01 pcs/s: 388.424 loss: 4.9187 (4.9702) acc: 21.8750 (22.4466) time: 8.0100 data: 7.2335 max mem: 16906
+
+Epoch: [6] [40/57] eta: 0:03:48 lr: 0.01 pcs/s: 388.831 loss: 4.9818 (5.0487) acc: 21.0938 (21.3986) time: 8.0100 data: 6.0045 max mem: 16906
+Epoch: [6] Total time: 0:10:36
+Epoch: [6] Total time: 0:10:36
+Epoch: [6] Total time: 0:10:36
+mean accuray of epoch 6 is 21.559758771929825
+mean accuray of epoch 6 is 22.053179824561404
+mean accuray of epoch 6 is 22.29989035087719
+Epoch: [7] [ 0/57] eta: 2:52:49 lr: 0.01 pcs/s: 287.408 loss: 4.5634 (4.5634) acc: 28.1250 (28.1250) time: 181.9208 data: 181.4751 max mem: 16906
+Epoch: [7] [ 0/57] eta: 2:52:49 lr: 0.01 pcs/s: 25.713 loss: 5.0021 (5.0021) acc: 22.6562 (22.6562) time: 181.9211 data: 176.9426 max mem: 16906
+Epoch: [7] [ 0/57] eta: 2:52:49 lr: 0.01 pcs/s: 15.874 loss: 4.9916 (4.9916) acc: 23.4375 (23.4375) time: 181.9214 data: 173.8575 max mem: 16906
+Epoch: [7] [40/57] eta: 0:03:51 lr: 0.01 pcs/s: 332.770 loss: 4.9171 (4.9056) acc: 21.8750 (23.1898) time: 8.0095 data: 4.5333 max mem: 16906
+Epoch: [7] [40/57] eta: 0:03:51 lr: 0.01 pcs/s: 330.798 loss: 4.8705 (4.8932) acc: 21.8750 (23.0373) time: 8.0089 data: 5.5168 max mem: 16906
+Epoch: [7] [40/57] eta: 0:03:51 lr: 0.01 pcs/s: 338.183 loss: 4.8965 (4.9568) acc: 21.8750 (22.2180) time: 8.0095 data: 6.4496 max mem: 16906
+Epoch: [7] Total time: 0:11:08Epoch: [7] Total time: 0:11:08Epoch: [7] Total time: 0:11:08
+
+
+mean accuray of epoch 7 is 23.05372807017544
+mean accuray of epoch 7 is 22.80701754385965
+mean accuray of epoch 7 is 22.341008771929825
+Epoch: [8] [ 0/57] eta: 3:05:56 lr: 0.01 pcs/s: 325.036 loss: 4.8606 (4.8606) acc: 25.7812 (25.7812) time: 195.7302 data: 195.3361 max mem: 16906
+Epoch: [8] [ 0/57] eta: 3:05:56 lr: 0.01 pcs/s: 9.221 loss: 5.1972 (5.1972) acc: 16.4062 (16.4062) time: 195.7303 data: 181.8488 max mem: 16906
+Epoch: [8] [ 0/57] eta: 3:05:56 lr: 0.01 pcs/s: 12.827 loss: 4.7795 (4.7795) acc: 23.4375 (23.4375) time: 195.7275 data: 185.7479 max mem: 16906
+Epoch: [8] [40/57] eta: 0:03:45 lr: 0.01 pcs/s: 322.726 loss: 4.8220 (4.8633) acc: 22.6562 (22.8849) time: 7.9933 data: 4.2822 max mem: 16906Epoch: [8] [40/57] eta: 0:03:45 lr: 0.01 pcs/s: 322.517 loss: 4.8394 (4.8519) acc: 22.6562 (23.3422) time: 7.9933 data: 6.9833 max mem: 16906
+
+Epoch: [8] [40/57] eta: 0:03:45 lr: 0.01 pcs/s: 322.008 loss: 4.7271 (4.8178) acc: 25.7812 (23.4184) time: 7.9933 data: 5.2897 max mem: 16906
+Epoch: [8] Total time: 0:11:02
+mean accuray of epoch 8 is 23.122258771929825
+Epoch: [8] Total time: 0:11:02
+Epoch: [8] Total time: 0:11:02
+mean accuray of epoch 8 is 23.506030701754387
+mean accuray of epoch 8 is 23.4375
+Epoch: [9] [ 0/57] eta: 2:44:04 lr: 0.01 pcs/s: 327.866 loss: 4.6924 (4.6924) acc: 21.8750 (21.8750) time: 172.7054 data: 172.3147 max mem: 16906Epoch: [9] [ 0/57] eta: 2:44:04 lr: 0.01 pcs/s: 8.820 loss: 5.3512 (5.3512) acc: 17.1875 (17.1875) time: 172.7066 data: 158.1942 max mem: 16906
+
+Epoch: [9] [ 0/57] eta: 2:44:04 lr: 0.01 pcs/s: 11.557 loss: 4.7654 (4.7654) acc: 22.6562 (22.6562) time: 172.7054 data: 161.6295 max mem: 16906
+Epoch: [9] [40/57] eta: 0:03:32 lr: 0.01 pcs/s: 318.398 loss: 4.8247 (4.7907) acc: 24.2188 (23.7233) time: 8.1262 data: 4.0071 max mem: 16906Epoch: [9] [40/57] eta: 0:03:32 lr: 0.01 pcs/s: 324.383 loss: 4.8287 (4.7553) acc: 23.4375 (24.8666) time: 8.1258 data: 7.6827 max mem: 16906Epoch: [9] [40/57] eta: 0:03:32 lr: 0.01 pcs/s: 318.630 loss: 4.9268 (4.8901) acc: 21.8750 (22.6753) time: 8.1258 data: 2.9153 max mem: 16906
+
+
+Epoch: [9] Total time: 0:10:20
+Epoch: [9] Total time: 0:10:20Epoch: [9] Total time: 0:10:20
+
+mean accuray of epoch 9 is 23.643092105263158
+mean accuray of epoch 9 is 24.45175438596491
+mean accuray of epoch 9 is 23.368969298245613
+Epoch: [10] [ 0/57] eta: 3:20:27 lr: 0.01 pcs/s: 10.475 loss: 5.0686 (5.0686) acc: 21.0938 (21.0938) time: 211.0138 data: 198.7937 max mem: 16906
+Epoch: [10] [ 0/57] eta: 3:20:27 lr: 0.01 pcs/s: 245.198 loss: 4.8103 (4.8103) acc: 21.8750 (21.8750) time: 211.0163 data: 210.4939 max mem: 16906
+Epoch: [10] [ 0/57] eta: 3:20:27 lr: 0.01 pcs/s: 2.453 loss: 4.5717 (4.5717) acc: 25.7812 (25.7812) time: 211.0114 data: 158.8364 max mem: 16906
+Epoch: [10] [40/57] eta: 0:03:57 lr: 0.01 pcs/s: 370.395 loss: 4.7613 (4.7364) acc: 23.4375 (23.9520) time: 7.7571 data: 7.3130 max mem: 16906Epoch: [10] [40/57] eta: 0:03:57 lr: 0.01 pcs/s: 373.854 loss: 4.7639 (4.7475) acc: 23.4375 (23.8377) time: 7.7571 data: 6.0896 max mem: 16906Epoch: [10] [40/57] eta: 0:03:57 lr: 0.01 pcs/s: 370.309 loss: 4.7086 (4.7525) acc: 24.2188 (24.0663) time: 7.7571 data: 0.0322 max mem: 16906
+
+
+Epoch: [10] Total time: 0:11:18
+Epoch: [10] Total time: 0:11:18
+Epoch: [10] Total time: 0:11:18
+mean accuray of epoch 10 is 24.520285087719298
+mean accuray of epoch 10 is 24.25986842105263
+mean accuray of epoch 10 is 23.807565789473685
+Epoch: [11] [ 0/57] eta: 2:42:55 lr: 0.01 pcs/s: 58.927 loss: 4.5529 (4.5529) acc: 28.9062 (28.9062) time: 171.4919 data: 169.3193 max mem: 16906
+Epoch: [11] [ 0/57] eta: 2:42:55 lr: 0.01 pcs/s: 309.841 loss: 4.7582 (4.7582) acc: 25.0000 (25.0000) time: 171.4952 data: 171.0817 max mem: 16906
+Epoch: [11] [ 0/57] eta: 2:42:55 lr: 0.01 pcs/s: 28.349 loss: 4.5889 (4.5889) acc: 26.5625 (26.5625) time: 171.4954 data: 166.9798 max mem: 16906
+Epoch: [11] [40/57] eta: 0:03:48 lr: 0.01 pcs/s: 326.482 loss: 4.6815 (4.6981) acc: 25.0000 (24.5046) time: 8.9452 data: 8.4734 max mem: 16906
+Epoch: [11] [40/57] eta: 0:03:48 lr: 0.01 pcs/s: 325.797 loss: 4.7577 (4.7062) acc: 24.2188 (24.7523) time: 8.9452 data: 4.5047 max mem: 16906
+Epoch: [11] [40/57] eta: 0:03:48 lr: 0.01 pcs/s: 335.953 loss: 4.6400 (4.6594) acc: 25.0000 (24.5236) time: 8.9452 data: 6.8474 max mem: 16906
+Epoch: [11] Total time: 0:11:41
+mean accuray of epoch 11 is 24.698464912280702
+Epoch: [11] Total time: 0:11:41
+Epoch: [11] Total time: 0:11:41
+mean accuray of epoch 11 is 24.61622807017544
+mean accuray of epoch 11 is 24.328399122807017
+Epoch: [12] [ 0/57] eta: 6:16:35 lr: 0.01 pcs/s: 12.150 loss: 4.8384 (4.8384) acc: 21.0938 (21.0938) time: 396.4151 data: 385.8801 max mem: 16906Epoch: [12] [ 0/57] eta: 6:16:36 lr: 0.01 pcs/s: 6.541 loss: 4.5173 (4.5173) acc: 25.7812 (25.7812) time: 396.4220 data: 376.8523 max mem: 16906
+Epoch: [12] [ 0/57] eta: 6:16:36 lr: 0.01 pcs/s: 197.776 loss: 4.6300 (4.6300) acc: 24.2188 (24.2188) time: 396.4242 data: 395.7766 max mem: 16906
+
+Epoch: [12] [40/57] eta: 0:08:17 lr: 0.01 pcs/s: 263.232 loss: 4.5344 (4.6161) acc: 26.5625 (25.6669) time: 17.5455 data: 2.0753 max mem: 16906
+Epoch: [12] [40/57] eta: 0:08:17 lr: 0.01 pcs/s: 255.381 loss: 4.5436 (4.6580) acc: 25.0000 (24.5808) time: 17.5455 data: 0.3979 max mem: 16906
+Epoch: [12] [40/57] eta: 0:08:17 lr: 0.01 pcs/s: 267.296 loss: 4.6394 (4.6526) acc: 25.7812 (24.9047) time: 17.5452 data: 16.5223 max mem: 16906
+Epoch: [12] Total time: 0:22:55Epoch: [12] Total time: 0:22:55Epoch: [12] Total time: 0:22:55
+
+
+mean accuray of epoch 12 is 24.876644736842106mean accuray of epoch 12 is 26.000548245614034
+
+mean accuray of epoch 12 is 24.780701754385966
+Epoch: [13] [ 0/57] eta: 6:34:33 lr: 0.01 pcs/s: 256.253 loss: 4.5895 (4.5895) acc: 24.2188 (24.2188) time: 415.3260 data: 414.8260 max mem: 16906
+Epoch: [13] [ 0/57] eta: 6:34:33 lr: 0.01 pcs/s: 4.625 loss: 4.5325 (4.5325) acc: 26.5625 (26.5625) time: 415.3266 data: 387.6488 max mem: 16906
+Epoch: [13] [ 0/57] eta: 6:34:35 lr: 0.01 pcs/s: 3.095 loss: 4.4518 (4.4518) acc: 26.5625 (26.5625) time: 415.3651 data: 374.0096 max mem: 16906
+Epoch: [13] [40/57] eta: 0:07:31 lr: 0.01 pcs/s: 204.859 loss: 4.5733 (4.6026) acc: 25.7812 (25.9337) time: 14.6185 data: 11.6131 max mem: 16906
+Epoch: [13] [40/57] eta: 0:07:31 lr: 0.01 pcs/s: 238.015 loss: 4.6834 (4.5736) acc: 22.6562 (25.6288) time: 14.6192 data: 4.2927 max mem: 16906
+Epoch: [13] [40/57] eta: 0:07:31 lr: 0.01 pcs/s: 212.487 loss: 4.6067 (4.5423) acc: 25.7812 (26.1814) time: 14.6191 data: 13.9309 max mem: 16906
+Epoch: [13] Total time: 0:21:20Epoch: [13] Total time: 0:21:20
+
+mean accuray of epoch 13 is 26.041666666666668mean accuray of epoch 13 is 25.315241228070175
+
+Epoch: [13] Total time: 0:21:20
+mean accuray of epoch 13 is 26.041666666666668
+Epoch: [14] [ 0/57] eta: 5:14:01 lr: 0.01 pcs/s: 24.104 loss: 4.6616 (4.6616) acc: 22.6562 (22.6562) time: 330.5488 data: 325.2381 max mem: 16906
+Epoch: [14] [ 0/57] eta: 5:14:02 lr: 0.01 pcs/s: 49.998 loss: 4.1935 (4.1935) acc: 28.1250 (28.1250) time: 330.5661 data: 328.0055 max mem: 16906
+Epoch: [14] [ 0/57] eta: 5:14:02 lr: 0.01 pcs/s: 135.557 loss: 4.4214 (4.4214) acc: 28.1250 (28.1250) time: 330.5655 data: 329.6209 max mem: 16906
+Epoch: [14] [40/57] eta: 0:07:26 lr: 0.01 pcs/s: 307.299 loss: 4.5322 (4.5619) acc: 28.1250 (26.8102) time: 15.4188 data: 5.1179 max mem: 16906
+Epoch: [14] [40/57] eta: 0:07:26 lr: 0.01 pcs/s: 309.226 loss: 4.5695 (4.5615) acc: 25.0000 (25.8384) time: 15.4188 data: 2.4535 max mem: 16906
+Epoch: [14] [40/57] eta: 0:07:26 lr: 0.01 pcs/s: 307.314 loss: 4.5491 (4.5369) acc: 25.0000 (25.9909) time: 15.4183 data: 13.4715 max mem: 16906
+Epoch: [14] Total time: 0:20:32
+Epoch: [14] Total time: 0:20:32Epoch: [14] Total time: 0:20:32
+
+mean accuray of epoch 14 is 26.32949561403509
+mean accuray of epoch 14 is 25.712719298245613
+mean accuray of epoch 14 is 26.768092105263158
+Epoch: [15] [ 0/57] eta: 6:17:12 lr: 0.01 pcs/s: 183.662 loss: 4.5985 (4.5985) acc: 24.2188 (24.2188) time: 397.0701 data: 396.3727 max mem: 16906
+Epoch: [15] [ 0/57] eta: 6:17:12 lr: 0.01 pcs/s: 2.409 loss: 4.5123 (4.5123) acc: 25.7812 (25.7812) time: 397.0677 data: 343.9251 max mem: 16906
+Epoch: [15] [ 0/57] eta: 6:17:13 lr: 0.01 pcs/s: 1.320 loss: 4.6020 (4.6020) acc: 22.6562 (22.6562) time: 397.0822 data: 300.1176 max mem: 16906
+Epoch: [15] [40/57] eta: 0:06:55 lr: 0.01 pcs/s: 252.755 loss: 4.4293 (4.4761) acc: 25.0000 (26.9817) time: 13.1673 data: 12.4983 max mem: 16906Epoch: [15] [40/57] eta: 0:06:55 lr: 0.01 pcs/s: 252.988 loss: 4.4286 (4.4928) acc: 28.9062 (26.6006) time: 13.1675 data: 8.9153 max mem: 16906
+
+Epoch: [15] [40/57] eta: 0:06:55 lr: 0.01 pcs/s: 218.732 loss: 4.4802 (4.4811) acc: 28.1250 (27.4771) time: 13.1717 data: 0.8419 max mem: 16906
+Epoch: [15] Total time: 0:19:41Epoch: [15] Total time: 0:19:41
+
+mean accuray of epoch 15 is 26.60361842105263mean accuray of epoch 15 is 26.89144736842105
+
+Epoch: [15] Total time: 0:19:41
+mean accuray of epoch 15 is 27.43969298245614
+Epoch: [16] [ 0/57] eta: 6:20:25 lr: 0.01 pcs/s: 295.843 loss: 4.1469 (4.1469) acc: 31.2500 (31.2500) time: 400.4509 data: 400.0179 max mem: 16906Epoch: [16] [ 0/57] eta: 6:20:25 lr: 0.01 pcs/s: 15.452 loss: 3.9734 (3.9734) acc: 34.3750 (34.3750) time: 400.4510 data: 392.1669 max mem: 16906
+Epoch: [16] [ 0/57] eta: 6:20:25 lr: 0.01 pcs/s: 5.484 loss: 4.9570 (4.9570) acc: 21.0938 (21.0938) time: 400.4423 data: 377.1012 max mem: 16906
+
+Epoch: [16] [40/57] eta: 0:07:41 lr: 0.01 pcs/s: 238.151 loss: 4.3737 (4.4823) acc: 27.3438 (26.5434) time: 17.0991 data: 10.5101 max mem: 16906
+Epoch: [16] [40/57] eta: 0:07:41 lr: 0.01 pcs/s: 232.604 loss: 4.5321 (4.5473) acc: 25.0000 (25.4954) time: 17.0990 data: 10.4945 max mem: 16906
+Epoch: [16] [40/57] eta: 0:07:41 lr: 0.01 pcs/s: 229.803 loss: 4.4281 (4.4433) acc: 28.1250 (27.9535) time: 17.0990 data: 15.6348 max mem: 16906
+Epoch: [16] Total time: 0:21:12
+Epoch: [16] Total time: 0:21:12
+Epoch: [16] Total time: 0:21:12
+mean accuray of epoch 16 is 27.79605263157895
+mean accuray of epoch 16 is 27.083333333333332
+mean accuray of epoch 16 is 26.13760964912281
+Epoch: [17] [ 0/57] eta: 6:00:55 lr: 0.01 pcs/s: 285.418 loss: 4.6460 (4.6460) acc: 24.2188 (24.2188) time: 379.9145 data: 379.4656 max mem: 16906
+Epoch: [17] [ 0/57] eta: 6:00:55 lr: 0.01 pcs/s: 13.272 loss: 4.7605 (4.7605) acc: 21.0938 (21.0938) time: 379.9143 data: 370.2691 max mem: 16906Epoch: [17] [ 0/57] eta: 6:00:55 lr: 0.01 pcs/s: 1.926 loss: 4.0706 (4.0706) acc: 31.2500 (31.2500) time: 379.9143 data: 313.4521 max mem: 16906
+
+Epoch: [17] [40/57] eta: 0:07:55 lr: 0.01 pcs/s: 309.281 loss: 4.4839 (4.4443) acc: 25.7812 (27.3438) time: 17.9076 data: 9.9096 max mem: 16906
+Epoch: [17] [40/57] eta: 0:07:55 lr: 0.01 pcs/s: 309.109 loss: 4.3106 (4.4022) acc: 27.3438 (27.7439) time: 17.9076 data: 16.4073 max mem: 16906
+Epoch: [17] [40/57] eta: 0:07:55 lr: 0.01 pcs/s: 305.449 loss: 4.4010 (4.4848) acc: 25.7812 (26.2767) time: 17.9074 data: 15.9842 max mem: 16906
+Epoch: [17] Total time: 0:21:48
+Epoch: [17] Total time: 0:21:48
+mean accuray of epoch 17 is 28.07017543859649
+Epoch: [17] Total time: 0:21:48
+mean accuray of epoch 17 is 27.658991228070175
+mean accuray of epoch 17 is 26.644736842105264
+Epoch: [18] [ 0/57] eta: 6:23:56 lr: 0.01 pcs/s: 176.485 loss: 4.0636 (4.0636) acc: 30.4688 (30.4688) time: 404.1521 data: 403.4265 max mem: 16906
+Epoch: [18] [ 0/57] eta: 6:23:57 lr: 0.01 pcs/s: 4.476 loss: 4.5744 (4.5744) acc: 23.4375 (23.4375) time: 404.1598 data: 375.5617 max mem: 16906Epoch: [18] [ 0/57] eta: 6:23:56 lr: 0.01 pcs/s: 6.442 loss: 4.7930 (4.7930) acc: 24.2188 (24.2188) time: 404.1511 data: 384.2826 max mem: 16906
+
+Epoch: [18] [40/57] eta: 0:07:56 lr: 0.01 pcs/s: 300.446 loss: 4.3830 (4.4103) acc: 28.9062 (27.9154) time: 16.1137 data: 15.2697 max mem: 16906Epoch: [18] [40/57] eta: 0:07:56 lr: 0.01 pcs/s: 286.956 loss: 4.4325 (4.4081) acc: 28.1250 (27.4200) time: 16.1137 data: 15.2217 max mem: 16906
+Epoch: [18] [40/57] eta: 0:07:56 lr: 0.01 pcs/s: 287.015 loss: 4.4067 (4.3534) acc: 27.3438 (28.5442) time: 16.1137 data: 15.4305 max mem: 16906
+
+Epoch: [18] Total time: 0:22:13Epoch: [18] Total time: 0:22:13
+
+Epoch: [18] Total time: 0:22:13
+mean accuray of epoch 18 is 28.07017543859649mean accuray of epoch 18 is 28.35800438596491
+
+mean accuray of epoch 18 is 28.16611842105263
+Epoch: [19] [ 0/57] eta: 5:46:25 lr: 0.01 pcs/s: 285.258 loss: 4.4406 (4.4406) acc: 28.1250 (28.1250) time: 364.6570 data: 364.2078 max mem: 16906
+Epoch: [19] [ 0/57] eta: 5:46:25 lr: 0.01 pcs/s: 6.759 loss: 4.2758 (4.2758) acc: 29.6875 (29.6875) time: 364.6570 data: 345.7187 max mem: 16906
+Epoch: [19] [ 0/57] eta: 5:46:25 lr: 0.01 pcs/s: 131.007 loss: 3.7130 (3.7130) acc: 42.9688 (42.9688) time: 364.6502 data: 363.6728 max mem: 16906
+Epoch: [19] [40/57] eta: 0:07:39 lr: 0.01 pcs/s: 303.368 loss: 4.2403 (4.3441) acc: 29.6875 (28.3727) time: 17.6147 data: 16.3099 max mem: 16906
+Epoch: [19] [40/57] eta: 0:07:39 lr: 0.01 pcs/s: 303.494 loss: 4.2883 (4.3174) acc: 28.1250 (28.8872) time: 17.6147 data: 9.4053 max mem: 16906
+Epoch: [19] [40/57] eta: 0:07:39 lr: 0.01 pcs/s: 299.125 loss: 4.3468 (4.3612) acc: 27.3438 (28.6395) time: 17.6150 data: 16.1341 max mem: 16906
+Epoch: [19] Total time: 0:21:17Epoch: [19] Total time: 0:21:17
+
+Epoch: [19] Total time: 0:21:17
+mean accuray of epoch 19 is 28.48135964912281mean accuray of epoch 19 is 28.933662280701753
+
+mean accuray of epoch 19 is 28.207236842105264
+Epoch: [20] [ 0/57] eta: 6:46:46 lr: 0.005 pcs/s: 256.326 loss: 4.1525 (4.1525) acc: 33.5938 (33.5938) time: 428.1881 data: 427.6883 max mem: 16906
+Epoch: [20] [ 0/57] eta: 6:46:46 lr: 0.005 pcs/s: 2.468 loss: 4.3750 (4.3750) acc: 28.1250 (28.1250) time: 428.1884 data: 376.3267 max mem: 16906Epoch: [20] [ 0/57] eta: 6:46:46 lr: 0.005 pcs/s: 4.999 loss: 4.3966 (4.3966) acc: 26.5625 (26.5625) time: 428.1885 data: 402.5808 max mem: 16906
+
+Epoch: [20] [40/57] eta: 0:08:00 lr: 0.005 pcs/s: 286.700 loss: 4.2065 (4.2810) acc: 28.9062 (29.5160) time: 16.5320 data: 10.7595 max mem: 16906Epoch: [20] [40/57] eta: 0:08:00 lr: 0.005 pcs/s: 287.786 loss: 4.1999 (4.2192) acc: 28.9062 (29.7828) time: 16.5317 data: 15.8180 max mem: 16906
+Epoch: [20] [40/57] eta: 0:08:00 lr: 0.005 pcs/s: 291.943 loss: 4.2181 (4.2812) acc: 29.6875 (28.7348) time: 16.5320 data: 10.5103 max mem: 16906
+
+Epoch: [20] Total time: 0:21:51
+mean accuray of epoch 20 is 29.660087719298247
+Epoch: [20] Total time: 0:21:51Epoch: [20] Total time: 0:21:51
+
+mean accuray of epoch 20 is 29.084429824561404
+mean accuray of epoch 20 is 29.39967105263158
+Epoch: [21] [ 0/57] eta: 5:57:43 lr: 0.005 pcs/s: 6.932 loss: 3.9363 (3.9363) acc: 34.3750 (34.3750) time: 376.5470 data: 358.0818 max mem: 16906
+Epoch: [21] [ 0/57] eta: 5:57:43 lr: 0.005 pcs/s: 11.801 loss: 4.4217 (4.4217) acc: 27.3438 (27.3438) time: 376.5456 data: 365.6988 max mem: 16906
+Epoch: [21] [ 0/57] eta: 5:57:43 lr: 0.005 pcs/s: 187.740 loss: 4.4668 (4.4668) acc: 25.7812 (25.7812) time: 376.5541 data: 375.8719 max mem: 16906
+Epoch: [21] [40/57] eta: 0:08:00 lr: 0.005 pcs/s: 206.606 loss: 4.2235 (4.2753) acc: 29.6875 (29.1159) time: 18.0102 data: 14.3691 max mem: 16906
+Epoch: [21] [40/57] eta: 0:08:00 lr: 0.005 pcs/s: 206.146 loss: 4.2376 (4.2239) acc: 29.6875 (30.1639) time: 18.0103 data: 15.4541 max mem: 16906
+Epoch: [21] [40/57] eta: 0:08:00 lr: 0.005 pcs/s: 202.011 loss: 4.1409 (4.2244) acc: 30.4688 (29.8971) time: 18.0105 data: 17.4624 max mem: 16906
+Epoch: [21] Total time: 0:22:34Epoch: [21] Total time: 0:22:34Epoch: [21] Total time: 0:22:34
+
+
+mean accuray of epoch 21 is 29.45449561403509
+mean accuray of epoch 21 is 30.290570175438596
+mean accuray of epoch 21 is 29.83826754385965
+Epoch: [22] [ 0/57] eta: 6:27:28 lr: 0.005 pcs/s: 282.293 loss: 4.0562 (4.0562) acc: 28.1250 (28.1250) time: 407.8626 data: 407.4088 max mem: 16906
+Epoch: [22] [ 0/57] eta: 6:27:28 lr: 0.005 pcs/s: 6.898 loss: 4.0534 (4.0534) acc: 32.8125 (32.8125) time: 407.8629 data: 389.3058 max mem: 16906
+Epoch: [22] [ 0/57] eta: 6:27:27 lr: 0.005 pcs/s: 10.887 loss: 4.2864 (4.2864) acc: 26.5625 (26.5625) time: 407.8560 data: 396.0987 max mem: 16906
+Epoch: [22] [40/57] eta: 0:07:52 lr: 0.005 pcs/s: 305.441 loss: 4.1701 (4.2153) acc: 28.9062 (29.9924) time: 16.0766 data: 12.1197 max mem: 16906
+Epoch: [22] [40/57] eta: 0:07:52 lr: 0.005 pcs/s: 304.959 loss: 4.1541 (4.1705) acc: 29.6875 (30.0686) time: 16.0766 data: 14.3635 max mem: 16906
+Epoch: [22] [40/57] eta: 0:07:52 lr: 0.005 pcs/s: 305.430 loss: 4.2307 (4.2193) acc: 29.6875 (29.5732) time: 16.0766 data: 15.0071 max mem: 16906
+Epoch: [22] Total time: 0:21:54
+Epoch: [22] Total time: 0:21:54
+Epoch: [22] Total time: 0:21:54
+mean accuray of epoch 22 is 29.34484649122807mean accuray of epoch 22 is 30.496162280701753mean accuray of epoch 22 is 30.153508771929825
+
+
+Epoch: [23] [ 0/57] eta: 6:25:24 lr: 0.005 pcs/s: 257.103 loss: 4.3640 (4.3640) acc: 27.3438 (27.3438) time: 405.6885 data: 405.1895 max mem: 16906Epoch: [23] [ 0/57] eta: 6:25:24 lr: 0.005 pcs/s: 3.113 loss: 4.1172 (4.1172) acc: 32.8125 (32.8125) time: 405.6885 data: 364.5759 max mem: 16906
+Epoch: [23] [ 0/57] eta: 6:25:24 lr: 0.005 pcs/s: 17.413 loss: 4.0625 (4.0625) acc: 34.3750 (34.3750) time: 405.6885 data: 398.3366 max mem: 16906
+
+Epoch: [23] [40/57] eta: 0:08:09 lr: 0.005 pcs/s: 247.671 loss: 4.2199 (4.1626) acc: 28.9062 (30.2020) time: 18.9430 data: 17.7188 max mem: 16906Epoch: [23] [40/57] eta: 0:08:09 lr: 0.005 pcs/s: 247.473 loss: 4.1785 (4.1314) acc: 30.4688 (31.2500) time: 18.9424 data: 15.4263 max mem: 16906
+
+Epoch: [23] [40/57] eta: 0:08:09 lr: 0.005 pcs/s: 247.650 loss: 4.2390 (4.2058) acc: 30.4688 (30.3735) time: 18.9428 data: 16.4091 max mem: 16906
+Epoch: [23] Total time: 0:22:55Epoch: [23] Total time: 0:22:55Epoch: [23] Total time: 0:22:55
+
+
+mean accuray of epoch 23 is 29.810855263157894mean accuray of epoch 23 is 31.332236842105264
+
+mean accuray of epoch 23 is 30.50986842105263
+Epoch: [24] [ 0/57] eta: 6:32:49 lr: 0.005 pcs/s: 175.004 loss: 4.1804 (4.1804) acc: 30.4688 (30.4688) time: 413.5037 data: 412.7719 max mem: 16906Epoch: [24] [ 0/57] eta: 6:32:49 lr: 0.005 pcs/s: 5.953 loss: 4.0742 (4.0742) acc: 33.5938 (33.5938) time: 413.5037 data: 392.0010 max mem: 16906
+
+Epoch: [24] [ 0/57] eta: 6:32:49 lr: 0.005 pcs/s: 13.982 loss: 4.0979 (4.0979) acc: 30.4688 (30.4688) time: 413.5041 data: 404.3487 max mem: 16906
+Epoch: [24] [40/57] eta: 0:07:52 lr: 0.005 pcs/s: 209.226 loss: 4.1202 (4.1753) acc: 30.4688 (30.6593) time: 17.5137 data: 16.4449 max mem: 16906
+Epoch: [24] [40/57] eta: 0:07:52 lr: 0.005 pcs/s: 207.851 loss: 4.1915 (4.1667) acc: 28.9062 (30.2782) time: 17.5137 data: 11.6914 max mem: 16906
+Epoch: [24] [40/57] eta: 0:07:52 lr: 0.005 pcs/s: 199.686 loss: 4.0953 (4.1511) acc: 30.4688 (30.5069) time: 17.5137 data: 15.9422 max mem: 16906
+Epoch: [24] Total time: 0:21:52Epoch: [24] Total time: 0:21:52
+Epoch: [24] Total time: 0:21:52
+
+mean accuray of epoch 24 is 30.85252192982456
+mean accuray of epoch 24 is 30.85252192982456
+mean accuray of epoch 24 is 30.249451754385966
+Epoch: [25] [ 0/57] eta: 6:39:44 lr: 0.005 pcs/s: 216.423 loss: 4.6366 (4.6366) acc: 26.5625 (26.5625) time: 420.7828 data: 420.1910 max mem: 16906Epoch: [25] [ 0/57] eta: 6:39:44 lr: 0.005 pcs/s: 4.546 loss: 3.7949 (3.7949) acc: 32.8125 (32.8125) time: 420.7833 data: 392.6268 max mem: 16906
+
+Epoch: [25] [ 0/57] eta: 6:39:44 lr: 0.005 pcs/s: 1.522 loss: 4.4641 (4.4641) acc: 26.5625 (26.5625) time: 420.7859 data: 336.6688 max mem: 16906
+Epoch: [25] [40/57] eta: 0:06:29 lr: 0.005 pcs/s: 281.487 loss: 4.1074 (4.1571) acc: 30.4688 (30.5259) time: 11.0770 data: 0.3888 max mem: 16906
+Epoch: [25] [40/57] eta: 0:06:29 lr: 0.005 pcs/s: 287.099 loss: 4.0928 (4.1132) acc: 29.6875 (30.9642) time: 11.0770 data: 6.6277 max mem: 16906
+Epoch: [25] [40/57] eta: 0:06:29 lr: 0.005 pcs/s: 287.160 loss: 4.1029 (4.0960) acc: 30.4688 (30.8689) time: 11.0770 data: 10.6387 max mem: 16906
+Epoch: [25] Total time: 0:18:13
+mean accuray of epoch 25 is 30.61951754385965
+Epoch: [25] Total time: 0:18:13
+Epoch: [25] Total time: 0:18:13
+mean accuray of epoch 25 is 31.167763157894736
+mean accuray of epoch 25 is 31.05811403508772
+Epoch: [26] [ 0/57] eta: 4:08:25 lr: 0.005 pcs/s: 162.929 loss: 4.0790 (4.0790) acc: 31.2500 (31.2500) time: 261.4950 data: 260.7044 max mem: 16906
+Epoch: [26] [ 0/57] eta: 4:08:25 lr: 0.005 pcs/s: 13.766 loss: 4.3490 (4.3490) acc: 28.1250 (28.1250) time: 261.4973 data: 252.1983 max mem: 16906
+Epoch: [26] [ 0/57] eta: 4:08:25 lr: 0.005 pcs/s: 1.837 loss: 3.6232 (3.6232) acc: 36.7188 (36.7188) time: 261.4977 data: 191.8286 max mem: 16906
+Epoch: [26] [40/57] eta: 0:05:11 lr: 0.005 pcs/s: 293.134 loss: 4.0931 (4.1112) acc: 30.4688 (30.7736) time: 11.0341 data: 10.0048 max mem: 16906
+Epoch: [26] [40/57] eta: 0:05:11 lr: 0.005 pcs/s: 297.549 loss: 4.1732 (4.1040) acc: 28.9062 (31.0785) time: 11.0338 data: 0.7570 max mem: 16906
+Epoch: [26] [40/57] eta: 0:05:11 lr: 0.005 pcs/s: 294.647 loss: 4.1466 (4.1032) acc: 28.9062 (30.7927) time: 11.0341 data: 10.3803 max mem: 16906
+Epoch: [26] Total time: 0:15:04
+Epoch: [26] Total time: 0:15:04
+mean accuray of epoch 26 is 31.222587719298247
+mean accuray of epoch 26 is 31.359649122807017
+Epoch: [26] Total time: 0:15:04
+mean accuray of epoch 26 is 31.455592105263158
+Epoch: [27] [ 0/57] eta: 4:28:30 lr: 0.005 pcs/s: 9.085 loss: 3.8848 (3.8848) acc: 36.7188 (36.7188) time: 282.6339 data: 268.5451 max mem: 16906
+Epoch: [27] [ 0/57] eta: 4:28:30 lr: 0.005 pcs/s: 291.061 loss: 4.3399 (4.3399) acc: 25.7812 (25.7812) time: 282.6339 data: 282.1938 max mem: 16906
+Epoch: [27] [ 0/57] eta: 4:28:29 lr: 0.005 pcs/s: 15.009 loss: 4.1552 (4.1552) acc: 32.0312 (32.0312) time: 282.6188 data: 274.0902 max mem: 16906
+Epoch: [27] [40/57] eta: 0:05:26 lr: 0.005 pcs/s: 303.242 loss: 4.0263 (4.0640) acc: 31.2500 (31.7454) time: 11.6323 data: 10.8678 max mem: 16906Epoch: [27] [40/57] eta: 0:05:26 lr: 0.005 pcs/s: 310.644 loss: 4.0293 (4.0491) acc: 31.2500 (32.1265) time: 11.6323 data: 9.8868 max mem: 16906Epoch: [27] [40/57] eta: 0:05:26 lr: 0.005 pcs/s: 310.640 loss: 3.9947 (4.0534) acc: 32.0312 (31.7264) time: 11.6303 data: 9.8523 max mem: 16906
+
+
+Epoch: [27] Total time: 0:15:40
+mean accuray of epoch 27 is 31.428179824561404
+Epoch: [27] Total time: 0:15:40
+mean accuray of epoch 27 is 31.030701754385966
+Epoch: [27] Total time: 0:15:40
+mean accuray of epoch 27 is 31.263706140350877
+Epoch: [28] [ 0/57] eta: 4:22:01 lr: 0.005 pcs/s: 243.345 loss: 4.2615 (4.2615) acc: 32.0312 (32.0312) time: 275.8127 data: 275.2863 max mem: 16906
+Epoch: [28] [ 0/57] eta: 4:22:01 lr: 0.005 pcs/s: 2.326 loss: 3.9230 (3.9230) acc: 35.1562 (35.1562) time: 275.8165 data: 220.7952 max mem: 16906
+Epoch: [28] [ 0/57] eta: 4:22:01 lr: 0.005 pcs/s: 1.757 loss: 4.4563 (4.4563) acc: 26.5625 (26.5625) time: 275.8159 data: 202.9700 max mem: 16906
+Epoch: [28] [40/57] eta: 0:05:34 lr: 0.005 pcs/s: 308.173 loss: 4.1022 (4.0412) acc: 31.2500 (31.8216) time: 11.9115 data: 0.0279 max mem: 16906Epoch: [28] [40/57] eta: 0:05:34 lr: 0.005 pcs/s: 316.382 loss: 3.9677 (4.0400) acc: 31.2500 (31.6883) time: 11.9115 data: 0.0266 max mem: 16906
+
+Epoch: [28] [40/57] eta: 0:05:34 lr: 0.005 pcs/s: 316.244 loss: 4.0711 (4.1241) acc: 32.0312 (31.0023) time: 11.9115 data: 11.4918 max mem: 16906
+Epoch: [28] Total time: 0:16:01
+mean accuray of epoch 28 is 31.524122807017545
+Epoch: [28] Total time: 0:16:01
+Epoch: [28] Total time: 0:16:01
+mean accuray of epoch 28 is 31.236293859649123
+mean accuray of epoch 28 is 31.57894736842105
+Epoch: [29] [ 0/57] eta: 4:09:33 lr: 0.005 pcs/s: 66.905 loss: 4.0331 (4.0331) acc: 33.5938 (33.5938) time: 262.6901 data: 260.7765 max mem: 16906
+Epoch: [29] [ 0/57] eta: 4:09:33 lr: 0.005 pcs/s: 2.155 loss: 3.9614 (3.9614) acc: 33.5938 (33.5938) time: 262.6954 data: 203.3019 max mem: 16906
+Epoch: [29] [ 0/57] eta: 4:09:34 lr: 0.005 pcs/s: 172.791 loss: 3.9929 (3.9929) acc: 33.5938 (33.5938) time: 262.7031 data: 261.9619 max mem: 16906
+Epoch: [29] [40/57] eta: 0:05:00 lr: 0.005 pcs/s: 321.939 loss: 3.9947 (4.0079) acc: 32.0312 (32.5457) time: 9.6515 data: 8.8551 max mem: 16906
+Epoch: [29] [40/57] eta: 0:05:00 lr: 0.005 pcs/s: 331.459 loss: 4.0748 (4.0305) acc: 31.2500 (32.3361) time: 9.6520 data: 0.3993 max mem: 16906
+Epoch: [29] [40/57] eta: 0:05:00 lr: 0.005 pcs/s: 321.915 loss: 4.0801 (4.0527) acc: 31.2500 (31.5358) time: 9.6520 data: 9.1439 max mem: 16906
+Epoch: [29] Total time: 0:13:20
+Epoch: [29] Total time: 0:13:20
+Epoch: [29] Total time: 0:13:20
+mean accuray of epoch 29 is 32.41502192982456
+mean accuray of epoch 29 is 32.19572368421053
+mean accuray of epoch 29 is 32.41502192982456
+Epoch: [30] [ 0/57] eta: 2:16:55 lr: 0.005 pcs/s: 308.892 loss: 3.3892 (3.3892) acc: 39.8438 (39.8438) time: 144.1315 data: 143.7168 max mem: 16906
+Epoch: [30] [ 0/57] eta: 2:16:55 lr: 0.005 pcs/s: 9.627 loss: 3.9446 (3.9446) acc: 35.9375 (35.9375) time: 144.1315 data: 130.8347 max mem: 16906
+Epoch: [30] [ 0/57] eta: 2:16:55 lr: 0.005 pcs/s: 13.559 loss: 4.4459 (4.4459) acc: 22.6562 (22.6562) time: 144.1317 data: 134.6908 max mem: 16906
+Epoch: [30] [40/57] eta: 0:03:00 lr: 0.005 pcs/s: 334.397 loss: 4.0659 (4.0096) acc: 31.2500 (32.1075) time: 6.8884 data: 6.3239 max mem: 16906
+Epoch: [30] [40/57] eta: 0:03:00 lr: 0.005 pcs/s: 340.379 loss: 3.9866 (3.9846) acc: 31.2500 (31.9550) time: 6.8884 data: 5.1034 max mem: 16906Epoch: [30] [40/57] eta: 0:03:00 lr: 0.005 pcs/s: 340.558 loss: 4.0281 (4.0116) acc: 32.0312 (32.3171) time: 6.8884 data: 0.2482 max mem: 16906
+
+Epoch: [30] Total time: 0:08:24
+mean accuray of epoch 30 is 32.45614035087719
+Epoch: [30] Total time: 0:08:24Epoch: [30] Total time: 0:08:24
+
+mean accuray of epoch 30 is 33.08662280701754
+mean accuray of epoch 30 is 31.921600877192983
+Epoch: [31] [ 0/57] eta: 2:23:00 lr: 0.005 pcs/s: 310.435 loss: 4.2301 (4.2301) acc: 28.9062 (28.9062) time: 150.5285 data: 150.1158 max mem: 16906
+Epoch: [31] [ 0/57] eta: 2:23:00 lr: 0.005 pcs/s: 12.318 loss: 3.7765 (3.7765) acc: 32.0312 (32.0312) time: 150.5275 data: 140.1354 max mem: 16906
+Epoch: [31] [ 0/57] eta: 2:23:00 lr: 0.005 pcs/s: 3.207 loss: 3.9780 (3.9780) acc: 32.8125 (32.8125) time: 150.5281 data: 110.6104 max mem: 16906
+Epoch: [31] [40/57] eta: 0:02:58 lr: 0.005 pcs/s: 344.041 loss: 3.9762 (3.9784) acc: 32.8125 (32.3933) time: 7.0067 data: 5.9910 max mem: 16906
+Epoch: [31] [40/57] eta: 0:02:58 lr: 0.005 pcs/s: 21.888 loss: 4.0372 (4.0241) acc: 31.2500 (32.2599) time: 7.0067 data: 6.1746 max mem: 16906
+Epoch: [31] [40/57] eta: 0:02:58 lr: 0.005 pcs/s: 21.910 loss: 4.0359 (4.0082) acc: 32.0312 (32.1265) time: 7.0067 data: 0.3263 max mem: 16906
+Epoch: [31] Total time: 0:08:14Epoch: [31] Total time: 0:08:14
+
+mean accuray of epoch 31 is 33.04550438596491
+mean accuray of epoch 31 is 32.6891447368421
+Epoch: [31] Total time: 0:08:14
+mean accuray of epoch 31 is 32.6891447368421
+Epoch: [32] [ 0/57] eta: 2:18:26 lr: 0.005 pcs/s: 317.041 loss: 3.7093 (3.7093) acc: 40.6250 (40.6250) time: 145.7330 data: 145.3289 max mem: 16906
+Epoch: [32] [ 0/57] eta: 2:18:26 lr: 0.005 pcs/s: 3.892 loss: 4.2036 (4.2036) acc: 30.4688 (30.4688) time: 145.7327 data: 112.8426 max mem: 16906Epoch: [32] [ 0/57] eta: 2:18:26 lr: 0.005 pcs/s: 8.946 loss: 4.1032 (4.1032) acc: 32.8125 (32.8125) time: 145.7331 data: 131.4250 max mem: 16906
+
+Epoch: [32] [40/57] eta: 0:03:01 lr: 0.005 pcs/s: 322.242 loss: 3.9343 (3.9281) acc: 33.5938 (33.3270) time: 7.3168 data: 0.1030 max mem: 16906Epoch: [32] [40/57] eta: 0:03:01 lr: 0.005 pcs/s: 317.396 loss: 3.9644 (3.9429) acc: 32.0312 (32.9078) time: 7.3168 data: 5.4962 max mem: 16906
+
+Epoch: [32] [40/57] eta: 0:03:01 lr: 0.005 pcs/s: 319.839 loss: 3.9460 (3.9590) acc: 33.5938 (33.1555) time: 7.3168 data: 6.8708 max mem: 16906
+Epoch: [32] Total time: 0:08:29Epoch: [32] Total time: 0:08:29
+
+Epoch: [32] Total time: 0:08:29
+mean accuray of epoch 32 is 33.60745614035088
+mean accuray of epoch 32 is 32.78508771929825
+mean accuray of epoch 32 is 33.97752192982456
+Epoch: [33] [ 0/57] eta: 2:27:09 lr: 0.005 pcs/s: 96.477 loss: 4.3588 (4.3588) acc: 27.3438 (27.3438) time: 154.8984 data: 153.5714 max mem: 16906Epoch: [33] [ 0/57] eta: 2:27:09 lr: 0.005 pcs/s: 285.443 loss: 4.0134 (4.0134) acc: 32.0312 (32.0312) time: 154.8985 data: 154.4497 max mem: 16906
+
+Epoch: [33] [ 0/57] eta: 2:27:09 lr: 0.005 pcs/s: 3.043 loss: 4.1344 (4.1344) acc: 28.1250 (28.1250) time: 154.8985 data: 112.8279 max mem: 16906
+Epoch: [33] [40/57] eta: 0:03:00 lr: 0.005 pcs/s: 324.126 loss: 3.9226 (3.9418) acc: 32.8125 (32.9649) time: 6.7406 data: 0.6065 max mem: 16906
+Epoch: [33] [40/57] eta: 0:03:00 lr: 0.005 pcs/s: 324.766 loss: 3.8882 (3.8897) acc: 32.0312 (33.4223) time: 6.7406 data: 5.2856 max mem: 16906
+Epoch: [33] [40/57] eta: 0:03:00 lr: 0.005 pcs/s: 324.673 loss: 3.8955 (3.8782) acc: 32.8125 (33.3841) time: 6.7406 data: 5.2607 max mem: 16906
+Epoch: [33] Total time: 0:08:26
+Epoch: [33] Total time: 0:08:26
+mean accuray of epoch 33 is 32.949561403508774
+mean accuray of epoch 33 is 33.730811403508774
+Epoch: [33] Total time: 0:08:26
+mean accuray of epoch 33 is 32.57949561403509
+Epoch: [34] [ 0/57] eta: 2:16:49 lr: 0.005 pcs/s: 310.791 loss: 3.6739 (3.6739) acc: 38.2812 (38.2812) time: 144.0303 data: 143.6182 max mem: 16906
+Epoch: [34] [ 0/57] eta: 2:16:49 lr: 0.005 pcs/s: 19.664 loss: 3.9593 (3.9593) acc: 33.5938 (33.5938) time: 144.0305 data: 137.5209 max mem: 16906
+Epoch: [34] [ 0/57] eta: 2:16:49 lr: 0.005 pcs/s: 5.201 loss: 3.9337 (3.9337) acc: 32.8125 (32.8125) time: 144.0304 data: 119.4212 max mem: 16906
+Epoch: [34] [40/57] eta: 0:02:48 lr: 0.0025 pcs/s: 381.806 loss: 3.8358 (3.9028) acc: 34.3750 (33.7462) time: 6.4547 data: 4.5420 max mem: 16906Epoch: [34] [40/57] eta: 0:02:48 lr: 0.0025 pcs/s: 381.677 loss: 3.8511 (3.8750) acc: 34.3750 (34.1845) time: 6.4547 data: 5.8805 max mem: 16906
+
+Epoch: [34] [40/57] eta: 0:02:48 lr: 0.0025 pcs/s: 378.095 loss: 3.8771 (3.9298) acc: 32.8125 (32.7553) time: 6.4547 data: 3.3815 max mem: 16906
+Epoch: [34] Total time: 0:07:53
+Epoch: [34] Total time: 0:07:53Epoch: [34] Total time: 0:07:53
+
+mean accuray of epoch 34 is 34.73135964912281
+mean accuray of epoch 34 is 33.30592105263158
+mean accuray of epoch 34 is 34.21052631578947
+Epoch: [35] [ 0/57] eta: 2:19:33 lr: 0.0025 pcs/s: 6.646 loss: 3.7003 (3.7003) acc: 32.8125 (32.8125) time: 146.9062 data: 127.6452 max mem: 16906
+Epoch: [35] [ 0/57] eta: 2:19:33 lr: 0.0025 pcs/s: 361.206 loss: 3.8443 (3.8443) acc: 31.2500 (31.2500) time: 146.9030 data: 146.5482 max mem: 16906
+Epoch: [35] [ 0/57] eta: 2:19:33 lr: 0.0025 pcs/s: 4.632 loss: 4.0161 (4.0161) acc: 31.2500 (31.2500) time: 146.9065 data: 119.2703 max mem: 16906
+Epoch: [35] [40/57] eta: 0:02:53 lr: 0.0025 pcs/s: 340.248 loss: 3.7560 (3.8154) acc: 34.3750 (34.9276) time: 6.3057 data: 1.1648 max mem: 16906
+Epoch: [35] [40/57] eta: 0:02:53 lr: 0.0025 pcs/s: 340.612 loss: 3.8427 (3.8073) acc: 33.5938 (34.7942) time: 6.3057 data: 5.9144 max mem: 16906
+Epoch: [35] [40/57] eta: 0:02:53 lr: 0.0025 pcs/s: 341.009 loss: 3.7539 (3.7920) acc: 35.9375 (34.6418) time: 6.3057 data: 0.4491 max mem: 16906
+Epoch: [35] Total time: 0:08:19
+Epoch: [35] Total time: 0:08:19
+mean accuray of epoch 35 is 34.90953947368421
+Epoch: [35] Total time: 0:08:19
+mean accuray of epoch 35 is 35.019188596491226
+mean accuray of epoch 35 is 34.40241228070175
+Epoch: [36] [ 0/57] eta: 2:28:36 lr: 0.0025 pcs/s: 3.651 loss: 4.0525 (4.0525) acc: 31.2500 (31.2500) time: 156.4266 data: 121.3667 max mem: 16906Epoch: [36] [ 0/57] eta: 2:28:36 lr: 0.0025 pcs/s: 320.887 loss: 3.6630 (3.6630) acc: 39.8438 (39.8438) time: 156.4217 data: 156.0225 max mem: 16906
+
+Epoch: [36] [ 0/57] eta: 2:28:38 lr: 0.0025 pcs/s: 14.919 loss: 3.5076 (3.5076) acc: 39.0625 (39.0625) time: 156.4572 data: 147.8769 max mem: 16906
+Epoch: [36] [40/57] eta: 0:03:05 lr: 0.0025 pcs/s: 291.486 loss: 3.8478 (3.7689) acc: 32.8125 (35.0419) time: 7.2080 data: 0.0276 max mem: 16906
+Epoch: [36] [40/57] eta: 0:03:05 lr: 0.0025 pcs/s: 295.192 loss: 3.7285 (3.7781) acc: 34.3750 (35.0229) time: 7.2080 data: 6.7945 max mem: 16906
+Epoch: [36] [40/57] eta: 0:03:05 lr: 0.0025 pcs/s: 297.242 loss: 3.7357 (3.7494) acc: 34.3750 (35.2896) time: 7.2080 data: 0.0159 max mem: 16906
+Epoch: [36] Total time: 0:08:56
+mean accuray of epoch 36 is 35.6359649122807
+Epoch: [36] Total time: 0:08:56
+mean accuray of epoch 36 is 34.81359649122807
+Epoch: [36] Total time: 0:08:56
+mean accuray of epoch 36 is 35.26589912280702
+Epoch: [37] [ 0/57] eta: 2:26:22 lr: 0.0025 pcs/s: 2.702 loss: 3.7008 (3.7008) acc: 35.9375 (35.9375) time: 154.0787 data: 106.7131 max mem: 16906
+Epoch: [37] [ 0/57] eta: 2:26:22 lr: 0.0025 pcs/s: 293.440 loss: 3.5058 (3.5058) acc: 38.2812 (38.2812) time: 154.0784 data: 153.6419 max mem: 16906
+Epoch: [37] [ 0/57] eta: 2:26:22 lr: 0.0025 pcs/s: 32.035 loss: 4.0066 (4.0066) acc: 28.9062 (28.9062) time: 154.0782 data: 150.0820 max mem: 16906
+Epoch: [37] [40/57] eta: 0:03:04 lr: 0.0025 pcs/s: 332.574 loss: 3.7166 (3.7036) acc: 36.7188 (35.8041) time: 7.2792 data: 6.4109 max mem: 16906
+Epoch: [37] [40/57] eta: 0:03:04 lr: 0.0025 pcs/s: 329.113 loss: 3.7068 (3.7453) acc: 35.9375 (35.4802) time: 7.2792 data: 0.0175 max mem: 16906
+Epoch: [37] [40/57] eta: 0:03:04 lr: 0.0025 pcs/s: 332.293 loss: 3.6884 (3.7291) acc: 35.1562 (35.7470) time: 7.2792 data: 1.7376 max mem: 16906
+Epoch: [37] Total time: 0:08:55
+Epoch: [37] Total time: 0:08:55
+Epoch: [37] Total time: 0:08:55
+mean accuray of epoch 37 is 35.66337719298246
+mean accuray of epoch 37 is 35.38925438596491
+mean accuray of epoch 37 is 35.9375
+Epoch: [38] [ 0/57] eta: 2:32:31 lr: 0.0025 pcs/s: 211.611 loss: 3.5006 (3.5006) acc: 34.3750 (34.3750) time: 160.5494 data: 159.9441 max mem: 16906
+Epoch: [38] [ 0/57] eta: 2:32:31 lr: 0.0025 pcs/s: 32.361 loss: 3.8142 (3.8142) acc: 38.2812 (38.2812) time: 160.5510 data: 156.5953 max mem: 16906
+Epoch: [38] [ 0/57] eta: 2:32:31 lr: 0.0025 pcs/s: 1.920 loss: 4.0071 (4.0071) acc: 29.6875 (29.6875) time: 160.5511 data: 93.8776 max mem: 16906
+Epoch: [38] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 323.407 loss: 3.8401 (3.7656) acc: 35.1562 (35.5755) time: 7.2143 data: 6.4336 max mem: 16906Epoch: [38] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 325.860 loss: 3.7703 (3.7594) acc: 33.5938 (34.8895) time: 7.2143 data: 0.0278 max mem: 16906
+
+Epoch: [38] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 324.182 loss: 3.7357 (3.7278) acc: 35.1562 (36.0899) time: 7.2140 data: 6.7680 max mem: 16906
+Epoch: [38] Total time: 0:09:12
+Epoch: [38] Total time: 0:09:12
+Epoch: [38] Total time: 0:09:12
+mean accuray of epoch 38 is 35.14254385964912
+mean accuray of epoch 38 is 35.0328947368421
+mean accuray of epoch 38 is 36.307565789473685
+Epoch: [39] [ 0/57] eta: 2:42:57 lr: 0.0025 pcs/s: 68.468 loss: 3.4222 (3.4222) acc: 36.7188 (36.7188) time: 171.5282 data: 169.6584 max mem: 16906
+Epoch: [39] [ 0/57] eta: 2:42:56 lr: 0.0025 pcs/s: 211.713 loss: 3.7590 (3.7590) acc: 34.3750 (34.3750) time: 171.5243 data: 170.9193 max mem: 16906
+Epoch: [39] [ 0/57] eta: 2:42:57 lr: 0.0025 pcs/s: 22.464 loss: 3.5839 (3.5839) acc: 36.7188 (36.7188) time: 171.5281 data: 165.8298 max mem: 16906
+Epoch: [39] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 331.960 loss: 3.7605 (3.7715) acc: 32.0312 (35.0419) time: 7.0961 data: 6.5327 max mem: 16906
+Epoch: [39] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 338.217 loss: 3.7108 (3.7612) acc: 35.1562 (35.7279) time: 7.0964 data: 6.4447 max mem: 16906
+Epoch: [39] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 335.869 loss: 3.7119 (3.7408) acc: 34.3750 (35.7660) time: 7.0957 data: 5.5121 max mem: 16906
+Epoch: [39] Total time: 0:09:09
+Epoch: [39] Total time: 0:09:09
+Epoch: [39] Total time: 0:09:09
+mean accuray of epoch 39 is 35.89638157894737
+mean accuray of epoch 39 is 35.14254385964912
+mean accuray of epoch 39 is 36.14309210526316
+Epoch: [40] [ 0/57] eta: 2:44:09 lr: 0.0025 pcs/s: 220.790 loss: 4.0534 (4.0534) acc: 30.4688 (30.4688) time: 172.8002 data: 172.2202 max mem: 16906
+Epoch: [40] [ 0/57] eta: 2:44:04 lr: 0.0025 pcs/s: 21.874 loss: 4.1066 (4.1066) acc: 28.9062 (28.9062) time: 172.7145 data: 166.8624 max mem: 16906
+Epoch: [40] [ 0/57] eta: 2:44:09 lr: 0.0025 pcs/s: 49.585 loss: 3.7868 (3.7868) acc: 35.1562 (35.1562) time: 172.8030 data: 170.2213 max mem: 16906
+Epoch: [40] [40/57] eta: 0:03:23 lr: 0.0025 pcs/s: 311.493 loss: 3.6900 (3.7413) acc: 35.9375 (35.8041) time: 7.1507 data: 4.5887 max mem: 16906
+Epoch: [40] [40/57] eta: 0:03:23 lr: 0.0025 pcs/s: 311.560 loss: 3.6321 (3.7017) acc: 35.9375 (36.3758) time: 7.1507 data: 6.7350 max mem: 16906
+Epoch: [40] [40/57] eta: 0:03:23 lr: 0.0025 pcs/s: 317.478 loss: 3.7374 (3.7451) acc: 35.9375 (35.8422) time: 7.1507 data: 6.2946 max mem: 16906
+Epoch: [40] Total time: 0:09:41
+Epoch: [40] Total time: 0:09:41
+Epoch: [40] Total time: 0:09:41
+mean accuray of epoch 40 is 36.22532894736842
+mean accuray of epoch 40 is 35.43037280701754
+mean accuray of epoch 40 is 36.04714912280702
+Epoch: [41] [ 0/57] eta: 2:45:17 lr: 0.0025 pcs/s: 29.701 loss: 4.2811 (4.2811) acc: 27.3438 (27.3438) time: 173.9959 data: 169.6860 max mem: 16906
+Epoch: [41] [ 0/57] eta: 2:45:17 lr: 0.0025 pcs/s: 255.141 loss: 3.5885 (3.5885) acc: 35.1562 (35.1562) time: 173.9952 data: 173.4931 max mem: 16906
+Epoch: [41] [ 0/57] eta: 2:45:17 lr: 0.0025 pcs/s: 17.528 loss: 3.6310 (3.6310) acc: 39.8438 (39.8438) time: 173.9949 data: 166.6921 max mem: 16906
+Epoch: [41] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 297.747 loss: 3.7196 (3.7253) acc: 35.1562 (35.7470) time: 7.5610 data: 6.5580 max mem: 16906
+Epoch: [41] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 294.979 loss: 3.8125 (3.6946) acc: 34.3750 (36.4901) time: 7.5611 data: 6.0161 max mem: 16906
+Epoch: [41] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 297.611 loss: 3.6437 (3.6857) acc: 35.9375 (36.3377) time: 7.5609 data: 6.6270 max mem: 16906
+Epoch: [41] Total time: 0:09:40
+Epoch: [41] Total time: 0:09:40
+mean accuray of epoch 41 is 36.78728070175438
+mean accuray of epoch 41 is 36.156798245614034
+Epoch: [41] Total time: 0:09:40
+mean accuray of epoch 41 is 36.979166666666664
+Epoch: [42] [ 0/57] eta: 2:46:07 lr: 0.0025 pcs/s: 304.146 loss: 3.5167 (3.5167) acc: 43.7500 (43.7500) time: 174.8740 data: 174.4528 max mem: 16906Epoch: [42] [ 0/57] eta: 2:46:07 lr: 0.0025 pcs/s: 34.957 loss: 3.6455 (3.6455) acc: 39.8438 (39.8438) time: 174.8731 data: 171.2110 max mem: 16906
+
+Epoch: [42] [ 0/57] eta: 2:46:07 lr: 0.0025 pcs/s: 22.501 loss: 3.4416 (3.4416) acc: 42.1875 (42.1875) time: 174.8740 data: 169.1851 max mem: 16906
+Epoch: [42] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 314.203 loss: 3.5876 (3.6454) acc: 38.2812 (37.0236) time: 7.5049 data: 0.1757 max mem: 16906
+Epoch: [42] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 337.757 loss: 3.6936 (3.6426) acc: 35.9375 (36.3567) time: 7.5049 data: 6.6582 max mem: 16906
+Epoch: [42] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 318.699 loss: 3.5919 (3.6760) acc: 38.2812 (36.7569) time: 7.5050 data: 6.9494 max mem: 16906
+Epoch: [42] Total time: 0:09:27
+Epoch: [42] Total time: 0:09:27
+Epoch: [42] Total time: 0:09:27
+mean accuray of epoch 42 is 36.8421052631579
+mean accuray of epoch 42 is 36.896929824561404
+mean accuray of epoch 42 is 36.581688596491226
+Epoch: [43] [ 0/57] eta: 2:39:03 lr: 0.0025 pcs/s: 250.035 loss: 3.5282 (3.5282) acc: 39.8438 (39.8438) time: 167.4231 data: 166.9109 max mem: 16906
+Epoch: [43] [ 0/57] eta: 2:39:02 lr: 0.0025 pcs/s: 30.726 loss: 3.5656 (3.5656) acc: 39.0625 (39.0625) time: 167.4201 data: 163.2538 max mem: 16906
+Epoch: [43] [ 0/57] eta: 2:39:03 lr: 0.0025 pcs/s: 22.689 loss: 3.5211 (3.5211) acc: 42.1875 (42.1875) time: 167.4236 data: 161.7816 max mem: 16906
+Epoch: [43] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 145.475 loss: 3.5518 (3.5906) acc: 38.2812 (37.9383) time: 7.3897 data: 0.0282 max mem: 16906
+Epoch: [43] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 145.832 loss: 3.6312 (3.6358) acc: 36.7188 (37.3476) time: 7.3901 data: 6.9174 max mem: 16906
+Epoch: [43] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 318.077 loss: 3.5322 (3.6432) acc: 37.5000 (36.9855) time: 7.3907 data: 0.4672 max mem: 16906
+Epoch: [43] Total time: 0:09:34
+Epoch: [43] Total time: 0:09:34
+mean accuray of epoch 43 is 37.15734649122807
+mean accuray of epoch 43 is 37.84265350877193
+Epoch: [43] Total time: 0:09:34
+mean accuray of epoch 43 is 37.10252192982456
+Epoch: [44] [ 0/57] eta: 2:37:16 lr: 0.0025 pcs/s: 314.085 loss: 3.5448 (3.5448) acc: 38.2812 (38.2812) time: 165.5443 data: 165.1364 max mem: 16906
+Epoch: [44] [ 0/57] eta: 2:37:16 lr: 0.0025 pcs/s: 15.444 loss: 3.7147 (3.7147) acc: 34.3750 (34.3750) time: 165.5445 data: 157.2560 max mem: 16906
+Epoch: [44] [ 0/57] eta: 2:37:16 lr: 0.0025 pcs/s: 3.360 loss: 3.7348 (3.7348) acc: 35.9375 (35.9375) time: 165.5449 data: 127.4487 max mem: 16906
+Epoch: [44] [40/57] eta: 0:03:10 lr: 0.0025 pcs/s: 328.198 loss: 3.5635 (3.6294) acc: 37.5000 (37.6524) time: 7.2821 data: 6.4068 max mem: 16906
+Epoch: [44] [40/57] eta: 0:03:10 lr: 0.0025 pcs/s: 332.467 loss: 3.6234 (3.6274) acc: 35.1562 (37.4809) time: 7.2821 data: 6.8565 max mem: 16906
+Epoch: [44] [40/57] eta: 0:03:10 lr: 0.0025 pcs/s: 329.224 loss: 3.6503 (3.6620) acc: 35.9375 (36.9093) time: 7.2821 data: 5.3093 max mem: 16906
+Epoch: [44] Total time: 0:08:52
+mean accuray of epoch 44 is 37.088815789473685
+Epoch: [44] Total time: 0:08:52
+mean accuray of epoch 44 is 37.34923245614035
+Epoch: [44] Total time: 0:08:52
+mean accuray of epoch 44 is 37.321820175438596
+Epoch: [45] [ 0/57] eta: 2:33:25 lr: 0.0025 pcs/s: 1.929 loss: 4.0179 (4.0179) acc: 28.1250 (28.1250) time: 161.5016 data: 95.1611 max mem: 16906
+Epoch: [45] [ 0/57] eta: 2:33:25 lr: 0.0025 pcs/s: 261.521 loss: 3.4619 (3.4619) acc: 39.0625 (39.0625) time: 161.5057 data: 161.0159 max mem: 16906
+Epoch: [45] [ 0/57] eta: 2:33:26 lr: 0.0025 pcs/s: 4.389 loss: 3.3638 (3.3638) acc: 42.1875 (42.1875) time: 161.5093 data: 132.3460 max mem: 16906
+Epoch: [45] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 287.109 loss: 3.7290 (3.6180) acc: 36.7188 (37.8239) time: 7.4816 data: 5.4362 max mem: 16906
+Epoch: [45] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 285.043 loss: 3.5858 (3.6192) acc: 37.5000 (37.4809) time: 7.4816 data: 7.0301 max mem: 16906
+Epoch: [45] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 289.216 loss: 3.5491 (3.6224) acc: 39.0625 (37.1380) time: 7.4816 data: 4.1555 max mem: 16906
+Epoch: [45] Total time: 0:09:20
+Epoch: [45] Total time: 0:09:20
+mean accuray of epoch 45 is 37.66447368421053
+mean accuray of epoch 45 is 37.8015350877193
+Epoch: [45] Total time: 0:09:20
+mean accuray of epoch 45 is 37.171052631578945
+Epoch: [46] [ 0/57] eta: 2:21:15 lr: 0.0025 pcs/s: 309.495 loss: 3.4412 (3.4412) acc: 42.1875 (42.1875) time: 148.6938 data: 148.2799 max mem: 16906
+Epoch: [46] [ 0/57] eta: 2:21:15 lr: 0.0025 pcs/s: 16.201 loss: 3.5644 (3.5644) acc: 39.8438 (39.8438) time: 148.6941 data: 140.7928 max mem: 16906
+Epoch: [46] [ 0/57] eta: 2:21:15 lr: 0.0025 pcs/s: 2.810 loss: 4.0888 (4.0888) acc: 28.9062 (28.9062) time: 148.6932 data: 103.1483 max mem: 16906
+Epoch: [46] [40/57] eta: 0:03:00 lr: 0.0025 pcs/s: 326.519 loss: 3.5410 (3.5741) acc: 38.2812 (37.9954) time: 6.7144 data: 0.0209 max mem: 16906
+Epoch: [46] [40/57] eta: 0:03:00 lr: 0.0025 pcs/s: 330.589 loss: 3.5685 (3.5834) acc: 37.5000 (37.7287) time: 6.7144 data: 6.2075 max mem: 16906Epoch: [46] [40/57] eta: 0:03:00 lr: 0.0025 pcs/s: 330.257 loss: 3.6020 (3.6235) acc: 37.5000 (37.4047) time: 6.7144 data: 1.6829 max mem: 16906
+
+Epoch: [46] Total time: 0:08:29
+Epoch: [46] Total time: 0:08:29
+mean accuray of epoch 46 is 37.47258771929825
+mean accuray of epoch 46 is 38.1578947368421
+Epoch: [46] Total time: 0:08:29
+mean accuray of epoch 46 is 37.92489035087719
+Epoch: [47] [ 0/57] eta: 2:24:13 lr: 0.0025 pcs/s: 310.915 loss: 3.8740 (3.8740) acc: 35.9375 (35.9375) time: 151.8222 data: 151.4102 max mem: 16906Epoch: [47] [ 0/57] eta: 2:24:13 lr: 0.0025 pcs/s: 3.293 loss: 3.3364 (3.3364) acc: 37.5000 (37.5000) time: 151.8217 data: 112.9505 max mem: 16906
+
+Epoch: [47] [ 0/57] eta: 2:24:13 lr: 0.0025 pcs/s: 7.621 loss: 3.4380 (3.4380) acc: 39.8438 (39.8438) time: 151.8227 data: 135.0260 max mem: 16906
+Epoch: [47] [40/57] eta: 0:03:03 lr: 0.0025 pcs/s: 330.040 loss: 3.5331 (3.4923) acc: 38.2812 (38.7386) time: 7.1331 data: 0.0152 max mem: 16906Epoch: [47] [40/57] eta: 0:03:03 lr: 0.0025 pcs/s: 334.092 loss: 3.5384 (3.5316) acc: 37.5000 (39.2912) time: 7.1331 data: 5.6445 max mem: 16906
+
+Epoch: [47] [40/57] eta: 0:03:03 lr: 0.0025 pcs/s: 339.734 loss: 3.6544 (3.6063) acc: 35.9375 (38.1098) time: 7.1326 data: 6.6785 max mem: 16906
+Epoch: [47] Total time: 0:08:39
+mean accuray of epoch 47 is 38.36348684210526
+Epoch: [47] Total time: 0:08:39
+Epoch: [47] Total time: 0:08:39
+mean accuray of epoch 47 is 38.28125
+mean accuray of epoch 47 is 39.199561403508774
+Epoch: [48] [ 0/57] eta: 2:21:20 lr: 0.0025 pcs/s: 2.369 loss: 3.7372 (3.7372) acc: 33.5938 (33.5938) time: 148.7724 data: 94.7468 max mem: 16906
+Epoch: [48] [ 0/57] eta: 2:21:19 lr: 0.0025 pcs/s: 245.759 loss: 3.4747 (3.4747) acc: 39.0625 (39.0625) time: 148.7717 data: 148.2505 max mem: 16906
+Epoch: [48] [ 0/57] eta: 2:21:19 lr: 0.0025 pcs/s: 7.567 loss: 3.8920 (3.8920) acc: 33.5938 (33.5938) time: 148.7692 data: 131.8536 max mem: 16906
+Epoch: [48] [40/57] eta: 0:03:07 lr: 0.0025 pcs/s: 303.579 loss: 3.6115 (3.5604) acc: 37.5000 (38.3765) time: 7.2508 data: 5.9290 max mem: 16906
+Epoch: [48] [40/57] eta: 0:03:07 lr: 0.0025 pcs/s: 303.548 loss: 3.5545 (3.5069) acc: 39.0625 (39.1387) time: 7.2509 data: 6.8148 max mem: 16906
+Epoch: [48] [40/57] eta: 0:03:07 lr: 0.0025 pcs/s: 303.233 loss: 3.5657 (3.5646) acc: 39.0625 (38.0716) time: 7.2509 data: 0.0182 max mem: 16906
+Epoch: [48] Total time: 0:08:57
+Epoch: [48] Total time: 0:08:57
+Epoch: [48] Total time: 0:08:57
+mean accuray of epoch 48 is 38.843201754385966
+mean accuray of epoch 48 is 38.29495614035088
+mean accuray of epoch 48 is 38.26754385964912
+Epoch: [49] [ 0/57] eta: 2:30:10 lr: 0.0025 pcs/s: 244.394 loss: 3.4206 (3.4206) acc: 36.7188 (36.7188) time: 158.0855 data: 157.5614 max mem: 16906
+Epoch: [49] [ 0/57] eta: 2:30:10 lr: 0.0025 pcs/s: 34.991 loss: 3.6259 (3.6259) acc: 35.1562 (35.1562) time: 158.0862 data: 154.4276 max mem: 16906
+Epoch: [49] [ 0/57] eta: 2:30:10 lr: 0.0025 pcs/s: 1.769 loss: 3.5811 (3.5811) acc: 40.6250 (40.6250) time: 158.0868 data: 85.7346 max mem: 16906
+Epoch: [49] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 330.657 loss: 3.2908 (3.4913) acc: 40.6250 (38.9482) time: 7.8266 data: 6.5210 max mem: 16906Epoch: [49] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 330.754 loss: 3.5442 (3.4995) acc: 36.7188 (39.1387) time: 7.8263 data: 7.3530 max mem: 16906
+
+Epoch: [49] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 330.531 loss: 3.5735 (3.5747) acc: 37.5000 (37.7287) time: 7.8263 data: 0.2927 max mem: 16906
+Epoch: [49] Total time: 0:09:39Epoch: [49] Total time: 0:09:39Epoch: [49] Total time: 0:09:39
+
+
+mean accuray of epoch 49 is 39.0625mean accuray of epoch 49 is 39.0625
+
+mean accuray of epoch 49 is 37.96600877192982
+Epoch: [50] [ 0/57] eta: 2:40:43 lr: 0.0025 pcs/s: 34.440 loss: 3.7598 (3.7598) acc: 34.3750 (34.3750) time: 169.1925 data: 165.4755 max mem: 16906
+Epoch: [50] [ 0/57] eta: 2:40:43 lr: 0.0025 pcs/s: 17.645 loss: 3.8549 (3.8549) acc: 32.8125 (32.8125) time: 169.1928 data: 161.9380 max mem: 16906
+Epoch: [50] [ 0/57] eta: 2:40:44 lr: 0.0025 pcs/s: 206.699 loss: 2.8749 (2.8749) acc: 48.4375 (48.4375) time: 169.2028 data: 168.5831 max mem: 16906
+Epoch: [50] [40/57] eta: 0:03:24 lr: 0.0025 pcs/s: 326.011 loss: 3.4546 (3.4916) acc: 39.0625 (39.6723) time: 7.8932 data: 3.4198 max mem: 16906
+Epoch: [50] [40/57] eta: 0:03:24 lr: 0.0025 pcs/s: 331.005 loss: 3.4737 (3.5071) acc: 38.2812 (38.6433) time: 7.8942 data: 7.4694 max mem: 16906Epoch: [50] [40/57] eta: 0:03:24 lr: 0.0025 pcs/s: 330.811 loss: 3.5019 (3.4740) acc: 39.0625 (39.6151) time: 7.8942 data: 4.6716 max mem: 16906
+
+Epoch: [50] Total time: 0:09:50
+Epoch: [50] Total time: 0:09:50
+mean accuray of epoch 50 is 38.26754385964912mean accuray of epoch 50 is 39.73410087719298
+
+Epoch: [50] Total time: 0:09:50
+mean accuray of epoch 50 is 39.69298245614035
+Epoch: [51] [ 0/57] eta: 2:33:24 lr: 0.0025 pcs/s: 303.029 loss: 3.2467 (3.2467) acc: 39.8438 (39.8438) time: 161.4906 data: 161.0679 max mem: 16906
+Epoch: [51] [ 0/57] eta: 2:33:24 lr: 0.0025 pcs/s: 21.159 loss: 3.4945 (3.4945) acc: 42.1875 (42.1875) time: 161.4885 data: 155.4388 max mem: 16906
+Epoch: [51] [ 0/57] eta: 2:33:25 lr: 0.0025 pcs/s: 35.138 loss: 3.6163 (3.6163) acc: 38.2812 (38.2812) time: 161.5084 data: 157.8652 max mem: 16906
+Epoch: [51] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 336.185 loss: 3.4301 (3.5149) acc: 39.0625 (39.1578) time: 7.6726 data: 7.2612 max mem: 16906
+Epoch: [51] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 336.431 loss: 3.4790 (3.4944) acc: 39.8438 (39.8247) time: 7.6726 data: 5.0621 max mem: 16906
+Epoch: [51] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 324.591 loss: 3.5128 (3.4621) acc: 38.2812 (39.8819) time: 7.6733 data: 6.0508 max mem: 16906
+Epoch: [51] Total time: 0:09:53Epoch: [51] Total time: 0:09:53Epoch: [51] Total time: 0:09:53
+
+
+mean accuray of epoch 51 is 39.92598684210526mean accuray of epoch 51 is 39.85745614035088mean accuray of epoch 51 is 38.82949561403509
+
+
+Epoch: [52] [ 0/57] eta: 2:33:37 lr: 0.0025 pcs/s: 217.274 loss: 3.7429 (3.7429) acc: 37.5000 (37.5000) time: 161.7129 data: 161.1234 max mem: 16906
+Epoch: [52] [ 0/57] eta: 2:33:37 lr: 0.0025 pcs/s: 21.949 loss: 3.6192 (3.6192) acc: 38.2812 (38.2812) time: 161.7140 data: 155.8818 max mem: 16906
+Epoch: [52] [ 0/57] eta: 2:33:38 lr: 0.0025 pcs/s: 25.244 loss: 2.8166 (2.8166) acc: 55.4688 (55.4688) time: 161.7202 data: 156.6493 max mem: 16906
+Epoch: [52] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 337.113 loss: 3.4808 (3.4633) acc: 39.8438 (39.4245) time: 7.7174 data: 5.3466 max mem: 16906
+Epoch: [52] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 338.419 loss: 3.4762 (3.4505) acc: 39.0625 (40.3773) time: 7.7174 data: 7.2488 max mem: 16906Epoch: [52] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 338.427 loss: 3.5071 (3.4729) acc: 39.8438 (39.7294) time: 7.7174 data: 4.8000 max mem: 16906
+
+Epoch: [52] Total time: 0:09:45Epoch: [52] Total time: 0:09:45Epoch: [52] Total time: 0:09:45
+
+
+mean accuray of epoch 52 is 39.99451754385965mean accuray of epoch 52 is 39.21326754385965
+
+mean accuray of epoch 52 is 39.78892543859649
+Epoch: [53] [ 0/57] eta: 2:31:37 lr: 0.0025 pcs/s: 206.029 loss: 3.2746 (3.2746) acc: 45.3125 (45.3125) time: 159.6014 data: 158.9798 max mem: 16906
+Epoch: [53] [ 0/57] eta: 2:31:37 lr: 0.0025 pcs/s: 9.422 loss: 4.0139 (4.0139) acc: 33.5938 (33.5938) time: 159.6047 data: 146.0183 max mem: 16906
+Epoch: [53] [ 0/57] eta: 2:31:38 lr: 0.0025 pcs/s: 8.424 loss: 3.1058 (3.1058) acc: 42.1875 (42.1875) time: 159.6186 data: 144.4226 max mem: 16906
+Epoch: [53] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 336.543 loss: 3.3703 (3.4233) acc: 39.8438 (40.0152) time: 7.9151 data: 7.4666 max mem: 16906Epoch: [53] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 335.458 loss: 3.3518 (3.4314) acc: 41.4062 (40.0534) time: 7.9151 data: 5.2877 max mem: 16906Epoch: [53] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 335.471 loss: 3.4308 (3.4646) acc: 39.0625 (39.7104) time: 7.9151 data: 5.3483 max mem: 16906
+
+
+Epoch: [53] Total time: 0:09:46Epoch: [53] Total time: 0:09:46Epoch: [53] Total time: 0:09:46
+
+
+mean accuray of epoch 53 is 39.13103070175438mean accuray of epoch 53 is 40.254934210526315
+
+mean accuray of epoch 53 is 39.14473684210526
+Epoch: [54] [ 0/57] eta: 2:29:12 lr: 0.0025 pcs/s: 256.269 loss: 3.5395 (3.5395) acc: 39.8438 (39.8438) time: 157.0593 data: 156.5595 max mem: 16906
+Epoch: [54] [ 0/57] eta: 2:29:12 lr: 0.0025 pcs/s: 23.421 loss: 3.4611 (3.4611) acc: 42.1875 (42.1875) time: 157.0568 data: 151.5912 max mem: 16906
+Epoch: [54] [ 0/57] eta: 2:29:12 lr: 0.0025 pcs/s: 21.002 loss: 3.5613 (3.5613) acc: 40.6250 (40.6250) time: 157.0597 data: 150.9645 max mem: 16906
+Epoch: [54] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 337.409 loss: 3.5338 (3.5534) acc: 38.2812 (38.3384) time: 8.1662 data: 6.4424 max mem: 16906
+Epoch: [54] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 13.812 loss: 3.4094 (3.4476) acc: 40.6250 (40.1486) time: 8.1661 data: 6.4450 max mem: 16906
+Epoch: [54] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 13.811 loss: 3.4048 (3.4060) acc: 39.8438 (40.4345) time: 8.1662 data: 4.0522 max mem: 16906
+Epoch: [54] Total time: 0:09:38Epoch: [54] Total time: 0:09:38Epoch: [54] Total time: 0:09:38
+
+
+mean accuray of epoch 54 is 40.09046052631579mean accuray of epoch 54 is 39.93969298245614mean accuray of epoch 54 is 38.9391447368421
+
+
+Epoch: [55] [ 0/57] eta: 2:26:45 lr: 0.0025 pcs/s: 32.454 loss: 3.1875 (3.1875) acc: 42.9688 (42.9688) time: 154.4790 data: 150.5346 max mem: 16906
+Epoch: [55] [ 0/57] eta: 2:26:45 lr: 0.0025 pcs/s: 138.462 loss: 3.6818 (3.6818) acc: 37.5000 (37.5000) time: 154.4788 data: 153.5540 max mem: 16906
+Epoch: [55] [ 0/57] eta: 2:26:45 lr: 0.0025 pcs/s: 253.391 loss: 3.4260 (3.4260) acc: 40.6250 (40.6250) time: 154.4787 data: 153.9733 max mem: 16906
+Epoch: [55] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 322.817 loss: 3.4295 (3.4385) acc: 40.6250 (40.3963) time: 7.5237 data: 6.3605 max mem: 16906
+Epoch: [55] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 338.001 loss: 3.4997 (3.4444) acc: 39.8438 (39.9581) time: 7.5237 data: 7.1018 max mem: 16906
+Epoch: [55] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 326.356 loss: 3.4633 (3.4362) acc: 39.0625 (39.8438) time: 7.5237 data: 4.5395 max mem: 16906
+Epoch: [55] Total time: 0:09:30Epoch: [55] Total time: 0:09:30
+Epoch: [55] Total time: 0:09:30
+
+mean accuray of epoch 55 is 40.04934210526316mean accuray of epoch 55 is 40.43311403508772mean accuray of epoch 55 is 40.063048245614034
+
+
+Epoch: [56] [ 0/57] eta: 2:36:43 lr: 0.0025 pcs/s: 269.256 loss: 3.5966 (3.5966) acc: 38.2812 (38.2812) time: 164.9788 data: 164.5031 max mem: 16906
+Epoch: [56] [ 0/57] eta: 2:36:43 lr: 0.0025 pcs/s: 27.253 loss: 3.4594 (3.4594) acc: 42.1875 (42.1875) time: 164.9792 data: 160.2821 max mem: 16906
+Epoch: [56] [ 0/57] eta: 2:36:44 lr: 0.0025 pcs/s: 37.662 loss: 3.1074 (3.1074) acc: 45.3125 (45.3125) time: 164.9864 data: 161.5874 max mem: 16906
+Epoch: [56] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 322.637 loss: 3.4960 (3.4445) acc: 39.8438 (40.5297) time: 7.6400 data: 6.7090 max mem: 16906Epoch: [56] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 325.898 loss: 3.4663 (3.4040) acc: 39.8438 (40.8155) time: 7.6400 data: 3.5906 max mem: 16906
+
+Epoch: [56] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 322.842 loss: 3.4575 (3.4146) acc: 39.0625 (40.3963) time: 7.6400 data: 6.2631 max mem: 16906
+Epoch: [56] Total time: 0:09:40Epoch: [56] Total time: 0:09:40
+
+Epoch: [56] Total time: 0:09:40
+mean accuray of epoch 56 is 40.446820175438596mean accuray of epoch 56 is 40.83059210526316
+
+mean accuray of epoch 56 is 40.52905701754386
+Epoch: [57] [ 0/57] eta: 2:34:06 lr: 0.0025 pcs/s: 216.088 loss: 3.3006 (3.3006) acc: 44.5312 (44.5312) time: 162.2246 data: 161.6319 max mem: 16906
+Epoch: [57] [ 0/57] eta: 2:34:06 lr: 0.0025 pcs/s: 16.999 loss: 2.8979 (2.8979) acc: 50.7812 (50.7812) time: 162.2254 data: 154.6951 max mem: 16906
+Epoch: [57] [ 0/57] eta: 2:34:06 lr: 0.0025 pcs/s: 11.276 loss: 3.1866 (3.1866) acc: 42.9688 (42.9688) time: 162.2254 data: 150.8738 max mem: 16906
+Epoch: [57] [40/57] eta: 0:03:10 lr: 0.0025 pcs/s: 336.831 loss: 3.4142 (3.4393) acc: 39.0625 (39.6532) time: 7.3512 data: 6.7256 max mem: 16906
+Epoch: [57] [40/57] eta: 0:03:10 lr: 0.0025 pcs/s: 336.928 loss: 3.3660 (3.3627) acc: 39.8438 (41.5015) time: 7.3513 data: 6.1574 max mem: 16906Epoch: [57] [40/57] eta: 0:03:10 lr: 0.0025 pcs/s: 336.985 loss: 3.3733 (3.4189) acc: 41.4062 (40.6250) time: 7.3513 data: 6.7404 max mem: 16906
+
+Epoch: [57] Total time: 0:09:31Epoch: [57] Total time: 0:09:31
+
+Epoch: [57] Total time: 0:09:31
+mean accuray of epoch 57 is 40.61129385964912mean accuray of epoch 57 is 40.57017543859649mean accuray of epoch 57 is 41.927083333333336
+
+
+Epoch: [58] [ 0/57] eta: 2:33:36 lr: 0.0025 pcs/s: 269.463 loss: 3.3097 (3.3097) acc: 47.6562 (47.6562) time: 161.6935 data: 161.2181 max mem: 16906
+Epoch: [58] [ 0/57] eta: 2:33:36 lr: 0.0025 pcs/s: 8.131 loss: 3.2477 (3.2477) acc: 42.1875 (42.1875) time: 161.6938 data: 145.9510 max mem: 16906
+Epoch: [58] [ 0/57] eta: 2:33:36 lr: 0.0025 pcs/s: 23.591 loss: 3.6916 (3.6916) acc: 36.7188 (36.7188) time: 161.6939 data: 156.2676 max mem: 16906
+Epoch: [58] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 327.470 loss: 3.2950 (3.3810) acc: 42.1875 (41.4062) time: 8.0995 data: 7.0121 max mem: 16906
+Epoch: [58] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 327.455 loss: 3.4251 (3.3907) acc: 41.4062 (41.0633) time: 8.0989 data: 6.7535 max mem: 16906Epoch: [58] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 327.917 loss: 3.3080 (3.3615) acc: 42.1875 (40.9870) time: 8.0995 data: 4.5140 max mem: 16906
+
+Epoch: [58] Total time: 0:09:37Epoch: [58] Total time: 0:09:37Epoch: [58] Total time: 0:09:37
+
+
+mean accuray of epoch 58 is 40.55646929824562mean accuray of epoch 58 is 40.73464912280702
+
+mean accuray of epoch 58 is 41.46107456140351
+Epoch: [59] [ 0/57] eta: 2:31:06 lr: 0.0025 pcs/s: 201.523 loss: 3.4191 (3.4191) acc: 35.1562 (35.1562) time: 159.0580 data: 158.4225 max mem: 16906
+Epoch: [59] [ 0/57] eta: 2:31:05 lr: 0.0025 pcs/s: 108.732 loss: 2.9698 (2.9698) acc: 49.2188 (49.2188) time: 159.0439 data: 157.8662 max mem: 16906
+Epoch: [59] [ 0/57] eta: 2:31:05 lr: 0.0025 pcs/s: 14.291 loss: 3.4225 (3.4225) acc: 42.1875 (42.1875) time: 159.0437 data: 150.0865 max mem: 16906
+Epoch: [59] [40/57] eta: 0:03:13 lr: 0.0025 pcs/s: 338.967 loss: 3.4657 (3.3587) acc: 40.6250 (41.3110) time: 7.1819 data: 6.2224 max mem: 16906Epoch: [59] [40/57] eta: 0:03:13 lr: 0.0025 pcs/s: 337.773 loss: 3.3811 (3.3659) acc: 40.6250 (41.3872) time: 7.1818 data: 5.5004 max mem: 16906
+
+Epoch: [59] [40/57] eta: 0:03:13 lr: 0.0025 pcs/s: 337.769 loss: 3.3328 (3.3405) acc: 42.1875 (41.2538) time: 7.1819 data: 4.5094 max mem: 16906
+Epoch: [59] Total time: 0:09:34
+Epoch: [59] Total time: 0:09:34Epoch: [59] Total time: 0:09:34
+
+mean accuray of epoch 59 is 40.87171052631579mean accuray of epoch 59 is 41.35142543859649
+
+mean accuray of epoch 59 is 41.39254385964912
+Epoch: [60] [ 0/57] eta: 2:31:59 lr: 0.0025 pcs/s: 310.037 loss: 3.2973 (3.2973) acc: 42.9688 (42.9688) time: 159.9868 data: 159.5736 max mem: 16906
+Epoch: [60] [ 0/57] eta: 2:31:59 lr: 0.0025 pcs/s: 58.691 loss: 3.1223 (3.1223) acc: 44.5312 (44.5312) time: 159.9826 data: 157.8013 max mem: 16906
+Epoch: [60] [ 0/57] eta: 2:31:59 lr: 0.0025 pcs/s: 13.724 loss: 3.1691 (3.1691) acc: 43.7500 (43.7500) time: 159.9905 data: 150.6633 max mem: 16906
+Epoch: [60] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 337.129 loss: 3.2520 (3.3457) acc: 42.1875 (41.6730) time: 7.2109 data: 5.4444 max mem: 16906Epoch: [60] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 337.513 loss: 3.2075 (3.3308) acc: 42.9688 (41.3300) time: 7.2109 data: 4.5843 max mem: 16906
+
+Epoch: [60] [40/57] eta: 0:03:12 lr: 0.0025 pcs/s: 337.520 loss: 3.2591 (3.3086) acc: 41.4062 (42.5305) time: 7.2109 data: 6.7626 max mem: 16906
+Epoch: [60] Total time: 0:09:26Epoch: [60] Total time: 0:09:26Epoch: [60] Total time: 0:09:26
+
+
+mean accuray of epoch 60 is 40.66611842105263mean accuray of epoch 60 is 42.43421052631579
+mean accuray of epoch 60 is 41.51589912280702
+
+Epoch: [61] [ 0/57] eta: 2:38:29 lr: 0.0025 pcs/s: 277.517 loss: 3.2958 (3.2958) acc: 43.7500 (43.7500) time: 166.8249 data: 166.3634 max mem: 16906
+Epoch: [61] [ 0/57] eta: 2:38:29 lr: 0.0025 pcs/s: 12.735 loss: 3.4728 (3.4728) acc: 37.5000 (37.5000) time: 166.8254 data: 156.7738 max mem: 16906
+Epoch: [61] [ 0/57] eta: 2:38:29 lr: 0.0025 pcs/s: 18.089 loss: 3.2964 (3.2964) acc: 39.8438 (39.8438) time: 166.8254 data: 159.7488 max mem: 16906
+Epoch: [61] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 26.808 loss: 3.3331 (3.3352) acc: 40.6250 (41.7683) time: 7.2571 data: 6.3470 max mem: 16906
+Epoch: [61] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 327.350 loss: 3.2534 (3.3491) acc: 42.1875 (41.1966) time: 7.2571 data: 5.1268 max mem: 16906
+Epoch: [61] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 26.818 loss: 3.2751 (3.2611) acc: 42.1875 (42.5305) time: 7.2571 data: 5.5027 max mem: 16906
+Epoch: [61] Total time: 0:09:54Epoch: [61] Total time: 0:09:54Epoch: [61] Total time: 0:09:54
+
+
+mean accuray of epoch 61 is 41.39254385964912
+mean accuray of epoch 61 is 42.54385964912281mean accuray of epoch 61 is 40.58388157894737
+
+Epoch: [62] [ 0/57] eta: 2:33:31 lr: 0.0025 pcs/s: 10.310 loss: 3.1694 (3.1694) acc: 39.8438 (39.8438) time: 161.6110 data: 149.1949 max mem: 16906
+Epoch: [62] [ 0/57] eta: 2:33:31 lr: 0.0025 pcs/s: 71.747 loss: 3.4001 (3.4001) acc: 42.9688 (42.9688) time: 161.6112 data: 159.8268 max mem: 16906
+Epoch: [62] [ 0/57] eta: 2:33:31 lr: 0.0025 pcs/s: 192.480 loss: 3.2894 (3.2894) acc: 42.9688 (42.9688) time: 161.6111 data: 160.9457 max mem: 16906
+Epoch: [62] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 336.103 loss: 3.1697 (3.2748) acc: 43.7500 (42.4924) time: 7.8021 data: 6.8967 max mem: 16906Epoch: [62] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 335.834 loss: 3.2417 (3.3240) acc: 41.4062 (41.5587) time: 7.8023 data: 2.7526 max mem: 16906
+Epoch: [62] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 336.140 loss: 3.3707 (3.3737) acc: 39.8438 (41.0823) time: 7.8023 data: 7.2650 max mem: 16906
+
+Epoch: [62] Total time: 0:09:38Epoch: [62] Total time: 0:09:38Epoch: [62] Total time: 0:09:38
+
+
+mean accuray of epoch 62 is 41.543311403508774mean accuray of epoch 62 is 41.13212719298246
+
+mean accuray of epoch 62 is 42.62609649122807
+Epoch: [63] [ 0/57] eta: 2:30:27 lr: 0.0025 pcs/s: 50.783 loss: 2.5607 (2.5607) acc: 59.3750 (59.3750) time: 158.3757 data: 155.8548 max mem: 16906
+Epoch: [63] [ 0/57] eta: 2:30:27 lr: 0.0025 pcs/s: 259.917 loss: 2.9296 (2.9296) acc: 49.2188 (49.2188) time: 158.3783 data: 157.8855 max mem: 16906
+Epoch: [63] [ 0/57] eta: 2:30:27 lr: 0.0025 pcs/s: 15.184 loss: 3.3435 (3.3435) acc: 39.0625 (39.0625) time: 158.3784 data: 149.9482 max mem: 16906
+Epoch: [63] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 336.946 loss: 3.2341 (3.2508) acc: 42.9688 (43.3117) time: 7.8283 data: 7.2444 max mem: 16906
+Epoch: [63] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 337.077 loss: 3.2440 (3.3374) acc: 42.9688 (42.0541) time: 7.8283 data: 6.4045 max mem: 16906
+Epoch: [63] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 336.753 loss: 3.3345 (3.3610) acc: 41.4062 (40.6059) time: 7.8283 data: 2.8630 max mem: 16906
+Epoch: [63] Total time: 0:09:39
+Epoch: [63] Total time: 0:09:39
+Epoch: [63] Total time: 0:09:39
+mean accuray of epoch 63 is 41.44736842105263
+mean accuray of epoch 63 is 42.77686403508772
+mean accuray of epoch 63 is 42.20120614035088
+Epoch: [64] [ 0/57] eta: 2:37:11 lr: 0.0025 pcs/s: 5.213 loss: 3.0453 (3.0453) acc: 46.8750 (46.8750) time: 165.4732 data: 140.9174 max mem: 16906
+Epoch: [64] [ 0/57] eta: 2:37:12 lr: 0.0025 pcs/s: 242.772 loss: 3.0261 (3.0261) acc: 45.3125 (45.3125) time: 165.4870 data: 164.9594 max mem: 16906
+Epoch: [64] [ 0/57] eta: 2:37:12 lr: 0.0025 pcs/s: 163.523 loss: 3.3024 (3.3024) acc: 40.6250 (40.6250) time: 165.4910 data: 164.7079 max mem: 16906
+Epoch: [64] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 321.082 loss: 3.2477 (3.2873) acc: 40.6250 (42.0922) time: 7.7011 data: 6.9485 max mem: 16906Epoch: [64] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 320.636 loss: 3.3217 (3.3241) acc: 42.1875 (42.2828) time: 7.7008 data: 7.1177 max mem: 16906Epoch: [64] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 320.531 loss: 3.2886 (3.2774) acc: 42.1875 (42.4543) time: 7.7011 data: 3.2808 max mem: 16906
+
+
+Epoch: [64] Total time: 0:09:47Epoch: [64] Total time: 0:09:47
+
+Epoch: [64] Total time: 0:09:47
+mean accuray of epoch 64 is 42.1875mean accuray of epoch 64 is 42.6672149122807
+
+mean accuray of epoch 64 is 42.009320175438596
+Epoch: [65] [ 0/57] eta: 2:30:43 lr: 0.0025 pcs/s: 254.082 loss: 3.4351 (3.4351) acc: 37.5000 (37.5000) time: 158.6594 data: 158.1552 max mem: 16906
+Epoch: [65] [ 0/57] eta: 2:30:43 lr: 0.0025 pcs/s: 20.358 loss: 3.4333 (3.4333) acc: 39.0625 (39.0625) time: 158.6606 data: 152.3728 max mem: 16906
+Epoch: [65] [ 0/57] eta: 2:30:44 lr: 0.0025 pcs/s: 25.681 loss: 3.3060 (3.3060) acc: 41.4062 (41.4062) time: 158.6774 data: 153.6926 max mem: 16906
+Epoch: [65] [40/57] eta: 0:03:14 lr: 0.0025 pcs/s: 331.154 loss: 3.2161 (3.2984) acc: 41.4062 (41.9970) time: 7.6123 data: 6.3069 max mem: 16906
+Epoch: [65] [40/57] eta: 0:03:14 lr: 0.0025 pcs/s: 336.134 loss: 3.1580 (3.2466) acc: 44.5312 (43.6357) time: 7.6135 data: 6.6251 max mem: 16906
+Epoch: [65] [40/57] eta: 0:03:14 lr: 0.0025 pcs/s: 336.385 loss: 3.2646 (3.2633) acc: 39.8438 (42.3971) time: 7.6135 data: 4.4546 max mem: 16906
+Epoch: [65] Total time: 0:09:22
+Epoch: [65] Total time: 0:09:22
+Epoch: [65] Total time: 0:09:22
+mean accuray of epoch 65 is 42.73574561403509
+mean accuray of epoch 65 is 43.421052631578945
+mean accuray of epoch 65 is 41.55701754385965
+Epoch: [66] [ 0/57] eta: 2:33:02 lr: 0.0025 pcs/s: 14.329 loss: 4.1414 (4.1414) acc: 28.1250 (28.1250) time: 161.0988 data: 152.1655 max mem: 16906
+Epoch: [66] [ 0/57] eta: 2:33:02 lr: 0.0025 pcs/s: 146.273 loss: 3.4964 (3.4964) acc: 39.0625 (39.0625) time: 161.1039 data: 160.2284 max mem: 16906
+Epoch: [66] [ 0/57] eta: 2:33:03 lr: 0.0025 pcs/s: 27.660 loss: 3.1999 (3.1999) acc: 46.0938 (46.0938) time: 161.1099 data: 156.4818 max mem: 16906
+Epoch: [66] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 335.702 loss: 3.1822 (3.1947) acc: 42.1875 (43.5213) time: 7.5782 data: 6.2771 max mem: 16906Epoch: [66] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 335.806 loss: 3.1834 (3.2344) acc: 44.5312 (44.0168) time: 7.5782 data: 5.0151 max mem: 16906Epoch: [66] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 335.860 loss: 3.3856 (3.2750) acc: 40.6250 (42.7020) time: 7.5782 data: 6.7005 max mem: 16906
+
+
+Epoch: [66] Total time: 0:09:35
+Epoch: [66] Total time: 0:09:35Epoch: [66] Total time: 0:09:35
+
+mean accuray of epoch 66 is 42.87280701754386
+mean accuray of epoch 66 is 42.96875mean accuray of epoch 66 is 43.530701754385966
+
+Epoch: [67] [ 0/57] eta: 2:31:46 lr: 0.0025 pcs/s: 211.521 loss: 3.4772 (3.4772) acc: 38.2812 (38.2812) time: 159.7700 data: 159.1645 max mem: 16906
+Epoch: [67] [ 0/57] eta: 2:31:46 lr: 0.0025 pcs/s: 42.258 loss: 3.0760 (3.0760) acc: 42.9688 (42.9688) time: 159.7705 data: 156.7410 max mem: 16906
+Epoch: [67] [ 0/57] eta: 2:31:47 lr: 0.0025 pcs/s: 55.242 loss: 3.3532 (3.3532) acc: 40.6250 (40.6250) time: 159.7732 data: 157.4556 max mem: 16906
+Epoch: [67] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 330.829 loss: 3.1921 (3.2393) acc: 43.7500 (43.1021) time: 7.9143 data: 3.6297 max mem: 16906Epoch: [67] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 332.371 loss: 3.1981 (3.2248) acc: 42.1875 (43.0069) time: 7.9138 data: 7.3295 max mem: 16906
+
+Epoch: [67] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 332.372 loss: 3.2669 (3.2673) acc: 41.4062 (42.5495) time: 7.9142 data: 6.1080 max mem: 16906
+Epoch: [67] Total time: 0:09:41Epoch: [67] Total time: 0:09:41
+
+Epoch: [67] Total time: 0:09:41
+mean accuray of epoch 67 is 42.708333333333336
+mean accuray of epoch 67 is 43.31140350877193
+mean accuray of epoch 67 is 42.20120614035088
+Epoch: [68] [ 0/57] eta: 2:23:20 lr: 0.0025 pcs/s: 279.442 loss: 2.5368 (2.5368) acc: 55.4688 (55.4688) time: 150.8833 data: 150.4249 max mem: 16906
+Epoch: [68] [ 0/57] eta: 2:23:20 lr: 0.0025 pcs/s: 33.190 loss: 3.2958 (3.2958) acc: 44.5312 (44.5312) time: 150.8869 data: 147.0299 max mem: 16906
+Epoch: [68] [ 0/57] eta: 2:23:20 lr: 0.0025 pcs/s: 31.170 loss: 3.2664 (3.2664) acc: 41.4062 (41.4062) time: 150.8889 data: 146.7820 max mem: 16906
+Epoch: [68] [40/57] eta: 0:03:15 lr: 0.0025 pcs/s: 313.812 loss: 3.2934 (3.2436) acc: 42.1875 (42.6448) time: 7.8124 data: 7.3767 max mem: 16906Epoch: [68] [40/57] eta: 0:03:15 lr: 0.0025 pcs/s: 311.862 loss: 3.1942 (3.1630) acc: 42.1875 (43.7691) time: 7.8124 data: 5.3591 max mem: 16906Epoch: [68] [40/57] eta: 0:03:15 lr: 0.0025 pcs/s: 317.062 loss: 3.0448 (3.2284) acc: 43.7500 (42.9116) time: 7.8124 data: 4.5066 max mem: 16906
+
+
+Epoch: [68] Total time: 0:09:36
+Epoch: [68] Total time: 0:09:36
+mean accuray of epoch 68 is 43.70888157894737
+mean accuray of epoch 68 is 43.47587719298246
+Epoch: [68] Total time: 0:09:36
+mean accuray of epoch 68 is 43.39364035087719
+Epoch: [69] [ 0/57] eta: 2:27:18 lr: 0.0025 pcs/s: 8.668 loss: 2.9543 (2.9543) acc: 45.3125 (45.3125) time: 155.0689 data: 140.3015 max mem: 16906
+Epoch: [69] [ 0/57] eta: 2:27:19 lr: 0.0025 pcs/s: 167.173 loss: 3.0946 (3.0946) acc: 42.1875 (42.1875) time: 155.0708 data: 154.3046 max mem: 16906
+Epoch: [69] [ 0/57] eta: 2:27:18 lr: 0.0025 pcs/s: 20.389 loss: 3.0652 (3.0652) acc: 43.7500 (43.7500) time: 155.0688 data: 148.7905 max mem: 16906
+Epoch: [69] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 316.946 loss: 3.1085 (3.1725) acc: 42.9688 (43.7500) time: 8.1757 data: 2.8586 max mem: 16906
+Epoch: [69] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 320.860 loss: 3.2294 (3.1942) acc: 42.1875 (43.5023) time: 8.1757 data: 7.7208 max mem: 16906Epoch: [69] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 316.841 loss: 3.2459 (3.1403) acc: 42.9688 (44.6456) time: 8.1757 data: 4.1781 max mem: 16906
+
+Epoch: [69] Total time: 0:09:38Epoch: [69] Total time: 0:09:38
+Epoch: [69] Total time: 0:09:38
+
+mean accuray of epoch 69 is 43.73629385964912mean accuray of epoch 69 is 44.14747807017544
+
+mean accuray of epoch 69 is 44.87390350877193
+Epoch: [70] [ 0/57] eta: 2:32:35 lr: 0.0025 pcs/s: 232.016 loss: 3.5013 (3.5013) acc: 37.5000 (37.5000) time: 160.6211 data: 160.0691 max mem: 16906
+Epoch: [70] [ 0/57] eta: 2:32:35 lr: 0.0025 pcs/s: 145.410 loss: 2.9300 (2.9300) acc: 50.7812 (50.7812) time: 160.6241 data: 159.7434 max mem: 16906
+Epoch: [70] [ 0/57] eta: 2:32:36 lr: 0.0025 pcs/s: 17.781 loss: 3.2896 (3.2896) acc: 36.7188 (36.7188) time: 160.6365 data: 153.4373 max mem: 16906
+Epoch: [70] [40/57] eta: 0:03:28 lr: 0.0025 pcs/s: 339.481 loss: 3.0732 (3.1657) acc: 44.5312 (44.2264) time: 8.5542 data: 5.6217 max mem: 16906
+Epoch: [70] [40/57] eta: 0:03:28 lr: 0.0025 pcs/s: 343.334 loss: 3.1259 (3.1378) acc: 43.7500 (44.3788) time: 8.5542 data: 8.1306 max mem: 16906
+Epoch: [70] [40/57] eta: 0:03:28 lr: 0.0025 pcs/s: 339.488 loss: 3.1490 (3.2418) acc: 43.7500 (42.8354) time: 8.5542 data: 7.3479 max mem: 16906
+Epoch: [70] Total time: 0:09:55Epoch: [70] Total time: 0:09:55
+
+Epoch: [70] Total time: 0:09:55
+mean accuray of epoch 70 is 43.338815789473685
+mean accuray of epoch 70 is 43.94188596491228
+mean accuray of epoch 70 is 43.76370614035088
+Epoch: [71] [ 0/57] eta: 2:36:03 lr: 0.0025 pcs/s: 17.504 loss: 3.4882 (3.4882) acc: 38.2812 (38.2812) time: 164.2752 data: 156.9619 max mem: 16906
+Epoch: [71] [ 0/57] eta: 2:36:03 lr: 0.0025 pcs/s: 132.383 loss: 3.0050 (3.0050) acc: 49.2188 (49.2188) time: 164.2764 data: 163.3091 max mem: 16906
+Epoch: [71] [ 0/57] eta: 2:36:03 lr: 0.0025 pcs/s: 10.826 loss: 3.0385 (3.0385) acc: 47.6562 (47.6562) time: 164.2728 data: 152.4485 max mem: 16906
+Epoch: [71] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 340.174 loss: 3.0776 (3.0875) acc: 44.5312 (45.2553) time: 7.4442 data: 5.8377 max mem: 16906
+Epoch: [71] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 340.891 loss: 3.1002 (3.1891) acc: 45.3125 (44.1692) time: 7.4442 data: 7.0193 max mem: 16906
+Epoch: [71] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 341.964 loss: 3.2288 (3.1839) acc: 42.9688 (44.3216) time: 7.4442 data: 3.4103 max mem: 16906
+Epoch: [71] Total time: 0:09:36
+Epoch: [71] Total time: 0:09:36
+mean accuray of epoch 71 is 44.394188596491226
+mean accuray of epoch 71 is 44.55866228070175
+Epoch: [71] Total time: 0:09:36
+mean accuray of epoch 71 is 44.46271929824562
+Epoch: [72] [ 0/57] eta: 2:32:38 lr: 0.0025 pcs/s: 195.799 loss: 2.8889 (2.8889) acc: 50.7812 (50.7812) time: 160.6834 data: 160.0293 max mem: 16906
+Epoch: [72] [ 0/57] eta: 2:32:39 lr: 0.0025 pcs/s: 242.782 loss: 3.4483 (3.4483) acc: 39.8438 (39.8438) time: 160.6900 data: 160.1624 max mem: 16906
+Epoch: [72] [ 0/57] eta: 2:32:40 lr: 0.0025 pcs/s: 25.205 loss: 3.3364 (3.3364) acc: 41.4062 (41.4062) time: 160.7113 data: 155.6326 max mem: 16906
+Epoch: [72] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 307.269 loss: 3.1995 (3.1783) acc: 42.9688 (43.7119) time: 7.5837 data: 6.6626 max mem: 16906
+Epoch: [72] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 311.622 loss: 3.1232 (3.1331) acc: 44.5312 (45.2172) time: 7.5837 data: 0.3726 max mem: 16906
+Epoch: [72] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 311.408 loss: 3.2027 (3.1288) acc: 44.5312 (45.3887) time: 7.5837 data: 6.7973 max mem: 16906
+Epoch: [72] Total time: 0:09:30
+Epoch: [72] Total time: 0:09:30
+Epoch: [72] Total time: 0:09:30
+mean accuray of epoch 72 is 45.490679824561404
+mean accuray of epoch 72 is 44.58607456140351
+mean accuray of epoch 72 is 43.68146929824562
+Epoch: [73] [ 0/57] eta: 2:34:21 lr: 0.0025 pcs/s: 19.266 loss: 3.0955 (3.0955) acc: 46.0938 (46.0938) time: 162.4884 data: 155.8440 max mem: 16906
+Epoch: [73] [ 0/57] eta: 2:34:21 lr: 0.0025 pcs/s: 211.366 loss: 3.3149 (3.3149) acc: 40.6250 (40.6250) time: 162.4884 data: 161.8825 max mem: 16906
+Epoch: [73] [ 0/57] eta: 2:34:21 lr: 0.0025 pcs/s: 26.417 loss: 3.0804 (3.0804) acc: 46.0938 (46.0938) time: 162.4894 data: 157.6435 max mem: 16906
+Epoch: [73] [40/57] eta: 0:03:22 lr: 0.0025 pcs/s: 327.305 loss: 3.0882 (3.1276) acc: 43.7500 (44.2454) time: 7.6767 data: 4.0952 max mem: 16906
+Epoch: [73] [40/57] eta: 0:03:22 lr: 0.0025 pcs/s: 337.221 loss: 3.0395 (3.0943) acc: 48.4375 (45.5983) time: 7.6767 data: 0.3779 max mem: 16906Epoch: [73] [40/57] eta: 0:03:22 lr: 0.0025 pcs/s: 334.119 loss: 3.0667 (3.1659) acc: 42.1875 (43.5595) time: 7.6767 data: 7.2497 max mem: 16906
+
+Epoch: [73] Total time: 0:09:38
+Epoch: [73] Total time: 0:09:38
+mean accuray of epoch 73 is 43.489583333333336
+mean accuray of epoch 73 is 45.27138157894737
+Epoch: [73] Total time: 0:09:38
+mean accuray of epoch 73 is 44.4078947368421
+Epoch: [74] [ 0/57] eta: 2:37:20 lr: 0.0025 pcs/s: 7.026 loss: 3.2727 (3.2727) acc: 46.0938 (46.0938) time: 165.6261 data: 147.4078 max mem: 16906
+Epoch: [74] [ 0/57] eta: 2:37:21 lr: 0.0025 pcs/s: 281.433 loss: 3.2737 (3.2737) acc: 39.8438 (39.8438) time: 165.6359 data: 165.1807 max mem: 16906
+Epoch: [74] [ 0/57] eta: 2:37:21 lr: 0.0025 pcs/s: 20.837 loss: 3.2882 (3.2882) acc: 42.1875 (42.1875) time: 165.6363 data: 159.4930 max mem: 16906
+Epoch: [74] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 324.085 loss: 3.2047 (3.1345) acc: 43.7500 (44.6075) time: 7.7030 data: 7.2839 max mem: 16906Epoch: [74] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 325.879 loss: 3.0716 (3.0749) acc: 45.3125 (46.5701) time: 7.7030 data: 1.9990 max mem: 16906
+
+Epoch: [74] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 318.837 loss: 3.1111 (3.1136) acc: 45.3125 (45.9032) time: 7.7031 data: 6.0086 max mem: 16906
+Epoch: [74] Total time: 0:09:42
+Epoch: [74] Total time: 0:09:42
+Epoch: [74] Total time: 0:09:42
+mean accuray of epoch 74 is 44.55866228070175
+mean accuray of epoch 74 is 45.80592105263158
+mean accuray of epoch 74 is 45.20285087719298
+Epoch: [75] [ 0/57] eta: 2:33:54 lr: 0.0025 pcs/s: 54.254 loss: 3.5359 (3.5359) acc: 40.6250 (40.6250) time: 162.0121 data: 159.6526 max mem: 16906
+Epoch: [75] [ 0/57] eta: 2:33:54 lr: 0.0025 pcs/s: 209.410 loss: 3.4149 (3.4149) acc: 37.5000 (37.5000) time: 162.0160 data: 161.4044 max mem: 16906
+Epoch: [75] [ 0/57] eta: 2:33:55 lr: 0.0025 pcs/s: 24.262 loss: 3.1683 (3.1683) acc: 44.5312 (44.5312) time: 162.0297 data: 156.7532 max mem: 16906
+Epoch: [75] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 354.553 loss: 3.0351 (3.1053) acc: 45.3125 (45.0457) time: 7.5982 data: 7.1501 max mem: 16906
+Epoch: [75] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 354.765 loss: 2.9449 (3.0597) acc: 47.6562 (46.9512) time: 7.5982 data: 6.7450 max mem: 16906
+Epoch: [75] [40/57] eta: 0:03:18 lr: 0.0025 pcs/s: 354.496 loss: 3.0600 (3.1258) acc: 45.3125 (45.4649) time: 7.5982 data: 7.1989 max mem: 16906
+Epoch: [75] Total time: 0:09:37Epoch: [75] Total time: 0:09:37
+
+Epoch: [75] Total time: 0:09:37
+mean accuray of epoch 75 is 46.422697368421055
+mean accuray of epoch 75 is 45.3125
+mean accuray of epoch 75 is 45.24396929824562
+Epoch: [76] [ 0/57] eta: 2:28:40 lr: 0.0025 pcs/s: 35.677 loss: 3.1751 (3.1751) acc: 44.5312 (44.5312) time: 156.5024 data: 152.9144 max mem: 16906
+Epoch: [76] [ 0/57] eta: 2:28:40 lr: 0.0025 pcs/s: 20.116 loss: 3.0782 (3.0782) acc: 47.6562 (47.6562) time: 156.5029 data: 150.1396 max mem: 16906
+Epoch: [76] [ 0/57] eta: 2:28:40 lr: 0.0025 pcs/s: 314.463 loss: 3.2507 (3.2507) acc: 45.3125 (45.3125) time: 156.5029 data: 156.0955 max mem: 16906
+Epoch: [76] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 316.665 loss: 3.0459 (3.0895) acc: 46.0938 (45.0267) time: 7.5547 data: 2.2824 max mem: 16906
+Epoch: [76] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 311.781 loss: 3.0496 (3.0714) acc: 45.3125 (45.8270) time: 7.5547 data: 1.2707 max mem: 16906
+Epoch: [76] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 320.180 loss: 3.0367 (3.0551) acc: 46.8750 (45.7317) time: 7.5547 data: 7.1509 max mem: 16906
+Epoch: [76] Total time: 0:09:34
+Epoch: [76] Total time: 0:09:34
+Epoch: [76] Total time: 0:09:34
+mean accuray of epoch 76 is 45.682565789473685
+mean accuray of epoch 76 is 45.20285087719298
+mean accuray of epoch 76 is 45.70997807017544
+Epoch: [77] [ 0/57] eta: 2:25:35 lr: 0.0025 pcs/s: 247.724 loss: 3.4636 (3.4636) acc: 42.9688 (42.9688) time: 153.2469 data: 152.7299 max mem: 16906
+Epoch: [77] [ 0/57] eta: 2:25:35 lr: 0.0025 pcs/s: 6.009 loss: 2.7729 (2.7729) acc: 50.0000 (50.0000) time: 153.2507 data: 131.9498 max mem: 16906
+Epoch: [77] [ 0/57] eta: 2:25:35 lr: 0.0025 pcs/s: 5.886 loss: 2.9946 (2.9946) acc: 47.6562 (47.6562) time: 153.2507 data: 131.5054 max mem: 16906
+Epoch: [77] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 380.185 loss: 3.0840 (3.0787) acc: 44.5312 (45.0267) time: 7.7702 data: 5.0244 max mem: 16906
+Epoch: [77] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 388.404 loss: 3.1710 (3.0936) acc: 44.5312 (45.3506) time: 7.7702 data: 4.5471 max mem: 16906
+Epoch: [77] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 388.535 loss: 3.0812 (3.0822) acc: 45.3125 (45.6555) time: 7.7702 data: 7.3287 max mem: 16906
+Epoch: [77] Total time: 0:09:42
+Epoch: [77] Total time: 0:09:42
+Epoch: [77] Total time: 0:09:42
+mean accuray of epoch 77 is 45.1891447368421
+mean accuray of epoch 77 is 45.6140350877193
+mean accuray of epoch 77 is 45.572916666666664
+Epoch: [78] [ 0/57] eta: 2:32:40 lr: 0.0025 pcs/s: 221.906 loss: 3.2136 (3.2136) acc: 45.3125 (45.3125) time: 160.7091 data: 160.1319 max mem: 16906
+Epoch: [78] [ 0/57] eta: 2:32:40 lr: 0.0025 pcs/s: 65.139 loss: 3.0435 (3.0435) acc: 43.7500 (43.7500) time: 160.7091 data: 158.7437 max mem: 16906Epoch: [78] [ 0/57] eta: 2:32:40 lr: 0.0025 pcs/s: 14.993 loss: 2.9060 (2.9060) acc: 49.2188 (49.2188) time: 160.7094 data: 152.1715 max mem: 16906
+
+Epoch: [78] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 323.753 loss: 2.9444 (3.0207) acc: 46.0938 (46.9512) time: 7.8016 data: 7.0722 max mem: 16906
+Epoch: [78] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 323.711 loss: 3.0408 (3.0270) acc: 46.0938 (46.5130) time: 7.8016 data: 7.3896 max mem: 16906
+Epoch: [78] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 337.578 loss: 3.0749 (3.0667) acc: 45.3125 (45.2934) time: 7.8016 data: 2.0768 max mem: 16906
+Epoch: [78] Total time: 0:09:41
+Epoch: [78] Total time: 0:09:41
+Epoch: [78] Total time: 0:09:41
+mean accuray of epoch 78 is 46.10745614035088
+mean accuray of epoch 78 is 45.956688596491226
+mean accuray of epoch 78 is 45.42214912280702
+Epoch: [79] [ 0/57] eta: 2:27:03 lr: 0.0025 pcs/s: 246.584 loss: 3.6406 (3.6406) acc: 35.9375 (35.9375) time: 154.8039 data: 154.2844 max mem: 16906
+Epoch: [79] [ 0/57] eta: 2:27:03 lr: 0.0025 pcs/s: 6.232 loss: 3.1279 (3.1279) acc: 47.6562 (47.6562) time: 154.8066 data: 134.2664 max mem: 16906
+Epoch: [79] [ 0/57] eta: 2:27:04 lr: 0.0025 pcs/s: 215.230 loss: 3.3035 (3.3035) acc: 43.7500 (43.7500) time: 154.8178 data: 154.2228 max mem: 16906
+Epoch: [79] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 328.263 loss: 2.9574 (3.0240) acc: 46.0938 (46.8941) time: 8.0541 data: 7.5999 max mem: 16906
+Epoch: [79] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 332.969 loss: 2.9524 (3.0274) acc: 46.0938 (46.5130) time: 8.0541 data: 6.9141 max mem: 16906Epoch: [79] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 333.124 loss: 2.9856 (3.0459) acc: 46.8750 (45.9223) time: 8.0541 data: 5.0088 max mem: 16906
+
+Epoch: [79] Total time: 0:09:23
+Epoch: [79] Total time: 0:09:23
+Epoch: [79] Total time: 0:09:23
+mean accuray of epoch 79 is 46.504934210526315
+mean accuray of epoch 79 is 45.80592105263158
+mean accuray of epoch 79 is 46.3952850877193
+Epoch: [80] [ 0/57] eta: 2:31:16 lr: 0.0025 pcs/s: 13.919 loss: 3.4700 (3.4700) acc: 39.8438 (39.8438) time: 159.2384 data: 150.0420 max mem: 16906
+Epoch: [80] [ 0/57] eta: 2:31:22 lr: 0.0025 pcs/s: 239.783 loss: 2.9951 (2.9951) acc: 47.6562 (47.6562) time: 159.3501 data: 158.8159 max mem: 16906Epoch: [80] [ 0/57] eta: 2:31:22 lr: 0.0025 pcs/s: 57.923 loss: 3.0804 (3.0804) acc: 42.9688 (42.9688) time: 159.3501 data: 157.1400 max mem: 16906
+
+Epoch: [80] [40/57] eta: 0:03:15 lr: 0.0025 pcs/s: 329.938 loss: 2.9576 (3.0346) acc: 45.3125 (45.5030) time: 7.7297 data: 6.2891 max mem: 16906
+Epoch: [80] [40/57] eta: 0:03:15 lr: 0.0025 pcs/s: 339.499 loss: 3.0597 (3.0792) acc: 46.0938 (45.2744) time: 7.7293 data: 7.1557 max mem: 16906
+Epoch: [80] [40/57] eta: 0:03:15 lr: 0.0025 pcs/s: 338.852 loss: 2.8999 (2.9878) acc: 47.6562 (46.9703) time: 7.7295 data: 6.9218 max mem: 16906
+Epoch: [80] Total time: 0:09:37
+mean accuray of epoch 80 is 45.65515350877193
+Epoch: [80] Total time: 0:09:37
+Epoch: [80] Total time: 0:09:37
+mean accuray of epoch 80 is 45.490679824561404
+mean accuray of epoch 80 is 46.696820175438596
+Epoch: [81] [ 0/57] eta: 2:33:01 lr: 0.0025 pcs/s: 4.380 loss: 3.1524 (3.1524) acc: 39.8438 (39.8438) time: 161.0871 data: 131.8636 max mem: 16906
+Epoch: [81] [ 0/57] eta: 2:33:01 lr: 0.0025 pcs/s: 90.554 loss: 3.1701 (3.1701) acc: 43.7500 (43.7500) time: 161.0876 data: 159.6737 max mem: 16906Epoch: [81] [ 0/57] eta: 2:33:01 lr: 0.0025 pcs/s: 203.564 loss: 2.7776 (2.7776) acc: 53.1250 (53.1250) time: 161.0866 data: 160.4574 max mem: 16906
+
+Epoch: [81] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 323.079 loss: 3.0361 (2.9987) acc: 46.0938 (46.7797) time: 7.8837 data: 6.0915 max mem: 16906
+Epoch: [81] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 333.222 loss: 2.9430 (3.0388) acc: 44.5312 (46.1319) time: 7.8837 data: 7.4169 max mem: 16906
+Epoch: [81] [40/57] eta: 0:03:21 lr: 0.0025 pcs/s: 332.805 loss: 3.0104 (3.0126) acc: 46.0938 (46.5320) time: 7.8838 data: 6.9985 max mem: 16906
+Epoch: [81] Total time: 0:09:49Epoch: [81] Total time: 0:09:49
+
+mean accuray of epoch 81 is 46.97094298245614
+Epoch: [81] Total time: 0:09:49
+mean accuray of epoch 81 is 46.68311403508772
+mean accuray of epoch 81 is 46.875
+Epoch: [82] [ 0/57] eta: 2:33:58 lr: 0.0025 pcs/s: 37.114 loss: 3.0779 (3.0779) acc: 40.6250 (40.6250) time: 162.0705 data: 158.6213 max mem: 16906
+Epoch: [82] [ 0/57] eta: 2:33:58 lr: 0.0025 pcs/s: 12.981 loss: 3.1514 (3.1514) acc: 45.3125 (45.3125) time: 162.0735 data: 152.2124 max mem: 16906
+Epoch: [82] [ 0/57] eta: 2:33:58 lr: 0.0025 pcs/s: 239.090 loss: 3.1112 (3.1112) acc: 45.3125 (45.3125) time: 162.0797 data: 161.5380 max mem: 16906
+Epoch: [82] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 330.579 loss: 2.9958 (2.9738) acc: 46.0938 (47.2370) time: 7.7524 data: 7.2062 max mem: 16906Epoch: [82] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 332.708 loss: 3.0896 (3.0243) acc: 44.5312 (46.1890) time: 7.7523 data: 6.8401 max mem: 16906
+
+Epoch: [82] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 330.778 loss: 2.9706 (2.9800) acc: 46.8750 (47.1989) time: 7.7524 data: 0.0205 max mem: 16906
+Epoch: [82] Total time: 0:09:42Epoch: [82] Total time: 0:09:42Epoch: [82] Total time: 0:09:42
+
+
+mean accuray of epoch 82 is 46.83388157894737mean accuray of epoch 82 is 47.094298245614034
+
+mean accuray of epoch 82 is 47.478070175438596
+Epoch: [83] [ 0/57] eta: 2:28:37 lr: 0.0025 pcs/s: 346.125 loss: 3.0908 (3.0908) acc: 48.4375 (48.4375) time: 156.4422 data: 156.0721 max mem: 16906
+Epoch: [83] [ 0/57] eta: 2:28:37 lr: 0.0025 pcs/s: 9.472 loss: 3.0499 (3.0499) acc: 45.3125 (45.3125) time: 156.4424 data: 142.9289 max mem: 16906
+Epoch: [83] [ 0/57] eta: 2:28:37 lr: 0.0025 pcs/s: 116.518 loss: 2.8819 (2.8819) acc: 46.8750 (46.8750) time: 156.4394 data: 155.3404 max mem: 16906
+Epoch: [83] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 312.850 loss: 2.9115 (3.0416) acc: 47.6562 (46.4748) time: 7.8465 data: 6.9078 max mem: 16906
+Epoch: [83] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 317.864 loss: 2.9156 (2.9391) acc: 48.4375 (47.9040) time: 7.8465 data: 5.0107 max mem: 16906
+Epoch: [83] [40/57] eta: 0:03:20 lr: 0.0025 pcs/s: 309.976 loss: 2.9669 (2.9663) acc: 46.8750 (46.9512) time: 7.8465 data: 0.0794 max mem: 16906
+Epoch: [83] Total time: 0:10:11
+mean accuray of epoch 83 is 47.27247807017544
+Epoch: [83] Total time: 0:10:11
+Epoch: [83] Total time: 0:10:11
+mean accuray of epoch 83 is 46.17598684210526
+mean accuray of epoch 83 is 47.27247807017544
+Epoch: [84] [ 0/57] eta: 4:43:44 lr: 0.0025 pcs/s: 280.567 loss: 2.7685 (2.7685) acc: 53.1250 (53.1250) time: 298.6771 data: 298.2205 max mem: 16906
+Epoch: [84] [ 0/57] eta: 4:43:44 lr: 0.0025 pcs/s: 21.278 loss: 3.1204 (3.1204) acc: 45.3125 (45.3125) time: 298.6772 data: 292.6610 max mem: 16906Epoch: [84] [ 0/57] eta: 4:43:44 lr: 0.0025 pcs/s: 24.082 loss: 3.1363 (3.1363) acc: 46.0938 (46.0938) time: 298.6779 data: 293.3624 max mem: 16906
+
+Epoch: [84] [40/57] eta: 0:05:59 lr: 0.0025 pcs/s: 299.850 loss: 2.9328 (2.9629) acc: 47.6562 (47.1037) time: 12.2647 data: 11.5786 max mem: 16906
+Epoch: [84] [40/57] eta: 0:05:59 lr: 0.0025 pcs/s: 301.687 loss: 2.9838 (3.0084) acc: 46.0938 (47.1608) time: 12.2637 data: 11.1568 max mem: 16906
+Epoch: [84] [40/57] eta: 0:05:59 lr: 0.0025 pcs/s: 295.922 loss: 2.9082 (2.9488) acc: 48.4375 (47.5991) time: 12.2651 data: 9.9699 max mem: 16906
+Epoch: [84] Total time: 0:17:02
+mean accuray of epoch 84 is 46.875
+Epoch: [84] Total time: 0:17:02
+mean accuray of epoch 84 is 47.68366228070175
+Epoch: [84] Total time: 0:17:02
+mean accuray of epoch 84 is 47.985197368421055
+Epoch: [85] [ 0/57] eta: 5:08:40 lr: 0.0025 pcs/s: 11.972 loss: 3.1939 (3.1939) acc: 43.7500 (43.7500) time: 324.9214 data: 314.2295 max mem: 16906
+Epoch: [85] [ 0/57] eta: 5:08:40 lr: 0.0025 pcs/s: 240.275 loss: 2.5039 (2.5039) acc: 55.4688 (55.4688) time: 324.9240 data: 324.3910 max mem: 16906
+Epoch: [85] [ 0/57] eta: 5:08:41 lr: 0.0025 pcs/s: 6.637 loss: 2.9752 (2.9752) acc: 44.5312 (44.5312) time: 324.9387 data: 305.6514 max mem: 16906
+Epoch: [85] [40/57] eta: 0:06:11 lr: 0.0025 pcs/s: 302.838 loss: 2.8680 (2.9131) acc: 46.8750 (48.2088) time: 13.0990 data: 12.5166 max mem: 16906
+Epoch: [85] [40/57] eta: 0:06:11 lr: 0.0025 pcs/s: 300.640 loss: 2.9343 (2.9460) acc: 48.4375 (47.9992) time: 13.0989 data: 8.9810 max mem: 16906
+Epoch: [85] [40/57] eta: 0:06:11 lr: 0.0025 pcs/s: 302.847 loss: 2.9606 (2.8851) acc: 47.6562 (49.0091) time: 13.0984 data: 11.6022 max mem: 16906
+Epoch: [85] Total time: 0:17:33
+Epoch: [85] Total time: 0:17:33
+Epoch: [85] Total time: 0:17:33
+mean accuray of epoch 85 is 47.68366228070175
+mean accuray of epoch 85 is 48.83497807017544
+mean accuray of epoch 85 is 47.793311403508774
+Epoch: [86] [ 0/57] eta: 4:48:13 lr: 0.0025 pcs/s: 290.451 loss: 2.8085 (2.8085) acc: 52.3438 (52.3438) time: 303.4024 data: 302.9613 max mem: 16906
+Epoch: [86] [ 0/57] eta: 4:48:14 lr: 0.0025 pcs/s: 10.798 loss: 2.8116 (2.8116) acc: 46.8750 (46.8750) time: 303.4042 data: 291.5454 max mem: 16906
+Epoch: [86] [ 0/57] eta: 4:48:14 lr: 0.0025 pcs/s: 3.809 loss: 2.5726 (2.5726) acc: 60.1562 (60.1562) time: 303.4141 data: 269.8059 max mem: 16906
+Epoch: [86] [40/57] eta: 0:06:02 lr: 0.0025 pcs/s: 237.981 loss: 2.9472 (2.9258) acc: 48.4375 (48.4375) time: 13.5188 data: 12.5035 max mem: 16906
+Epoch: [86] [40/57] eta: 0:06:02 lr: 0.0025 pcs/s: 30.234 loss: 2.8534 (2.9337) acc: 47.6562 (48.1517) time: 13.5188 data: 11.4712 max mem: 16906
+Epoch: [86] [40/57] eta: 0:06:02 lr: 0.0025 pcs/s: 30.525 loss: 2.8946 (2.9377) acc: 47.6562 (47.9421) time: 13.5190 data: 11.2537 max mem: 16906
+Epoch: [86] Total time: 0:17:09
+mean accuray of epoch 86 is 48.16337719298246
+Epoch: [86] Total time: 0:17:09Epoch: [86] Total time: 0:17:09
+
+mean accuray of epoch 86 is 48.4375
+mean accuray of epoch 86 is 47.62883771929825
+Epoch: [87] [ 0/57] eta: 4:35:02 lr: 0.0025 pcs/s: 20.562 loss: 2.7575 (2.7575) acc: 49.2188 (49.2188) time: 289.5235 data: 283.2980 max mem: 16906Epoch: [87] [ 0/57] eta: 4:35:02 lr: 0.0025 pcs/s: 18.258 loss: 3.0610 (3.0610) acc: 45.3125 (45.3125) time: 289.5242 data: 282.5133 max mem: 16906Epoch: [87] [ 0/57] eta: 4:35:02 lr: 0.0025 pcs/s: 287.179 loss: 2.8319 (2.8319) acc: 51.5625 (51.5625) time: 289.5157 data: 289.0696 max mem: 16906
+
+
+Epoch: [87] [40/57] eta: 0:06:03 lr: 0.0025 pcs/s: 286.991 loss: 2.8380 (2.9024) acc: 48.4375 (48.2851) time: 13.8341 data: 11.6458 max mem: 16906
+Epoch: [87] [40/57] eta: 0:06:03 lr: 0.0025 pcs/s: 282.741 loss: 2.8667 (2.8813) acc: 48.4375 (48.9329) time: 13.8341 data: 13.3447 max mem: 16906
+Epoch: [87] [40/57] eta: 0:06:03 lr: 0.0025 pcs/s: 278.265 loss: 2.7683 (2.8712) acc: 49.2188 (48.9901) time: 13.8341 data: 12.6808 max mem: 16906
+Epoch: [87] Total time: 0:17:15
+mean accuray of epoch 87 is 48.51973684210526
+Epoch: [87] Total time: 0:17:15
+Epoch: [87] Total time: 0:17:15
+mean accuray of epoch 87 is 48.3141447368421
+mean accuray of epoch 87 is 48.848684210526315
+Epoch: [88] [ 0/57] eta: 5:12:22 lr: 0.0025 pcs/s: 278.891 loss: 3.1759 (3.1759) acc: 42.9688 (42.9688) time: 328.8165 data: 328.3572 max mem: 16906
+Epoch: [88] [ 0/57] eta: 5:12:22 lr: 0.0025 pcs/s: 39.121 loss: 3.0314 (3.0314) acc: 46.0938 (46.0938) time: 328.8152 data: 325.5429 max mem: 16906
+Epoch: [88] [ 0/57] eta: 5:12:22 lr: 0.0025 pcs/s: 10.352 loss: 2.8575 (2.8575) acc: 49.2188 (49.2188) time: 328.8155 data: 316.4500 max mem: 16906
+Epoch: [88] [40/57] eta: 0:06:18 lr: 0.0025 pcs/s: 278.803 loss: 2.9035 (2.9266) acc: 49.2188 (48.2660) time: 12.9374 data: 12.0744 max mem: 16906
+Epoch: [88] [40/57] eta: 0:06:18 lr: 0.0025 pcs/s: 274.063 loss: 2.7938 (2.8674) acc: 48.4375 (49.3902) time: 12.9374 data: 12.3710 max mem: 16906Epoch: [88] [40/57] eta: 0:06:18 lr: 0.0025 pcs/s: 274.345 loss: 2.7950 (2.9050) acc: 48.4375 (48.1898) time: 12.9374 data: 0.0561 max mem: 16906
+
+Epoch: [88] Total time: 0:17:49
+mean accuray of epoch 88 is 48.47861842105263
+Epoch: [88] Total time: 0:17:49
+mean accuray of epoch 88 is 48.78015350877193
+Epoch: [88] Total time: 0:17:49
+mean accuray of epoch 88 is 49.25986842105263
+Epoch: [89] [ 0/57] eta: 3:42:35 lr: 0.0025 pcs/s: 339.724 loss: 2.5039 (2.5039) acc: 56.2500 (56.2500) time: 234.3131 data: 233.9361 max mem: 16906
+Epoch: [89] [ 0/57] eta: 3:42:35 lr: 0.0025 pcs/s: 6.613 loss: 3.1952 (3.1952) acc: 42.9688 (42.9688) time: 234.3114 data: 214.9544 max mem: 16906
+Epoch: [89] [ 0/57] eta: 3:42:35 lr: 0.0025 pcs/s: 10.673 loss: 3.0191 (3.0191) acc: 45.3125 (45.3125) time: 234.3123 data: 222.3189 max mem: 16906
+Epoch: [89] [40/57] eta: 0:03:40 lr: 0.0025 pcs/s: 327.987 loss: 2.7285 (2.8202) acc: 50.7812 (49.7523) time: 7.4164 data: 6.9913 max mem: 16906
+Epoch: [89] [40/57] eta: 0:03:40 lr: 0.0025 pcs/s: 328.061 loss: 2.8438 (2.8603) acc: 48.4375 (48.5709) time: 7.4164 data: 6.1350 max mem: 16906
+Epoch: [89] [40/57] eta: 0:03:40 lr: 0.0025 pcs/s: 327.915 loss: 2.8459 (2.8956) acc: 50.0000 (49.0282) time: 7.4164 data: 2.7653 max mem: 16906
+Epoch: [89] Total time: 0:10:44
+Epoch: [89] Total time: 0:10:44Epoch: [89] Total time: 0:10:44
+
+mean accuray of epoch 89 is 48.78015350877193
+mean accuray of epoch 89 is 49.46546052631579
+mean accuray of epoch 89 is 49.19133771929825
+Epoch: [90] [ 0/57] eta: 2:33:26 lr: 0.0025 pcs/s: 23.365 loss: 2.9229 (2.9229) acc: 45.3125 (45.3125) time: 161.5201 data: 156.0413 max mem: 16906
+Epoch: [90] [ 0/57] eta: 2:33:27 lr: 0.0025 pcs/s: 190.777 loss: 3.0518 (3.0518) acc: 43.7500 (43.7500) time: 161.5320 data: 160.8607 max mem: 16906Epoch: [90] [ 0/57] eta: 2:33:27 lr: 0.0025 pcs/s: 46.794 loss: 2.6161 (2.6161) acc: 57.0312 (57.0312) time: 161.5320 data: 158.7962 max mem: 16906
+
+Epoch: [90] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 328.357 loss: 2.8170 (2.8586) acc: 48.4375 (48.9710) time: 7.6448 data: 6.4966 max mem: 16906Epoch: [90] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 328.026 loss: 2.8307 (2.8525) acc: 49.2188 (49.5808) time: 7.6452 data: 6.0029 max mem: 16906
+
+Epoch: [90] [40/57] eta: 0:03:16 lr: 0.0025 pcs/s: 328.520 loss: 2.8849 (2.8734) acc: 48.4375 (48.8377) time: 7.6453 data: 5.3168 max mem: 16906
+Epoch: [90] Total time: 0:09:36
+Epoch: [90] Total time: 0:09:36
+Epoch: [90] Total time: 0:09:36mean accuray of epoch 90 is 49.10910087719298
+
+mean accuray of epoch 90 is 49.24616228070175
+mean accuray of epoch 90 is 48.28673245614035
+Epoch: [91] [ 0/57] eta: 2:31:42 lr: 0.0025 pcs/s: 10.303 loss: 3.0946 (3.0946) acc: 46.8750 (46.8750) time: 159.6972 data: 147.2733 max mem: 16906
+Epoch: [91] [ 0/57] eta: 2:31:42 lr: 0.0025 pcs/s: 62.628 loss: 2.8127 (2.8127) acc: 49.2188 (49.2188) time: 159.6987 data: 157.6525 max mem: 16906
+Epoch: [91] [ 0/57] eta: 2:31:43 lr: 0.0025 pcs/s: 362.103 loss: 3.2721 (3.2721) acc: 46.0938 (46.0938) time: 159.7087 data: 159.3549 max mem: 16906
+Epoch: [91] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 317.527 loss: 2.7806 (2.8416) acc: 50.7812 (50.3049) time: 7.5229 data: 6.6736 max mem: 16906
+Epoch: [91] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 309.305 loss: 2.9611 (2.8567) acc: 46.8750 (49.5617) time: 7.5228 data: 6.7126 max mem: 16906
+Epoch: [91] [40/57] eta: 0:03:17 lr: 0.0025 pcs/s: 319.182 loss: 2.8508 (2.8115) acc: 48.4375 (49.6380) time: 7.5227 data: 1.0906 max mem: 16906
+Epoch: [91] Total time: 0:09:16
+Epoch: [91] Total time: 0:09:16
+Epoch: [91] Total time: 0:09:16
+mean accuray of epoch 91 is 49.49287280701754
+mean accuray of epoch 91 is 49.31469298245614
+mean accuray of epoch 91 is 50.08223684210526
+Epoch: [92] [ 0/57] eta: 2:33:07 lr: 0.0025 pcs/s: 279.441 loss: 2.5142 (2.5142) acc: 54.6875 (54.6875) time: 161.1843 data: 160.7260 max mem: 16906
+Epoch: [92] [ 0/57] eta: 2:33:08 lr: 0.0025 pcs/s: 21.536 loss: 2.6157 (2.6157) acc: 52.3438 (52.3438) time: 161.2004 data: 155.2564 max mem: 16906
+Epoch: [92] [ 0/57] eta: 2:33:08 lr: 0.0025 pcs/s: 14.389 loss: 2.8578 (2.8578) acc: 50.0000 (50.0000) time: 161.2012 data: 152.3051 max mem: 16906
+Epoch: [92] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 56.616 loss: 2.8478 (2.8466) acc: 47.6562 (49.0473) time: 7.7081 data: 6.4805 max mem: 16906
+Epoch: [92] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 320.997 loss: 2.9037 (2.8442) acc: 47.6562 (49.6951) time: 7.7081 data: 7.1389 max mem: 16906
+Epoch: [92] [40/57] eta: 0:03:19 lr: 0.0025 pcs/s: 56.873 loss: 2.7234 (2.8183) acc: 50.0000 (49.5617) time: 7.7081 data: 6.3526 max mem: 16906
+Epoch: [92] Total time: 0:09:43
+Epoch: [92] Total time: 0:09:43Epoch: [92] Total time: 0:09:43
+
+mean accuray of epoch 92 is 49.61622807017544
+mean accuray of epoch 92 is 49.79440789473684
+mean accuray of epoch 92 is 49.61622807017544
+Epoch: [93] [ 0/57] eta: 2:34:51 lr: 0.0025 pcs/s: 168.686 loss: 2.5739 (2.5739) acc: 56.2500 (56.2500) time: 163.0126 data: 162.2535 max mem: 16906Epoch: [93] [ 0/57] eta: 2:34:51 lr: 0.0025 pcs/s: 28.340 loss: 2.8136 (2.8136) acc: 50.0000 (50.0000) time: 163.0127 data: 158.4959 max mem: 16906
+
+Epoch: [93] [ 0/57] eta: 2:34:51 lr: 0.0025 pcs/s: 159.914 loss: 2.6837 (2.6837) acc: 48.4375 (48.4375) time: 163.0130 data: 162.2122 max mem: 16906
+Epoch: [93] [40/57] eta: 0:03:25 lr: 0.0025 pcs/s: 339.688 loss: 2.8080 (2.8638) acc: 48.4375 (49.3712) time: 8.0143 data: 7.6081 max mem: 16906
+Epoch: [93] [40/57] eta: 0:03:25 lr: 0.0025 pcs/s: 340.950 loss: 2.8470 (2.8159) acc: 49.2188 (50.0000) time: 8.0143 data: 7.1633 max mem: 16906
+Epoch: [93] [40/57] eta: 0:03:25 lr: 0.0025 pcs/s: 341.042 loss: 2.8150 (2.8489) acc: 48.4375 (49.6951) time: 8.0143 data: 3.1820 max mem: 16906
+Epoch: [93] Total time: 0:09:50
+Epoch: [93] Total time: 0:09:50
+mean accuray of epoch 93 is 49.68475877192982
+mean accuray of epoch 93 is 49.38322368421053
+Epoch: [93] Total time: 0:09:50
+mean accuray of epoch 93 is 49.68475877192982
+Epoch: [94] [ 0/57] eta: 2:46:27 lr: 0.0025 pcs/s: 6.743 loss: 2.6239 (2.6239) acc: 52.3438 (52.3438) time: 175.2201 data: 156.2371 max mem: 16906
+Epoch: [94] [ 0/57] eta: 2:46:27 lr: 0.0025 pcs/s: 6.738 loss: 2.8637 (2.8637) acc: 46.8750 (46.8750) time: 175.2209 data: 156.2226 max mem: 16906
+Epoch: [94] [ 0/57] eta: 2:46:27 lr: 0.0025 pcs/s: 220.560 loss: 2.6777 (2.6777) acc: 53.1250 (53.1250) time: 175.2209 data: 174.6402 max mem: 16906
+Epoch: [94] [40/57] eta: 0:03:33 lr: 0.0025 pcs/s: 335.354 loss: 2.7801 (2.7818) acc: 50.0000 (50.0762) time: 8.2375 data: 6.2162 max mem: 16906
+Epoch: [94] [40/57] eta: 0:03:33 lr: 0.0025 pcs/s: 338.088 loss: 2.6838 (2.7252) acc: 50.7812 (51.2386) time: 8.2375 data: 7.7621 max mem: 16906
+Epoch: [94] [40/57] eta: 0:03:33 lr: 0.0025 pcs/s: 335.109 loss: 2.7394 (2.7904) acc: 49.2188 (49.8476) time: 8.2375 data: 6.0797 max mem: 16906
+Epoch: [94] Total time: 0:10:00Epoch: [94] Total time: 0:10:00
+
+Epoch: [94] Total time: 0:10:00
+mean accuray of epoch 94 is 49.71217105263158mean accuray of epoch 94 is 50.82236842105263
+
+mean accuray of epoch 94 is 50.58936403508772

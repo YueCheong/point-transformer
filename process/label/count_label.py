@@ -2,10 +2,10 @@ import json
 
 preserve_freq = 4
 
-ann_path = '/home/hhfan/code/pc/process/label/uid_path_label_dict.json'
-selected_ann_path = f'/home/hhfan/code/pc/process/label/selected_{preserve_freq}_uid_path_label_dict.json'
-selected_ann_idx_path = f'/home/hhfan/code/pc/process/label/selected_{preserve_freq}_uid_path_idx_dict.json'
-label2idx_map_path = f'/home/hhfan/code/pc/process/label/selected_{preserve_freq}_label2idx_map.json'
+ann_path = '/home/hhfan/code/point-transformer/process/label/jsons/ann_0-9_all.json'
+selected_ann_path = f'/home/hhfan/code/point-transformer/process/label/jsons/selected_{preserve_freq}_ann_0-9_all.json'
+selected_ann_idx_path = f'/home/hhfan/code/point-transformer/process/label/jsons/selected_{preserve_freq}_idx_ann_0-9_all.json'
+label2idx_map_path = f'/home/hhfan/code/point-transformer/process/label/jsons/selected_{preserve_freq}_label2idx_map_0-9_all.json'
 with open(ann_path, 'r') as f:
     ann = json.load(f)
 

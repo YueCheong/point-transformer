@@ -43,13 +43,15 @@ class ObjDataset(Dataset):
 
 if __name__ == '__main__':
     pc_root = '/mnt/data_sdb/obj'
-    ann_path = '/home/hhfan/code/pc/process/label/uid_path_label_dict.json'
+    ann_path = '/home/hhfan/code/point-transformer/process/label/uid_path_label_dict.json'
     dataset = ObjDataset(pc_root=pc_root, ann_path=ann_path)
-    data_loader = DataLoader(dataset, batch_size=2, shuffle=True, num_workers=10)  # pin_memory=True
+    data_loader = DataLoader(dataset, batch_size=1, shuffle=False, num_workers=10)  # pin_memory=True
     
     for pc, label in data_loader:
         # print(f'uid:{uid}')
-        print(f'pc.shape:{pc.shape}')
+        print(f'pc.shape:{pc.shape}') #[b, n, c]
+        print(f'pc:{pc[0][0:5]}')
+        break
         # print(f'label:{label}')
 
   

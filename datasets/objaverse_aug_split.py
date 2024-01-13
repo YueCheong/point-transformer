@@ -1,0 +1,156 @@
+import os
+import json
+import objaverse
+import trimesh
+import pickle
+from tqdm import tqdm
+import torch
+from torch.utils.data import Dataset, DataLoader
+import numpy as np
+import warnings
+# warnings.filterwarnings('ignore')
+import argparse
+
+def pc_normalize(pc):
+    centroid = np.mean(pc, axis=0)
+    pc = pc - centroid
+    m = np.max(np.sqrt(np.sum(pc**2, axis=1)))
+    pc = pc / m
+    return pc
+
+
+def farthest_point_sample(pc, npoint):
+    """
+    Input:
+        xyz: pointcloud data, [N, D]
+        npoint: number of samples
+    Return:
+        centroids: sampled pointcloud index, [npoint, D]
+    """
+    N, D = pc.shape
+    xyz = pc[:,:3]
+    centroids = np.zeros((npoint,))
+    distance = np.ones((N,)) * 1e10
+    farthest = np.random.randint(0, N)
+    for i in range(npoint):
+        centroids[i] = farthest
+        centroid = xyz[farthest, :]
+        dist = np.sum((xyz - centroid) ** 2, -1)
+        mask = dist < distance
+        distance[mask] = dist[mask]
+        farthest = np.argmax(distance, -1)
+    pc = pc[centroids.astype(np.int32)]
+    return pc
+
+
+class ObjAugDataSet(Dataset):
+    def __init__(self, pc_root, ann_root, split_name, args):
+        self.pc_root = pc_root
+        self.ann_root = ann_root
+        self.split_name = split_name # split large data to small
+        
+        self.data_type = args.data_type    # train/test
+        self.process_data = args.process_data   
+        self.npoints = args.num_points
+        self.num_classes = args.num_classes
+        self.uniform = args.use_uniform_sample # wether use FPS
+        self.use_feature = args.use_feature # wether contain other dimensions
+
+        self.data = self.load_data()
+        print(f'The size of {self.data_type} data is {len(self.data)}')
+
+        if self.uniform:
+            self.save_path = os.path.join(pc_root, 'objaug%d_%s_%dpts_fps.dat' % (self.num_classes, self.data_type, self.npoints))
+        else:
+            self.save_path = os.path.join(pc_root, 'objaug%d_%s_%dpts.dat' % (self.num_classes, self.data_type, self.npoints))
+
+        if self.process_data:
+            if not os.path.exists(self.save_path):
+                print(f'Processing data {self.save_path} (only running in the first time)...')
+                self.list_of_points = [None] * len(self.data)
+                self.list_of_labels = [None] * len(self.data)
+                
+                for index in tqdm(range(len(self.data)), total=len(self.data)):
+                    pc = self.data[index]['pc']
+                    label = self.data[index]['label']
+                    
+                    if self.uniform:
+                        pc = farthest_point_sample(pc, self.npoints)
+                    else:
+                        pc = pc[0:self.npoints, :]
+                        
+                    self.list_of_points[index] = pc
+                    self.list_of_labels[index] = label  
+                 
+                with open(self.save_path, 'wb') as f:
+                    pickle.dump([self.list_of_points, self.list_of_labels], f)
+            else:
+                print('Load processed data from %s...' % self.save_path)
+                with open(self.save_path, 'rb') as f:
+                    self.list_of_points, self.list_of_labels = pickle.load(f)
+
+    def load_data(self):
+        data = []
+        ann_path = os.path.join(self.ann_root, self.split_name)
+        with open(ann_path, 'r') as f:
+            ann_data = json.load(f)
+        for uid, info in ann_data.items():
+            path = info['path']
+            label = info['label']
+            pc_path = os.path.join(self.pc_root, path)
+            # print(f'pc_path:{pc_path}') 
+            pc = np.load(pc_path)['points']
+            data.append({
+                'uid': uid,
+                'pc': pc,
+                'label': label
+            })  
+        return data
+    
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, index):
+        if self.process_data:
+            pc, label = self.list_of_points[index], self.list_of_labels[index]
+        else:
+            pc = self.data[index]['pc']
+            label = self.data[index]['label']
+
+            if self.uniform:
+                pc = farthest_point_sample(pc, self.npoints)
+            else:
+                pc = pc[0:self.npoints, :]    
+                  
+        pc[:, 0:3] = pc_normalize(pc[:, 0:3])
+        if not self.use_feature: # use_feature = True, pc:[b, n, 7]; use_feature = False, pc:[b, n, 3]
+            pc = pc[:, 0:3]
+
+        return pc, label
+
+if __name__ == '__main__':
+    pc_root = '/mnt/data_sdb/obj'
+    ann_root = '/home/hhfan/code/point-transformer/process/label/jsons'
+    split_name_list = []
+    for split_id in range(10):
+        split_name = f'ann_000-{split_id:03}.json'
+        split_name_list.append(split_name)
+        
+    parser = argparse.ArgumentParser(description='PointTransformer Model training ...') 
+    args = parser.parse_args()
+    args.data_type = 'train'
+    args.process_data = False 
+    args.num_points = 4096   
+    args.num_classes = 908
+    args.use_feature = True # True dim = 7, False dim = 3
+    args.use_uniform_sample = False
+    
+    for split_name in split_name_list:
+        print(f'Creating data loaders:{split_name}')           
+        data = ObjAugDataSet(pc_root=pc_root, ann_root=ann_root, split_name=split_name, args=args)
+        dataloader = DataLoader(data, batch_size=1, shuffle=False, num_workers=10)
+        print(f'len(dataloader):{len(dataloader)}')
+
+        for pc, label in dataloader:
+            print(f'pc.shape:{pc.shape}') #[b, n, c]
+

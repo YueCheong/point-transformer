@@ -1,0 +1,2626 @@
+{
+    "61347cf00fea434ebca1bf257d987e71": {
+        "label": "stool",
+        "path": "pcs_4096/000-009/61347cf00fea434ebca1bf257d987e71.npz"
+    },
+    "32667af9a74146acb3a2fcebf491483a": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/32667af9a74146acb3a2fcebf491483a.npz"
+    },
+    "27e54adcfe534d4b8412d7e5ed758af6": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/27e54adcfe534d4b8412d7e5ed758af6.npz"
+    },
+    "cde91a66eeb54c66835e1080ce6a8be6": {
+        "label": "polycam",
+        "path": "pcs_4096/000-009/cde91a66eeb54c66835e1080ce6a8be6.npz"
+    },
+    "52b43788f95b42719ee1985b48faf5b9": {
+        "label": "boy",
+        "path": "pcs_4096/000-009/52b43788f95b42719ee1985b48faf5b9.npz"
+    },
+    "c9624caacb344ecd80b1a886ebfc1ddd": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/c9624caacb344ecd80b1a886ebfc1ddd.npz"
+    },
+    "ff3821c41ff54664a2bd90170652acf3": {
+        "label": "science",
+        "path": "pcs_4096/000-009/ff3821c41ff54664a2bd90170652acf3.npz"
+    },
+    "cc41c1a8c9c74000bee3d86d47c0de27": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/cc41c1a8c9c74000bee3d86d47c0de27.npz"
+    },
+    "7f0b6d3f7315438a8fd98319111455e8": {
+        "label": "toy",
+        "path": "pcs_4096/000-009/7f0b6d3f7315438a8fd98319111455e8.npz"
+    },
+    "1f0c94fa3c344a9381d1f8d90fc15f04": {
+        "label": "resturant",
+        "path": "pcs_4096/000-009/1f0c94fa3c344a9381d1f8d90fc15f04.npz"
+    },
+    "4d9740515bfa44af83fcfa3251d76011": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/4d9740515bfa44af83fcfa3251d76011.npz"
+    },
+    "1d4e29eff5f24265aa1b04aee5bfe3c0": {
+        "label": "spain",
+        "path": "pcs_4096/000-009/1d4e29eff5f24265aa1b04aee5bfe3c0.npz"
+    },
+    "1f6adf78c2744fd7a829c7a9f85a6d80": {
+        "label": "bathroom",
+        "path": "pcs_4096/000-009/1f6adf78c2744fd7a829c7a9f85a6d80.npz"
+    },
+    "758ba663c6524a509352314595a7911e": {
+        "label": "laserscanning",
+        "path": "pcs_4096/000-009/758ba663c6524a509352314595a7911e.npz"
+    },
+    "6a0a3463979c4095af5e546d9d9026e1": {
+        "label": "virtualreality",
+        "path": "pcs_4096/000-009/6a0a3463979c4095af5e546d9d9026e1.npz"
+    },
+    "a66cfd2a50bd4a36a0ce91b38db11370": {
+        "label": "xbox",
+        "path": "pcs_4096/000-009/a66cfd2a50bd4a36a0ce91b38db11370.npz"
+    },
+    "134beb0c1839406fb7d067dd8b553cc9": {
+        "label": "laserscanning",
+        "path": "pcs_4096/000-009/134beb0c1839406fb7d067dd8b553cc9.npz"
+    },
+    "7b81d73516774445a3dc152e2a9be402": {
+        "label": "scanning",
+        "path": "pcs_4096/000-009/7b81d73516774445a3dc152e2a9be402.npz"
+    },
+    "ce9dfce76a94496a8d25971d3523a8b2": {
+        "label": "bread",
+        "path": "pcs_4096/000-009/ce9dfce76a94496a8d25971d3523a8b2.npz"
+    },
+    "c3a557f992ba4f14867f61af34b0051b": {
+        "label": "realitycapture",
+        "path": "pcs_4096/000-009/c3a557f992ba4f14867f61af34b0051b.npz"
+    },
+    "f37ef55576af41ef8b3751604ed2a6f8": {
+        "label": "3df-zephyr",
+        "path": "pcs_4096/000-009/f37ef55576af41ef8b3751604ed2a6f8.npz"
+    },
+    "9af0ab3defef4b7ca2a2cf904e7b01a4": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/9af0ab3defef4b7ca2a2cf904e7b01a4.npz"
+    },
+    "70e27500f7fa428e9cbf302b81ac4636": {
+        "label": "scaniverse",
+        "path": "pcs_4096/000-009/70e27500f7fa428e9cbf302b81ac4636.npz"
+    },
+    "cad3ab25b9e84dba92a6d4bba73c581a": {
+        "label": "wings",
+        "path": "pcs_4096/000-009/cad3ab25b9e84dba92a6d4bba73c581a.npz"
+    },
+    "6d43d33eca574ebdad9663c5876cc329": {
+        "label": "3dsmax",
+        "path": "pcs_4096/000-009/6d43d33eca574ebdad9663c5876cc329.npz"
+    },
+    "f49caaff1e524ad69c8a1bf0fc0c995f": {
+        "label": "binoculars",
+        "path": "pcs_4096/000-009/f49caaff1e524ad69c8a1bf0fc0c995f.npz"
+    },
+    "9192e59de72c4c7db7c7c7772bc9eb8e": {
+        "label": "agisoft",
+        "path": "pcs_4096/000-009/9192e59de72c4c7db7c7c7772bc9eb8e.npz"
+    },
+    "5d5721f2fee54358a795861e4a00fff0": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/5d5721f2fee54358a795861e4a00fff0.npz"
+    },
+    "dad90085c5d34358a2c4badb8401c5d5": {
+        "label": "office",
+        "path": "pcs_4096/000-009/dad90085c5d34358a2c4badb8401c5d5.npz"
+    },
+    "d887e336016646ebab008939d183a9b1": {
+        "label": "canon",
+        "path": "pcs_4096/000-009/d887e336016646ebab008939d183a9b1.npz"
+    },
+    "29b833bfd4e24a08bc27216ca4ab8ee5": {
+        "label": "agisoft",
+        "path": "pcs_4096/000-009/29b833bfd4e24a08bc27216ca4ab8ee5.npz"
+    },
+    "6b1277f221f54e9facd20d79023ff58f": {
+        "label": "fish",
+        "path": "pcs_4096/000-009/6b1277f221f54e9facd20d79023ff58f.npz"
+    },
+    "ecc93cdb05884fa49ecfaf0d03fdd494": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/ecc93cdb05884fa49ecfaf0d03fdd494.npz"
+    },
+    "dc71ca864b784acf8fc63eee1f085228": {
+        "label": "seat",
+        "path": "pcs_4096/000-009/dc71ca864b784acf8fc63eee1f085228.npz"
+    },
+    "d59e4f35b84d444fb321eddf169f6e21": {
+        "label": "minecraft",
+        "path": "pcs_4096/000-009/d59e4f35b84d444fb321eddf169f6e21.npz"
+    },
+    "8741613bafe8400bb720a8b606cd50c9": {
+        "label": "maxwell",
+        "path": "pcs_4096/000-009/8741613bafe8400bb720a8b606cd50c9.npz"
+    },
+    "6f5168a4180945b494edbf273c432507": {
+        "label": "cute",
+        "path": "pcs_4096/000-009/6f5168a4180945b494edbf273c432507.npz"
+    },
+    "c5736e5047ef447db093b9735ba2ceab": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/c5736e5047ef447db093b9735ba2ceab.npz"
+    },
+    "ced1bcc92e7a470c91632bc987c98fae": {
+        "label": "tiltbrush",
+        "path": "pcs_4096/000-009/ced1bcc92e7a470c91632bc987c98fae.npz"
+    },
+    "448630965e754a4a9d2fa5c04b1db6fc": {
+        "label": "pig",
+        "path": "pcs_4096/000-009/448630965e754a4a9d2fa5c04b1db6fc.npz"
+    },
+    "e9fe08403d46496d9b01fbcf9b882e7b": {
+        "label": "3dslash",
+        "path": "pcs_4096/000-009/e9fe08403d46496d9b01fbcf9b882e7b.npz"
+    },
+    "00ac74ef01e34c1c90c4dfb61d4d973a": {
+        "label": "gdh",
+        "path": "pcs_4096/000-009/00ac74ef01e34c1c90c4dfb61d4d973a.npz"
+    },
+    "0a153184d2034b94a2d576af8b19263b": {
+        "label": "fence",
+        "path": "pcs_4096/000-009/0a153184d2034b94a2d576af8b19263b.npz"
+    },
+    "0500308e40e34c769561d82d39d9ae13": {
+        "label": "fanart",
+        "path": "pcs_4096/000-009/0500308e40e34c769561d82d39d9ae13.npz"
+    },
+    "c3ac3e56ef0b485d86d96eebca80ebd5": {
+        "label": "spore",
+        "path": "pcs_4096/000-009/c3ac3e56ef0b485d86d96eebca80ebd5.npz"
+    },
+    "1e61dfadf7114ad38076f1a6a871ccf1": {
+        "label": "truck",
+        "path": "pcs_4096/000-009/1e61dfadf7114ad38076f1a6a871ccf1.npz"
+    },
+    "db9dabefe6bc43dd8c429ac1b9892f15": {
+        "label": "polytosketchfab",
+        "path": "pcs_4096/000-009/db9dabefe6bc43dd8c429ac1b9892f15.npz"
+    },
+    "f9e1f46ba3ea4bb5b1d488129fa0bd3b": {
+        "label": "alps",
+        "path": "pcs_4096/000-009/f9e1f46ba3ea4bb5b1d488129fa0bd3b.npz"
+    },
+    "2bb92d8b32b34c778a8d2a4b02361dbc": {
+        "label": "tiltbrush",
+        "path": "pcs_4096/000-009/2bb92d8b32b34c778a8d2a4b02361dbc.npz"
+    },
+    "b568768117f844a389ab5b8f8ef15769": {
+        "label": "f1",
+        "path": "pcs_4096/000-009/b568768117f844a389ab5b8f8ef15769.npz"
+    },
+    "6ee11fe1e59047e0a9981edb623a517f": {
+        "label": "food",
+        "path": "pcs_4096/000-009/6ee11fe1e59047e0a9981edb623a517f.npz"
+    },
+    "7842c150424d40c2afdd77bfa6dbf69a": {
+        "label": "ground",
+        "path": "pcs_4096/000-009/7842c150424d40c2afdd77bfa6dbf69a.npz"
+    },
+    "7c8b2bee6d7943329b78acf84b991a78": {
+        "label": "stool",
+        "path": "pcs_4096/000-009/7c8b2bee6d7943329b78acf84b991a78.npz"
+    },
+    "d2711a9410b945d7aaa33c638a4fd95e": {
+        "label": "indian-thali",
+        "path": "pcs_4096/000-009/d2711a9410b945d7aaa33c638a4fd95e.npz"
+    },
+    "780e49e490e14fdeb3ff1991b40b16e0": {
+        "label": "archeology",
+        "path": "pcs_4096/000-009/780e49e490e14fdeb3ff1991b40b16e0.npz"
+    },
+    "245f2cb5a8cd4a5aba5e5188a1b61d81": {
+        "label": "scaniverse",
+        "path": "pcs_4096/000-009/245f2cb5a8cd4a5aba5e5188a1b61d81.npz"
+    },
+    "8f8a584d89cd49d596c5f315d3d09aa4": {
+        "label": "gameprop",
+        "path": "pcs_4096/000-009/8f8a584d89cd49d596c5f315d3d09aa4.npz"
+    },
+    "d54e7366957140f5bf264ec02133e8c7": {
+        "label": "moon",
+        "path": "pcs_4096/000-009/d54e7366957140f5bf264ec02133e8c7.npz"
+    },
+    "65e083ed6a5147d19fb1bf517c7f8b20": {
+        "label": "architectural",
+        "path": "pcs_4096/000-009/65e083ed6a5147d19fb1bf517c7f8b20.npz"
+    },
+    "1b004229ba6c4152b65e2cad18ffa91e": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/1b004229ba6c4152b65e2cad18ffa91e.npz"
+    },
+    "50ec5ca7d3b34acf8d4e909cf1da8a58": {
+        "label": "3df-zephyr-saturday-hamburguesa1",
+        "path": "pcs_4096/000-009/50ec5ca7d3b34acf8d4e909cf1da8a58.npz"
+    },
+    "caf94d291a884602a4623f928cd9811a": {
+        "label": "fretwork",
+        "path": "pcs_4096/000-009/caf94d291a884602a4623f928cd9811a.npz"
+    },
+    "ddab6ecc11764a55956d76e9bcadbde0": {
+        "label": "ww2",
+        "path": "pcs_4096/000-009/ddab6ecc11764a55956d76e9bcadbde0.npz"
+    },
+    "d2cde475d0254b6cb8ed5a18c2940653": {
+        "label": "weapon-3dmodel-weapon",
+        "path": "pcs_4096/000-009/d2cde475d0254b6cb8ed5a18c2940653.npz"
+    },
+    "b63b9c91d3354a18a4a530eb80e54360": {
+        "label": "4",
+        "path": "pcs_4096/000-009/b63b9c91d3354a18a4a530eb80e54360.npz"
+    },
+    "95cdd1bfbcae44d087a17ac8abbd8dd7": {
+        "label": "telescope",
+        "path": "pcs_4096/000-009/95cdd1bfbcae44d087a17ac8abbd8dd7.npz"
+    },
+    "03f82f9984d0442eb572007cb74df953": {
+        "label": "green",
+        "path": "pcs_4096/000-009/03f82f9984d0442eb572007cb74df953.npz"
+    },
+    "d46354f826364c21811d03faa64054b3": {
+        "label": "viskon",
+        "path": "pcs_4096/000-009/d46354f826364c21811d03faa64054b3.npz"
+    },
+    "5110218ed0d94d499ec4263f38916ae9": {
+        "label": "3dlivescanner",
+        "path": "pcs_4096/000-009/5110218ed0d94d499ec4263f38916ae9.npz"
+    },
+    "ae55b3f7cb2d4364b18dc09e638c0f31": {
+        "label": "white",
+        "path": "pcs_4096/000-009/ae55b3f7cb2d4364b18dc09e638c0f31.npz"
+    },
+    "79368dbf5f8d4fe385e6f5e9a9f8b2e8": {
+        "label": "seat",
+        "path": "pcs_4096/000-009/79368dbf5f8d4fe385e6f5e9a9f8b2e8.npz"
+    },
+    "18e21ef521664c06aafd3eb5990956b2": {
+        "label": "3drendering",
+        "path": "pcs_4096/000-009/18e21ef521664c06aafd3eb5990956b2.npz"
+    },
+    "ad3547551be84e53b783552edd2a2dc7": {
+        "label": "dc",
+        "path": "pcs_4096/000-009/ad3547551be84e53b783552edd2a2dc7.npz"
+    },
+    "cbb59726612241ba8a09329809cd3298": {
+        "label": "detailing",
+        "path": "pcs_4096/000-009/cbb59726612241ba8a09329809cd3298.npz"
+    },
+    "6ef86ca67b8046c39d84940f4e501921": {
+        "label": "xyz-school-draftpunk3",
+        "path": "pcs_4096/000-009/6ef86ca67b8046c39d84940f4e501921.npz"
+    },
+    "873a0568ee4442109e400482b1603d26": {
+        "label": "archeology",
+        "path": "pcs_4096/000-009/873a0568ee4442109e400482b1603d26.npz"
+    },
+    "a5a078d58cdb4343bb2b2c596e3dc3fe": {
+        "label": "warcraft",
+        "path": "pcs_4096/000-009/a5a078d58cdb4343bb2b2c596e3dc3fe.npz"
+    },
+    "54679bb471f243a483e8c3564830cb02": {
+        "label": "darth",
+        "path": "pcs_4096/000-009/54679bb471f243a483e8c3564830cb02.npz"
+    },
+    "077205f67a7a4eae9cc6bb3dadf429bd": {
+        "label": "santa",
+        "path": "pcs_4096/000-009/077205f67a7a4eae9cc6bb3dadf429bd.npz"
+    },
+    "f3631f00c3b949e99bf5f26b9b445edc": {
+        "label": "citiesskylines",
+        "path": "pcs_4096/000-009/f3631f00c3b949e99bf5f26b9b445edc.npz"
+    },
+    "19b2bacb53a14881831ad993844231e9": {
+        "label": "warship",
+        "path": "pcs_4096/000-009/19b2bacb53a14881831ad993844231e9.npz"
+    },
+    "43a8cc10d3f847daa5454b51929eb13b": {
+        "label": "agisoft",
+        "path": "pcs_4096/000-009/43a8cc10d3f847daa5454b51929eb13b.npz"
+    },
+    "0fdb921d401149f5b994c3c906c840ff": {
+        "label": "coffee",
+        "path": "pcs_4096/000-009/0fdb921d401149f5b994c3c906c840ff.npz"
+    },
+    "bff62949b04546b59e5abd04b16aa029": {
+        "label": "locomotive",
+        "path": "pcs_4096/000-009/bff62949b04546b59e5abd04b16aa029.npz"
+    },
+    "840e08e57099470298bc6ec7dfc454c9": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/840e08e57099470298bc6ec7dfc454c9.npz"
+    },
+    "3f61c303139f4d87b644b467ce64e1c1": {
+        "label": "school",
+        "path": "pcs_4096/000-009/3f61c303139f4d87b644b467ce64e1c1.npz"
+    },
+    "39683825192b4f93900d1ffaf7dbb6d1": {
+        "label": "hammer",
+        "path": "pcs_4096/000-009/39683825192b4f93900d1ffaf7dbb6d1.npz"
+    },
+    "61666fc11aff49c2927a94c60873fcd5": {
+        "label": "garden",
+        "path": "pcs_4096/000-009/61666fc11aff49c2927a94c60873fcd5.npz"
+    },
+    "6e6a98ecee72474bad5566556c8a09c7": {
+        "label": "theatre",
+        "path": "pcs_4096/000-009/6e6a98ecee72474bad5566556c8a09c7.npz"
+    },
+    "0eb5252beadb464abb8b9caaca8c92cf": {
+        "label": "gran",
+        "path": "pcs_4096/000-009/0eb5252beadb464abb8b9caaca8c92cf.npz"
+    },
+    "d92503c7d0bb41c1934d1365aa26e8ae": {
+        "label": "lithics",
+        "path": "pcs_4096/000-009/d92503c7d0bb41c1934d1365aa26e8ae.npz"
+    },
+    "2b67dbdb5a004baba30c6ebf7d1e1615": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/2b67dbdb5a004baba30c6ebf7d1e1615.npz"
+    },
+    "297da6174aab4c75a8e2017cf4409199": {
+        "label": "education",
+        "path": "pcs_4096/000-009/297da6174aab4c75a8e2017cf4409199.npz"
+    },
+    "6a4dc3e7356447e1a4afcd832a6716dc": {
+        "label": "scaniverse",
+        "path": "pcs_4096/000-009/6a4dc3e7356447e1a4afcd832a6716dc.npz"
+    },
+    "20f091e6e62648e2b120ff6875aa4ba6": {
+        "label": "laughing",
+        "path": "pcs_4096/000-009/20f091e6e62648e2b120ff6875aa4ba6.npz"
+    },
+    "d371779de931488480e74e3258ade4c4": {
+        "label": "elevationapi",
+        "path": "pcs_4096/000-009/d371779de931488480e74e3258ade4c4.npz"
+    },
+    "811aa15ec72d4541a8ff3d63ca36a0e2": {
+        "label": "free3dmodel",
+        "path": "pcs_4096/000-009/811aa15ec72d4541a8ff3d63ca36a0e2.npz"
+    },
+    "123bd84f3525498daffce9b022ba3e22": {
+        "label": "laserscan",
+        "path": "pcs_4096/000-009/123bd84f3525498daffce9b022ba3e22.npz"
+    },
+    "a691861d54534557829f395b8dba70cc": {
+        "label": "scene",
+        "path": "pcs_4096/000-009/a691861d54534557829f395b8dba70cc.npz"
+    },
+    "bdff6eeff2d74977afa2ca5447eb4de7": {
+        "label": "spear",
+        "path": "pcs_4096/000-009/bdff6eeff2d74977afa2ca5447eb4de7.npz"
+    },
+    "e9f984296a4d4b9eba096719103ffac7": {
+        "label": "truck",
+        "path": "pcs_4096/000-009/e9f984296a4d4b9eba096719103ffac7.npz"
+    },
+    "35889488c5584181b4ce977b77a36d28": {
+        "label": "paris",
+        "path": "pcs_4096/000-009/35889488c5584181b4ce977b77a36d28.npz"
+    },
+    "f778467c4ea444e59ff7f5f03e4f9255": {
+        "label": "book",
+        "path": "pcs_4096/000-009/f778467c4ea444e59ff7f5f03e4f9255.npz"
+    },
+    "5b97a093a08f4fd0a78f543b4d7b2944": {
+        "label": "landscape",
+        "path": "pcs_4096/000-009/5b97a093a08f4fd0a78f543b4d7b2944.npz"
+    },
+    "b816b3baa0784d12acdda1bfcfdb43b9": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/b816b3baa0784d12acdda1bfcfdb43b9.npz"
+    },
+    "6a3c79b9a4e74056a1b27b92561c7dc3": {
+        "label": "ww2",
+        "path": "pcs_4096/000-009/6a3c79b9a4e74056a1b27b92561c7dc3.npz"
+    },
+    "b115a32f65704139b79d7e4643fbc5d2": {
+        "label": "dakar",
+        "path": "pcs_4096/000-009/b115a32f65704139b79d7e4643fbc5d2.npz"
+    },
+    "c6f83195a0fe4e6caaed345f4eac6b5b": {
+        "label": "insect",
+        "path": "pcs_4096/000-009/c6f83195a0fe4e6caaed345f4eac6b5b.npz"
+    },
+    "ea4c86ae45be42bd86021abb727c0391": {
+        "label": "agisoft",
+        "path": "pcs_4096/000-009/ea4c86ae45be42bd86021abb727c0391.npz"
+    },
+    "3a331e50283644a6b496606a09285105": {
+        "label": "viking",
+        "path": "pcs_4096/000-009/3a331e50283644a6b496606a09285105.npz"
+    },
+    "72e1ab18636e4cfa8056c14a34768cdf": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/72e1ab18636e4cfa8056c14a34768cdf.npz"
+    },
+    "0f2821bab8b548e1859e9c0a5cc13d12": {
+        "label": "pubg",
+        "path": "pcs_4096/000-009/0f2821bab8b548e1859e9c0a5cc13d12.npz"
+    },
+    "d068dcfe3d9d42268c3f8e3121d6656d": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/d068dcfe3d9d42268c3f8e3121d6656d.npz"
+    },
+    "b8aaa2c0c09740edb4f37841b255e89a": {
+        "label": "3dbuilder",
+        "path": "pcs_4096/000-009/b8aaa2c0c09740edb4f37841b255e89a.npz"
+    },
+    "849c46c08fca4e27b64afe48de6eee80": {
+        "label": "tower",
+        "path": "pcs_4096/000-009/849c46c08fca4e27b64afe48de6eee80.npz"
+    },
+    "ce79dbeaf3b54dd686b3fd04d50fa6d3": {
+        "label": "boxers",
+        "path": "pcs_4096/000-009/ce79dbeaf3b54dd686b3fd04d50fa6d3.npz"
+    },
+    "ef56fceaeccd4e068236eec7ad55ed39": {
+        "label": "armchair",
+        "path": "pcs_4096/000-009/ef56fceaeccd4e068236eec7ad55ed39.npz"
+    },
+    "93b4b53d0985428d9652af57e54805b4": {
+        "label": "micro",
+        "path": "pcs_4096/000-009/93b4b53d0985428d9652af57e54805b4.npz"
+    },
+    "a173584ff087441098322ce242b7e9a1": {
+        "label": "historical",
+        "path": "pcs_4096/000-009/a173584ff087441098322ce242b7e9a1.npz"
+    },
+    "55a397882ea3418dbc98e5fbad35ffd4": {
+        "label": "firsttry",
+        "path": "pcs_4096/000-009/55a397882ea3418dbc98e5fbad35ffd4.npz"
+    },
+    "34bd8e564a734386af00d94b6760dece": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/34bd8e564a734386af00d94b6760dece.npz"
+    },
+    "5fda944b1160440a84efd1f579cb7180": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/5fda944b1160440a84efd1f579cb7180.npz"
+    },
+    "34178dffebda401eb9d0261c1d884768": {
+        "label": "sonic",
+        "path": "pcs_4096/000-009/34178dffebda401eb9d0261c1d884768.npz"
+    },
+    "5717ecef34aa48a2bfe01bcacf0714fd": {
+        "label": "hair",
+        "path": "pcs_4096/000-009/5717ecef34aa48a2bfe01bcacf0714fd.npz"
+    },
+    "f3b332c7e3f545388cafc7a60f4ccddb": {
+        "label": "fishes",
+        "path": "pcs_4096/000-009/f3b332c7e3f545388cafc7a60f4ccddb.npz"
+    },
+    "1541b7b291b94e178f7e977eb72b8d72": {
+        "label": "furniture",
+        "path": "pcs_4096/000-009/1541b7b291b94e178f7e977eb72b8d72.npz"
+    },
+    "c3a4ea9eb4574ce3981ab7f12403f532": {
+        "label": "sedimentary",
+        "path": "pcs_4096/000-009/c3a4ea9eb4574ce3981ab7f12403f532.npz"
+    },
+    "f79e779c2cab44bfa2943ffc6d994f63": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/f79e779c2cab44bfa2943ffc6d994f63.npz"
+    },
+    "47a80dc9a16641f9b9096d5c25092da7": {
+        "label": "xyz-school",
+        "path": "pcs_4096/000-009/47a80dc9a16641f9b9096d5c25092da7.npz"
+    },
+    "8abec0b53e7945ceb583afba4f752f9a": {
+        "label": "marine",
+        "path": "pcs_4096/000-009/8abec0b53e7945ceb583afba4f752f9a.npz"
+    },
+    "382e8852631446afab267f19581976fa": {
+        "label": "graveyard",
+        "path": "pcs_4096/000-009/382e8852631446afab267f19581976fa.npz"
+    },
+    "83b07d1c80684718819bf9bef638cc1b": {
+        "label": "stone",
+        "path": "pcs_4096/000-009/83b07d1c80684718819bf9bef638cc1b.npz"
+    },
+    "3aa312cb5c864cf4a5a4bc3653512414": {
+        "label": "wizard",
+        "path": "pcs_4096/000-009/3aa312cb5c864cf4a5a4bc3653512414.npz"
+    },
+    "c0f324b02fbc43a68c19e86093500dbb": {
+        "label": "nintendo",
+        "path": "pcs_4096/000-009/c0f324b02fbc43a68c19e86093500dbb.npz"
+    },
+    "1109b126e4234cc6b3c78aca3eed3d42": {
+        "label": "room",
+        "path": "pcs_4096/000-009/1109b126e4234cc6b3c78aca3eed3d42.npz"
+    },
+    "56147575e7f941c5b8db74cdad76e294": {
+        "label": "minecraft",
+        "path": "pcs_4096/000-009/56147575e7f941c5b8db74cdad76e294.npz"
+    },
+    "720bc74c791b47498e1e5c40c9c97070": {
+        "label": "duckstore",
+        "path": "pcs_4096/000-009/720bc74c791b47498e1e5c40c9c97070.npz"
+    },
+    "43138ce682e34766971394cc8eee2a68": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/43138ce682e34766971394cc8eee2a68.npz"
+    },
+    "3d1e5914fa454afea205807f73a14b89": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/3d1e5914fa454afea205807f73a14b89.npz"
+    },
+    "f50c7ad9456640e7a2a9dd2c934ccf9d": {
+        "label": "3df-zephyr",
+        "path": "pcs_4096/000-009/f50c7ad9456640e7a2a9dd2c934ccf9d.npz"
+    },
+    "f951db3894cf49448fd6359470a53580": {
+        "label": "plant",
+        "path": "pcs_4096/000-009/f951db3894cf49448fd6359470a53580.npz"
+    },
+    "6441b7f2164b4891889cbf627e0d9da7": {
+        "label": "furniture",
+        "path": "pcs_4096/000-009/6441b7f2164b4891889cbf627e0d9da7.npz"
+    },
+    "5913eab6733e4e4793256cd3a5d8ff26": {
+        "label": "alpha",
+        "path": "pcs_4096/000-009/5913eab6733e4e4793256cd3a5d8ff26.npz"
+    },
+    "3a93f5c2a4e8430ca78d430a14e68302": {
+        "label": "composition",
+        "path": "pcs_4096/000-009/3a93f5c2a4e8430ca78d430a14e68302.npz"
+    },
+    "8a0c8573e41b4ef89da37f63c3fe5cb4": {
+        "label": "creative",
+        "path": "pcs_4096/000-009/8a0c8573e41b4ef89da37f63c3fe5cb4.npz"
+    },
+    "0864fb5ab43b4228b3ef33e8ea795e9a": {
+        "label": "piggy",
+        "path": "pcs_4096/000-009/0864fb5ab43b4228b3ef33e8ea795e9a.npz"
+    },
+    "db830b9d3d834461a89d29af224aaf50": {
+        "label": "dh_age",
+        "path": "pcs_4096/000-009/db830b9d3d834461a89d29af224aaf50.npz"
+    },
+    "63f953986ac049b9a9987f1d281eb380": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/63f953986ac049b9a9987f1d281eb380.npz"
+    },
+    "41b293f43993495d9a418dc13d7683eb": {
+        "label": "worldofwarcraft",
+        "path": "pcs_4096/000-009/41b293f43993495d9a418dc13d7683eb.npz"
+    },
+    "bccfcb92a2014afeb4dc6e84defd9c3b": {
+        "label": "food",
+        "path": "pcs_4096/000-009/bccfcb92a2014afeb4dc6e84defd9c3b.npz"
+    },
+    "4b20ff35bcec4d7ab451e1d5107958d2": {
+        "label": "vainglory",
+        "path": "pcs_4096/000-009/4b20ff35bcec4d7ab451e1d5107958d2.npz"
+    },
+    "5735e6c6743243a99e6c9c53ab532ae4": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/5735e6c6743243a99e6c9c53ab532ae4.npz"
+    },
+    "79d0f73a6d2e4339928437928baa20cd": {
+        "label": "trnio",
+        "path": "pcs_4096/000-009/79d0f73a6d2e4339928437928baa20cd.npz"
+    },
+    "16d5c054bc244118867f2f6307bff18e": {
+        "label": "cute",
+        "path": "pcs_4096/000-009/16d5c054bc244118867f2f6307bff18e.npz"
+    },
+    "80224fd8394e4a4c9f4522ffb1cf6cf6": {
+        "label": "tool",
+        "path": "pcs_4096/000-009/80224fd8394e4a4c9f4522ffb1cf6cf6.npz"
+    },
+    "c2a45344884a44448f5e2978dd26e7f0": {
+        "label": "element",
+        "path": "pcs_4096/000-009/c2a45344884a44448f5e2978dd26e7f0.npz"
+    },
+    "93adea09fa3e48699e685b2918331a6a": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/93adea09fa3e48699e685b2918331a6a.npz"
+    },
+    "76a268b7978d481f949e109ca5b28f33": {
+        "label": "photogrammetry",
+        "path": "pcs_4096/000-009/76a268b7978d481f949e109ca5b28f33.npz"
+    },
+    "af180a63dc2242c5ac4849b1eaff6ae7": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/af180a63dc2242c5ac4849b1eaff6ae7.npz"
+    },
+    "31e3c86a36dc47ef92c975729c5f8de1": {
+        "label": "greek",
+        "path": "pcs_4096/000-009/31e3c86a36dc47ef92c975729c5f8de1.npz"
+    },
+    "c03a8e6a09df4af6874dbb5305574028": {
+        "label": "medieval",
+        "path": "pcs_4096/000-009/c03a8e6a09df4af6874dbb5305574028.npz"
+    },
+    "1ba7c6c179734d418eb1b1fe89c1e5a2": {
+        "label": "cylinder",
+        "path": "pcs_4096/000-009/1ba7c6c179734d418eb1b1fe89c1e5a2.npz"
+    },
+    "f7e0864722d0471b8fa3760d588fd32f": {
+        "label": "3dmodels",
+        "path": "pcs_4096/000-009/f7e0864722d0471b8fa3760d588fd32f.npz"
+    },
+    "1313d6e70d854554a8c848198122f733": {
+        "label": "spain",
+        "path": "pcs_4096/000-009/1313d6e70d854554a8c848198122f733.npz"
+    },
+    "1763eb9a7e614e64b26a78691eb393e7": {
+        "label": "glitch",
+        "path": "pcs_4096/000-009/1763eb9a7e614e64b26a78691eb393e7.npz"
+    },
+    "ca86a57984f948e1b5c46a20c09a6223": {
+        "label": "army",
+        "path": "pcs_4096/000-009/ca86a57984f948e1b5c46a20c09a6223.npz"
+    },
+    "fa4b9c752fed4edbb0f06f887aedfcf1": {
+        "label": "green",
+        "path": "pcs_4096/000-009/fa4b9c752fed4edbb0f06f887aedfcf1.npz"
+    },
+    "eb31e9f575b4486c9e949a9e7d8f72d1": {
+        "label": "geometry",
+        "path": "pcs_4096/000-009/eb31e9f575b4486c9e949a9e7d8f72d1.npz"
+    },
+    "1f2356b84ac64b4ba072ec2d052e0da1": {
+        "label": "rust",
+        "path": "pcs_4096/000-009/1f2356b84ac64b4ba072ec2d052e0da1.npz"
+    },
+    "3f043e5f672a4e2db7d10bef5aee0fbe": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/3f043e5f672a4e2db7d10bef5aee0fbe.npz"
+    },
+    "c138f40c59614c3d9561216d69ba6647": {
+        "label": "torchere",
+        "path": "pcs_4096/000-009/c138f40c59614c3d9561216d69ba6647.npz"
+    },
+    "1de6d3ee67fb4f9fba7a4f6e42d1af2f": {
+        "label": "wings3d",
+        "path": "pcs_4096/000-009/1de6d3ee67fb4f9fba7a4f6e42d1af2f.npz"
+    },
+    "0a7a71cb4c064e729c3b7c2742ff9f72": {
+        "label": "flatscreen",
+        "path": "pcs_4096/000-009/0a7a71cb4c064e729c3b7c2742ff9f72.npz"
+    },
+    "b1c1171212a345578c4a086e7f8f9893": {
+        "label": "ireland",
+        "path": "pcs_4096/000-009/b1c1171212a345578c4a086e7f8f9893.npz"
+    },
+    "9193fb1015f6489283669c3fad0b7856": {
+        "label": "office",
+        "path": "pcs_4096/000-009/9193fb1015f6489283669c3fad0b7856.npz"
+    },
+    "f44d596b75ea4f9a9a1d03c5c4329103": {
+        "label": "objects",
+        "path": "pcs_4096/000-009/f44d596b75ea4f9a9a1d03c5c4329103.npz"
+    },
+    "93f735dcceb54dc9841803d899f71a31": {
+        "label": "game",
+        "path": "pcs_4096/000-009/93f735dcceb54dc9841803d899f71a31.npz"
+    },
+    "3fc19ceb2e41483c838907fc8b2fa448": {
+        "label": "tiltbrush",
+        "path": "pcs_4096/000-009/3fc19ceb2e41483c838907fc8b2fa448.npz"
+    },
+    "55f07f68cee948f0bba465d8104cdc20": {
+        "label": "herramientas",
+        "path": "pcs_4096/000-009/55f07f68cee948f0bba465d8104cdc20.npz"
+    },
+    "59e525dab95542caa7caa66d7113045d": {
+        "label": "polytosketchfab",
+        "path": "pcs_4096/000-009/59e525dab95542caa7caa66d7113045d.npz"
+    },
+    "a18e827be53f4365973ca97b41644aba": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/a18e827be53f4365973ca97b41644aba.npz"
+    },
+    "41bd28e188f44390acd0d9ab2891e4d1": {
+        "label": "weapons3d",
+        "path": "pcs_4096/000-009/41bd28e188f44390acd0d9ab2891e4d1.npz"
+    },
+    "448a0da10af247f8a124ee91264389dd": {
+        "label": "half-life",
+        "path": "pcs_4096/000-009/448a0da10af247f8a124ee91264389dd.npz"
+    },
+    "d2598a92978d499fa1cc277601001104": {
+        "label": "engenharia",
+        "path": "pcs_4096/000-009/d2598a92978d499fa1cc277601001104.npz"
+    },
+    "501dc84286bf42a6b03ce26c30921448": {
+        "label": "horror",
+        "path": "pcs_4096/000-009/501dc84286bf42a6b03ce26c30921448.npz"
+    },
+    "47b3d3d3bb2e4a9793151dfd3f73541e": {
+        "label": "time",
+        "path": "pcs_4096/000-009/47b3d3d3bb2e4a9793151dfd3f73541e.npz"
+    },
+    "689b08fcb6bd4e7d861e553e448c6fea": {
+        "label": "jar",
+        "path": "pcs_4096/000-009/689b08fcb6bd4e7d861e553e448c6fea.npz"
+    },
+    "93a8bcfdd9f043238bb751bdf9f76f49": {
+        "label": "substancepainter",
+        "path": "pcs_4096/000-009/93a8bcfdd9f043238bb751bdf9f76f49.npz"
+    },
+    "f074f3fdc3b5478cbd49af854804a771": {
+        "label": "monkey",
+        "path": "pcs_4096/000-009/f074f3fdc3b5478cbd49af854804a771.npz"
+    },
+    "3e8eab4865574ec780ffe0e1c6eec47c": {
+        "label": "tiltbrush",
+        "path": "pcs_4096/000-009/3e8eab4865574ec780ffe0e1c6eec47c.npz"
+    },
+    "ebbed9e075354aceb0bd06f048c5444b": {
+        "label": "trees",
+        "path": "pcs_4096/000-009/ebbed9e075354aceb0bd06f048c5444b.npz"
+    },
+    "f81bb451b3024110aeaaecbdd8aca814": {
+        "label": "tv",
+        "path": "pcs_4096/000-009/f81bb451b3024110aeaaecbdd8aca814.npz"
+    },
+    "da67236faf6f4448b13a233f879cb0c3": {
+        "label": "polycam",
+        "path": "pcs_4096/000-009/da67236faf6f4448b13a233f879cb0c3.npz"
+    },
+    "98c54d1522c045ae946bb7d3085c7d93": {
+        "label": "brick",
+        "path": "pcs_4096/000-009/98c54d1522c045ae946bb7d3085c7d93.npz"
+    },
+    "1901c558f46e402686a5745bcef0e113": {
+        "label": "snail",
+        "path": "pcs_4096/000-009/1901c558f46e402686a5745bcef0e113.npz"
+    },
+    "80c5872d7c50463e85eb761526c3eb40": {
+        "label": "oil",
+        "path": "pcs_4096/000-009/80c5872d7c50463e85eb761526c3eb40.npz"
+    },
+    "538b022ba52d48ea988094e2c3674ce2": {
+        "label": "map",
+        "path": "pcs_4096/000-009/538b022ba52d48ea988094e2c3674ce2.npz"
+    },
+    "dd8ab40e488b47dc9ea9bd5b20bd9122": {
+        "label": "realityscan",
+        "path": "pcs_4096/000-009/dd8ab40e488b47dc9ea9bd5b20bd9122.npz"
+    },
+    "1fdc49a6b6664229a3cbb66562d74680": {
+        "label": "photogrammetry-drone",
+        "path": "pcs_4096/000-009/1fdc49a6b6664229a3cbb66562d74680.npz"
+    },
+    "6d93b13f4d194f66bbfa497691c69e6f": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/6d93b13f4d194f66bbfa497691c69e6f.npz"
+    },
+    "d8a55a0d0cf940f6ae6534e2f94bb92c": {
+        "label": "hat",
+        "path": "pcs_4096/000-009/d8a55a0d0cf940f6ae6534e2f94bb92c.npz"
+    },
+    "e744b86756904fa5974c72b295b4328c": {
+        "label": "xyz",
+        "path": "pcs_4096/000-009/e744b86756904fa5974c72b295b4328c.npz"
+    },
+    "256cd760343741b5bcf7910c022cf707": {
+        "label": "gf",
+        "path": "pcs_4096/000-009/256cd760343741b5bcf7910c022cf707.npz"
+    },
+    "24eb783e419b493891516c1128e9df52": {
+        "label": "metashape",
+        "path": "pcs_4096/000-009/24eb783e419b493891516c1128e9df52.npz"
+    },
+    "47d3d0a1f6a745089efa3d765c224bc6": {
+        "label": "chandelier",
+        "path": "pcs_4096/000-009/47d3d0a1f6a745089efa3d765c224bc6.npz"
+    },
+    "bedb0f4e4adc42339f79e57a190a0257": {
+        "label": "plant",
+        "path": "pcs_4096/000-009/bedb0f4e4adc42339f79e57a190a0257.npz"
+    },
+    "f610a8f67f3f4a87bee6aef4cb688eb7": {
+        "label": "tree",
+        "path": "pcs_4096/000-009/f610a8f67f3f4a87bee6aef4cb688eb7.npz"
+    },
+    "3c2a307198cc41b1a026bd33886103e8": {
+        "label": "3danimation",
+        "path": "pcs_4096/000-009/3c2a307198cc41b1a026bd33886103e8.npz"
+    },
+    "e347215fd5b94cd587cb0e9ac41bcf15": {
+        "label": "polycam",
+        "path": "pcs_4096/000-009/e347215fd5b94cd587cb0e9ac41bcf15.npz"
+    },
+    "de23895b6e9b4cfd870e30d14c2150dd": {
+        "label": "mug",
+        "path": "pcs_4096/000-009/de23895b6e9b4cfd870e30d14c2150dd.npz"
+    },
+    "e2aae15959034c25b7f109c4664cefce": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/e2aae15959034c25b7f109c4664cefce.npz"
+    },
+    "4085ee165f9740a9ab30ba665f12d783": {
+        "label": "abandoned",
+        "path": "pcs_4096/000-009/4085ee165f9740a9ab30ba665f12d783.npz"
+    },
+    "41be9d2cb72f4496be741267cb7a3850": {
+        "label": "bin",
+        "path": "pcs_4096/000-009/41be9d2cb72f4496be741267cb7a3850.npz"
+    },
+    "8bfa35e9611d4f51aeb3e3577811e7d2": {
+        "label": "metashape",
+        "path": "pcs_4096/000-009/8bfa35e9611d4f51aeb3e3577811e7d2.npz"
+    },
+    "901d5eb750c144db9dba8fe55ee1fba3": {
+        "label": "3d-scan",
+        "path": "pcs_4096/000-009/901d5eb750c144db9dba8fe55ee1fba3.npz"
+    },
+    "b751333a517f4a819b7f23af1b8fa0f1": {
+        "label": "weaponlowpoly",
+        "path": "pcs_4096/000-009/b751333a517f4a819b7f23af1b8fa0f1.npz"
+    },
+    "61fcf59b3f4d47abbe371547d7df6f2c": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/61fcf59b3f4d47abbe371547d7df6f2c.npz"
+    },
+    "95f171f43a9149438988de80c30eaf35": {
+        "label": "capybara",
+        "path": "pcs_4096/000-009/95f171f43a9149438988de80c30eaf35.npz"
+    },
+    "10d4324d156d4c25a5ed8e79cf7d332e": {
+        "label": "wizard",
+        "path": "pcs_4096/000-009/10d4324d156d4c25a5ed8e79cf7d332e.npz"
+    },
+    "6117777f965a4382a6ee84c001be2e30": {
+        "label": "dolmen",
+        "path": "pcs_4096/000-009/6117777f965a4382a6ee84c001be2e30.npz"
+    },
+    "155512e4b5a8472488b6b2a6d61cba8b": {
+        "label": "b3d",
+        "path": "pcs_4096/000-009/155512e4b5a8472488b6b2a6d61cba8b.npz"
+    },
+    "baeba6e45f66498d9a0c6eee984c6d7f": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/baeba6e45f66498d9a0c6eee984c6d7f.npz"
+    },
+    "3858ecede14c4e67b00822fabfe7e7e6": {
+        "label": "scaniverse",
+        "path": "pcs_4096/000-009/3858ecede14c4e67b00822fabfe7e7e6.npz"
+    },
+    "bdf812fbc0d74d8286695afebfd0acaa": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/bdf812fbc0d74d8286695afebfd0acaa.npz"
+    },
+    "628b82bdc25649aea70a757f6901e273": {
+        "label": "hammer",
+        "path": "pcs_4096/000-009/628b82bdc25649aea70a757f6901e273.npz"
+    },
+    "511f270d110446f7a2173f35802380dc": {
+        "label": "police",
+        "path": "pcs_4096/000-009/511f270d110446f7a2173f35802380dc.npz"
+    },
+    "a433a125833f40b5bc3a3369c517568b": {
+        "label": "generative",
+        "path": "pcs_4096/000-009/a433a125833f40b5bc3a3369c517568b.npz"
+    },
+    "4d995392ea46457eacf6c8fc60f21158": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/4d995392ea46457eacf6c8fc60f21158.npz"
+    },
+    "94a80b65214d4424946fe1bd33973f85": {
+        "label": "anatomy",
+        "path": "pcs_4096/000-009/94a80b65214d4424946fe1bd33973f85.npz"
+    },
+    "527b8e887a9d4aeb861f486a8527b8d2": {
+        "label": "sample",
+        "path": "pcs_4096/000-009/527b8e887a9d4aeb861f486a8527b8d2.npz"
+    },
+    "d5c86e05d9e04df3946fbf46a14152e8": {
+        "label": "egypt",
+        "path": "pcs_4096/000-009/d5c86e05d9e04df3946fbf46a14152e8.npz"
+    },
+    "829c108657684c3c94f87b61eff08ade": {
+        "label": "keycards",
+        "path": "pcs_4096/000-009/829c108657684c3c94f87b61eff08ade.npz"
+    },
+    "98fdbe9b7b87487b8c1ab3787785e72f": {
+        "label": "room",
+        "path": "pcs_4096/000-009/98fdbe9b7b87487b8c1ab3787785e72f.npz"
+    },
+    "ebdca24dec844defa1fc3f4954ca0a95": {
+        "label": "ship",
+        "path": "pcs_4096/000-009/ebdca24dec844defa1fc3f4954ca0a95.npz"
+    },
+    "b5c70a17dfca439f8dd5ed11db5e12c3": {
+        "label": "track",
+        "path": "pcs_4096/000-009/b5c70a17dfca439f8dd5ed11db5e12c3.npz"
+    },
+    "213ea6a43b6f4118a3f789116bc69c2f": {
+        "label": "castle",
+        "path": "pcs_4096/000-009/213ea6a43b6f4118a3f789116bc69c2f.npz"
+    },
+    "ca3e274dafed4b3ead7c89f562ed5e35": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/ca3e274dafed4b3ead7c89f562ed5e35.npz"
+    },
+    "bc9a8ba3b3fb4feda3179605bfa42582": {
+        "label": "colombia",
+        "path": "pcs_4096/000-009/bc9a8ba3b3fb4feda3179605bfa42582.npz"
+    },
+    "5fb7d184274b4cd9bb306387f702659f": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/5fb7d184274b4cd9bb306387f702659f.npz"
+    },
+    "05b95c08391a445983b4403783d8967b": {
+        "label": "ancient",
+        "path": "pcs_4096/000-009/05b95c08391a445983b4403783d8967b.npz"
+    },
+    "96a1bb2108e44e009b5453ab8e3f52c6": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/96a1bb2108e44e009b5453ab8e3f52c6.npz"
+    },
+    "8fbae50b9f09400181a43390b83854c5": {
+        "label": "xyz-school",
+        "path": "pcs_4096/000-009/8fbae50b9f09400181a43390b83854c5.npz"
+    },
+    "c6f0b9ea65ea4b048b48d50a4cd3b42b": {
+        "label": "beds",
+        "path": "pcs_4096/000-009/c6f0b9ea65ea4b048b48d50a4cd3b42b.npz"
+    },
+    "21c944a6425b448fac8975dbd942b6c8": {
+        "label": "fossile",
+        "path": "pcs_4096/000-009/21c944a6425b448fac8975dbd942b6c8.npz"
+    },
+    "d1d8ca992c634e3e9af922795b89b091": {
+        "label": "heritage",
+        "path": "pcs_4096/000-009/d1d8ca992c634e3e9af922795b89b091.npz"
+    },
+    "5e36d32870b644c29a4368a088be9939": {
+        "label": "geology",
+        "path": "pcs_4096/000-009/5e36d32870b644c29a4368a088be9939.npz"
+    },
+    "d8488081b59f42719e756c5805e9e2fd": {
+        "label": "cinema4d",
+        "path": "pcs_4096/000-009/d8488081b59f42719e756c5805e9e2fd.npz"
+    },
+    "a903d02cd0be4cbf99004d18330bc613": {
+        "label": "museum",
+        "path": "pcs_4096/000-009/a903d02cd0be4cbf99004d18330bc613.npz"
+    },
+    "39447978a6484e59a354e81618b27ae6": {
+        "label": "lofi",
+        "path": "pcs_4096/000-009/39447978a6484e59a354e81618b27ae6.npz"
+    },
+    "cc6cecc5830e4991a41fdeee8ec4fbdf": {
+        "label": "fossil",
+        "path": "pcs_4096/000-009/cc6cecc5830e4991a41fdeee8ec4fbdf.npz"
+    },
+    "b156e91504374c77ac354a3dbe803876": {
+        "label": "anime",
+        "path": "pcs_4096/000-009/b156e91504374c77ac354a3dbe803876.npz"
+    },
+    "692c68c4f6374a3c8f114c11497fe1c2": {
+        "label": "police",
+        "path": "pcs_4096/000-009/692c68c4f6374a3c8f114c11497fe1c2.npz"
+    },
+    "58c30875712148da8f884b0a8d379128": {
+        "label": "warhammer",
+        "path": "pcs_4096/000-009/58c30875712148da8f884b0a8d379128.npz"
+    },
+    "9016a225f58648b6866c2e15a4b3cfa2": {
+        "label": "gore",
+        "path": "pcs_4096/000-009/9016a225f58648b6866c2e15a4b3cfa2.npz"
+    },
+    "a5ae1581aa954224969b08ec6d84f967": {
+        "label": "trnio",
+        "path": "pcs_4096/000-009/a5ae1581aa954224969b08ec6d84f967.npz"
+    },
+    "e490c6ab9177493e87d7bf4373bee9c3": {
+        "label": "lowpoly-blender",
+        "path": "pcs_4096/000-009/e490c6ab9177493e87d7bf4373bee9c3.npz"
+    },
+    "ceef57cd0306486dbab67e74c30ed883": {
+        "label": "cabin",
+        "path": "pcs_4096/000-009/ceef57cd0306486dbab67e74c30ed883.npz"
+    },
+    "51d1a0eec1bb4d769e0c84f37a81b961": {
+        "label": "indian",
+        "path": "pcs_4096/000-009/51d1a0eec1bb4d769e0c84f37a81b961.npz"
+    },
+    "3627b54cd3284f04b0fe8956aa6c0c4a": {
+        "label": "dragonball",
+        "path": "pcs_4096/000-009/3627b54cd3284f04b0fe8956aa6c0c4a.npz"
+    },
+    "fb9a1f018b5b455e99406354b29215cf": {
+        "label": "shoes",
+        "path": "pcs_4096/000-009/fb9a1f018b5b455e99406354b29215cf.npz"
+    },
+    "c69c1f24b6c1487f92821c749ca61f0a": {
+        "label": "traffic",
+        "path": "pcs_4096/000-009/c69c1f24b6c1487f92821c749ca61f0a.npz"
+    },
+    "88146cfd65de475694535362a3e5d807": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/88146cfd65de475694535362a3e5d807.npz"
+    },
+    "4ecf3f21da104a49aa602fd719853cb5": {
+        "label": "obj",
+        "path": "pcs_4096/000-009/4ecf3f21da104a49aa602fd719853cb5.npz"
+    },
+    "571ed5e0bc574cba841b954f77e6b0a6": {
+        "label": "polycam",
+        "path": "pcs_4096/000-009/571ed5e0bc574cba841b954f77e6b0a6.npz"
+    },
+    "559e9caa23f343c5bf6cd6463ea8b553": {
+        "label": "painted",
+        "path": "pcs_4096/000-009/559e9caa23f343c5bf6cd6463ea8b553.npz"
+    },
+    "56b38470634b4efea0fd9d3245e1b0b0": {
+        "label": "robotic",
+        "path": "pcs_4096/000-009/56b38470634b4efea0fd9d3245e1b0b0.npz"
+    },
+    "02f993d87fc94bb9ac4063f5f3b7fbbb": {
+        "label": "creatures",
+        "path": "pcs_4096/000-009/02f993d87fc94bb9ac4063f5f3b7fbbb.npz"
+    },
+    "4810475711b04e8ba4defd0a4b5cb78c": {
+        "label": "well",
+        "path": "pcs_4096/000-009/4810475711b04e8ba4defd0a4b5cb78c.npz"
+    },
+    "a13061c4163b4b5a9b6b4d10bb34d036": {
+        "label": "household",
+        "path": "pcs_4096/000-009/a13061c4163b4b5a9b6b4d10bb34d036.npz"
+    },
+    "56dff7351e7b41b0af35c8dff5104fd0": {
+        "label": "kids",
+        "path": "pcs_4096/000-009/56dff7351e7b41b0af35c8dff5104fd0.npz"
+    },
+    "a86c39a5277d4c23b7a76aa55b126b89": {
+        "label": "trnio",
+        "path": "pcs_4096/000-009/a86c39a5277d4c23b7a76aa55b126b89.npz"
+    },
+    "a4e3e7c13b3948959a133ba89c9bd4fe": {
+        "label": "soviet",
+        "path": "pcs_4096/000-009/a4e3e7c13b3948959a133ba89c9bd4fe.npz"
+    },
+    "c29bf1ed012040ea943adf32c4b7b615": {
+        "label": "vietnam-war",
+        "path": "pcs_4096/000-009/c29bf1ed012040ea943adf32c4b7b615.npz"
+    },
+    "11c521d1fdf8493c9b53c5b7e13bea76": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/11c521d1fdf8493c9b53c5b7e13bea76.npz"
+    },
+    "dc72a3fc51f74a6b83d103edb6d663dc": {
+        "label": "tiltbrush",
+        "path": "pcs_4096/000-009/dc72a3fc51f74a6b83d103edb6d663dc.npz"
+    },
+    "480cfbf70ec84960b19781f02dab5b40": {
+        "label": "gamedev",
+        "path": "pcs_4096/000-009/480cfbf70ec84960b19781f02dab5b40.npz"
+    },
+    "5bfd818581eb45cfb78b37444354369a": {
+        "label": "mesh",
+        "path": "pcs_4096/000-009/5bfd818581eb45cfb78b37444354369a.npz"
+    },
+    "bb3a0abc121f4a0ba9e3a718f5633959": {
+        "label": "trnio",
+        "path": "pcs_4096/000-009/bb3a0abc121f4a0ba9e3a718f5633959.npz"
+    },
+    "253d127bd91d45e09ffc0ca1a0fe8791": {
+        "label": "nightmare",
+        "path": "pcs_4096/000-009/253d127bd91d45e09ffc0ca1a0fe8791.npz"
+    },
+    "1d0d2f7fe0cb49e095991294556898c8": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/1d0d2f7fe0cb49e095991294556898c8.npz"
+    },
+    "f0e2c84323644d558514125a73de864c": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/f0e2c84323644d558514125a73de864c.npz"
+    },
+    "a151dd3fa102493c881cfad86b7fc0bd": {
+        "label": "wen-hua-gao-zhong",
+        "path": "pcs_4096/000-009/a151dd3fa102493c881cfad86b7fc0bd.npz"
+    },
+    "9c37b4b1b64d4aa5a211e78338485cec": {
+        "label": "sculptgl",
+        "path": "pcs_4096/000-009/9c37b4b1b64d4aa5a211e78338485cec.npz"
+    },
+    "42a9b689f60d4a889d16688a0da25632": {
+        "label": "archeology",
+        "path": "pcs_4096/000-009/42a9b689f60d4a889d16688a0da25632.npz"
+    },
+    "c1026107af7b428fa1301a00de2c31eb": {
+        "label": "bunny",
+        "path": "pcs_4096/000-009/c1026107af7b428fa1301a00de2c31eb.npz"
+    },
+    "73f8c6d5e42049daae4640dc464814c2": {
+        "label": "level",
+        "path": "pcs_4096/000-009/73f8c6d5e42049daae4640dc464814c2.npz"
+    },
+    "92f751dab03e4a2792348a21b3673ec1": {
+        "label": "tower",
+        "path": "pcs_4096/000-009/92f751dab03e4a2792348a21b3673ec1.npz"
+    },
+    "6804817b8c7942e2b75b8afa38be79fe": {
+        "label": "beds",
+        "path": "pcs_4096/000-009/6804817b8c7942e2b75b8afa38be79fe.npz"
+    },
+    "38ac4f6f262d41c88d9c5ed1a79fb5d1": {
+        "label": "lisbon",
+        "path": "pcs_4096/000-009/38ac4f6f262d41c88d9c5ed1a79fb5d1.npz"
+    },
+    "671060863baf4470b2757f93228f2962": {
+        "label": "disabled",
+        "path": "pcs_4096/000-009/671060863baf4470b2757f93228f2962.npz"
+    },
+    "145631a2f72d4bd8a4687a82251e8d50": {
+        "label": "polycam",
+        "path": "pcs_4096/000-009/145631a2f72d4bd8a4687a82251e8d50.npz"
+    },
+    "73c02efe56ad405d84c8333dd3f9c3f6": {
+        "label": "amd",
+        "path": "pcs_4096/000-009/73c02efe56ad405d84c8333dd3f9c3f6.npz"
+    },
+    "2fa42781568549c0861769cbf51d88fc": {
+        "label": "ww2",
+        "path": "pcs_4096/000-009/2fa42781568549c0861769cbf51d88fc.npz"
+    },
+    "6f77eb7650804e59b8e9f3623a686c38": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/6f77eb7650804e59b8e9f3623a686c38.npz"
+    },
+    "1cdd44ab874c4f7a802eed3afa2cd9c2": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/1cdd44ab874c4f7a802eed3afa2cd9c2.npz"
+    },
+    "6969d73abb9c4009ad7692be218c4fd0": {
+        "label": "graffiti",
+        "path": "pcs_4096/000-009/6969d73abb9c4009ad7692be218c4fd0.npz"
+    },
+    "24e008087730490f9db406ee5417417e": {
+        "label": "elevationapi",
+        "path": "pcs_4096/000-009/24e008087730490f9db406ee5417417e.npz"
+    },
+    "5f4b6184e31e4fc9a5da16ed86ab4ef4": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/5f4b6184e31e4fc9a5da16ed86ab4ef4.npz"
+    },
+    "333668dd21264de788698d6eceadad5e": {
+        "label": "heater",
+        "path": "pcs_4096/000-009/333668dd21264de788698d6eceadad5e.npz"
+    },
+    "30705ef951a64da9bedd426d0d3aab70": {
+        "label": "1982",
+        "path": "pcs_4096/000-009/30705ef951a64da9bedd426d0d3aab70.npz"
+    },
+    "7d3157fa159b4436b488aee8254258e8": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/7d3157fa159b4436b488aee8254258e8.npz"
+    },
+    "4b194a27b3f8443092b6d67216a75006": {
+        "label": "furniture",
+        "path": "pcs_4096/000-009/4b194a27b3f8443092b6d67216a75006.npz"
+    },
+    "4f5d3aaf533144f19bec3ca34742bd1c": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/4f5d3aaf533144f19bec3ca34742bd1c.npz"
+    },
+    "0bdd72038f394b0e99a983465f1c367a": {
+        "label": "revit3d",
+        "path": "pcs_4096/000-009/0bdd72038f394b0e99a983465f1c367a.npz"
+    },
+    "c2e6ecb3528d41dd8f476949781f5070": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/c2e6ecb3528d41dd8f476949781f5070.npz"
+    },
+    "109c4312840843a092d17f03db1eff44": {
+        "label": "meme",
+        "path": "pcs_4096/000-009/109c4312840843a092d17f03db1eff44.npz"
+    },
+    "5eaeb1adbad845bcb196ec6a7d8b3d4d": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/5eaeb1adbad845bcb196ec6a7d8b3d4d.npz"
+    },
+    "0512f39dc7c549859276cb6fdd321ae5": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/0512f39dc7c549859276cb6fdd321ae5.npz"
+    },
+    "6bbd346a4aff4f7dbf6bb3755588f384": {
+        "label": "substancepainter",
+        "path": "pcs_4096/000-009/6bbd346a4aff4f7dbf6bb3755588f384.npz"
+    },
+    "6381ee8491c64bf5836fbebf0555d3f4": {
+        "label": "b3d",
+        "path": "pcs_4096/000-009/6381ee8491c64bf5836fbebf0555d3f4.npz"
+    },
+    "a7d061cf51344e1aa36bf10243fcd5d5": {
+        "label": "caracter",
+        "path": "pcs_4096/000-009/a7d061cf51344e1aa36bf10243fcd5d5.npz"
+    },
+    "3658f672990442ffa603ad0c0f7c02d8": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/3658f672990442ffa603ad0c0f7c02d8.npz"
+    },
+    "7050c6ab74da4a2ba22d0003505aa8c1": {
+        "label": "daveandbambi",
+        "path": "pcs_4096/000-009/7050c6ab74da4a2ba22d0003505aa8c1.npz"
+    },
+    "c25e787dae7e4efaa067d76978558b81": {
+        "label": "geology",
+        "path": "pcs_4096/000-009/c25e787dae7e4efaa067d76978558b81.npz"
+    },
+    "b40fd41232ae4536b61e51ef0381c5bb": {
+        "label": "nextengine",
+        "path": "pcs_4096/000-009/b40fd41232ae4536b61e51ef0381c5bb.npz"
+    },
+    "a4af8c9f2e294a0f96ee016770f1694a": {
+        "label": "barrel",
+        "path": "pcs_4096/000-009/a4af8c9f2e294a0f96ee016770f1694a.npz"
+    },
+    "82352e5a42f54acf94e5ee946b0920d2": {
+        "label": "scaniverse",
+        "path": "pcs_4096/000-009/82352e5a42f54acf94e5ee946b0920d2.npz"
+    },
+    "60402b67907f4071af7ce6695a5f76f5": {
+        "label": "twilight",
+        "path": "pcs_4096/000-009/60402b67907f4071af7ce6695a5f76f5.npz"
+    },
+    "1fefea903d374e79be6d0b961a23ca57": {
+        "label": "storage",
+        "path": "pcs_4096/000-009/1fefea903d374e79be6d0b961a23ca57.npz"
+    },
+    "03efd1c486eb4f2693c9e496eaa459c6": {
+        "label": "sculptgl",
+        "path": "pcs_4096/000-009/03efd1c486eb4f2693c9e496eaa459c6.npz"
+    },
+    "e8ad94c9fca045de82c2c71fa51f5f8e": {
+        "label": "doodle3d-transform",
+        "path": "pcs_4096/000-009/e8ad94c9fca045de82c2c71fa51f5f8e.npz"
+    },
+    "d6cf7fb877354547998ac26ff4793067": {
+        "label": "prop",
+        "path": "pcs_4096/000-009/d6cf7fb877354547998ac26ff4793067.npz"
+    },
+    "75d0e31e8fe04ee3809bb98801f22aa5": {
+        "label": "sci",
+        "path": "pcs_4096/000-009/75d0e31e8fe04ee3809bb98801f22aa5.npz"
+    },
+    "59e4324c4c874b45adb88e38679d8256": {
+        "label": "elevationapi",
+        "path": "pcs_4096/000-009/59e4324c4c874b45adb88e38679d8256.npz"
+    },
+    "87f27821de1d488fa59f176c2c2b865e": {
+        "label": "burial",
+        "path": "pcs_4096/000-009/87f27821de1d488fa59f176c2c2b865e.npz"
+    },
+    "538eafc29dfa4d9e9fff04a79416e366": {
+        "label": "chateau",
+        "path": "pcs_4096/000-009/538eafc29dfa4d9e9fff04a79416e366.npz"
+    },
+    "1d92dc92d26d4080b3464bd1e7ebc946": {
+        "label": "archeology",
+        "path": "pcs_4096/000-009/1d92dc92d26d4080b3464bd1e7ebc946.npz"
+    },
+    "59183c5545aa43c987f63cb988fc40fc": {
+        "label": "scanned_by_huawei_ele-l29",
+        "path": "pcs_4096/000-009/59183c5545aa43c987f63cb988fc40fc.npz"
+    },
+    "169d0fc888b64a6c839d96152b6c4b8e": {
+        "label": "corals",
+        "path": "pcs_4096/000-009/169d0fc888b64a6c839d96152b6c4b8e.npz"
+    },
+    "2e7e7c5da44941a9a62bf5a39f51d7e8": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/2e7e7c5da44941a9a62bf5a39f51d7e8.npz"
+    },
+    "f7a97e1dffc5437db44771bd261090f7": {
+        "label": "substancepainter",
+        "path": "pcs_4096/000-009/f7a97e1dffc5437db44771bd261090f7.npz"
+    },
+    "7addbb42e7a24a418cee24be56731e0a": {
+        "label": "support",
+        "path": "pcs_4096/000-009/7addbb42e7a24a418cee24be56731e0a.npz"
+    },
+    "6f1152c4a3034edc846ecf1acd479eb3": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/6f1152c4a3034edc846ecf1acd479eb3.npz"
+    },
+    "1550b9997c7b48a4bc647e3ecfa4a120": {
+        "label": "fps",
+        "path": "pcs_4096/000-009/1550b9997c7b48a4bc647e3ecfa4a120.npz"
+    },
+    "c281ea0d7eb140ac8b946429d237cb73": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/c281ea0d7eb140ac8b946429d237cb73.npz"
+    },
+    "496b86931b7d46f4a8839f92c2b5f74c": {
+        "label": "phone",
+        "path": "pcs_4096/000-009/496b86931b7d46f4a8839f92c2b5f74c.npz"
+    },
+    "af8ed31338d04308990a0da9083fcccd": {
+        "label": "google",
+        "path": "pcs_4096/000-009/af8ed31338d04308990a0da9083fcccd.npz"
+    },
+    "f740a42b28a849cb8d8934ffe74b391b": {
+        "label": "castle",
+        "path": "pcs_4096/000-009/f740a42b28a849cb8d8934ffe74b391b.npz"
+    },
+    "ec9d78c823c049fc90058a5ef7d78536": {
+        "label": "development",
+        "path": "pcs_4096/000-009/ec9d78c823c049fc90058a5ef7d78536.npz"
+    },
+    "628dd026f0ba4b7d892ed36035e9f527": {
+        "label": "substancepainter",
+        "path": "pcs_4096/000-009/628dd026f0ba4b7d892ed36035e9f527.npz"
+    },
+    "aedb771069f84fa49cbb23e2d4667b40": {
+        "label": "characterdesign-characterart",
+        "path": "pcs_4096/000-009/aedb771069f84fa49cbb23e2d4667b40.npz"
+    },
+    "fe542ab800014e0f91661647bdb9033f": {
+        "label": "cubikstudio",
+        "path": "pcs_4096/000-009/fe542ab800014e0f91661647bdb9033f.npz"
+    },
+    "4e4c19ffb3e44e95a31a6b43a626be14": {
+        "label": "spider",
+        "path": "pcs_4096/000-009/4e4c19ffb3e44e95a31a6b43a626be14.npz"
+    },
+    "253cfb284c3c47d7863cd1bd62cb0e07": {
+        "label": "photogrammetry",
+        "path": "pcs_4096/000-009/253cfb284c3c47d7863cd1bd62cb0e07.npz"
+    },
+    "62f37e1d666442b1b09a3c138cd7e336": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/62f37e1d666442b1b09a3c138cd7e336.npz"
+    },
+    "0d4d931ddba1463d854753d529494e35": {
+        "label": "3dlivescanner",
+        "path": "pcs_4096/000-009/0d4d931ddba1463d854753d529494e35.npz"
+    },
+    "a43997f4537248d6b55bae2b34b16bae": {
+        "label": "serbia",
+        "path": "pcs_4096/000-009/a43997f4537248d6b55bae2b34b16bae.npz"
+    },
+    "39864525e8234872aabdeae0273b0d54": {
+        "label": "power",
+        "path": "pcs_4096/000-009/39864525e8234872aabdeae0273b0d54.npz"
+    },
+    "ed33fd95a7c04715896d719a07f44be5": {
+        "label": "cadsoft",
+        "path": "pcs_4096/000-009/ed33fd95a7c04715896d719a07f44be5.npz"
+    },
+    "7b0fee7b457740e28c7c1679f1a8b459": {
+        "label": "polycam",
+        "path": "pcs_4096/000-009/7b0fee7b457740e28c7c1679f1a8b459.npz"
+    },
+    "11a9317d722845f7b49f37759d2175e3": {
+        "label": "rust",
+        "path": "pcs_4096/000-009/11a9317d722845f7b49f37759d2175e3.npz"
+    },
+    "e09db2e5d0ee4712aff0de49d3c5b685": {
+        "label": "3dlivescannerpro",
+        "path": "pcs_4096/000-009/e09db2e5d0ee4712aff0de49d3c5b685.npz"
+    },
+    "4d7fd6f6fbc34130971ead5096a18fac": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/4d7fd6f6fbc34130971ead5096a18fac.npz"
+    },
+    "eda49c2e2c9d47cbb004df7ad801b47f": {
+        "label": "bomb",
+        "path": "pcs_4096/000-009/eda49c2e2c9d47cbb004df7ad801b47f.npz"
+    },
+    "d0efbdf59ef642c3973423a76f3f35f0": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/d0efbdf59ef642c3973423a76f3f35f0.npz"
+    },
+    "7081b32caeda47b5a0ef4d039f244b6e": {
+        "label": "photogrametry",
+        "path": "pcs_4096/000-009/7081b32caeda47b5a0ef4d039f244b6e.npz"
+    },
+    "69b5b93cd5844ee399801b465adac89d": {
+        "label": "revit",
+        "path": "pcs_4096/000-009/69b5b93cd5844ee399801b465adac89d.npz"
+    },
+    "e906ff6b17ac42ceb0d07c243f019c52": {
+        "label": "forest",
+        "path": "pcs_4096/000-009/e906ff6b17ac42ceb0d07c243f019c52.npz"
+    },
+    "7d8d21465322491f8397a0c4ff178db1": {
+        "label": "toy",
+        "path": "pcs_4096/000-009/7d8d21465322491f8397a0c4ff178db1.npz"
+    },
+    "614ce9a2b7c54beea6a8d411ec5bd9d4": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/614ce9a2b7c54beea6a8d411ec5bd9d4.npz"
+    },
+    "75deac907d6340acb6a4147a35c2cc2b": {
+        "label": "table",
+        "path": "pcs_4096/000-009/75deac907d6340acb6a4147a35c2cc2b.npz"
+    },
+    "4770895920594c7ab1b00cc36ef74ba7": {
+        "label": "xyz",
+        "path": "pcs_4096/000-009/4770895920594c7ab1b00cc36ef74ba7.npz"
+    },
+    "d5540d5c2bee4e25b6429dbf5bfa84be": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/d5540d5c2bee4e25b6429dbf5bfa84be.npz"
+    },
+    "156a95dfec244e07a3ae423f579ffb05": {
+        "label": "planet",
+        "path": "pcs_4096/000-009/156a95dfec244e07a3ae423f579ffb05.npz"
+    },
+    "3e8eb5e96f01459890cf6ee4e8af272e": {
+        "label": "red",
+        "path": "pcs_4096/000-009/3e8eb5e96f01459890cf6ee4e8af272e.npz"
+    },
+    "6621402a91084d73929366f8d572d6b5": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/6621402a91084d73929366f8d572d6b5.npz"
+    },
+    "a4618bdaf9314a9bb4690b009503811a": {
+        "label": "cultural",
+        "path": "pcs_4096/000-009/a4618bdaf9314a9bb4690b009503811a.npz"
+    },
+    "b910dc24a15e44b8a8dc5b5c5ce25e37": {
+        "label": "blockbench",
+        "path": "pcs_4096/000-009/b910dc24a15e44b8a8dc5b5c5ce25e37.npz"
+    },
+    "d8b9c862f3894c6f853110329aa98df2": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/d8b9c862f3894c6f853110329aa98df2.npz"
+    },
+    "dda667bd0a3c4c4b90e54ae22a1cd36d": {
+        "label": "unity",
+        "path": "pcs_4096/000-009/dda667bd0a3c4c4b90e54ae22a1cd36d.npz"
+    },
+    "d1d6dab091874041bf9aaffe831b2590": {
+        "label": "well",
+        "path": "pcs_4096/000-009/d1d6dab091874041bf9aaffe831b2590.npz"
+    },
+    "2fe17594d22c42bb898e0e818df53609": {
+        "label": "solspec",
+        "path": "pcs_4096/000-009/2fe17594d22c42bb898e0e818df53609.npz"
+    },
+    "856ebaadf66b46458df91bfb4b2faa22": {
+        "label": "plant",
+        "path": "pcs_4096/000-009/856ebaadf66b46458df91bfb4b2faa22.npz"
+    },
+    "040805292d1d4c929cfebdbe0007fff4": {
+        "label": "toon",
+        "path": "pcs_4096/000-009/040805292d1d4c929cfebdbe0007fff4.npz"
+    },
+    "189381fd96ca42ddad8ff90864786073": {
+        "label": "boardgames",
+        "path": "pcs_4096/000-009/189381fd96ca42ddad8ff90864786073.npz"
+    },
+    "9a3c5e6ccf0649fa830708d6f119cccd": {
+        "label": "rotterdam",
+        "path": "pcs_4096/000-009/9a3c5e6ccf0649fa830708d6f119cccd.npz"
+    },
+    "54744e36ca79445d8ce4b7783fffca27": {
+        "label": "fractal",
+        "path": "pcs_4096/000-009/54744e36ca79445d8ce4b7783fffca27.npz"
+    },
+    "9e80bac5d31b4e9ba22ea37708f9c524": {
+        "label": "tree",
+        "path": "pcs_4096/000-009/9e80bac5d31b4e9ba22ea37708f9c524.npz"
+    },
+    "1e0f158883d649b793b159feeb800dc7": {
+        "label": "realistic",
+        "path": "pcs_4096/000-009/1e0f158883d649b793b159feeb800dc7.npz"
+    },
+    "27dc253350064675bd3b9dcdcb0b68a9": {
+        "label": "fanart",
+        "path": "pcs_4096/000-009/27dc253350064675bd3b9dcdcb0b68a9.npz"
+    },
+    "a22e279675154b49b359e535c7928c3e": {
+        "label": "medieval",
+        "path": "pcs_4096/000-009/a22e279675154b49b359e535c7928c3e.npz"
+    },
+    "0b7728500cf140848204d30440c7e3f9": {
+        "label": "geologie",
+        "path": "pcs_4096/000-009/0b7728500cf140848204d30440c7e3f9.npz"
+    },
+    "9bc31abc4cdf40d3a58780ed20c3d7c6": {
+        "label": "frog",
+        "path": "pcs_4096/000-009/9bc31abc4cdf40d3a58780ed20c3d7c6.npz"
+    },
+    "1ca5f788dd9f4c1294b9eb913f68ab3b": {
+        "label": "spot",
+        "path": "pcs_4096/000-009/1ca5f788dd9f4c1294b9eb913f68ab3b.npz"
+    },
+    "2b1007790f30466c9e5baa30cf8c88fb": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/2b1007790f30466c9e5baa30cf8c88fb.npz"
+    },
+    "57d79f99f6ab4eecb338c22bd238f141": {
+        "label": "gameboy",
+        "path": "pcs_4096/000-009/57d79f99f6ab4eecb338c22bd238f141.npz"
+    },
+    "2a5e8090eafc4039ba4b2ce79949d19f": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/2a5e8090eafc4039ba4b2ce79949d19f.npz"
+    },
+    "482613da05c04dca9386a0688a09cc53": {
+        "label": "architectural",
+        "path": "pcs_4096/000-009/482613da05c04dca9386a0688a09cc53.npz"
+    },
+    "341cde6cba944694b997e8a5c4d79245": {
+        "label": "painted",
+        "path": "pcs_4096/000-009/341cde6cba944694b997e8a5c4d79245.npz"
+    },
+    "6dae566262194a5e8914d61c6d297f8d": {
+        "label": "groot",
+        "path": "pcs_4096/000-009/6dae566262194a5e8914d61c6d297f8d.npz"
+    },
+    "8cada46571fd4392aed0b2f6a41e501f": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/8cada46571fd4392aed0b2f6a41e501f.npz"
+    },
+    "99e88a827b054dfdb56f5a1e26f13259": {
+        "label": "barrier",
+        "path": "pcs_4096/000-009/99e88a827b054dfdb56f5a1e26f13259.npz"
+    },
+    "31262130eea240b1a3ce42ced4d37071": {
+        "label": "apartment",
+        "path": "pcs_4096/000-009/31262130eea240b1a3ce42ced4d37071.npz"
+    },
+    "6154380f5b6d4f88b96f27eae28072ba": {
+        "label": "planta",
+        "path": "pcs_4096/000-009/6154380f5b6d4f88b96f27eae28072ba.npz"
+    },
+    "0404a1a5eb9d4b59909ae235afa53616": {
+        "label": "uploaded-with-3d2commons",
+        "path": "pcs_4096/000-009/0404a1a5eb9d4b59909ae235afa53616.npz"
+    },
+    "390fa0db708d4e76b410578bc653e6df": {
+        "label": "3december2020",
+        "path": "pcs_4096/000-009/390fa0db708d4e76b410578bc653e6df.npz"
+    },
+    "628ee898cce94705a78d406f82fd1e45": {
+        "label": "paris",
+        "path": "pcs_4096/000-009/628ee898cce94705a78d406f82fd1e45.npz"
+    },
+    "ac9d4e4f44f34775ad46878ba8fbfd86": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/ac9d4e4f44f34775ad46878ba8fbfd86.npz"
+    },
+    "955934dc1cb042bd833140ff7ad7fa0c": {
+        "label": "scaniverse",
+        "path": "pcs_4096/000-009/955934dc1cb042bd833140ff7ad7fa0c.npz"
+    },
+    "6f21583d1e6e40848368d55ea73ef795": {
+        "label": "camera",
+        "path": "pcs_4096/000-009/6f21583d1e6e40848368d55ea73ef795.npz"
+    },
+    "c52a1fd851bb4919bfcb845ff598ab02": {
+        "label": "fish",
+        "path": "pcs_4096/000-009/c52a1fd851bb4919bfcb845ff598ab02.npz"
+    },
+    "47715b087a24415b8d88fb7680031cf7": {
+        "label": "deer",
+        "path": "pcs_4096/000-009/47715b087a24415b8d88fb7680031cf7.npz"
+    },
+    "852c56e3a5aa4ea6b2711ffc9477b0a7": {
+        "label": "fasteners",
+        "path": "pcs_4096/000-009/852c56e3a5aa4ea6b2711ffc9477b0a7.npz"
+    },
+    "4288f5d3a1554b90ade37894c40936a1": {
+        "label": "warship",
+        "path": "pcs_4096/000-009/4288f5d3a1554b90ade37894c40936a1.npz"
+    },
+    "5924e39cdaa94b669fb47ce9cd5ced14": {
+        "label": "elevationapi",
+        "path": "pcs_4096/000-009/5924e39cdaa94b669fb47ce9cd5ced14.npz"
+    },
+    "7dac16986b7c4bd4a6f7b01f0cb6ba63": {
+        "label": "crab",
+        "path": "pcs_4096/000-009/7dac16986b7c4bd4a6f7b01f0cb6ba63.npz"
+    },
+    "94bec20f14684004b5b099ae72ee6a32": {
+        "label": "starwars",
+        "path": "pcs_4096/000-009/94bec20f14684004b5b099ae72ee6a32.npz"
+    },
+    "2e93ebfe11154c53b789c1c6bf627add": {
+        "label": "diorama",
+        "path": "pcs_4096/000-009/2e93ebfe11154c53b789c1c6bf627add.npz"
+    },
+    "1a5c593d0f8d467493a65219506c41c5": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/1a5c593d0f8d467493a65219506c41c5.npz"
+    },
+    "cf4e5830bf744dc587dca1ab10420347": {
+        "label": "gate",
+        "path": "pcs_4096/000-009/cf4e5830bf744dc587dca1ab10420347.npz"
+    },
+    "2de2b60be34b4727802d4450def61896": {
+        "label": "scaniverse",
+        "path": "pcs_4096/000-009/2de2b60be34b4727802d4450def61896.npz"
+    },
+    "4b09cd07d56c4cafa48250c52f319101": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/4b09cd07d56c4cafa48250c52f319101.npz"
+    },
+    "56f0d388a1a24aa5a021ac08aca32a3e": {
+        "label": "frame",
+        "path": "pcs_4096/000-009/56f0d388a1a24aa5a021ac08aca32a3e.npz"
+    },
+    "2ccbccabadb04d7cbceadc92350d18d7": {
+        "label": "furniture",
+        "path": "pcs_4096/000-009/2ccbccabadb04d7cbceadc92350d18d7.npz"
+    },
+    "36365bad0ebd46428e6241676725dcec": {
+        "label": "drone",
+        "path": "pcs_4096/000-009/36365bad0ebd46428e6241676725dcec.npz"
+    },
+    "c7cad4cc8f2145c3ac0d90373c7a93c7": {
+        "label": "judge",
+        "path": "pcs_4096/000-009/c7cad4cc8f2145c3ac0d90373c7a93c7.npz"
+    },
+    "14b98b39474e49b49f0421b086a749aa": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/14b98b39474e49b49f0421b086a749aa.npz"
+    },
+    "d77b0e8b630441b58792e307e6802a4c": {
+        "label": "fish",
+        "path": "pcs_4096/000-009/d77b0e8b630441b58792e307e6802a4c.npz"
+    },
+    "927f8d78db4e481fa918f038c23da601": {
+        "label": "cement-bag",
+        "path": "pcs_4096/000-009/927f8d78db4e481fa918f038c23da601.npz"
+    },
+    "a27d98e771ee4934a86d68d5530d029c": {
+        "label": "ornament",
+        "path": "pcs_4096/000-009/a27d98e771ee4934a86d68d5530d029c.npz"
+    },
+    "8c65d2169a8046c4abba24425b8c8289": {
+        "label": "legend",
+        "path": "pcs_4096/000-009/8c65d2169a8046c4abba24425b8c8289.npz"
+    },
+    "c295c0a137c3407b97d7f1e76f87d184": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/c295c0a137c3407b97d7f1e76f87d184.npz"
+    },
+    "ef41ac9c8fa848829a53dd27eaa2686c": {
+        "label": "suit",
+        "path": "pcs_4096/000-009/ef41ac9c8fa848829a53dd27eaa2686c.npz"
+    },
+    "ddf1150d8bd84457b48e11b85a481d44": {
+        "label": "sgp",
+        "path": "pcs_4096/000-009/ddf1150d8bd84457b48e11b85a481d44.npz"
+    },
+    "7b153024f40141efb71fd50f4abc240d": {
+        "label": "iphone",
+        "path": "pcs_4096/000-009/7b153024f40141efb71fd50f4abc240d.npz"
+    },
+    "58376041af3e4ec292d31ff753a07841": {
+        "label": "substancepainter",
+        "path": "pcs_4096/000-009/58376041af3e4ec292d31ff753a07841.npz"
+    },
+    "aeb065baea58445e84b4ecc2b432c608": {
+        "label": "vrchat_avatar",
+        "path": "pcs_4096/000-009/aeb065baea58445e84b4ecc2b432c608.npz"
+    },
+    "c86858997e9c4a87b8b9ef963ac82514": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/c86858997e9c4a87b8b9ef963ac82514.npz"
+    },
+    "cb86356a5e7a4b38ac12f097137c57c4": {
+        "label": "retro",
+        "path": "pcs_4096/000-009/cb86356a5e7a4b38ac12f097137c57c4.npz"
+    },
+    "a158b7527a8e4cada972056773950850": {
+        "label": "polycam",
+        "path": "pcs_4096/000-009/a158b7527a8e4cada972056773950850.npz"
+    },
+    "24597965a6bd40da9e6c5f81a3bbfe9d": {
+        "label": "batman",
+        "path": "pcs_4096/000-009/24597965a6bd40da9e6c5f81a3bbfe9d.npz"
+    },
+    "163d734a2479429fa6942c3bf71f6d2d": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/163d734a2479429fa6942c3bf71f6d2d.npz"
+    },
+    "d74fc3e7d63b424b8f49c9f198bb1151": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/d74fc3e7d63b424b8f49c9f198bb1151.npz"
+    },
+    "eddd18920c434de7a9e02a2e117efcf5": {
+        "label": "xyz",
+        "path": "pcs_4096/000-009/eddd18920c434de7a9e02a2e117efcf5.npz"
+    },
+    "01e2c5023d5e40d684eddc1794e54940": {
+        "label": "creepy",
+        "path": "pcs_4096/000-009/01e2c5023d5e40d684eddc1794e54940.npz"
+    },
+    "fea9156d23bf4ea2b64064aec886014f": {
+        "label": "king",
+        "path": "pcs_4096/000-009/fea9156d23bf4ea2b64064aec886014f.npz"
+    },
+    "7a070da5207a4b7f997f3d24aa713b39": {
+        "label": "maya",
+        "path": "pcs_4096/000-009/7a070da5207a4b7f997f3d24aa713b39.npz"
+    },
+    "6f8f1b8788af493fa5393c0fc7fba52a": {
+        "label": "agisoft",
+        "path": "pcs_4096/000-009/6f8f1b8788af493fa5393c0fc7fba52a.npz"
+    },
+    "e392d9e32f3746c79a3393c7aaf8e8b0": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/e392d9e32f3746c79a3393c7aaf8e8b0.npz"
+    },
+    "c5db2461defd4c9fbdaee11588885b96": {
+        "label": "spiral",
+        "path": "pcs_4096/000-009/c5db2461defd4c9fbdaee11588885b96.npz"
+    },
+    "aa7d6378de0d4ad883beb9e605a44767": {
+        "label": "datavisualization",
+        "path": "pcs_4096/000-009/aa7d6378de0d4ad883beb9e605a44767.npz"
+    },
+    "34572cd024654b939294ce45adc3ab6e": {
+        "label": "plant",
+        "path": "pcs_4096/000-009/34572cd024654b939294ce45adc3ab6e.npz"
+    },
+    "9bfefc4b3ce440dd82962863d2389fe6": {
+        "label": "sculpt",
+        "path": "pcs_4096/000-009/9bfefc4b3ce440dd82962863d2389fe6.npz"
+    },
+    "5911d4a08a1940b3bb78a61d1095c4f8": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/5911d4a08a1940b3bb78a61d1095c4f8.npz"
+    },
+    "ee7091ecf6904f90bee01976c03f1fd9": {
+        "label": "realitycapture",
+        "path": "pcs_4096/000-009/ee7091ecf6904f90bee01976c03f1fd9.npz"
+    },
+    "89f6e98dad9940c882bb4bde475faaa9": {
+        "label": "tree",
+        "path": "pcs_4096/000-009/89f6e98dad9940c882bb4bde475faaa9.npz"
+    },
+    "ae99580bdf7a452d88233d8561be520e": {
+        "label": "furniture",
+        "path": "pcs_4096/000-009/ae99580bdf7a452d88233d8561be520e.npz"
+    },
+    "c94f13e1424845bea9e5ec4651d9b8f7": {
+        "label": "2019",
+        "path": "pcs_4096/000-009/c94f13e1424845bea9e5ec4651d9b8f7.npz"
+    },
+    "528b9988c3914ba9a283a4543ed0198d": {
+        "label": "ancient",
+        "path": "pcs_4096/000-009/528b9988c3914ba9a283a4543ed0198d.npz"
+    },
+    "c7b37c1967b74b35a86f366fb596d7ed": {
+        "label": "castle",
+        "path": "pcs_4096/000-009/c7b37c1967b74b35a86f366fb596d7ed.npz"
+    },
+    "473db30fdac34060870da770d658957c": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/473db30fdac34060870da770d658957c.npz"
+    },
+    "a38a3c7ac5894db6957bebcd400a7e75": {
+        "label": "storage",
+        "path": "pcs_4096/000-009/a38a3c7ac5894db6957bebcd400a7e75.npz"
+    },
+    "df6729fd4bb54e39b219c90657ad5db7": {
+        "label": "ke-tang-zuo-ye",
+        "path": "pcs_4096/000-009/df6729fd4bb54e39b219c90657ad5db7.npz"
+    },
+    "37b9183d40904f3d8c346584b76ce416": {
+        "label": "realitycapture",
+        "path": "pcs_4096/000-009/37b9183d40904f3d8c346584b76ce416.npz"
+    },
+    "fc1349a7b8dd416492f685d9549e4bba": {
+        "label": "temple",
+        "path": "pcs_4096/000-009/fc1349a7b8dd416492f685d9549e4bba.npz"
+    },
+    "ee097946f79547a39c114057aea9981c": {
+        "label": "xyz-school",
+        "path": "pcs_4096/000-009/ee097946f79547a39c114057aea9981c.npz"
+    },
+    "c4337346883a4ecc98afe61166088c17": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/c4337346883a4ecc98afe61166088c17.npz"
+    },
+    "a58bcd72173045119f764674ca64a155": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/a58bcd72173045119f764674ca64a155.npz"
+    },
+    "46388925effc462d9fcbea9ebdd97345": {
+        "label": "helmets",
+        "path": "pcs_4096/000-009/46388925effc462d9fcbea9ebdd97345.npz"
+    },
+    "b19e536d10314f09ba0c49ddfc1f94d4": {
+        "label": "head",
+        "path": "pcs_4096/000-009/b19e536d10314f09ba0c49ddfc1f94d4.npz"
+    },
+    "de1cb1bf5e9146f0988900f4dd527563": {
+        "label": "meuble",
+        "path": "pcs_4096/000-009/de1cb1bf5e9146f0988900f4dd527563.npz"
+    },
+    "2da8b606b28b41ac9ff547884ea2e2ff": {
+        "label": "starmade-fighter",
+        "path": "pcs_4096/000-009/2da8b606b28b41ac9ff547884ea2e2ff.npz"
+    },
+    "4f79b788cd1b4b888946524f0e122c4e": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/4f79b788cd1b4b888946524f0e122c4e.npz"
+    },
+    "3a36605b00ac44ef9621f8b37b8b9133": {
+        "label": "library",
+        "path": "pcs_4096/000-009/3a36605b00ac44ef9621f8b37b8b9133.npz"
+    },
+    "795891334b0840e191b02691d0969d2a": {
+        "label": "substancepainter",
+        "path": "pcs_4096/000-009/795891334b0840e191b02691d0969d2a.npz"
+    },
+    "2f42f2fe6b0648679d059345ee3fb13b": {
+        "label": "sculpting",
+        "path": "pcs_4096/000-009/2f42f2fe6b0648679d059345ee3fb13b.npz"
+    },
+    "3b8e791fa31e4eeb94df775b774861b5": {
+        "label": "project",
+        "path": "pcs_4096/000-009/3b8e791fa31e4eeb94df775b774861b5.npz"
+    },
+    "0002fea9319a478bbb7f09382e3837a4": {
+        "label": "itseez3d",
+        "path": "pcs_4096/000-009/0002fea9319a478bbb7f09382e3837a4.npz"
+    },
+    "1ee12da68a5d4f8f89fe39621ab633b2": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/1ee12da68a5d4f8f89fe39621ab633b2.npz"
+    },
+    "08e7779576aa4a5b85f90953c2e7e28c": {
+        "label": "rust",
+        "path": "pcs_4096/000-009/08e7779576aa4a5b85f90953c2e7e28c.npz"
+    },
+    "12d077260ed349b38fc8a9244eb5cfec": {
+        "label": "shoe",
+        "path": "pcs_4096/000-009/12d077260ed349b38fc8a9244eb5cfec.npz"
+    },
+    "c29f35981e5a42cd8833410f478bbf22": {
+        "label": "fire",
+        "path": "pcs_4096/000-009/c29f35981e5a42cd8833410f478bbf22.npz"
+    },
+    "305625b9ab794c548a17a7ea1560c9a1": {
+        "label": "islamic",
+        "path": "pcs_4096/000-009/305625b9ab794c548a17a7ea1560c9a1.npz"
+    },
+    "80cdf5175cb74d52bd51cc89f4ef2aa6": {
+        "label": "sky",
+        "path": "pcs_4096/000-009/80cdf5175cb74d52bd51cc89f4ef2aa6.npz"
+    },
+    "5cf7931c26d547d4b9247a67406fcb8f": {
+        "label": "spindle",
+        "path": "pcs_4096/000-009/5cf7931c26d547d4b9247a67406fcb8f.npz"
+    },
+    "e520b234140049e7890db0b6c29d3925": {
+        "label": "rifle",
+        "path": "pcs_4096/000-009/e520b234140049e7890db0b6c29d3925.npz"
+    },
+    "a43b24c278e3430d82654b9563508b9b": {
+        "label": "unity",
+        "path": "pcs_4096/000-009/a43b24c278e3430d82654b9563508b9b.npz"
+    },
+    "ebc4005e2af24fa5ac287eb998d180a3": {
+        "label": "bow",
+        "path": "pcs_4096/000-009/ebc4005e2af24fa5ac287eb998d180a3.npz"
+    },
+    "d4501c3f5647416b953fa700f49f6f43": {
+        "label": "3dlivescanner",
+        "path": "pcs_4096/000-009/d4501c3f5647416b953fa700f49f6f43.npz"
+    },
+    "3b4fc337d0c74062a215dbf9c9f53a37": {
+        "label": "batman",
+        "path": "pcs_4096/000-009/3b4fc337d0c74062a215dbf9c9f53a37.npz"
+    },
+    "f68a356a2bc04d6a9ee71964f2ae7117": {
+        "label": "voxels",
+        "path": "pcs_4096/000-009/f68a356a2bc04d6a9ee71964f2ae7117.npz"
+    },
+    "9d12b8721634402b812ff7c79fb9f686": {
+        "label": "melbourne",
+        "path": "pcs_4096/000-009/9d12b8721634402b812ff7c79fb9f686.npz"
+    },
+    "fd1bd601b4e7478e8a0fd6c6a09bde17": {
+        "label": "lamp",
+        "path": "pcs_4096/000-009/fd1bd601b4e7478e8a0fd6c6a09bde17.npz"
+    },
+    "be40cbaa17e24697ab9785e057d26120": {
+        "label": "sketch",
+        "path": "pcs_4096/000-009/be40cbaa17e24697ab9785e057d26120.npz"
+    },
+    "7858714a0ed64a178edd4701e8ee23f5": {
+        "label": "polycam",
+        "path": "pcs_4096/000-009/7858714a0ed64a178edd4701e8ee23f5.npz"
+    },
+    "8d3ca1907bf243fb85e1ff0be63f1322": {
+        "label": "tatikoma",
+        "path": "pcs_4096/000-009/8d3ca1907bf243fb85e1ff0be63f1322.npz"
+    },
+    "429542784d9b4c0e93ef57cadbe4475d": {
+        "label": "teapot",
+        "path": "pcs_4096/000-009/429542784d9b4c0e93ef57cadbe4475d.npz"
+    },
+    "7e4a0f2202144b91b4c47ffbfdf94584": {
+        "label": "headset",
+        "path": "pcs_4096/000-009/7e4a0f2202144b91b4c47ffbfdf94584.npz"
+    },
+    "d3b793e51c6d4e7da58c4f4534278c24": {
+        "label": "charactermodel",
+        "path": "pcs_4096/000-009/d3b793e51c6d4e7da58c4f4534278c24.npz"
+    },
+    "6226993c16e7436298881b1d3a1aa0ff": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/6226993c16e7436298881b1d3a1aa0ff.npz"
+    },
+    "9a8d788f48b4400184a9d8fe62adcab7": {
+        "label": "room",
+        "path": "pcs_4096/000-009/9a8d788f48b4400184a9d8fe62adcab7.npz"
+    },
+    "b2884a6782f246db89a6686e1d9d6273": {
+        "label": "architectural",
+        "path": "pcs_4096/000-009/b2884a6782f246db89a6686e1d9d6273.npz"
+    },
+    "04c49547793d4a9eaa8eb225b528e40c": {
+        "label": "bim",
+        "path": "pcs_4096/000-009/04c49547793d4a9eaa8eb225b528e40c.npz"
+    },
+    "6848fd0ec6df45bcb53fc0e47b51e844": {
+        "label": "food",
+        "path": "pcs_4096/000-009/6848fd0ec6df45bcb53fc0e47b51e844.npz"
+    },
+    "aea2d0b8992a46b2acf9830f6ea437dd": {
+        "label": "groot",
+        "path": "pcs_4096/000-009/aea2d0b8992a46b2acf9830f6ea437dd.npz"
+    },
+    "5b1cf4406c304ca188442a00e1a97b36": {
+        "label": "tanker",
+        "path": "pcs_4096/000-009/5b1cf4406c304ca188442a00e1a97b36.npz"
+    },
+    "ee514ea754c242b8a50c3eab55c05dc6": {
+        "label": "tree",
+        "path": "pcs_4096/000-009/ee514ea754c242b8a50c3eab55c05dc6.npz"
+    },
+    "3bd8e317069a405089e565392cf459ef": {
+        "label": "aceattorneyonline",
+        "path": "pcs_4096/000-009/3bd8e317069a405089e565392cf459ef.npz"
+    },
+    "8251f42e828f4f24a7f5a3c084498c0c": {
+        "label": "dragonball",
+        "path": "pcs_4096/000-009/8251f42e828f4f24a7f5a3c084498c0c.npz"
+    },
+    "21672a8a96f542a38e521256ab4995db": {
+        "label": "gaming",
+        "path": "pcs_4096/000-009/21672a8a96f542a38e521256ab4995db.npz"
+    },
+    "09b2479b9f1441ab84d74c9e6c54467f": {
+        "label": "omega",
+        "path": "pcs_4096/000-009/09b2479b9f1441ab84d74c9e6c54467f.npz"
+    },
+    "14597fdaf88f4636b3c79420d8422652": {
+        "label": "face",
+        "path": "pcs_4096/000-009/14597fdaf88f4636b3c79420d8422652.npz"
+    },
+    "ab77fca164fc46eb9ff17bec861724d5": {
+        "label": "trafficlight",
+        "path": "pcs_4096/000-009/ab77fca164fc46eb9ff17bec861724d5.npz"
+    },
+    "7358d52c140d4ef1a2abfb6f910afea8": {
+        "label": "houses",
+        "path": "pcs_4096/000-009/7358d52c140d4ef1a2abfb6f910afea8.npz"
+    },
+    "6f5da980f1534fb499aa157ab26a15d9": {
+        "label": "mushroom",
+        "path": "pcs_4096/000-009/6f5da980f1534fb499aa157ab26a15d9.npz"
+    },
+    "4ec7cbe379834d4385ebfdda14c1eb7c": {
+        "label": "cat",
+        "path": "pcs_4096/000-009/4ec7cbe379834d4385ebfdda14c1eb7c.npz"
+    },
+    "ffe4264b8c5e4e119bea8eac44dfe186": {
+        "label": "3d-scan",
+        "path": "pcs_4096/000-009/ffe4264b8c5e4e119bea8eac44dfe186.npz"
+    },
+    "a3edfd599bdc4c36932c95e1bd89715d": {
+        "label": "desk",
+        "path": "pcs_4096/000-009/a3edfd599bdc4c36932c95e1bd89715d.npz"
+    },
+    "c9ac5a22a33d4e3a955c98022ca0da73": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/c9ac5a22a33d4e3a955c98022ca0da73.npz"
+    },
+    "c9ea7755127f43ff859a857ca75948ae": {
+        "label": "bomba",
+        "path": "pcs_4096/000-009/c9ea7755127f43ff859a857ca75948ae.npz"
+    },
+    "1c103443d5ee48769ca51a88dc5bb4f0": {
+        "label": "brain",
+        "path": "pcs_4096/000-009/1c103443d5ee48769ca51a88dc5bb4f0.npz"
+    },
+    "526b1eb74e054baf9e25f00a8cd1bc81": {
+        "label": "free-download",
+        "path": "pcs_4096/000-009/526b1eb74e054baf9e25f00a8cd1bc81.npz"
+    },
+    "7c5831f6f49248eba0fd712b8706b7af": {
+        "label": "cathedrale",
+        "path": "pcs_4096/000-009/7c5831f6f49248eba0fd712b8706b7af.npz"
+    },
+    "7b48060d50a74755ba6457667d0dd6f6": {
+        "label": "tribal",
+        "path": "pcs_4096/000-009/7b48060d50a74755ba6457667d0dd6f6.npz"
+    },
+    "846d78a45820461b99e35306383ffcad": {
+        "label": "konstrukcja",
+        "path": "pcs_4096/000-009/846d78a45820461b99e35306383ffcad.npz"
+    },
+    "684dbdc05f974baab1a3d7945d822ba2": {
+        "label": "fantasyweapon",
+        "path": "pcs_4096/000-009/684dbdc05f974baab1a3d7945d822ba2.npz"
+    },
+    "cc6f599c94f94e2abae30723ebf3a885": {
+        "label": "cell-shaded",
+        "path": "pcs_4096/000-009/cc6f599c94f94e2abae30723ebf3a885.npz"
+    },
+    "231b296eeb3747b2a7f501b010981a60": {
+        "label": "ww1",
+        "path": "pcs_4096/000-009/231b296eeb3747b2a7f501b010981a60.npz"
+    },
+    "6979431476ac4268bdf2a87025bf5b0a": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/6979431476ac4268bdf2a87025bf5b0a.npz"
+    },
+    "c469fbfa63884b7fa2419d1cf73d2880": {
+        "label": "realitycapture",
+        "path": "pcs_4096/000-009/c469fbfa63884b7fa2419d1cf73d2880.npz"
+    },
+    "11e58e3b97bd439aa0a6eb66da031901": {
+        "label": "helmet-3d-model",
+        "path": "pcs_4096/000-009/11e58e3b97bd439aa0a6eb66da031901.npz"
+    },
+    "d5a3485eeff04f259b11b2cafe918656": {
+        "label": "chandelier",
+        "path": "pcs_4096/000-009/d5a3485eeff04f259b11b2cafe918656.npz"
+    },
+    "31131c9d4d704b148514e4e173db7873": {
+        "label": "tree",
+        "path": "pcs_4096/000-009/31131c9d4d704b148514e4e173db7873.npz"
+    },
+    "b3489518893e4b1b84866b823de6dcc4": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/b3489518893e4b1b84866b823de6dcc4.npz"
+    },
+    "e24cb328e9b34d769f7805ddaf5eea3c": {
+        "label": "outdoor",
+        "path": "pcs_4096/000-009/e24cb328e9b34d769f7805ddaf5eea3c.npz"
+    },
+    "64ef7759b0104c78b9a96d19a0f961de": {
+        "label": "school",
+        "path": "pcs_4096/000-009/64ef7759b0104c78b9a96d19a0f961de.npz"
+    },
+    "434a84db7ee54d34b6d20e13e2fd02df": {
+        "label": "creative",
+        "path": "pcs_4096/000-009/434a84db7ee54d34b6d20e13e2fd02df.npz"
+    },
+    "9123b2be54734f0d8ae50113649dd016": {
+        "label": "texture",
+        "path": "pcs_4096/000-009/9123b2be54734f0d8ae50113649dd016.npz"
+    },
+    "46e213add58b4c6a8c022df977db5f4f": {
+        "label": "gamedesign",
+        "path": "pcs_4096/000-009/46e213add58b4c6a8c022df977db5f4f.npz"
+    },
+    "38d9f2668dd5483fb514e5571954bff2": {
+        "label": "mine",
+        "path": "pcs_4096/000-009/38d9f2668dd5483fb514e5571954bff2.npz"
+    },
+    "1aa0a6c528024307bc6236decf52a907": {
+        "label": "kunst",
+        "path": "pcs_4096/000-009/1aa0a6c528024307bc6236decf52a907.npz"
+    },
+    "4c7c54720cfc484bbf55a6ab40401f5b": {
+        "label": "schoolproject-robot-model",
+        "path": "pcs_4096/000-009/4c7c54720cfc484bbf55a6ab40401f5b.npz"
+    },
+    "98be1b3dada1470d9ad69330f2c034a4": {
+        "label": "fortnite",
+        "path": "pcs_4096/000-009/98be1b3dada1470d9ad69330f2c034a4.npz"
+    },
+    "1b71fd8af803432f9ba6ee9c8d13c307": {
+        "label": "kfp",
+        "path": "pcs_4096/000-009/1b71fd8af803432f9ba6ee9c8d13c307.npz"
+    },
+    "ade4bc3042e74cf8a2d8fcb16b4eaa2a": {
+        "label": "3dscannerapp",
+        "path": "pcs_4096/000-009/ade4bc3042e74cf8a2d8fcb16b4eaa2a.npz"
+    },
+    "091434245e4d44759e2d3a537554544d": {
+        "label": "king",
+        "path": "pcs_4096/000-009/091434245e4d44759e2d3a537554544d.npz"
+    },
+    "6ad4a11e5d9e4aada46e896f13145efe": {
+        "label": "mesh",
+        "path": "pcs_4096/000-009/6ad4a11e5d9e4aada46e896f13145efe.npz"
+    },
+    "f0012b40f2bd4eb386a3f448471b1b71": {
+        "label": "geology",
+        "path": "pcs_4096/000-009/f0012b40f2bd4eb386a3f448471b1b71.npz"
+    },
+    "b00709bd7caa46ffa73366bb443a4243": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/b00709bd7caa46ffa73366bb443a4243.npz"
+    },
+    "d115a9aa0e1d47a59cac775e24b018fe": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/d115a9aa0e1d47a59cac775e24b018fe.npz"
+    },
+    "9b0df1c091ff4fb19113396af6a4a6ef": {
+        "label": "alaska",
+        "path": "pcs_4096/000-009/9b0df1c091ff4fb19113396af6a4a6ef.npz"
+    },
+    "0d49c685abf449f68da8af0bf980b244": {
+        "label": "maya",
+        "path": "pcs_4096/000-009/0d49c685abf449f68da8af0bf980b244.npz"
+    },
+    "e43bc19f977f4304b53e0d5384c3dbc4": {
+        "label": "archeology",
+        "path": "pcs_4096/000-009/e43bc19f977f4304b53e0d5384c3dbc4.npz"
+    },
+    "106c1733827f429cb30105135ad2302b": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/106c1733827f429cb30105135ad2302b.npz"
+    },
+    "09f7eca91e3e4752b81c10f716fc3610": {
+        "label": "geology",
+        "path": "pcs_4096/000-009/09f7eca91e3e4752b81c10f716fc3610.npz"
+    },
+    "b086a6ed8b484d998a49d94ece1a67c0": {
+        "label": "photoscan",
+        "path": "pcs_4096/000-009/b086a6ed8b484d998a49d94ece1a67c0.npz"
+    },
+    "ccc0f184ef8c446db679aee31b7d68af": {
+        "label": "cupcake",
+        "path": "pcs_4096/000-009/ccc0f184ef8c446db679aee31b7d68af.npz"
+    },
+    "a266d6990b7240cba1bf01db6577787c": {
+        "label": "sustainability",
+        "path": "pcs_4096/000-009/a266d6990b7240cba1bf01db6577787c.npz"
+    },
+    "d61c396823b846959e1ac30b70215153": {
+        "label": "outlined",
+        "path": "pcs_4096/000-009/d61c396823b846959e1ac30b70215153.npz"
+    },
+    "014540c576104101962f72277c833e40": {
+        "label": "weapons-game-objects-3d-models",
+        "path": "pcs_4096/000-009/014540c576104101962f72277c833e40.npz"
+    },
+    "5a21282b2e454d1696547148f617d3d0": {
+        "label": "cloth",
+        "path": "pcs_4096/000-009/5a21282b2e454d1696547148f617d3d0.npz"
+    },
+    "aa01e745f4034bafad4e368a74069dae": {
+        "label": "audi",
+        "path": "pcs_4096/000-009/aa01e745f4034bafad4e368a74069dae.npz"
+    },
+    "5c0e32d0c6324a65aac55ffc7796f2e5": {
+        "label": "portugal",
+        "path": "pcs_4096/000-009/5c0e32d0c6324a65aac55ffc7796f2e5.npz"
+    },
+    "5e2a7fc2e69a4e9eaa297ee92f3ee660": {
+        "label": "flare",
+        "path": "pcs_4096/000-009/5e2a7fc2e69a4e9eaa297ee92f3ee660.npz"
+    },
+    "d1946870c4f648a79f0ae501fc7f52c1": {
+        "label": "torch",
+        "path": "pcs_4096/000-009/d1946870c4f648a79f0ae501fc7f52c1.npz"
+    },
+    "6f1f3ec1efd74ad2aaa98b7c9de729c9": {
+        "label": "music",
+        "path": "pcs_4096/000-009/6f1f3ec1efd74ad2aaa98b7c9de729c9.npz"
+    },
+    "a87b1e1468f64a7bb7b67a977988ac6c": {
+        "label": "fanart",
+        "path": "pcs_4096/000-009/a87b1e1468f64a7bb7b67a977988ac6c.npz"
+    },
+    "ee82ad748eef4d85909e6504ebc89acb": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/ee82ad748eef4d85909e6504ebc89acb.npz"
+    },
+    "b452c26e4517470092e631c1ae336661": {
+        "label": "gunslinger",
+        "path": "pcs_4096/000-009/b452c26e4517470092e631c1ae336661.npz"
+    },
+    "04405958f570463a94a26d9ffde94988": {
+        "label": "tree",
+        "path": "pcs_4096/000-009/04405958f570463a94a26d9ffde94988.npz"
+    },
+    "bef729f0784445d4a8074e9093f26b67": {
+        "label": "re",
+        "path": "pcs_4096/000-009/bef729f0784445d4a8074e9093f26b67.npz"
+    },
+    "c27dc3379e6a4a91a69cf3dd59b59d2a": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/c27dc3379e6a4a91a69cf3dd59b59d2a.npz"
+    },
+    "450376a9e29e4ba3b5cbdf789f748a3e": {
+        "label": "old",
+        "path": "pcs_4096/000-009/450376a9e29e4ba3b5cbdf789f748a3e.npz"
+    },
+    "74eaf36338c2429fb4a71d0399733cb6": {
+        "label": "spatiate",
+        "path": "pcs_4096/000-009/74eaf36338c2429fb4a71d0399733cb6.npz"
+    },
+    "df14e66fc8d64c849ef291128b08685f": {
+        "label": "classic",
+        "path": "pcs_4096/000-009/df14e66fc8d64c849ef291128b08685f.npz"
+    },
+    "650cfae7edf6448b9fe5ed845754d69f": {
+        "label": "spacecraft",
+        "path": "pcs_4096/000-009/650cfae7edf6448b9fe5ed845754d69f.npz"
+    },
+    "f0da21cc2b514e8a888e11da1fb2de68": {
+        "label": "golem",
+        "path": "pcs_4096/000-009/f0da21cc2b514e8a888e11da1fb2de68.npz"
+    },
+    "1875433f7d2c4cceb5b424fb662de534": {
+        "label": "videogame",
+        "path": "pcs_4096/000-009/1875433f7d2c4cceb5b424fb662de534.npz"
+    },
+    "878060a026904c1fabea3409c7ae539e": {
+        "label": "iphone",
+        "path": "pcs_4096/000-009/878060a026904c1fabea3409c7ae539e.npz"
+    },
+    "40d406602b394ec186075b2b37aff07b": {
+        "label": "concrete",
+        "path": "pcs_4096/000-009/40d406602b394ec186075b2b37aff07b.npz"
+    },
+    "756636db0e01463b9692d3c064f1037a": {
+        "label": "spain",
+        "path": "pcs_4096/000-009/756636db0e01463b9692d3c064f1037a.npz"
+    },
+    "7cf0e3618ce144dd93fa491188c475e8": {
+        "label": "geometry",
+        "path": "pcs_4096/000-009/7cf0e3618ce144dd93fa491188c475e8.npz"
+    },
+    "9afccd18cf294158b9ef976cd9c7bbf8": {
+        "label": "sculpt",
+        "path": "pcs_4096/000-009/9afccd18cf294158b9ef976cd9c7bbf8.npz"
+    },
+    "e2448e01e0654a479888110bc40c9bd0": {
+        "label": "pottery",
+        "path": "pcs_4096/000-009/e2448e01e0654a479888110bc40c9bd0.npz"
+    },
+    "0f3b13c496de4cc88a26681506743b83": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/0f3b13c496de4cc88a26681506743b83.npz"
+    },
+    "08692fb09c0d4d80bd38ab21f3d80a3b": {
+        "label": "thelastofus",
+        "path": "pcs_4096/000-009/08692fb09c0d4d80bd38ab21f3d80a3b.npz"
+    },
+    "3af3fd64bb204529bf14694598b076fd": {
+        "label": "bike",
+        "path": "pcs_4096/000-009/3af3fd64bb204529bf14694598b076fd.npz"
+    },
+    "6afcec32828c40c08b38651758bb0419": {
+        "label": "ceramic",
+        "path": "pcs_4096/000-009/6afcec32828c40c08b38651758bb0419.npz"
+    },
+    "aa0cf05b129d422ba31fbca04e015b7f": {
+        "label": "dante",
+        "path": "pcs_4096/000-009/aa0cf05b129d422ba31fbca04e015b7f.npz"
+    },
+    "331b7fb7c9704e3f9fe5fb3b27c2e0df": {
+        "label": "middle-archaic",
+        "path": "pcs_4096/000-009/331b7fb7c9704e3f9fe5fb3b27c2e0df.npz"
+    },
+    "c048d51a2e9a4ee99262dc27058d8b9e": {
+        "label": "hat",
+        "path": "pcs_4096/000-009/c048d51a2e9a4ee99262dc27058d8b9e.npz"
+    },
+    "095c167538e34ca3b9a3b291506a9e0b": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/095c167538e34ca3b9a3b291506a9e0b.npz"
+    },
+    "c2a9c357e73c44eebb7c327b473c03d0": {
+        "label": "3d",
+        "path": "pcs_4096/000-009/c2a9c357e73c44eebb7c327b473c03d0.npz"
+    },
+    "f962b4d560fe44d7af2d233b1c05e8bb": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/f962b4d560fe44d7af2d233b1c05e8bb.npz"
+    },
+    "7a3ccaa9d664424f9e72f2b8d286b7bd": {
+        "label": "landscape",
+        "path": "pcs_4096/000-009/7a3ccaa9d664424f9e72f2b8d286b7bd.npz"
+    },
+    "37c169138a9d499fbe12503245fa089f": {
+        "label": "pokemon",
+        "path": "pcs_4096/000-009/37c169138a9d499fbe12503245fa089f.npz"
+    },
+    "3af81aaa2e5e467b972442993aff7aa1": {
+        "label": "box",
+        "path": "pcs_4096/000-009/3af81aaa2e5e467b972442993aff7aa1.npz"
+    },
+    "e2c0b5ac82274babaf2ad00bbcc761e4": {
+        "label": "skatepark",
+        "path": "pcs_4096/000-009/e2c0b5ac82274babaf2ad00bbcc761e4.npz"
+    },
+    "f9a2a5142e29404cb152898281edbbe0": {
+        "label": "church",
+        "path": "pcs_4096/000-009/f9a2a5142e29404cb152898281edbbe0.npz"
+    },
+    "1563e27680424850b6a0b575b6546a6f": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/1563e27680424850b6a0b575b6546a6f.npz"
+    },
+    "ad9cdb68303a4e74b23a5adb5a4992f1": {
+        "label": "elevationapi",
+        "path": "pcs_4096/000-009/ad9cdb68303a4e74b23a5adb5a4992f1.npz"
+    },
+    "350cc433d6004991bdf67f9d97afcd94": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/350cc433d6004991bdf67f9d97afcd94.npz"
+    },
+    "14484df99afc45f0826d9358f95f51aa": {
+        "label": "boulder",
+        "path": "pcs_4096/000-009/14484df99afc45f0826d9358f95f51aa.npz"
+    },
+    "1aef607c40ae4aeda5ec7a80bf5ac952": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/1aef607c40ae4aeda5ec7a80bf5ac952.npz"
+    },
+    "966abc7a13f542f8bb668ebc6b392d3e": {
+        "label": "bim",
+        "path": "pcs_4096/000-009/966abc7a13f542f8bb668ebc6b392d3e.npz"
+    },
+    "20827019a2144690a746ad354590c7a5": {
+        "label": "minecraft",
+        "path": "pcs_4096/000-009/20827019a2144690a746ad354590c7a5.npz"
+    },
+    "ffc61a5b7d764faba42389f4d3a99611": {
+        "label": "rocks",
+        "path": "pcs_4096/000-009/ffc61a5b7d764faba42389f4d3a99611.npz"
+    },
+    "4c4a469173c74d3d9d485672404c9d9c": {
+        "label": "drink",
+        "path": "pcs_4096/000-009/4c4a469173c74d3d9d485672404c9d9c.npz"
+    },
+    "02faf99b393e4948b9114231f92adfc4": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/02faf99b393e4948b9114231f92adfc4.npz"
+    },
+    "b67003b20ffc4afbabbacb3ee7095018": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/b67003b20ffc4afbabbacb3ee7095018.npz"
+    },
+    "64593a392eef477f9b7f2fb5fe478bd7": {
+        "label": "mjolnir",
+        "path": "pcs_4096/000-009/64593a392eef477f9b7f2fb5fe478bd7.npz"
+    },
+    "92996a45a1bd4afeaab97b76ea118447": {
+        "label": "pokemon",
+        "path": "pcs_4096/000-009/92996a45a1bd4afeaab97b76ea118447.npz"
+    },
+    "a3a8d9ba14dd4a958075d87d575c8ab6": {
+        "label": "blood",
+        "path": "pcs_4096/000-009/a3a8d9ba14dd4a958075d87d575c8ab6.npz"
+    },
+    "edb72e7d613d4396a1b3a6c4ca4c5df2": {
+        "label": "island",
+        "path": "pcs_4096/000-009/edb72e7d613d4396a1b3a6c4ca4c5df2.npz"
+    },
+    "fd2344ea9c7943c086627317dd483168": {
+        "label": "breslau",
+        "path": "pcs_4096/000-009/fd2344ea9c7943c086627317dd483168.npz"
+    },
+    "5b6765facbe8454fb7ed5df183db4237": {
+        "label": "3df-zephyr",
+        "path": "pcs_4096/000-009/5b6765facbe8454fb7ed5df183db4237.npz"
+    },
+    "7e18ed021f1b4fa585b7374686e6e460": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/7e18ed021f1b4fa585b7374686e6e460.npz"
+    },
+    "d9d5a137ab914e4c94c90ff84e246b46": {
+        "label": "lightsaber",
+        "path": "pcs_4096/000-009/d9d5a137ab914e4c94c90ff84e246b46.npz"
+    },
+    "ecd2dbe344fe4dab94d3c1ef1248311c": {
+        "label": "assets",
+        "path": "pcs_4096/000-009/ecd2dbe344fe4dab94d3c1ef1248311c.npz"
+    },
+    "df5875c93cf34178affd2527f9aae9be": {
+        "label": "honeybee",
+        "path": "pcs_4096/000-009/df5875c93cf34178affd2527f9aae9be.npz"
+    },
+    "93f4bd542cb34294a514180e22c015de": {
+        "label": "poland",
+        "path": "pcs_4096/000-009/93f4bd542cb34294a514180e22c015de.npz"
+    },
+    "6f5a59ef770f46c5a6fb8314e3888ef4": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/6f5a59ef770f46c5a6fb8314e3888ef4.npz"
+    },
+    "aced0aee990346cc9e47c3e1ca755da7": {
+        "label": "trnio",
+        "path": "pcs_4096/000-009/aced0aee990346cc9e47c3e1ca755da7.npz"
+    },
+    "ce92c014efd140deb6e918b3c59bf539": {
+        "label": "armor",
+        "path": "pcs_4096/000-009/ce92c014efd140deb6e918b3c59bf539.npz"
+    },
+    "9cfd7c8ce5b645e7bc4c97422ed92181": {
+        "label": "3dmodels",
+        "path": "pcs_4096/000-009/9cfd7c8ce5b645e7bc4c97422ed92181.npz"
+    },
+    "29a11581ce4040158411f5ebee05c106": {
+        "label": "vase",
+        "path": "pcs_4096/000-009/29a11581ce4040158411f5ebee05c106.npz"
+    },
+    "1ba33fb790474baea54cd8d8b48e9ce7": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/1ba33fb790474baea54cd8d8b48e9ce7.npz"
+    },
+    "8091042f1b0a40d68aa6e8f65a3068a1": {
+        "label": "maya",
+        "path": "pcs_4096/000-009/8091042f1b0a40d68aa6e8f65a3068a1.npz"
+    },
+    "6344f32f01bc4850ad862682244470c7": {
+        "label": "yi-zi",
+        "path": "pcs_4096/000-009/6344f32f01bc4850ad862682244470c7.npz"
+    },
+    "02586a2b67364f6c9444df45a3155326": {
+        "label": "ihavenoideawhatthisgunis",
+        "path": "pcs_4096/000-009/02586a2b67364f6c9444df45a3155326.npz"
+    },
+    "41fd24a279554867babd67649d344ee8": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/41fd24a279554867babd67649d344ee8.npz"
+    },
+    "dbb18c2776944c928ced7f4f9e4f79f9": {
+        "label": "industrial",
+        "path": "pcs_4096/000-009/dbb18c2776944c928ced7f4f9e4f79f9.npz"
+    },
+    "2aa8947b216b4da294abe28ab1dfecc9": {
+        "label": "igreja",
+        "path": "pcs_4096/000-009/2aa8947b216b4da294abe28ab1dfecc9.npz"
+    },
+    "a1ab957846ec4ae3a9f45e78706e16c6": {
+        "label": "amd",
+        "path": "pcs_4096/000-009/a1ab957846ec4ae3a9f45e78706e16c6.npz"
+    },
+    "c45fd496e0bc40b9857db04bd25b881c": {
+        "label": "jet",
+        "path": "pcs_4096/000-009/c45fd496e0bc40b9857db04bd25b881c.npz"
+    },
+    "83d34926199745e9bef917f4290f5533": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/83d34926199745e9bef917f4290f5533.npz"
+    },
+    "e514600f784d42dabcbc199771bb72a2": {
+        "label": "free",
+        "path": "pcs_4096/000-009/e514600f784d42dabcbc199771bb72a2.npz"
+    },
+    "a2d31437b80b493fb3bbfe5b03a9c786": {
+        "label": "hello",
+        "path": "pcs_4096/000-009/a2d31437b80b493fb3bbfe5b03a9c786.npz"
+    },
+    "10859260fa3c4863ab2a5bb57e8a48d6": {
+        "label": "robot",
+        "path": "pcs_4096/000-009/10859260fa3c4863ab2a5bb57e8a48d6.npz"
+    },
+    "c82f5ecc8b5445828619cc6e8aea7457": {
+        "label": "anatomy",
+        "path": "pcs_4096/000-009/c82f5ecc8b5445828619cc6e8aea7457.npz"
+    },
+    "9629a96dde3b4f50829228bfba190e04": {
+        "label": "bird",
+        "path": "pcs_4096/000-009/9629a96dde3b4f50829228bfba190e04.npz"
+    },
+    "11aa186a27c54324ac343551d524cdd8": {
+        "label": "sketchup",
+        "path": "pcs_4096/000-009/11aa186a27c54324ac343551d524cdd8.npz"
+    },
+    "eb21caa7152649df963b9c78809485e8": {
+        "label": "bins",
+        "path": "pcs_4096/000-009/eb21caa7152649df963b9c78809485e8.npz"
+    },
+    "f7901fbc53a64fe7b24a97cf669101df": {
+        "label": "cat",
+        "path": "pcs_4096/000-009/f7901fbc53a64fe7b24a97cf669101df.npz"
+    },
+    "f7974b26be4f420796e71a337e2fe42c": {
+        "label": "aim",
+        "path": "pcs_4096/000-009/f7974b26be4f420796e71a337e2fe42c.npz"
+    },
+    "d8417e988c8f42b8880cbfe6a5d1ee54": {
+        "label": "atrium",
+        "path": "pcs_4096/000-009/d8417e988c8f42b8880cbfe6a5d1ee54.npz"
+    },
+    "9d590dbe62684a59925217a652df1ec6": {
+        "label": "london",
+        "path": "pcs_4096/000-009/9d590dbe62684a59925217a652df1ec6.npz"
+    },
+    "6ee5126578054c9eb2807dbc1855a816": {
+        "label": "gummybear",
+        "path": "pcs_4096/000-009/6ee5126578054c9eb2807dbc1855a816.npz"
+    },
+    "29c67c15288745d7aaa500d8269a6be9": {
+        "label": "template",
+        "path": "pcs_4096/000-009/29c67c15288745d7aaa500d8269a6be9.npz"
+    },
+    "dfde89979b7440b18401bfa45c6581e2": {
+        "label": "figura",
+        "path": "pcs_4096/000-009/dfde89979b7440b18401bfa45c6581e2.npz"
+    },
+    "62bbcd7a357941a694170b2a8f5fe3aa": {
+        "label": "nintendo",
+        "path": "pcs_4096/000-009/62bbcd7a357941a694170b2a8f5fe3aa.npz"
+    },
+    "cfb7d88eeeaf4676a0683b0ec42d1825": {
+        "label": "house",
+        "path": "pcs_4096/000-009/cfb7d88eeeaf4676a0683b0ec42d1825.npz"
+    },
+    "b2878511e0d94603910e0f337d5653c1": {
+        "label": "minecraft",
+        "path": "pcs_4096/000-009/b2878511e0d94603910e0f337d5653c1.npz"
+    },
+    "9bc3dd47e8a741d79974e81a4fcd1314": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/9bc3dd47e8a741d79974e81a4fcd1314.npz"
+    },
+    "c5eb0800effd490c86efd47d0603b3bc": {
+        "label": "furniture",
+        "path": "pcs_4096/000-009/c5eb0800effd490c86efd47d0603b3bc.npz"
+    },
+    "7162d9a0e4b44ec49252a979e923245c": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/7162d9a0e4b44ec49252a979e923245c.npz"
+    },
+    "aad32dbae8b4456699606353f7e32f10": {
+        "label": "itseez3d",
+        "path": "pcs_4096/000-009/aad32dbae8b4456699606353f7e32f10.npz"
+    },
+    "602241fdaa124406b8b6db220a062357": {
+        "label": "transport",
+        "path": "pcs_4096/000-009/602241fdaa124406b8b6db220a062357.npz"
+    },
+    "1f8769aa12d644eb96f8e700b6d90624": {
+        "label": "toon",
+        "path": "pcs_4096/000-009/1f8769aa12d644eb96f8e700b6d90624.npz"
+    },
+    "e302b32112bd4ae3aa503468d7440492": {
+        "label": "ct-scan",
+        "path": "pcs_4096/000-009/e302b32112bd4ae3aa503468d7440492.npz"
+    },
+    "73cec76cdcdd42e8b48bde41c5220717": {
+        "label": "reaper",
+        "path": "pcs_4096/000-009/73cec76cdcdd42e8b48bde41c5220717.npz"
+    },
+    "656100914e724840a0972009037e5664": {
+        "label": "astronomy",
+        "path": "pcs_4096/000-009/656100914e724840a0972009037e5664.npz"
+    },
+    "dfffc4e3178e4fc7a5c3b0fe4ccfb9ad": {
+        "label": "stair",
+        "path": "pcs_4096/000-009/dfffc4e3178e4fc7a5c3b0fe4ccfb9ad.npz"
+    },
+    "b017d28220a44f39a2ac53bf52176ef1": {
+        "label": "pamir",
+        "path": "pcs_4096/000-009/b017d28220a44f39a2ac53bf52176ef1.npz"
+    },
+    "623a27c1fa73452ab52bcc6cf1eed453": {
+        "label": "batman",
+        "path": "pcs_4096/000-009/623a27c1fa73452ab52bcc6cf1eed453.npz"
+    },
+    "c6f74d4645cb47aea7813f24bc59386f": {
+        "label": "toon",
+        "path": "pcs_4096/000-009/c6f74d4645cb47aea7813f24bc59386f.npz"
+    }
+}

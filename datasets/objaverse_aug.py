@@ -46,22 +46,22 @@ def farthest_point_sample(pc, npoint):
 class ObjAugDataSet(Dataset):
     def __init__(self, pc_root, ann_path, args):
         self.pc_root = pc_root
+        
         self.ann_path = ann_path
-
-        self.split = args.split     
+        self.data_type = args.data_type # train/test
         self.process_data = args.process_data   
         self.npoints = args.num_points
         self.num_classes = args.num_classes
         self.uniform = args.use_uniform_sample # wether use FPS
         self.use_feature = args.use_feature # wether contain other dimensions
-
-        self.data = self.load_data()
-        print(f'The size of {self.split} data is {len(self.data)}')
+        
+        self.data = self.load_data()        
+        print(f'The size of {self.data_type} data is {len(self.data)}')
 
         if self.uniform:
-            self.save_path = os.path.join(pc_root, 'objaug%d_%s_%dpts_fps.dat' % (self.num_classes, self.split, self.npoints))
+            self.save_path = os.path.join(pc_root, 'objaug%d_%s_%dpts_fps.dat' % (self.num_classes, self.data_type, self.npoints))
         else:
-            self.save_path = os.path.join(pc_root, 'objaug%d_%s_%dpts.dat' % (self.num_classes, self.split, self.npoints))
+            self.save_path = os.path.join(pc_root, 'objaug%d_%s_%dpts.dat' % (self.num_classes, self.data_type, self.npoints))
 
         if self.process_data:
             if not os.path.exists(self.save_path):
@@ -118,8 +118,8 @@ class ObjAugDataSet(Dataset):
             if self.uniform:
                 pc = farthest_point_sample(pc, self.npoints)
             else:
-                pc = pc[0:self.npoints, :]
-                
+                pc = pc[0:self.npoints, :]    
+                  
         pc[:, 0:3] = pc_normalize(pc[:, 0:3])
         if not self.use_feature: # use_feature = True, pc:[b, n, 7]; use_feature = False, pc:[b, n, 3]
             pc = pc[:, 0:3]
@@ -138,8 +138,12 @@ if __name__ == '__main__':
     args.use_feature = True # True dim = 7, False dim = 3
     args.use_uniform_sample = True
     data = ObjAugDataSet(pc_root=pc_root, ann_path=ann_path, args=args)
-    dataloader = DataLoader(data, batch_size=4, shuffle=True, num_workers=10)
+    dataloader = DataLoader(data, batch_size=1, shuffle=False, num_workers=10)
     print(f'len(dataloader):{len(dataloader)}')
-    # for point, label in dataloader:
-    #     print(point.shape)
-    #     print(label.shape)
+
+    for pc, label in dataloader:
+        # print(f'uid:{uid}')
+        print(f'pc.shape:{pc.shape}') #[b, n, c]
+        print(f'pc:{pc[0][5:10]}')
+        break
+        # print(f'label:{label}')
